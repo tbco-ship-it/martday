@@ -23,7 +23,7 @@ jobs:
       - run: pip install jinja2
       - name: Refresh store data (best effort; Korean sites may refuse foreign IPs)
         run: |
-          (python scripts/collect_emart.py && python scripts/collect_costco.py && python scripts/normalize.py) || echo "refresh failed; keeping committed data"
+          (python scripts/collect_emart.py && python scripts/collect_costco.py && python scripts/collect_homeplus.py && python scripts/collect_lottemart.py && python scripts/normalize.py) || echo "refresh failed; keeping committed data"
           if ! git diff --quiet data/; then
             git config user.name "data-bot" && git config user.email "data-bot@users.noreply.github.com"
             git add data && git commit -m "data: daily store refresh $(date -u +%F)" && git push
