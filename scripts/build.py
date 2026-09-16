@@ -83,7 +83,16 @@ def main():
     write("guide/mandatory-closing/", "guide_mandatory.html")
     hdays = ["2026-09-24", "2026-09-25", "2026-09-26", "2026-09-27"]
     holiday_counts = {b: {d: sum(1 for s in lst if d in s["closures"]) for d in hdays} for b, lst in by_brand.items()}
-    write("guide/holidays/", "guide_holidays.html", by_brand=by_brand, holiday_counts=holiday_counts)
+    # 추석 당일 휴무 점포 목록(브랜드별) + 지역별 당일 휴무 수
+    chuseok = "2026-09-25"
+    closed_day = {b: sorted([s for s in lst if chuseok in s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
+    open_day = {b: sorted([s for s in lst if chuseok not in s["closures"] and s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
+    area_counts = defaultdict(lambda: {"closed": 0, "total": 0})
+    for s in stores:
+        a = s["area"] or "기타"; area_counts[a]["total"] += 1
+        if chuseok in s["closures"]: area_counts[a]["closed"] += 1
+    write("guide/holidays/", "guide_holidays.html", by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
+          area_counts=dict(sorted(area_counts.items(), key=lambda kv: -kv[1]["total"])))
 
     for b, lst in by_brand.items():
         # brand calendar: dates where ≥1 store closes, with counts

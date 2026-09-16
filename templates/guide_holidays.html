@@ -1,18 +1,41 @@
 {% extends "base.html" %}
-{% block title %}추석·설 마트 영업 — 브랜드별 명절 휴무와 전날 영업시간 (2026) | {{ site }}{% endblock %}
-{% block description %}2026 추석(9/24~26) 이마트·트레이더스·코스트코·에브리데이·노브랜드 명절 휴무일과 전날 단축 영업. 유통사 공식 점포 고시 기준.{% endblock %}
+{% block title %}2026 추석 마트 휴무 — 이마트·홈플러스·롯데마트·코스트코 당일 쉬는 점포와 전날 영업시간 | {{ site }}{% endblock %}
+{% block description %}2026 추석(9/25) 당일에 쉬는 대형마트 점포 목록과 브랜드별 휴무 수, 지역별 현황, 전날 단축 영업. 이마트·트레이더스·홈플러스·롯데마트·코스트코·에브리데이·노브랜드 {{ n_stores }}개 점포, 유통사 공식 고시 기준으로 매일 갱신.{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"2026 추석 당일 마트 문 여나요?","acceptedAnswer":{"@type":"Answer","text":"점포마다 다릅니다. 코스트코는 전 점포 휴무, 이마트는 {{ holiday_counts['emart']['2026-09-25'] }}개 점포, 홈플러스 {{ holiday_counts['homeplus']['2026-09-25'] }}개, 롯데마트 {{ holiday_counts['lottemart']['2026-09-25'] }}개 점포가 추석 당일(9/25) 휴무를 고시했습니다. 나머지는 영업하며 대부분 단축 영업합니다."}},{"@type":"Question","name":"추석 전날 마트 몇 시까지 하나요?","acceptedAnswer":{"@type":"Answer","text":"코스트코는 명절 전날 19:00까지 영업합니다. 이마트·홈플러스·롯데마트는 점포별로 1~2시간 단축 영업하는 곳이 많아 방문 전 점포 페이지의 전화번호로 확인을 권합니다."}}]}</script>{% endblock %}
 {% block content %}
-<h1>명절 마트 영업</h1>
+<nav class="crumbs"><a href="{{ base }}">홈</a> › 추석 마트 영업</nav>
+<h1>2026 추석, 우리 동네 마트는 여나요?</h1>
 <div class="prose">
-<p>설·추석 당일은 대부분의 대형마트가 쉬고, 전날은 일찍 닫는 곳이 많습니다. 정기 의무휴업일과 겹치면 그 주에 두 번 쉬는 점포도 있습니다. 아래 숫자는 유통사가 점포별로 고시한 날짜를 모은 것입니다.</p>
+<p>추석 당일(9월 25일 금요일)은 코스트코 전 점포가 쉬고, 이마트·홈플러스·롯데마트는 점포별로 쉬는 곳과 여는 곳이 갈립니다. 연휴 마지막 날 9월 27일은 넷째 일요일이라 의무휴업일과 겹쳐 쉬는 점포가 더 많습니다. 아래는 유통사가 점포별로 고시한 날짜를 그대로 모은 것이고, 매일 새로 가져옵니다.</p>
+<p>내 점포 하나만 보려면 <a href="{{ base }}">홈에서 점포 이름을 검색</a>하는 게 빠릅니다.</p>
 </div>
-<h2>이번 명절 주간 휴무 점포 수</h2>
+<h2>연휴 날짜별 휴무 점포 수</h2>
 <table class="tbl compact"><thead><tr><th>브랜드</th><th>9/24(목)</th><th>9/25(금·추석)</th><th>9/26(토)</th><th>9/27(일)</th></tr></thead><tbody>
-{% for b, info in brands.items() %}<tr><td><a href="{{ base }}{{ b }}/">{{ info.short }}</a></td>{% for d in ['2026-09-24','2026-09-25','2026-09-26','2026-09-27'] %}<td>{{ holiday_counts[b][d] }}개</td>{% endfor %}</tr>{% endfor %}
+{% for b, info in brands.items() %}<tr><td><a href="{{ base }}{{ b }}/">{{ info.short }}</a> <small class="muted">{{ by_brand[b]|length }}개</small></td>{% for d in ['2026-09-24','2026-09-25','2026-09-26','2026-09-27'] %}<td>{{ holiday_counts[b][d] }}</td>{% endfor %}</tr>{% endfor %}
+</tbody></table>
+<div class="ad-slot"><!-- ad: holidays --></div>
+<div class="prose">
+<h2>브랜드별로 알아둘 것</h2>
+<ul>
+<li><strong>코스트코</strong>: 명절 당일 전 점포 휴무, 전날은 19:00까지(공식 안내). 연휴 첫날과 마지막 날은 개점 직후가 가장 붐빕니다.</li>
+<li><strong>이마트·트레이더스·스타필드 마켓</strong>: 점포별 고시. 당일 휴무 {{ holiday_counts['emart']['2026-09-25'] + holiday_counts['traders']['2026-09-25'] + holiday_counts['starfield']['2026-09-25'] }}개 점포, 나머지는 영업(대부분 단축). 전날 마감이 1~2시간 당겨지는 점포가 많습니다.</li>
+<li><strong>홈플러스</strong>: 당일 휴무 {{ holiday_counts['homeplus']['2026-09-25'] }}개 점포. 일부 점포는 마트만 쉬고 몰(입점 매장)은 영업합니다 — 점포 페이지의 영업시간 메모를 확인하세요.</li>
+<li><strong>롯데마트</strong>: 당일 휴무 {{ holiday_counts['lottemart']['2026-09-25'] }}개 점포. 그랑그로서리·맥스(창고형)도 같은 기준으로 고시됩니다.</li>
+<li><strong>에브리데이·노브랜드</strong>: 기업형 슈퍼라 의무휴업 대상이 아닌 점포가 많지만, 명절 당일은 쉬는 점포가 절반 안팎입니다.</li>
+</ul>
+</div>
+{% for b, info in brands.items() if closed_day[b] %}
+<div class="sec"><div class="sec-h"><h2>{{ info.short }} — 추석 당일 휴무 {{ closed_day[b]|length }}개 점포</h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>
+<ul class="list">{% for s in closed_day[b][:12] %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.name }}<span class="meta">{{ s.area }}{% if s.hours %} · {{ s.hours }}{% endif %}</span></a></li>{% endfor %}{% if closed_day[b]|length > 12 %}<li class="more-row"><a href="{{ base }}{{ b }}/">나머지 {{ closed_day[b]|length - 12 }}개는 브랜드 페이지에서</a></li>{% endif %}</ul></div>
+{% endfor %}
+<h2>지역별 추석 당일 휴무</h2>
+<table class="tbl compact"><thead><tr><th>지역</th><th>점포 수</th><th>당일 휴무</th><th>영업</th></tr></thead><tbody>
+{% for a, c in area_counts.items() %}<tr><td><a href="{{ base }}region/{{ a }}/">{{ a }}</a></td><td>{{ c.total }}</td><td>{{ c.closed }}</td><td>{{ c.total - c.closed }}</td></tr>{% endfor %}
 </tbody></table>
 <div class="prose">
-<h2>브랜드별 메모</h2>
-<p><strong>코스트코</strong>: 명절 당일 휴무, 전날 19:00까지 영업(공식 안내). <strong>이마트·트레이더스</strong>: 점포별 고시 — 추석 당일 휴무 점포와 정상 영업 점포가 섞여 있으니 점포 페이지에서 확인. <strong>에브리데이·노브랜드</strong>: 이번 달 휴무일이 고시된 점포만 표시됩니다.</p>
-<p>명절 전날은 영업시간이 단축되는 점포가 많습니다. 저녁 방문이면 전화로 마감 시간을 확인하세요. 점포 페이지에 전화 번호가 있습니다.</p>
+<h2>설 연휴는?</h2>
+<p>2027년 설(2월 6일~8일)도 같은 방식으로 점포별 고시가 나오는 대로 이 페이지에 반영됩니다. 대체로 설 당일 휴무 여부는 추석과 같은 점포에서 같은 패턴입니다.</p>
+<h2>의무휴업일과 겹칠 때</h2>
+<p>대형마트는 월 2회 의무휴업(대부분 둘째·넷째 일요일)이 있습니다. 명절 주간에 이 날이 겹치면 한 주에 두 번 쉬는 점포가 생깁니다. 지자체마다 요일이 달라 같은 브랜드라도 점포별로 다릅니다 — <a href="{{ base }}guide/mandatory-closing/">의무휴업일 제도</a>를 참고하세요.</p>
 </div>
 {% endblock %}
