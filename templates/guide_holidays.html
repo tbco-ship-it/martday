@@ -7,7 +7,7 @@
 <p>설·추석 당일은 대부분의 대형마트가 쉬고, 전날은 일찍 닫는 곳이 많습니다. 정기 의무휴업일과 겹치면 그 주에 두 번 쉬는 점포도 있습니다. 아래 숫자는 유통사가 점포별로 고시한 날짜를 모은 것입니다.</p>
 </div>
 <h2>이번 명절 주간 휴무 점포 수</h2>
-<table class="tbl"><thead><tr><th>브랜드</th><th>9/24(목)</th><th>9/25(금·추석)</th><th>9/26(토)</th><th>9/27(일)</th></tr></thead><tbody>
+<table class="tbl compact"><thead><tr><th>브랜드</th><th>9/24(목)</th><th>9/25(금·추석)</th><th>9/26(토)</th><th>9/27(일)</th></tr></thead><tbody>
 {% for b, info in brands.items() %}<tr><td><a href="{{ base }}{{ b }}/">{{ info.short }}</a></td>{% for d in ['2026-09-24','2026-09-25','2026-09-26','2026-09-27'] %}<td>{{ holiday_counts[b][d] }}개</td>{% endfor %}</tr>{% endfor %}
 </tbody></table>
 <div class="prose">

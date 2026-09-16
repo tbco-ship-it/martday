@@ -588,3 +588,5 @@ header.top{position:sticky;top:0;z-index:30;display:flex;align-items:center;just
 .next.geo{width:100%;justify-content:center;background:var(--blue);color:#fff}
 .field-label{margin-top:4px}
 .sheet + .sheet{margin-top:14px}
+.tbl.compact tbody td:first-child,.tbl.compact tbody th:first-child{white-space:nowrap}
+@media(max-width:480px){.tbl.compact{font-size:.86rem}.tbl.compact th,.tbl.compact td{padding:10px 6px}}
