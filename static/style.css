@@ -1,6 +1,6 @@
 :root{
   --bg:#ffffff;--surface:#F9FAFB;--surface-2:#F2F4F6;--line:#e5e8eb;
-  --text:#191f28;--text-2:#4e5968;--muted:#6B7684;
+  --text:#191f28;--text-2:#4e5968;--muted:#5f6b7a;
   --blue:#3182f6;--blue-press:#1b64da;--blue-soft:#e8f3ff;
   --green:#00b06f;--green-soft:#e6f7f0;
   --yellow:#f5a623;--yellow-soft:#fff5e0;
@@ -593,3 +593,7 @@ header.top{position:sticky;top:0;z-index:30;display:flex;align-items:center;just
 .tbl.spec tbody th,.tbl.mini tbody th{white-space:nowrap;width:auto;padding-right:16px}
 .tbl.spec tbody td,.tbl.mini tbody td{white-space:normal;text-align:right}
 @media(max-width:480px){.tbl.spec tbody th,.tbl.mini tbody th{white-space:normal;min-width:5.5em}}
+
+/* ---- CWV: reserve result space (CLS), underline prose links (a11y) ---- */
+.result:empty{min-height:380px;border-radius:var(--r-sheet);background:var(--surface)}
+.prose a,.sheet-text a,footer a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,currentColor 40%,transparent)}
