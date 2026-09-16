@@ -1,0 +1,81 @@
+(async function () {
+  const cssHref = document.querySelector('link[href*="static/style.css"]').getAttribute('href');
+  const v = (cssHref.match(/\?v=([^&]+)/) || [])[1] || '';
+  const base = cssHref.replace(/static\/style\.css.*$/, '');
+  const D = await (await fetch(base + 'static/stores.json?v=' + v)).json();
+  const out = document.getElementById('result');
+  const $ = id => document.getElementById(id);
+  const norm = s => s.toLowerCase().replace(/\s+/g, '').replace(/이마트|코스트코|트레이더스|에브리데이|노브랜드|스타필드마켓|스타필드|점$/g, m => m);
+  const KDAY = '일월화수목금토';
+  const now = new Date();
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const todayIso = iso(now);
+  const kdate = s => { const d = new Date(s + 'T00:00:00'); return `${d.getMonth() + 1}/${d.getDate()}(${KDAY[d.getDay()]})`; };
+
+  function status(s) {
+    const closedToday = s.closures.includes(todayIso);
+    const next = s.closures.find(c => c > todayIso);
+    let open = null, note = '';
+    if (s.hours) {
+      const m = s.hours.match(/(\d{1,2}):(\d{2})~(\d{1,2}):(\d{2})/);
+      if (m) {
+        const mins = now.getHours() * 60 + now.getMinutes(), o = +m[1] * 60 + +m[2], c = +m[3] * 60 + +m[4];
+        open = !closedToday && mins >= o && mins < c;
+        note = closedToday ? '' : mins < o ? `${m[1]}:${m[2]}에 문을 엽니다` : mins >= c ? `오늘 영업은 ${m[3]}:${m[4]}에 끝났습니다` : `${m[3]}:${m[4]}까지 영업`;
+      }
+    }
+    return { closedToday, next, open, note };
+  }
+
+  function card(s, extra = '') {
+    const st = status(s), b = D.brands[s.brand];
+    const cls = st.closedToday ? 'severe' : (st.open === false ? 'mild' : 'balanced');
+    const head = st.closedToday ? '오늘 휴무' : st.open === true ? '영업 중' : st.open === false ? '영업 시간 아님' : '영업일';
+    const line = st.closedToday ? `정기 휴무일입니다.${st.next ? ` 다음 휴무 ${kdate(st.next)}.` : ''}` : `${st.note ? st.note + '. ' : ''}${st.next ? `다음 휴무 ${kdate(st.next)}.` : '이번 달 고시된 휴무일이 없습니다.'}`;
+    return `<section class="sheet ${cls}"><p class="sheet-label">${b.short}${extra}</p><div class="sheet-num"><span class="num small-num">${head}</span></div><p class="sheet-title">${s.name}</p><p class="sheet-text">${line}${s.hours ? ` 영업시간 ${s.hours}.` : ''}${s.holiday_note ? ' ' + s.holiday_note + '.' : ''}</p><p class="sheet-actions"><a class="next" href="${base}${s.brand}/${encodeURIComponent(s.slug)}/">점포 상세와 달력</a>${s.lat ? `<a class="next" href="https://map.naver.com/p/search/${encodeURIComponent(s.name)}" target="_blank" rel="noopener">네이버 지도</a>` : ''}</p></section>`;
+  }
+
+  // typeahead
+  const input = $('store'), menu = $('store-menu');
+  let items = [], active = -1;
+  const label = s => s.name;
+  function open(q) {
+    const nq = norm(q);
+    items = (nq ? D.stores.filter(s => norm(s.name).includes(nq) || (s.address && norm(s.address).includes(nq))) : D.stores.filter(s => s.brand === 'emart')).slice(0, 8);
+    menu.innerHTML = items.length ? items.map((s, i) => `<li role="option" data-i="${i}" ${i === active ? 'aria-selected="true"' : ''}>${s.name}<small class="muted"> ${s.area || ''}</small></li>`).join('') : '<li class="empty">해당 점포가 없어요. 동네 이름으로도 찾아보세요.</li>';
+    menu.hidden = false; input.setAttribute('aria-expanded', 'true');
+  }
+  function close() { menu.hidden = true; active = -1; input.setAttribute('aria-expanded', 'false'); }
+  function choose(s) { input.value = s.name; close(); out.innerHTML = card(s); localStorage.setItem('martday.store', s.slug); }
+  input.addEventListener('focus', () => { setTimeout(() => input.select(), 0); open(input.value); });
+  input.addEventListener('input', () => { active = -1; open(input.value); });
+  input.addEventListener('keydown', e => {
+    if (menu.hidden) return;
+    if (e.key === 'ArrowDown') { active = Math.min(active + 1, items.length - 1); open(input.value); e.preventDefault(); }
+    else if (e.key === 'ArrowUp') { active = Math.max(active - 1, 0); open(input.value); e.preventDefault(); }
+    else if (e.key === 'Enter') { const it = items[active >= 0 ? active : 0]; if (it) choose(it); e.preventDefault(); }
+    else if (e.key === 'Escape') close();
+  });
+  menu.addEventListener('mousedown', e => { const li = e.target.closest('li[data-i]'); if (li) { choose(items[+li.dataset.i]); e.preventDefault(); } });
+  input.addEventListener('blur', () => setTimeout(close, 120));
+
+  // geolocation
+  $('geo').addEventListener('click', () => {
+    const msg = $('geo-msg'); msg.hidden = false; msg.textContent = '위치를 확인하는 중…';
+    if (!navigator.geolocation) { msg.textContent = '이 브라우저는 위치를 지원하지 않아요. 점포 이름으로 찾아 주세요.'; return; }
+    navigator.geolocation.getCurrentPosition(pos => {
+      const { latitude: la, longitude: lo } = pos.coords;
+      const dist = s => { const dLat = (s.lat - la) * Math.PI / 180, dLng = (s.lng - lo) * Math.PI / 180; const a = Math.sin(dLat / 2) ** 2 + Math.cos(la * Math.PI / 180) * Math.cos(s.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2; return 6371 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)); };
+      const near = D.stores.filter(s => s.lat).map(s => ({ s, d: dist(s) })).sort((a, b) => a.d - b.d).slice(0, 4);
+      msg.textContent = `가까운 점포 ${near.length}곳`;
+      out.innerHTML = near.map(({ s, d }) => card(s, ` · ${d < 1 ? Math.round(d * 1000) + ' m' : d.toFixed(1) + ' km'}`)).join('');
+    }, () => { msg.textContent = '위치 권한이 없어요. 점포 이름으로 찾아 주세요.'; }, { timeout: 8000 });
+  });
+
+  const remembered = D.stores.find(s => s.slug === localStorage.getItem('martday.store')) || D.stores.find(s => s.brand === 'emart' && s.name.includes('왕십리')) || D.stores.find(s => s.brand === 'emart');
+  if (remembered) { input.value = remembered.name; out.innerHTML = card(remembered); }
+
+  // store page: live status word
+  const sheet = document.querySelector('.sheet[data-store]');
+  if (sheet) { const s = D.stores.find(x => x.slug === sheet.dataset.store); if (s) { const st = status(s); const el = document.getElementById('status'); if (el && st.open !== null && !st.closedToday) el.textContent = st.open ? '영업 중' : '영업 시간 아님'; } }
+})();

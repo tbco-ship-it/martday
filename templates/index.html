@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}오늘 마트 휴무일 확인 — 이마트·코스트코·트레이더스·에브리데이·노브랜드 {{ today_k }} | {{ site }}{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"{{ site }}","applicationCategory":"UtilitiesApplication","inLanguage":"ko","url":"{{ origin }}{{ base }}","offers":{"@type":"Offer","price":"0","priceCurrency":"KRW"}}</script>{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>오늘 우리 동네 마트, 열었을까요?</h1>
+  <p>{{ today_k }}. 점포 이름을 치거나 내 위치를 허용하면 지금 영업 여부와 다음 휴무일을 바로 보여드립니다. 전국 {{ n_stores }}개 점포, 유통사 공식 안내 기준.</p>
+</section>
+
+<section class="calc-grid">
+<div class="calc card" id="calc">
+  <h2 class="card-title">점포 찾기</h2>
+  <label class="field">점포 이름
+    <input id="store" class="pick search" type="text" role="combobox" aria-autocomplete="list" aria-expanded="false" autocomplete="off" placeholder="예: 이마트 왕십리, 코스트코 양재" data-kind="stores"><ul class="menu" id="store-menu" role="listbox" hidden></ul>
+  </label>
+  <div class="field"><span class="field-label">또는</span>
+    <button id="geo" class="next geo" type="button">내 위치로 가까운 마트 찾기</button>
+    <p id="geo-msg" class="muted small" hidden></p>
+  </div>
+  <p class="muted small">이마트·트레이더스·스타필드마켓·코스트코는 영업시간까지, 에브리데이·노브랜드는 이번 달 휴무일까지 제공합니다.</p>
+</div>
+<div id="result" class="result" aria-live="polite"></div>
+</section>
+
+<div class="ad-slot"><!-- ad: home --></div>
+
+<section class="grid2">
+  <div class="sec">
+    <div class="sec-h"><h2>브랜드별 이번 달 휴무일</h2></div>
+    <ul class="list">{% for b, info in brands.items() %}<li><a href="{{ base }}{{ b }}/">{{ info.short }}<span class="meta">{{ by_brand[b]|length }}개 점포</span></a></li>{% endfor %}</ul>
+  </div>
+  <div class="sec">
+    <div class="sec-h"><h2>지역별</h2></div>
+    <ul class="list">{% for a in areas[:8] %}<li><a href="{{ base }}region/{{ a }}/">{{ a }}<span class="meta">{{ a }} 마트 휴무일</span></a></li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>둘째·넷째 일요일이 기본, 지역마다 다릅니다</h2>
+  <p>대형마트는 유통산업발전법에 따라 월 2회 의무휴업합니다. 대부분 둘째·넷째 일요일이지만, 대구·청주·서울 서초구·동대문구 등 일부 지자체는 평일(주로 수요일)로 바꿨습니다. 그래서 같은 이마트라도 점포마다 쉬는 날이 다릅니다. 이 사이트는 유통사가 점포별로 고시한 날짜를 그대로 보여줍니다. <a href="{{ base }}guide/mandatory-closing/">의무휴업일 제도 자세히</a></p>
+  <h2>명절엔 정기휴무와 다릅니다</h2>
+  <p>설·추석 당일은 대부분 휴무이고 전날은 일찍 닫는 점포가 많습니다. 코스트코는 명절 전날 19시까지 영업합니다. 명절 주간 일정은 <a href="{{ base }}guide/holidays/">명절 영업 안내</a>에 모아 두었습니다.</p>
+</section>
+<script src="{{ base }}static/app.js?v={{ v }}" defer></script>
+{% endblock %}

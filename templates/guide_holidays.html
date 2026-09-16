@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}추석·설 마트 영업 — 브랜드별 명절 휴무와 전날 영업시간 (2026) | {{ site }}{% endblock %}
+{% block description %}2026 추석(9/24~26) 이마트·트레이더스·코스트코·에브리데이·노브랜드 명절 휴무일과 전날 단축 영업. 유통사 공식 점포 고시 기준.{% endblock %}
+{% block content %}
+<h1>명절 마트 영업</h1>
+<div class="prose">
+<p>설·추석 당일은 대부분의 대형마트가 쉬고, 전날은 일찍 닫는 곳이 많습니다. 정기 의무휴업일과 겹치면 그 주에 두 번 쉬는 점포도 있습니다. 아래 숫자는 유통사가 점포별로 고시한 날짜를 모은 것입니다.</p>
+</div>
+<h2>이번 명절 주간 휴무 점포 수</h2>
+<table class="tbl"><thead><tr><th>브랜드</th><th>9/24(목)</th><th>9/25(금·추석)</th><th>9/26(토)</th><th>9/27(일)</th></tr></thead><tbody>
+{% for b, info in brands.items() %}<tr><td><a href="{{ base }}{{ b }}/">{{ info.short }}</a></td>{% for d in ['2026-09-24','2026-09-25','2026-09-26','2026-09-27'] %}<td>{{ holiday_counts[b][d] }}개</td>{% endfor %}</tr>{% endfor %}
+</tbody></table>
+<div class="prose">
+<h2>브랜드별 메모</h2>
+<p><strong>코스트코</strong>: 명절 당일 휴무, 전날 19:00까지 영업(공식 안내). <strong>이마트·트레이더스</strong>: 점포별 고시 — 추석 당일 휴무 점포와 정상 영업 점포가 섞여 있으니 점포 페이지에서 확인. <strong>에브리데이·노브랜드</strong>: 이번 달 휴무일이 고시된 점포만 표시됩니다.</p>
+<p>명절 전날은 영업시간이 단축되는 점포가 많습니다. 저녁 방문이면 전화로 마감 시간을 확인하세요. 점포 페이지에 전화 번호가 있습니다.</p>
+</div>
+{% endblock %}

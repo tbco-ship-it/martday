@@ -1,0 +1,8191 @@
+{
+ "fetched": "2026-09-17",
+ "stores": [
+  {
+   "brand": "starfield",
+   "id": "1059",
+   "name": "스타필드 마켓 월계점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2092-1234",
+   "parking": "총 849대",
+   "address": "서울특별시 노원구 마들로3길 15SFM 월계점",
+   "address_lot": "서울특별시 노원구 마들로3길 15SFM 월계점",
+   "lat": 37.6261149,
+   "lng": 127.0621375
+  },
+  {
+   "brand": "emart",
+   "id": "1118",
+   "name": "이마트 가든5점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "가든5점 둘째/넷째 일요일 휴점입니다.",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-411-1234",
+   "parking": "총 799대",
+   "address": "서울특별시 송파구 충민로 10",
+   "address_lot": "서울특별시 송파구 충민로 10",
+   "lat": 37.4792489,
+   "lng": 127.1183125
+  },
+  {
+   "brand": "emart",
+   "id": "1012",
+   "name": "이마트 구로점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2009-1234",
+   "parking": "총 534대",
+   "address": "서울 구로구 디지털로 32길 43",
+   "address_lot": "서울 구로구 디지털로 32길 43",
+   "lat": 37.4844111,
+   "lng": 126.8979014
+  },
+  {
+   "brand": "emart",
+   "id": "1123",
+   "name": "이마트 마포점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "9월 의무휴점 : 9/13(일), 9/27(일)",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2197-1234",
+   "parking": "총 364대",
+   "address": "서울특별시 마포구 백범로 212",
+   "address_lot": "서울특별시 마포구 백범로 212",
+   "lat": 37.5424095,
+   "lng": 126.953336
+  },
+  {
+   "brand": "emart",
+   "id": "1041",
+   "name": "이마트 명일점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2145-1234",
+   "parking": "총 433대",
+   "address": "서울 강동구 고덕로 276",
+   "address_lot": "서울 강동구 고덕로 276",
+   "lat": 37.5543306,
+   "lng": 127.1559885
+  },
+  {
+   "brand": "emart",
+   "id": "1104",
+   "name": "이마트 목동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6923-1234",
+   "parking": "총 717대",
+   "address": "서울특별시 양천구 오목로 299",
+   "address_lot": "서울특별시 양천구 오목로 299",
+   "lat": 37.52544,
+   "lng": 126.8706007
+  },
+  {
+   "brand": "emart",
+   "id": "1117",
+   "name": "이마트 묵동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2083-1234",
+   "parking": "총 217대",
+   "address": "서울특별시 중랑구 동일로 932",
+   "address_lot": "서울특별시 중랑구 동일로 932",
+   "lat": 37.6138366,
+   "lng": 127.0779178
+  },
+  {
+   "brand": "emart",
+   "id": "1093",
+   "name": "이마트 미아점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-944-1234",
+   "parking": "총 196대",
+   "address": "서울특별시 성북구 도봉로 17(길음동)",
+   "address_lot": "서울특별시 성북구 도봉로 17(길음동)",
+   "lat": 37.6109192,
+   "lng": 127.0298632
+  },
+  {
+   "brand": "emart",
+   "id": "1108",
+   "name": "이마트 수색점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6943-1234",
+   "parking": "총 228대",
+   "address": "서울 은평구 수색로 217 (수색동, 디엠씨 자이1단지(DMC 자이1))",
+   "address_lot": "서울 은평구 수색로 217 (수색동, 디엠씨 자이1단지(DMC 자이1))",
+   "lat": 37.579625472778154,
+   "lng": 126.89872692495663
+  },
+  {
+   "brand": "emart",
+   "id": "1029",
+   "name": "이마트 수서점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-451-6123",
+   "parking": "총 1,000대",
+   "address": "서울특별시 강남구 광평로 280",
+   "address_lot": "서울특별시 강남구 광평로 280",
+   "lat": 37.4869149,
+   "lng": 127.1032808
+  },
+  {
+   "brand": "emart",
+   "id": "1083",
+   "name": "이마트 신도림점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6715-1234",
+   "parking": "총 2,200대",
+   "address": "서울특별시 구로구 새말로 97테크노마트 지하2층",
+   "address_lot": "서울특별시 구로구 새말로 97테크노마트 지하2층",
+   "lat": 37.5063077,
+   "lng": 126.8905806
+  },
+  {
+   "brand": "emart",
+   "id": "1013",
+   "name": "이마트 신월점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6716-1234",
+   "parking": "총 69대",
+   "address": "서울특별시 양천구 화곡로 59",
+   "address_lot": "서울특별시 양천구 화곡로 59",
+   "lat": 37.5397616,
+   "lng": 126.8283855
+  },
+  {
+   "brand": "emart",
+   "id": "1139",
+   "name": "이마트 신촌점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:30",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6288-1234",
+   "parking": "총 121대",
+   "address": "서울 마포구 신촌로 94 (노고산동, 그랜드플라자)",
+   "address_lot": "서울 마포구 신촌로 94 (노고산동, 그랜드플라자)",
+   "lat": 37.5549944655605,
+   "lng": 126.935997574268
+  },
+  {
+   "brand": "emart",
+   "id": "1062",
+   "name": "이마트 양재점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "02-6040-1234",
+   "parking": "총 649대",
+   "address": "서울특별시 서초구 매헌로 16",
+   "address_lot": "서울특별시 서초구 매헌로 16",
+   "lat": 37.464163,
+   "lng": 127.0372826
+  },
+  {
+   "brand": "emart",
+   "id": "1087",
+   "name": "이마트 여의도점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2280-1234",
+   "parking": "총 280대",
+   "address": "서울특별시 영등포구 여의동로3길 10",
+   "address_lot": "서울특별시 영등포구 여의동로3길 10",
+   "lat": 37.5180405,
+   "lng": 126.92696
+  },
+  {
+   "brand": "emart",
+   "id": "1095",
+   "name": "이마트 역삼점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6908-1234",
+   "parking": "총 350대",
+   "address": "서울특별시 강남구 역삼로 310",
+   "address_lot": "서울특별시 강남구 역삼로 310",
+   "lat": 37.4994789,
+   "lng": 127.0484915
+  },
+  {
+   "brand": "emart",
+   "id": "1106",
+   "name": "이마트 영등포점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-3468-1234",
+   "parking": "총 1,790대",
+   "address": "서울특별시 영등포구 영중로 15타임스퀘어 內",
+   "address_lot": "서울특별시 영등포구 영중로 15타임스퀘어 內",
+   "lat": 37.5168875,
+   "lng": 126.9035324
+  },
+  {
+   "brand": "emart",
+   "id": "1090",
+   "name": "이마트 왕십리점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6438-1234",
+   "parking": "총 1,086대",
+   "address": "서울특별시 성동구 왕십리광장로 17이마트 왕십리점",
+   "address_lot": "서울특별시 성동구 왕십리광장로 17이마트 왕십리점",
+   "lat": 37.5614638,
+   "lng": 127.0381535
+  },
+  {
+   "brand": "emart",
+   "id": "1060",
+   "name": "이마트 용산점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6363-2200",
+   "parking": "총 2,340대",
+   "address": "서울특별시 용산구  한강대로23길 55지하 1층, 지하2층",
+   "address_lot": "서울특별시 용산구  한강대로23길 55지하 1층, 지하2층",
+   "lat": 37.5288942,
+   "lng": 126.9656861
+  },
+  {
+   "brand": "emart",
+   "id": "1033",
+   "name": "이마트 은평점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-380-1234",
+   "parking": "총 604대",
+   "address": "서울 은평구 은평로 111 (응암동, 은평이마트)이마트 은평점",
+   "address_lot": "서울 은평구 은평로 111 (응암동, 은평이마트)이마트 은평점",
+   "lat": 37.6008254685415,
+   "lng": 126.920513478627
+  },
+  {
+   "brand": "emart",
+   "id": "1080",
+   "name": "이마트 자양점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "매월 2째주,4째주 일요일 휴점",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6742-1234",
+   "parking": "총 1058대",
+   "address": "서울특별시 광진구 아차산로 272",
+   "address_lot": "서울특별시 광진구 아차산로 272",
+   "lat": 37.5384413,
+   "lng": 127.0734983
+  },
+  {
+   "brand": "emart",
+   "id": "1001",
+   "name": "이마트 창동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-901-1234",
+   "parking": "총 159대",
+   "address": "서울 도봉구 노해로 65길 4",
+   "address_lot": "서울 도봉구 노해로 65길 4",
+   "lat": 37.6518026,
+   "lng": 127.0472873
+  },
+  {
+   "brand": "emart",
+   "id": "1016",
+   "name": "이마트 천호점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-2224-1234",
+   "parking": "총 114대",
+   "address": "서울 강동구 천호대로 1017",
+   "address_lot": "서울 강동구 천호대로 1017",
+   "lat": 37.5386543,
+   "lng": 127.1256347
+  },
+  {
+   "brand": "emart",
+   "id": "1089",
+   "name": "이마트 청계천점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "02-2290-1234",
+   "parking": "총 952대",
+   "address": "서울특별시 중구 청계천로 400",
+   "address_lot": "서울특별시 중구 청계천로 400",
+   "lat": 37.5709534,
+   "lng": 127.0220933
+  },
+  {
+   "brand": "emart",
+   "id": "1142",
+   "name": "이마트 푸드마켓 고덕점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "입점 매장(치과/동물병원/미용실 등)의 휴점일 및 영업시간은 해당 이마트 점포와 다를 수 있습니다.",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6444-1234",
+   "parking": "총 2010대",
+   "address": "서울 강동구 고덕비즈밸리로 51B1층",
+   "address_lot": "서울 강동구 고덕비즈밸리로 51B1층",
+   "lat": 37.5662615261099,
+   "lng": 127.157531058814
+  },
+  {
+   "brand": "emart",
+   "id": "1125",
+   "name": "이마트 하월곡점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6936-1234",
+   "parking": "총 760대",
+   "address": "서울특별시 성북구 종암로 167(하월곡동, 동일하이빌뉴시티)",
+   "address_lot": "서울특별시 성북구 종암로 167(하월곡동, 동일하이빌뉴시티)",
+   "lat": 37.6053715,
+   "lng": 127.0310084
+  },
+  {
+   "brand": "traders",
+   "id": "2023",
+   "name": "트레이더스 홀세일 클럽 마곡점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6252-1234",
+   "parking": "총 0대",
+   "address": "서울 강서구 공항대로 165 (마곡동)마곡원그로브 지하 2층",
+   "address_lot": "서울 강서구 공항대로 165 (마곡동)마곡원그로브 지하 2층",
+   "lat": 37.5608751008131,
+   "lng": 126.824695969186
+  },
+  {
+   "brand": "traders",
+   "id": "2016",
+   "name": "트레이더스 홀세일 클럽 월계점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6320-1234",
+   "parking": "총 1274대",
+   "address": "서울 노원구 마들로3길 17 (월계동, 월계트레이더스)이마트 월계점 우측건물 1층",
+   "address_lot": "서울 노원구 마들로3길 17 (월계동, 월계트레이더스)이마트 월계점 우측건물 1층",
+   "lat": 37.627946028319286,
+   "lng": 127.06137683239686
+  },
+  {
+   "brand": "everyday",
+   "id": "4733",
+   "name": "에브리데이 가락동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4052",
+   "name": "에브리데이 가양동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4208",
+   "name": "에브리데이 가양역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4191",
+   "name": "에브리데이 강남시장점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4055",
+   "name": "에브리데이 개봉동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4206",
+   "name": "에브리데이 개포래미안포레점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4219",
+   "name": "에브리데이 개포자이점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4016",
+   "name": "에브리데이 개포점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4159",
+   "name": "에브리데이 고덕강일점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4036",
+   "name": "에브리데이 공릉동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4164",
+   "name": "에브리데이 광나루역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4754",
+   "name": "에브리데이 광장점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4183",
+   "name": "에브리데이 구로항동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4212",
+   "name": "에브리데이 길음점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4201",
+   "name": "에브리데이 남가좌점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4017",
+   "name": "에브리데이 남부터미널점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4039",
+   "name": "에브리데이 답십리점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4185",
+   "name": "에브리데이 당고개역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4002",
+   "name": "에브리데이 대방동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4180",
+   "name": "에브리데이 대치은마점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4761",
+   "name": "에브리데이 도봉아테라점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4044",
+   "name": "에브리데이 도봉점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4237",
+   "name": "에브리데이 둔촌포레온점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4216",
+   "name": "에브리데이 등촌점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4170",
+   "name": "에브리데이 래미안리더스원점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4037",
+   "name": "에브리데이 면목동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4190",
+   "name": "에브리데이 명지대점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4173",
+   "name": "에브리데이 목동역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4731",
+   "name": "에브리데이 목동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4732",
+   "name": "에브리데이 목동중앙점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4223",
+   "name": "에브리데이 무악재점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4025",
+   "name": "에브리데이 미아동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4724",
+   "name": "에브리데이 방배그랑자이점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4040",
+   "name": "에브리데이 번동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4728",
+   "name": "에브리데이 봉천동점",
+   "area": "서울",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4010",
+   "name": "에브리데이 사당동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4746",
+   "name": "에브리데이 상계역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4730",
+   "name": "에브리데이 상도동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4008",
+   "name": "에브리데이 서초그랑자이점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4198",
+   "name": "에브리데이 서초내곡점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4005",
+   "name": "에브리데이 서초동점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4157",
+   "name": "에브리데이 서초센트럴점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4027",
+   "name": "에브리데이 성북동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4127",
+   "name": "에브리데이 세곡점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4154",
+   "name": "에브리데이 송파점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4773",
+   "name": "에브리데이 수색아트포레점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4241",
+   "name": "에브리데이 수유시장점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4235",
+   "name": "에브리데이 신풍역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4026",
+   "name": "에브리데이 쌍문동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4759",
+   "name": "에브리데이 양재역점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4043",
+   "name": "에브리데이 양재점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4224",
+   "name": "에브리데이 영등포구청역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4009",
+   "name": "에브리데이 올림픽점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4020",
+   "name": "에브리데이 우면점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4226",
+   "name": "에브리데이 은평수색점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4719",
+   "name": "에브리데이 은평진관점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4176",
+   "name": "에브리데이 이문점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4220",
+   "name": "에브리데이 이수점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4734",
+   "name": "에브리데이 이태원점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4741",
+   "name": "에브리데이 자곡점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4242",
+   "name": "에브리데이 잠실리센츠점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4239",
+   "name": "에브리데이 잠원메이플자이점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4042",
+   "name": "에브리데이 중계동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4028",
+   "name": "에브리데이 중곡동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4750",
+   "name": "에브리데이 중화리버센SK점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4034",
+   "name": "에브리데이 창동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4238",
+   "name": "에브리데이 평택고덕점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4228",
+   "name": "에브리데이 행당점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4171",
+   "name": "에브리데이 홍은점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4049",
+   "name": "에브리데이 화곡동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4739",
+   "name": "에브리데이 휘경자이점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4006",
+   "name": "에브리데이 흑석동점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3014",
+   "name": "노브랜드 강남삼성점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3888",
+   "name": "노브랜드 강남세곡점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3071",
+   "name": "노브랜드 강남역삼점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3038",
+   "name": "노브랜드 강남터미널점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3110",
+   "name": "노브랜드 강남한티역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3235",
+   "name": "노브랜드 강서발산역점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3119",
+   "name": "노브랜드 경동시장점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3182",
+   "name": "노브랜드 노원상계점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3193",
+   "name": "노브랜드 노원중계점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3078",
+   "name": "노브랜드 동대문두타몰점",
+   "area": "서울",
+   "holiday_days": [
+    "24",
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3030",
+   "name": "노브랜드 동대문장안점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3240",
+   "name": "노브랜드 마곡TR점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3101",
+   "name": "노브랜드 마리오아울렛점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3180",
+   "name": "노브랜드 서대문신촌점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3082",
+   "name": "노브랜드 서울서초G5점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3085",
+   "name": "노브랜드 서초방배점",
+   "area": "서울",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3069",
+   "name": "노브랜드 영등포양평점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3076",
+   "name": "노브랜드 영등포여의도점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3006",
+   "name": "노브랜드 은평진관점",
+   "area": "서울",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1077",
+   "name": "이마트 검단점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-440-1234",
+   "parking": "총 726대",
+   "address": "인천 검단구 서곶로 754 (당하동)",
+   "address_lot": "인천 검단구 서곶로 754 (당하동)",
+   "lat": 37.5857715794014,
+   "lng": 126.67744490369
+  },
+  {
+   "brand": "emart",
+   "id": "1098",
+   "name": "이마트 계양점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "운영시간: 10시 ~ 23시(2째, 4째주 일요일 의무휴점일 제외)",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-717-1234",
+   "parking": "총 738대",
+   "address": "인천광역시 계양구 봉오대로 785이마트계양점",
+   "address_lot": "인천광역시 계양구 봉오대로 785이마트계양점",
+   "lat": 37.5310523,
+   "lng": 126.7367335
+  },
+  {
+   "brand": "emart",
+   "id": "1023",
+   "name": "이마트 동인천점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "매주 수요일 휴점(소비쿠폰 사용가능)",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-451-1234",
+   "parking": "총 780대",
+   "address": "인천 제물포구 인중로 134",
+   "address_lot": "인천 제물포구 인중로 134",
+   "lat": 37.4666187184224,
+   "lng": 126.629178923114
+  },
+  {
+   "brand": "emart",
+   "id": "1042",
+   "name": "이마트 연수점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-820-1234",
+   "parking": "총 849대",
+   "address": "인천광역시 연수구 경원대로 184",
+   "address_lot": "인천광역시 연수구 경원대로 184",
+   "lat": 37.4045681,
+   "lng": 126.6816173
+  },
+  {
+   "brand": "traders",
+   "id": "2024",
+   "name": "트레이더스 홀세일 클럽 구월점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-210-8000",
+   "parking": "총 894대",
+   "address": "인천 남동구 매소홀로 759 (구월동)",
+   "address_lot": "인천 남동구 매소홀로 759 (구월동)",
+   "lat": 37.4396232177682,
+   "lng": 126.707884341114
+  },
+  {
+   "brand": "traders",
+   "id": "2002",
+   "name": "트레이더스 홀세일 클럽 송림점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-722-1234",
+   "parking": "총 897대",
+   "address": "인천 제물포구 봉수대로 82 (송림동, 이마트 트레이더스)",
+   "address_lot": "인천 제물포구 봉수대로 82 (송림동, 이마트 트레이더스)",
+   "lat": 37.4830031576267,
+   "lng": 126.660321106926
+  },
+  {
+   "brand": "everyday",
+   "id": "4062",
+   "name": "에브리데이 경서점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4059",
+   "name": "에브리데이 동양점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4064",
+   "name": "에브리데이 서창2점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4057",
+   "name": "에브리데이 서창동점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4710",
+   "name": "에브리데이 영흥도점",
+   "area": "인천",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4196",
+   "name": "에브리데이 인천SK리더스뷰점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4175",
+   "name": "에브리데이 인천논현점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4174",
+   "name": "에브리데이 인천대입구역점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4163",
+   "name": "에브리데이 인천도화점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4158",
+   "name": "에브리데이 인천송도점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4203",
+   "name": "에브리데이 인천영종점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4737",
+   "name": "에브리데이 인천청라점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4755",
+   "name": "에브리데이 인천효성점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4060",
+   "name": "에브리데이 작전점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4766",
+   "name": "에브리데이 청라파크자이점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3245",
+   "name": "노브랜드 구월TR점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3890",
+   "name": "노브랜드 남양주퇴계원점",
+   "area": "인천",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3191",
+   "name": "노브랜드 인천 마전2점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3194",
+   "name": "노브랜드 인천 불로동점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3167",
+   "name": "노브랜드 인천논현역점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3812",
+   "name": "노브랜드 인천당하점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3876",
+   "name": "노브랜드 인천서창점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3886",
+   "name": "노브랜드 인천소래점",
+   "area": "인천",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3898",
+   "name": "노브랜드 인천송도점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3175",
+   "name": "노브랜드 인천심곡점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3256",
+   "name": "노브랜드 인천아라점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3145",
+   "name": "노브랜드 인천원당점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3130",
+   "name": "노브랜드 인천원창점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3227",
+   "name": "노브랜드 인천장승백이시장점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3120",
+   "name": "노브랜드 인천청라점",
+   "area": "인천",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3834",
+   "name": "노브랜드 인천청학점",
+   "area": "인천",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "starfield",
+   "id": "1085",
+   "name": "스타필드 마켓 동탄점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "031-647-1234",
+   "parking": "총 828대",
+   "address": "경기 화성시 동탄구 동탄중앙로 376 (석우동, 화성 동탄 이마트)(주)스타필드마켓 동탄점",
+   "address_lot": "경기 화성시 동탄구 동탄중앙로 376 (석우동, 화성 동탄 이마트)(주)스타필드마켓 동탄점",
+   "lat": 37.214066662686,
+   "lng": 127.079637319713
+  },
+  {
+   "brand": "starfield",
+   "id": "1068",
+   "name": "스타필드 마켓 죽전점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-888-1234",
+   "parking": "총 1279대",
+   "address": "경기도 용인시 수지구 포은대로 552",
+   "address_lot": "경기도 용인시 수지구 포은대로 552",
+   "lat": 37.3250411,
+   "lng": 127.1099576
+  },
+  {
+   "brand": "starfield",
+   "id": "1133",
+   "name": "스타필드마켓 일산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-936-1123",
+   "parking": "총 1,366대",
+   "address": "경기도 고양시 일산서구 킨텍스로 171(대화동)171",
+   "address_lot": "경기도 고양시 일산서구 킨텍스로 171(대화동)171",
+   "lat": 37.6615224,
+   "lng": 126.7441155
+  },
+  {
+   "brand": "emart",
+   "id": "1107",
+   "name": "이마트 경기광주점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "031-8026-1234",
+   "parking": "총 434대",
+   "address": "경기 광주시 광주대로 30",
+   "address_lot": "경기 광주시 광주대로 30",
+   "lat": 37.4095848,
+   "lng": 127.2612917
+  },
+  {
+   "brand": "emart",
+   "id": "1135",
+   "name": "이마트 과천점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "02-6445-4123",
+   "parking": "총 358대",
+   "address": "경기도 과천시  별양상가3로 11",
+   "address_lot": "경기도 과천시  별양상가3로 11",
+   "lat": 37.4263125,
+   "lng": 126.9918705
+  },
+  {
+   "brand": "emart",
+   "id": "1134",
+   "name": "이마트 광교점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-328-9123",
+   "parking": "총 694대",
+   "address": "경기도 수원시 광교로 191(이의동)",
+   "address_lot": "경기도 수원시 광교로 191(이의동)",
+   "lat": 37.2961928,
+   "lng": 127.0465333
+  },
+  {
+   "brand": "emart",
+   "id": "1112",
+   "name": "이마트 광명소하점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "02-6918-1234",
+   "parking": "총 773대",
+   "address": "경기도 광명시 소하로 97",
+   "address_lot": "경기도 광명시 소하로 97",
+   "lat": 37.4467216,
+   "lng": 126.8845978
+  },
+  {
+   "brand": "emart",
+   "id": "1131",
+   "name": "이마트 김포한강점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "9/24 10시~13시 영업, 9/25(추석) 휴점, 9/26 10시~13시 영업",
+   "closures_raw": "9/23(수), 10/14(수)",
+   "closures": [
+    "9/23",
+    "10/14"
+   ],
+   "phone": "031-990-7124",
+   "parking": "총 635대",
+   "address": "경기 김포시 김포한강7로 71 (구래동, 이마트 김포한강점)",
+   "address_lot": "경기 김포시 김포한강7로 71 (구래동, 이마트 김포한강점)",
+   "lat": 37.6443389795406,
+   "lng": 126.628286240998
+  },
+  {
+   "brand": "emart",
+   "id": "1069",
+   "name": "이마트 남양주점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-590-1234",
+   "parking": "총 660대",
+   "address": "경기도 남양주시 늘을2로 27",
+   "address_lot": "경기도 남양주시 늘을2로 27",
+   "lat": 37.6547819,
+   "lng": 127.242979
+  },
+  {
+   "brand": "emart",
+   "id": "1086",
+   "name": "이마트 다산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-579-1234",
+   "parking": "총 650대",
+   "address": "경기도 남양주시 도농로 24",
+   "address_lot": "경기도 남양주시 도농로 24",
+   "lat": 37.6086997,
+   "lng": 127.1597132
+  },
+  {
+   "brand": "emart",
+   "id": "1075",
+   "name": "이마트 동백점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-546-1234",
+   "parking": "총 1,512대",
+   "address": "경기도 용인시 기흥구 동백죽전대로 444",
+   "address_lot": "경기도 용인시 기흥구 동백죽전대로 444",
+   "lat": 37.2781096,
+   "lng": 127.1519657
+  },
+  {
+   "brand": "emart",
+   "id": "1129",
+   "name": "이마트 별내점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-550-1234",
+   "parking": "총 684대",
+   "address": "경기도 남양주시 순화궁로 167(별내동)",
+   "address_lot": "경기도 남양주시 순화궁로 167(별내동)",
+   "lat": 37.64278,
+   "lng": 127.1260481
+  },
+  {
+   "brand": "emart",
+   "id": "1094",
+   "name": "이마트 보라점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-8009-1234",
+   "parking": "총 379대",
+   "address": "경기 용인시 기흥구 한보라1로 92 (보라동, 보라지구EMART)",
+   "address_lot": "경기 용인시 기흥구 한보라1로 92 (보라동, 보라지구EMART)",
+   "lat": 37.2475310681116,
+   "lng": 127.105089234799
+  },
+  {
+   "brand": "emart",
+   "id": "1998",
+   "name": "이마트 부천점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-610-5123",
+   "parking": "총 737대",
+   "address": "경기 부천시 소사구 부천로 1 (심곡본동, 부천역사 쇼핑몰)부천 역사 쇼핑몰",
+   "address_lot": "경기 부천시 소사구 부천로 1 (심곡본동, 부천역사 쇼핑몰)부천 역사 쇼핑몰",
+   "lat": 37.4840382748897,
+   "lng": 126.782648899659
+  },
+  {
+   "brand": "emart",
+   "id": "1003",
+   "name": "이마트 분당점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-710-1234",
+   "parking": "총 779대",
+   "address": "경기도 성남시 분당구 불정로 134",
+   "address_lot": "경기도 성남시 분당구 불정로 134",
+   "lat": 37.358749,
+   "lng": 127.1198915
+  },
+  {
+   "brand": "emart",
+   "id": "1015",
+   "name": "이마트 산본점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 9/27(일), 10/11(일)",
+   "closures": [
+    "9/25",
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-450-1234",
+   "parking": "총 625대",
+   "address": "경기 군포시 산본로 347",
+   "address_lot": "경기 군포시 산본로 347",
+   "lat": 37.3613765,
+   "lng": 126.9315193
+  },
+  {
+   "brand": "emart",
+   "id": "1067",
+   "name": "이마트 서수원점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-895-1234",
+   "parking": "총 916대",
+   "address": "경기도 수원시 권선구 수인로 291",
+   "address_lot": "경기도 수원시 권선구 수인로 291",
+   "lat": 37.2823765,
+   "lng": 126.9702959
+  },
+  {
+   "brand": "emart",
+   "id": "1110",
+   "name": "이마트 성남점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-8023-1234",
+   "parking": "총 805대",
+   "address": "경기도 성남시 수정구 수정로 201",
+   "address_lot": "경기도 성남시 수정구 수정로 201",
+   "lat": 37.4440315,
+   "lng": 127.1414474
+  },
+  {
+   "brand": "emart",
+   "id": "1030",
+   "name": "이마트 수원점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-303-3410",
+   "parking": "총 822대",
+   "address": "경기 수원시 권선구 경수대로 270 (권선동, 주차빌딩)",
+   "address_lot": "경기 수원시 권선구 경수대로 270 (권선동, 주차빌딩)",
+   "lat": 37.251375459605235,
+   "lng": 127.02044234804106
+  },
+  {
+   "brand": "emart",
+   "id": "1047",
+   "name": "이마트 수지점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-270-1234",
+   "parking": "총 711대",
+   "address": "경기도 용인시 수지구 수지로 203(신봉동)",
+   "address_lot": "경기도 용인시 수지구 수지로 203(신봉동)",
+   "lat": 37.3195504,
+   "lng": 127.0831932
+  },
+  {
+   "brand": "emart",
+   "id": "1044",
+   "name": "이마트 안산고잔점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/10(토)",
+   "closures": [
+    "9/25",
+    "10/10"
+   ],
+   "phone": "031-599-1234",
+   "parking": "총 912대",
+   "address": "경기도 안산시 단원구 원포공원1로 46",
+   "address_lot": "경기도 안산시 단원구 원포공원1로 46",
+   "lat": 37.3032212,
+   "lng": 126.812586
+  },
+  {
+   "brand": "emart",
+   "id": "1092",
+   "name": "이마트 안성점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-686-1234",
+   "parking": "총 513대",
+   "address": "경기도 안성시 중앙로 246",
+   "address_lot": "경기도 안성시 중앙로 246",
+   "lat": 37.0130833,
+   "lng": 127.2558875
+  },
+  {
+   "brand": "emart",
+   "id": "1999",
+   "name": "이마트 안양점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-380-3300",
+   "parking": "총 580대",
+   "address": "경기 안양시 동안구 관악대로 104 (비산동, 부방유통)",
+   "address_lot": "경기 안양시 동안구 관악대로 104 (비산동, 부방유통)",
+   "lat": 37.3983753163571,
+   "lng": 126.935345525588
+  },
+  {
+   "brand": "emart",
+   "id": "1055",
+   "name": "이마트 양주점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-860-0123",
+   "parking": "총 593대",
+   "address": "경기도 양주시 평화로 1713",
+   "address_lot": "경기도 양주시 평화로 1713",
+   "lat": 37.8412788,
+   "lng": 127.0539169
+  },
+  {
+   "brand": "emart",
+   "id": "1084",
+   "name": "이마트 여주점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-887-6123",
+   "parking": "총 433대",
+   "address": "경기도 여주시 세종로 151",
+   "address_lot": "경기도 여주시 세종로 151",
+   "lat": 37.284267,
+   "lng": 127.636213
+  },
+  {
+   "brand": "emart",
+   "id": "1070",
+   "name": "이마트 오산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-369-7123",
+   "parking": "총 770대",
+   "address": "경기도 오산시 경기대로 181",
+   "address_lot": "경기도 오산시 경기대로 181",
+   "lat": 37.1404317,
+   "lng": 127.0726807
+  },
+  {
+   "brand": "emart",
+   "id": "1071",
+   "name": "이마트 용인점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-326-1234",
+   "parking": "총 435대",
+   "address": "경기도 용인시 처인구 명지로 53이마트 용인점",
+   "address_lot": "경기도 용인시 처인구 명지로 53이마트 용인점",
+   "lat": 37.2314522,
+   "lng": 127.189157
+  },
+  {
+   "brand": "emart",
+   "id": "1137",
+   "name": "이마트 의왕점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "이마트 의왕점은 둘째 넷째주 수요일 휴점합니다",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-8063-1234",
+   "parking": "총 651대",
+   "address": "경기 의왕시 경수대로 262 (오전동, 서해그랑블)B1F~B2F 이마트의왕점",
+   "address_lot": "경기 의왕시 경수대로 262 (오전동, 서해그랑블)B1F~B2F 이마트의왕점",
+   "lat": 37.34995849201446,
+   "lng": 126.97359881194919
+  },
+  {
+   "brand": "emart",
+   "id": "1128",
+   "name": "이마트 의정부점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-850-1234",
+   "parking": "총 688대",
+   "address": "경기 의정부시 민락로 210",
+   "address_lot": "경기 의정부시 민락로 210",
+   "lat": 37.743121,
+   "lng": 127.102397
+  },
+  {
+   "brand": "emart",
+   "id": "1020",
+   "name": "이마트 이천점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "031-644-8123",
+   "parking": "총 407대",
+   "address": "경기 이천시 이섭대천로 1440-50",
+   "address_lot": "경기 이천시 이섭대천로 1440-50",
+   "lat": 37.293416,
+   "lng": 127.4591346
+  },
+  {
+   "brand": "emart",
+   "id": "1002",
+   "name": "이마트 일산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-900-1234",
+   "parking": "총 342대",
+   "address": "경기 고양시 일산동구 중앙로 1124",
+   "address_lot": "경기 고양시 일산동구 중앙로 1124",
+   "lat": 37.6480881663195,
+   "lng": 126.78225569195
+  },
+  {
+   "brand": "emart",
+   "id": "1097",
+   "name": "이마트 중동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "운영시간:06시~23시(2,4째주 의무휴점일 제외)",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "032-718-1234",
+   "parking": "총 705대",
+   "address": "경기 부천시 원미구 석천로 188 (중동, (주)신세계이마트중동점)",
+   "address_lot": "경기 부천시 원미구 석천로 188 (중동, (주)신세계이마트중동점)",
+   "lat": 37.5040650740343,
+   "lng": 126.763949320638
+  },
+  {
+   "brand": "emart",
+   "id": "1115",
+   "name": "이마트 진접점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-522-1234",
+   "parking": "총 525대",
+   "address": "경기도 남양주시 진접읍 금강로유연들1길 154",
+   "address_lot": "경기도 남양주시 진접읍 금강로유연들1길 154",
+   "lat": 37.7088355,
+   "lng": 127.1821886
+  },
+  {
+   "brand": "emart",
+   "id": "1119",
+   "name": "이마트 파주운정점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-931-2123",
+   "parking": "총 575대",
+   "address": "경기도 파주시 한울로 123",
+   "address_lot": "경기도 파주시 한울로 123",
+   "lat": 37.710371,
+   "lng": 126.7451094
+  },
+  {
+   "brand": "emart",
+   "id": "1057",
+   "name": "이마트 파주점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-950-1234",
+   "parking": "총 600대",
+   "address": "경기도 파주시 당하길 10",
+   "address_lot": "경기도 파주시 당하길 10",
+   "lat": 37.7472008,
+   "lng": 126.7508331
+  },
+  {
+   "brand": "emart",
+   "id": "1099",
+   "name": "이마트 평촌점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-687-1234",
+   "parking": "총 640대",
+   "address": "경기도 안양시 동안구 시민대로 300",
+   "address_lot": "경기도 안양시 동안구 시민대로 300",
+   "lat": 37.3950239,
+   "lng": 126.9637027
+  },
+  {
+   "brand": "emart",
+   "id": "1032",
+   "name": "이마트 평택점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-371-1234",
+   "parking": "총 664대",
+   "address": "경기 평택시 영신로 29",
+   "address_lot": "경기 평택시 영신로 29",
+   "lat": 37.0209207,
+   "lng": 127.0757647
+  },
+  {
+   "brand": "emart",
+   "id": "1111",
+   "name": "이마트 포천점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-540-1234",
+   "parking": "총 439대",
+   "address": "경기도 포천시 호국로 915",
+   "address_lot": "경기도 포천시 호국로 915",
+   "lat": 37.8477406,
+   "lng": 127.1607912
+  },
+  {
+   "brand": "emart",
+   "id": "1130",
+   "name": "이마트 풍산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-910-1234",
+   "parking": "총 582대",
+   "address": "경기 고양시 일산동구 무궁화로 237",
+   "address_lot": "경기 고양시 일산동구 무궁화로 237",
+   "lat": 37.673872,
+   "lng": 126.7870638
+  },
+  {
+   "brand": "emart",
+   "id": "1088",
+   "name": "이마트 하남점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-524-1234",
+   "parking": "총 620대",
+   "address": "경기도 하남시 덕풍서로 70",
+   "address_lot": "경기도 하남시 덕풍서로 70",
+   "lat": 37.5528257,
+   "lng": 127.2054664
+  },
+  {
+   "brand": "emart",
+   "id": "1126",
+   "name": "이마트 화성봉담점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "휴점일은 지자체 상황에 따라 변동될 수 있습니다.",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "031-228-1234",
+   "parking": "총 589대",
+   "address": "경기 화성시 효행구 봉담읍 효행로 278 (동화리, 이마트)",
+   "address_lot": "경기 화성시 효행구 봉담읍 효행로 278 (동화리, 이마트)",
+   "lat": 37.2224740960296,
+   "lng": 126.972686710741
+  },
+  {
+   "brand": "emart",
+   "id": "1096",
+   "name": "이마트 화정점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-995-1234",
+   "parking": "총 615대",
+   "address": "경기도 고양시 덕양구 백양로 79",
+   "address_lot": "경기도 고양시 덕양구 백양로 79",
+   "lat": 37.6323484,
+   "lng": 126.833339
+  },
+  {
+   "brand": "emart",
+   "id": "1105",
+   "name": "이마트 흥덕점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-8021-1234",
+   "parking": "총 580대",
+   "address": "경기도 용인시 기흥구 흥덕중앙로 60",
+   "address_lot": "경기도 용인시 기흥구 흥덕중앙로 60",
+   "lat": 37.275815,
+   "lng": 127.0733491
+  },
+  {
+   "brand": "traders",
+   "id": "2012",
+   "name": "트레이더스 홀세일 클럽 고양점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-5174-1234",
+   "parking": "총 5500대",
+   "address": "경기도 고양시 덕양구 고양대로 1955(동산동)스타필드 고양 지하 2층",
+   "address_lot": "경기도 고양시 덕양구 고양대로 1955(동산동)스타필드 고양 지하 2층",
+   "lat": 37.646807,
+   "lng": 126.894946
+  },
+  {
+   "brand": "traders",
+   "id": "2001",
+   "name": "트레이더스 홀세일 클럽 구성점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-327-1234",
+   "parking": "총 851대",
+   "address": "경기도 용인시 기흥구 용구대로 2457",
+   "address_lot": "경기도 용인시 기흥구 용구대로 2457",
+   "lat": 37.3054258,
+   "lng": 127.1050563
+  },
+  {
+   "brand": "traders",
+   "id": "2013",
+   "name": "트레이더스 홀세일 클럽 군포점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 9/27(일), 10/11(일)",
+   "closures": [
+    "9/25",
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-361-3456",
+   "parking": "총 714대",
+   "address": "경기 군포시 삼성로 74 (부곡동)",
+   "address_lot": "경기 군포시 삼성로 74 (부곡동)",
+   "lat": 37.33999,
+   "lng": 126.934411
+  },
+  {
+   "brand": "traders",
+   "id": "2014",
+   "name": "트레이더스 홀세일 클럽 김포점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/23(수), 10/14(수)",
+   "closures": [
+    "9/23",
+    "10/14"
+   ],
+   "phone": "031-8048-5678",
+   "parking": "총 688대",
+   "address": "경기 김포시 김포대로 715 (풍무동, 트레이더스 김포점)",
+   "address_lot": "경기 김포시 김포대로 715 (풍무동, 트레이더스 김포점)",
+   "lat": 37.612711,
+   "lng": 126.730634
+  },
+  {
+   "brand": "traders",
+   "id": "2021",
+   "name": "트레이더스 홀세일 클럽 동탄점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "031-8097-1888",
+   "parking": "총 865대",
+   "address": "경기 화성시 동탄구 동탄대로 451 (여울동)트레이더스 홀세일 클럽 동탄점",
+   "address_lot": "경기 화성시 동탄구 동탄대로 451 (여울동)트레이더스 홀세일 클럽 동탄점",
+   "lat": 37.1934194119825,
+   "lng": 127.097068997258
+  },
+  {
+   "brand": "traders",
+   "id": "2017",
+   "name": "트레이더스 홀세일 클럽 부천점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "입점 매장(치과/동물병원/미용실 등)의 휴점일 및 영업시간은 해당 이마트 점포와 다를 수 있습니다.",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "02-6256-1234",
+   "parking": "총 1,866대",
+   "address": "경기 부천시 소사구 옥길로 1 (옥길동, 스타필드시티 부천)지하2층",
+   "address_lot": "경기 부천시 소사구 옥길로 1 (옥길동, 스타필드시티 부천)지하2층",
+   "lat": 37.4615202479021,
+   "lng": 126.813940279533
+  },
+  {
+   "brand": "traders",
+   "id": "2009",
+   "name": "트레이더스 홀세일 클럽 수원점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-8005-1234",
+   "parking": "총 702대",
+   "address": "경기 수원시 영통구 삼성로 2 (신동)",
+   "address_lot": "경기 수원시 영통구 삼성로 2 (신동)",
+   "lat": 37.24607271529597,
+   "lng": 127.04859563816485
+  },
+  {
+   "brand": "traders",
+   "id": "2022",
+   "name": "트레이더스 홀세일 클럽 수원화서점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "031-690-1888",
+   "parking": "총 4,161대",
+   "address": "경기 수원시 장안구 수성로 175지하 2층",
+   "address_lot": "경기 수원시 장안구 수성로 175지하 2층",
+   "lat": 37.2874828576558,
+   "lng": 126.990837372685
+  },
+  {
+   "brand": "traders",
+   "id": "2006",
+   "name": "트레이더스 홀세일 클럽 안산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/10(토)",
+   "closures": [
+    "9/25",
+    "10/10"
+   ],
+   "phone": "031-363-1234",
+   "parking": "총 522대",
+   "address": "경기 안산시 단원구 중앙대로 397 (신길동, 트레이더스 홀세일 클럽 안산점)",
+   "address_lot": "경기 안산시 단원구 중앙대로 397 (신길동, 트레이더스 홀세일 클럽 안산점)",
+   "lat": 37.3311677316939,
+   "lng": 126.784991359023
+  },
+  {
+   "brand": "traders",
+   "id": "2019",
+   "name": "트레이더스 홀세일 클럽 안성점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-8092-1234",
+   "parking": "총 4,984대",
+   "address": "경기 안성시 공도읍 서동대로 3930-39스타필드 안성점 지하 2층",
+   "address_lot": "경기 안성시 공도읍 서동대로 3930-39스타필드 안성점 지하 2층",
+   "lat": 36.9946334108693,
+   "lng": 127.147249620616
+  },
+  {
+   "brand": "traders",
+   "id": "2015",
+   "name": "트레이더스 홀세일 클럽 위례점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-8097-1234",
+   "parking": "총 1843대",
+   "address": "경기 하남시 위례대로 200B3층",
+   "address_lot": "경기 하남시 위례대로 200B3층",
+   "lat": 37.4801339791355,
+   "lng": 127.14840208638577
+  },
+  {
+   "brand": "traders",
+   "id": "2010",
+   "name": "트레이더스 홀세일 클럽 일산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-810-1013",
+   "parking": "총 1,374대",
+   "address": "경기도 고양시 일산서구 킨텍스로 171(대화동)",
+   "address_lot": "경기도 고양시 일산서구 킨텍스로 171(대화동)",
+   "lat": 37.6615224,
+   "lng": 126.7441155
+  },
+  {
+   "brand": "traders",
+   "id": "2011",
+   "name": "트레이더스 홀세일 클럽 하남점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "031-8069-1234",
+   "parking": "총 5650대",
+   "address": "경기 하남시 신장동 미사대로 750하남 스타필드 지하 2층",
+   "address_lot": "경기 하남시 신장동 미사대로 750하남 스타필드 지하 2층",
+   "lat": 37.5459011,
+   "lng": 127.22289
+  },
+  {
+   "brand": "everyday",
+   "id": "4725",
+   "name": "에브리데이 고양덕은점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4186",
+   "name": "에브리데이 고양덕이점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4085",
+   "name": "에브리데이 고양동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4736",
+   "name": "에브리데이 고양마두점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4094",
+   "name": "에브리데이 고양삼송2점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4092",
+   "name": "에브리데이 고양삼송점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4177",
+   "name": "에브리데이 고양식사점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4227",
+   "name": "에브리데이 고양지축점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4234",
+   "name": "에브리데이 고양화정점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4058",
+   "name": "에브리데이 고촌점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4086",
+   "name": "에브리데이 관산동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4765",
+   "name": "에브리데이 광교웰빙타운점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4075",
+   "name": "에브리데이 광교점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4182",
+   "name": "에브리데이 광교하동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4102",
+   "name": "에브리데이 광릉점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4221",
+   "name": "에브리데이 광명점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4095",
+   "name": "에브리데이 광사동점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4772",
+   "name": "에브리데이 광주태전점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4084",
+   "name": "에브리데이 광탄점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4123",
+   "name": "에브리데이 구리갈매점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4197",
+   "name": "에브리데이 군포대야미점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4701",
+   "name": "에브리데이 궁내점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4156",
+   "name": "에브리데이 김포자이점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4103",
+   "name": "에브리데이 남양주도곡점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4742",
+   "name": "에브리데이 남양주진접점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4099",
+   "name": "에브리데이 녹양동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4070",
+   "name": "에브리데이 능동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4153",
+   "name": "에브리데이 다산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4762",
+   "name": "에브리데이 다산지금점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4097",
+   "name": "에브리데이 덕정점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4214",
+   "name": "에브리데이 동탄그랑파사쥬점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4213",
+   "name": "에브리데이 동탄목동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4137",
+   "name": "에브리데이 동탄카림점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4152",
+   "name": "에브리데이 동탄호수점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4145",
+   "name": "에브리데이 마두역점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4073",
+   "name": "에브리데이 마북동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4065",
+   "name": "에브리데이 매탄동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4098",
+   "name": "에브리데이 백석점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4089",
+   "name": "에브리데이 법원점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4748",
+   "name": "에브리데이 병점점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4726",
+   "name": "에브리데이 보정점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4115",
+   "name": "에브리데이 본오점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4069",
+   "name": "에브리데이 봉담2호점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4149",
+   "name": "에브리데이 부천SF점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4210",
+   "name": "에브리데이 분당구미점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4074",
+   "name": "에브리데이 분당정자2점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4071",
+   "name": "에브리데이 분당정자점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4704",
+   "name": "에브리데이 산본점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4067",
+   "name": "에브리데이 상현동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4081",
+   "name": "에브리데이 서천점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4079",
+   "name": "에브리데이 서판교점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4706",
+   "name": "에브리데이 석수점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4735",
+   "name": "에브리데이 성대점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4155",
+   "name": "에브리데이 수원태장점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4133",
+   "name": "에브리데이 신곡풍림점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4729",
+   "name": "에브리데이 신길점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4072",
+   "name": "에브리데이 신영통점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4211",
+   "name": "에브리데이 신원당점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4100",
+   "name": "에브리데이 신읍동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4743",
+   "name": "에브리데이 안산역점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4181",
+   "name": "에브리데이 안양관양점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4160",
+   "name": "에브리데이 양주옥정점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4101",
+   "name": "에브리데이 영북점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4142",
+   "name": "에브리데이 오포신현2점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4136",
+   "name": "에브리데이 오포신현점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4757",
+   "name": "에브리데이 오포점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4770",
+   "name": "에브리데이 용인보라점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4767",
+   "name": "에브리데이 용인상하점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4740",
+   "name": "에브리데이 용인수지점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4096",
+   "name": "에브리데이 용현동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4056",
+   "name": "에브리데이 월피동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4233",
+   "name": "에브리데이 의정부호원점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4066",
+   "name": "에브리데이 이매동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4121",
+   "name": "에브리데이 이천갈산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4236",
+   "name": "에브리데이 이천부발점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4068",
+   "name": "에브리데이 이천점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4738",
+   "name": "에브리데이 인덕원자이SK점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4088",
+   "name": "에브리데이 일산2호점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4063",
+   "name": "에브리데이 장현점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4024",
+   "name": "에브리데이 죽전점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4091",
+   "name": "에브리데이 탄현역점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4090",
+   "name": "에브리데이 통일동산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4240",
+   "name": "에브리데이 파주와동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4126",
+   "name": "에브리데이 평내점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4209",
+   "name": "에브리데이 평택동삭점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4146",
+   "name": "에브리데이 평택비전점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4769",
+   "name": "에브리데이 평택용죽점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4745",
+   "name": "에브리데이 풍무2점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4222",
+   "name": "에브리데이 하남감일점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4053",
+   "name": "에브리데이 하안동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3236",
+   "name": "노브랜드 SF수원점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3232",
+   "name": "노브랜드 가평잣고을시장점",
+   "area": "경기",
+   "holiday_days": []
+  },
+  {
+   "brand": "nobrand",
+   "id": "3050",
+   "name": "노브랜드 고양SF점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3047",
+   "name": "노브랜드 고양도내점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3160",
+   "name": "노브랜드 고양마두점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3862",
+   "name": "노브랜드 고양정발산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3031",
+   "name": "노브랜드 고양풍동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3016",
+   "name": "노브랜드 고양행신점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3837",
+   "name": "노브랜드 고양행신중앙점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3023",
+   "name": "노브랜드 광명소하점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3164",
+   "name": "노브랜드 광주초월점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3204",
+   "name": "노브랜드 광주태전점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3135",
+   "name": "노브랜드 구리갈매점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3124",
+   "name": "노브랜드 구리인창점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3239",
+   "name": "노브랜드 구성TR점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3093",
+   "name": "노브랜드 군포당동TR점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3801",
+   "name": "노브랜드 군포산본역점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3147",
+   "name": "노브랜드 김포운양점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3851",
+   "name": "노브랜드 김포장기점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3094",
+   "name": "노브랜드 김포풍무TR점",
+   "area": "경기",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3835",
+   "name": "노브랜드 김포풍무점",
+   "area": "경기",
+   "holiday_days": [
+    "23",
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3183",
+   "name": "노브랜드 남양주다산점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3132",
+   "name": "노브랜드 남양주도곡점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3092",
+   "name": "노브랜드 남양주별내점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3042",
+   "name": "노브랜드 남양주오남점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3887",
+   "name": "노브랜드 남양주진접점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3007",
+   "name": "노브랜드 남양주호평점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3125",
+   "name": "노브랜드 남양주화도2점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3021",
+   "name": "노브랜드 남양주화도점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3215",
+   "name": "노브랜드 부천상2동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3896",
+   "name": "노브랜드 부천상동역점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3100",
+   "name": "노브랜드 부천상동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3224",
+   "name": "노브랜드 부천옥길SF점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3177",
+   "name": "노브랜드 부천중동점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3187",
+   "name": "노브랜드 성남여수점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3192",
+   "name": "노브랜드 성남이매2점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3237",
+   "name": "노브랜드 수원TR점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3040",
+   "name": "노브랜드 수원망포점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3883",
+   "name": "노브랜드 수원영통역점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3871",
+   "name": "노브랜드 수원이의점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3033",
+   "name": "노브랜드 수원천천점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3880",
+   "name": "노브랜드 수원호매실2점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3893",
+   "name": "노브랜드 수원호매실3호점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3854",
+   "name": "노브랜드 수원호매실점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3008",
+   "name": "노브랜드 수원화서점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3003",
+   "name": "노브랜드 스타필드 하남점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3201",
+   "name": "노브랜드 스타필드시티 위례점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3900",
+   "name": "노브랜드 시흥군자점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3064",
+   "name": "노브랜드 시흥목감점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3022",
+   "name": "노브랜드 시흥아울렛점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3099",
+   "name": "노브랜드 시흥정왕점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3128",
+   "name": "노브랜드 안산고잔점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3209",
+   "name": "노브랜드 안산이동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3231",
+   "name": "노브랜드 안성STF점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3074",
+   "name": "노브랜드 안성공도점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3045",
+   "name": "노브랜드 안성시장점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3012",
+   "name": "노브랜드 안양평촌점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3051",
+   "name": "노브랜드 양주덕정점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3252",
+   "name": "노브랜드 양주옥정2점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3075",
+   "name": "노브랜드 여주한글시장점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3874",
+   "name": "노브랜드 오산금암점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3875",
+   "name": "노브랜드 오산수청점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3895",
+   "name": "노브랜드 용인고림점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3020",
+   "name": "노브랜드 용인동천점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3001",
+   "name": "노브랜드 용인보라점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3159",
+   "name": "노브랜드 용인삼가점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3043",
+   "name": "노브랜드 용인상현점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3004",
+   "name": "노브랜드 용인신봉점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3049",
+   "name": "노브랜드 용인죽전점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3090",
+   "name": "노브랜드 용인청덕점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3056",
+   "name": "노브랜드 위례창곡점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3850",
+   "name": "노브랜드 의왕포일점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3190",
+   "name": "노브랜드 의정부 호원점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3044",
+   "name": "노브랜드 의정부녹양점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3005",
+   "name": "노브랜드 의정부민락점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3142",
+   "name": "노브랜드 의정부신곡점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3062",
+   "name": "노브랜드 이천안흥점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3891",
+   "name": "노브랜드 인천가정점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3233",
+   "name": "노브랜드 일산대화점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3899",
+   "name": "노브랜드 일산주엽점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3210",
+   "name": "노브랜드 파주다율점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3223",
+   "name": "노브랜드 파주아울렛점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3894",
+   "name": "노브랜드 파주야당점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3039",
+   "name": "노브랜드 파주와동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3257",
+   "name": "노브랜드 파주운정STF점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3029",
+   "name": "노브랜드 판교운중점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3166",
+   "name": "노브랜드 평택 용이점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3253",
+   "name": "노브랜드 평택고덕점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3178",
+   "name": "노브랜드 평택동삭점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3025",
+   "name": "노브랜드 평택비전점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3202",
+   "name": "노브랜드 평택서정점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3139",
+   "name": "노브랜드 평택송담점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3881",
+   "name": "노브랜드 평택중앙로점",
+   "area": "경기",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3046",
+   "name": "노브랜드 평택청북점",
+   "area": "경기",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3885",
+   "name": "노브랜드 하남미사1동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3104",
+   "name": "노브랜드 하남미사2동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3151",
+   "name": "노브랜드 화성남양점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3032",
+   "name": "노브랜드 화성능동점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3863",
+   "name": "노브랜드 화성동탄리치안점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3079",
+   "name": "노브랜드 화성반송점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3048",
+   "name": "노브랜드 화성봉담점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3109",
+   "name": "노브랜드 화성진안점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3052",
+   "name": "노브랜드 화성향남점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3172",
+   "name": "노브랜드 화성향남행정점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3853",
+   "name": "노브렌드 수원오목천점",
+   "area": "경기",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "starfield",
+   "id": "5403",
+   "name": "일렉트로마트 스타필드 고양점",
+   "area": "경기",
+   "holiday_days": [],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "고객센터",
+   "closures": [],
+   "phone": "031-5174-1015",
+   "parking": "총 4500대",
+   "address": "경기 고양시 덕양구 고양대로 1955 (동산동, 스타필드 고양)스타필드 고양점 2층",
+   "address_lot": "경기 고양시 덕양구 고양대로 1955 (동산동, 스타필드 고양)스타필드 고양점 2층",
+   "lat": 37.646807,
+   "lng": 126.894946
+  },
+  {
+   "brand": "starfield",
+   "id": "5409",
+   "name": "일렉트로마트 스타필드 수원점",
+   "area": "경기",
+   "holiday_days": [],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "고객센터",
+   "closures": [],
+   "phone": "031-690-1544",
+   "parking": "총 0대",
+   "address": "경기 수원시 장안구 수성로 175 (정자동)5250호(스타필드 수원) 5F",
+   "address_lot": "경기 수원시 장안구 수성로 175 (정자동)5250호(스타필드 수원) 5F",
+   "lat": 37.2874453391147,
+   "lng": 126.991574559571
+  },
+  {
+   "brand": "starfield",
+   "id": "5408",
+   "name": "일렉트로마트 스타필드 안성점",
+   "area": "경기",
+   "holiday_days": [],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "고객센터",
+   "closures": [],
+   "phone": "031-8092-1666",
+   "parking": "총 0대",
+   "address": "경기 안성시 공도읍 서동대로 3930-39스타필드 안성점 2층",
+   "address_lot": "경기 안성시 공도읍 서동대로 3930-39스타필드 안성점 2층",
+   "lat": 36.993937204568,
+   "lng": 127.147636510886
+  },
+  {
+   "brand": "starfield",
+   "id": "5402",
+   "name": "일렉트로마트 스타필드 하남점",
+   "area": "경기",
+   "holiday_days": [],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "고객센터",
+   "closures": [],
+   "phone": "031-8069-4030",
+   "parking": "총 6,200대",
+   "address": "경기도 하남시 미사대로 750하남 스타필드 1층",
+   "address_lot": "경기도 하남시 미사대로 750하남 스타필드 1층",
+   "lat": 37.5459011,
+   "lng": 127.22289
+  },
+  {
+   "brand": "emart",
+   "id": "1121",
+   "name": "이마트 대전터미널점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "042-615-1234",
+   "parking": "총 1,327대",
+   "address": "대전광역시 동구 동서대로 1689",
+   "address_lot": "대전광역시 동구 동서대로 1689",
+   "lat": 36.3504974,
+   "lng": 127.4367099
+  },
+  {
+   "brand": "emart",
+   "id": "1038",
+   "name": "이마트 둔산점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "042-479-1234",
+   "parking": "총 850대",
+   "address": "대전 서구 둔산북로 41",
+   "address_lot": "대전 서구 둔산북로 41",
+   "lat": 36.3564978,
+   "lng": 127.3786039
+  },
+  {
+   "brand": "traders",
+   "id": "2003",
+   "name": "트레이더스 홀세일 클럽 월평점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "042-718-1234",
+   "parking": "총 963대",
+   "address": "대전광역시 서구 한밭대로 580",
+   "address_lot": "대전광역시 서구 한밭대로 580",
+   "lat": 36.3576924,
+   "lng": 127.3628978
+  },
+  {
+   "brand": "everyday",
+   "id": "4749",
+   "name": "에브리데이 대전둔산점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4744",
+   "name": "에브리데이 대전숭어리점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4771",
+   "name": "에브리데이 대전신갈마점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4041",
+   "name": "에브리데이 법동점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4231",
+   "name": "에브리데이 신탄진점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4232",
+   "name": "에브리데이 용방점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3185",
+   "name": "노브랜드 대전 중촌동점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3138",
+   "name": "노브랜드 대전가수원점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3840",
+   "name": "노브랜드 대전가오2점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3207",
+   "name": "노브랜드 대전갈마점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3019",
+   "name": "노브랜드 대전관저점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3150",
+   "name": "노브랜드 대전관평점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3144",
+   "name": "노브랜드 대전노은점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3105",
+   "name": "노브랜드 대전문지점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3226",
+   "name": "노브랜드 대전산성시장점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3129",
+   "name": "노브랜드 대전용계점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3889",
+   "name": "노브랜드 대전죽동점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3017",
+   "name": "노브랜드 대전탄방점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3857",
+   "name": "노브랜드 대전판암점",
+   "area": "대전",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1132",
+   "name": "이마트 세종점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "주말/공휴일17:00 종료 ※수요일 휴점(고유가지원금 사용가능)",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "044-902-1234",
+   "parking": "총 615대",
+   "address": "세종특별자치시 금송로 687",
+   "address_lot": "세종특별자치시 금송로 687",
+   "lat": 36.4712354,
+   "lng": 127.2509953
+  },
+  {
+   "brand": "everyday",
+   "id": "4758",
+   "name": "에브리데이 세종고운점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4140",
+   "name": "에브리데이 세종다정점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4751",
+   "name": "에브리데이 세종도담점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4721",
+   "name": "에브리데이 세종소담점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4752",
+   "name": "에브리데이 세종종촌점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3088",
+   "name": "노브랜드 세종나성점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3230",
+   "name": "노브랜드 세종대평시장점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3028",
+   "name": "노브랜드 세종소담점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3034",
+   "name": "노브랜드 세종아름점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3221",
+   "name": "노브랜드 세종조치원점",
+   "area": "세종",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1091",
+   "name": "이마트 보령점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "041-640-1234",
+   "parking": "총 300대",
+   "address": "충청남도 보령시 해안로 25",
+   "address_lot": "충청남도 보령시 해안로 25",
+   "lat": 36.3438754,
+   "lng": 126.5885791
+  },
+  {
+   "brand": "emart",
+   "id": "1124",
+   "name": "이마트 서산점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "041-670-1234",
+   "parking": "총 446대",
+   "address": "충청남도 서산시 서해로 3685",
+   "address_lot": "충청남도 서산시 서해로 3685",
+   "lat": 36.7884748,
+   "lng": 126.4786157
+  },
+  {
+   "brand": "emart",
+   "id": "1078",
+   "name": "이마트 아산점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "041-422-1234",
+   "parking": "총 435대",
+   "address": "충남 아산시 온천대로 1678 (풍기동)",
+   "address_lot": "충남 아산시 온천대로 1678 (풍기동)",
+   "lat": 36.7764234820617,
+   "lng": 127.021771311511
+  },
+  {
+   "brand": "emart",
+   "id": "1127",
+   "name": "이마트 천안서북점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "041-580-9123",
+   "parking": "총 689대",
+   "address": "충남 천안시 서북구 삼성대로 20",
+   "address_lot": "충남 천안시 서북구 삼성대로 20",
+   "lat": 36.8387304,
+   "lng": 127.1222458
+  },
+  {
+   "brand": "emart",
+   "id": "1028",
+   "name": "이마트 천안점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "041-620-1234",
+   "parking": "총 680대",
+   "address": "충남 천안시 서북구 충무로 187",
+   "address_lot": "충남 천안시 서북구 충무로 187",
+   "lat": 36.7958069,
+   "lng": 127.127191
+  },
+  {
+   "brand": "emart",
+   "id": "1114",
+   "name": "이마트 천안터미널점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "041-411-1234",
+   "parking": "총 1,603대",
+   "address": "충청남도 천안시 동남구 만남로 43",
+   "address_lot": "충청남도 천안시 동남구 만남로 43",
+   "lat": 36.8195733,
+   "lng": 127.1573856
+  },
+  {
+   "brand": "traders",
+   "id": "2007",
+   "name": "트레이더스 홀세일 클럽 천안아산점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "041-423-0123",
+   "parking": "총 749대",
+   "address": "충청남도 아산시 배방읍 고속철대로 133",
+   "address_lot": "충청남도 아산시 배방읍 고속철대로 133",
+   "lat": 36.7964667,
+   "lng": 127.1056139
+  },
+  {
+   "brand": "everyday",
+   "id": "4128",
+   "name": "에브리데이 서산예천점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4141",
+   "name": "에브리데이 서산읍내점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4047",
+   "name": "에브리데이 아산공수점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4107",
+   "name": "에브리데이 아산장재점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4194",
+   "name": "에브리데이 아산탕정점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4747",
+   "name": "에브리데이 천안두정점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4135",
+   "name": "에브리데이 천안불당점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4756",
+   "name": "에브리데이 천안청당점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4112",
+   "name": "에브리데이 홍성내포점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3184",
+   "name": "노브랜드 공주 신관동점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3206",
+   "name": "노브랜드 논산내동점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3002",
+   "name": "노브랜드 당진어시장점",
+   "area": "충남",
+   "holiday_days": []
+  },
+  {
+   "brand": "nobrand",
+   "id": "3208",
+   "name": "노브랜드 당진원당점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3169",
+   "name": "노브랜드 서산예천점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3908",
+   "name": "노브랜드 아산공수점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3115",
+   "name": "노브랜드 아산둔포점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3107",
+   "name": "노브랜드 아산배방점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3255",
+   "name": "노브랜드 아산탕정점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3117",
+   "name": "노브랜드 천안백석점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3058",
+   "name": "노브랜드 천안불당점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3241",
+   "name": "노브랜드 천안성성점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3054",
+   "name": "노브랜드 천안신방점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3140",
+   "name": "노브랜드 천안청당점",
+   "area": "충남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3217",
+   "name": "노브랜드 홍성남장점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3072",
+   "name": "노브랜드 홍성홍북점",
+   "area": "충남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1109",
+   "name": "이마트 제천점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/11(일)",
+   "closures": [
+    "9/25",
+    "10/11"
+   ],
+   "phone": "043-641-1234",
+   "parking": "총 520대",
+   "address": "충청북도 제천시 장평천로 11",
+   "address_lot": "충청북도 제천시 장평천로 11",
+   "lat": 37.1232654,
+   "lng": 128.2228875
+  },
+  {
+   "brand": "emart",
+   "id": "1009",
+   "name": "이마트 청주점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "043-210-1234",
+   "parking": "총 510대",
+   "address": "충북 청주시 서원구 청남로 1853",
+   "address_lot": "충북 청주시 서원구 청남로 1853",
+   "lat": 36.6003138,
+   "lng": 127.4748436
+  },
+  {
+   "brand": "emart",
+   "id": "1031",
+   "name": "이마트 충주점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/10(토)",
+   "closures": [
+    "9/25",
+    "10/10"
+   ],
+   "phone": "043-841-1234",
+   "parking": "총 619대",
+   "address": "충북 충주시 중원대로 3420 (문화동, 이마트)",
+   "address_lot": "충북 충주시 중원대로 3420 (문화동, 이마트)",
+   "lat": 36.9721057403459,
+   "lng": 127.923786683304
+  },
+  {
+   "brand": "everyday",
+   "id": "4029",
+   "name": "에브리데이 모충동점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4150",
+   "name": "에브리데이 서충주점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4165",
+   "name": "에브리데이 오창산단점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4048",
+   "name": "에브리데이 음성점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4132",
+   "name": "에브리데이 진천옥동점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4045",
+   "name": "에브리데이 충북오창점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4200",
+   "name": "에브리데이 충주호암점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4038",
+   "name": "에브리데이 탑동점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3902",
+   "name": "노브랜드 제천장락점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3219",
+   "name": "노브랜드 제천중앙시장점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3817",
+   "name": "노브랜드 진천덕산점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3867",
+   "name": "노브랜드 청주가경점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3858",
+   "name": "노브랜드 청주동남점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3026",
+   "name": "노브랜드 청주사천점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3872",
+   "name": "노브랜드 청주오송점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3096",
+   "name": "노브랜드 충주중앙탑점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3843",
+   "name": "노브랜드 충주호암점",
+   "area": "충북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1024",
+   "name": "이마트 만촌점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-602-1234",
+   "parking": "총 835대",
+   "address": "대구 수성구 동원로 136 (만촌동, 이마트만촌점)",
+   "address_lot": "대구 수성구 동원로 136 (만촌동, 이마트만촌점)",
+   "lat": 35.8712064928348,
+   "lng": 128.637147299293
+  },
+  {
+   "brand": "emart",
+   "id": "1058",
+   "name": "이마트 반야월점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-665-1234",
+   "parking": "총 718대",
+   "address": "대구광역시 동구 안심로 389-2",
+   "address_lot": "대구광역시 동구 안심로 389-2",
+   "lat": 35.8707056,
+   "lng": 128.7274785
+  },
+  {
+   "brand": "emart",
+   "id": "1014",
+   "name": "이마트 성서점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "토요일 13:00~19:00, 일요일/공휴일 휴점",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-605-1234",
+   "parking": "총 967대",
+   "address": "대구 달서구 이곡동로 24",
+   "address_lot": "대구 달서구 이곡동로 24",
+   "lat": 35.853524,
+   "lng": 128.51015
+  },
+  {
+   "brand": "emart",
+   "id": "1027",
+   "name": "이마트 월배점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-607-1234",
+   "parking": "총 1,124대",
+   "address": "대구 달서구 진천로 92이마트 월배점",
+   "address_lot": "대구 달서구 진천로 92이마트 월배점",
+   "lat": 35.8167313,
+   "lng": 128.5231506
+  },
+  {
+   "brand": "emart",
+   "id": "1037",
+   "name": "이마트 칠성점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-609-1234",
+   "parking": "총 1,200대",
+   "address": "대구 북구 침산로 93",
+   "address_lot": "대구 북구 침산로 93",
+   "lat": 35.8846379,
+   "lng": 128.5897425
+  },
+  {
+   "brand": "emart",
+   "id": "1141",
+   "name": "이마트 푸드마켓 수성점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-288-1234",
+   "parking": "총 130대",
+   "address": "대구 수성구 수성로 393 (수성동4가, 수성하이츠)지하1층",
+   "address_lot": "대구 수성구 수성로 393 (수성동4가, 수성하이츠)지하1층",
+   "lat": 35.8611614931299,
+   "lng": 128.613292258181
+  },
+  {
+   "brand": "traders",
+   "id": "2005",
+   "name": "트레이더스 홀세일 클럽 비산점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "053-714-1234",
+   "parking": "총 607대",
+   "address": "대구광역시 서구 팔달로 54",
+   "address_lot": "대구광역시 서구 팔달로 54",
+   "lat": 35.889865,
+   "lng": 128.555975
+  },
+  {
+   "brand": "everyday",
+   "id": "4225",
+   "name": "에브리데이 대구도남점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4125",
+   "name": "에브리데이 대구옥포점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4015",
+   "name": "에브리데이 방촌동점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3909",
+   "name": "노브랜드 대구다사점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3825",
+   "name": "노브랜드 대구매천점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3814",
+   "name": "노브랜드 대구봉무점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3830",
+   "name": "노브랜드 대구사수점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3832",
+   "name": "노브랜드 대구세천점",
+   "area": "대구",
+   "holiday_days": [
+    "25",
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3844",
+   "name": "노브랜드 대구옥포점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3154",
+   "name": "노브랜드 대구월배시장점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3845",
+   "name": "노브랜드 대구율하점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3831",
+   "name": "노브랜드 대구학정점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3809",
+   "name": "노브랜드 대구현풍점",
+   "area": "대구",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1136",
+   "name": "이마트 김해점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-310-1234",
+   "parking": "총 1691대",
+   "address": "경남 김해시 김해대로 2232 (외동)이마트 김해점",
+   "address_lot": "경남 김해시 김해대로 2232 (외동)이마트 김해점",
+   "lat": 35.229944,
+   "lng": 128.871803
+  },
+  {
+   "brand": "emart",
+   "id": "1101",
+   "name": "이마트 마산점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-711-1234",
+   "parking": "총 736대",
+   "address": "경상남도 창원시 마산합포구 서성로 3",
+   "address_lot": "경상남도 창원시 마산합포구 서성로 3",
+   "lat": 35.1979774,
+   "lng": 128.5698915
+  },
+  {
+   "brand": "emart",
+   "id": "1116",
+   "name": "이마트 사천점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-850-1234",
+   "parking": "총 408대",
+   "address": "경상남도 사천시 삼천포대교로 591",
+   "address_lot": "경상남도 사천시 삼천포대교로 591",
+   "lat": 34.9509333,
+   "lng": 128.0772639
+  },
+  {
+   "brand": "emart",
+   "id": "1056",
+   "name": "이마트 양산점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-371-8123",
+   "parking": "총 778대",
+   "address": "경상남도 양산시 양산역6길 12",
+   "address_lot": "경상남도 양산시 양산역6길 12",
+   "lat": 35.3370573,
+   "lng": 129.0264638
+  },
+  {
+   "brand": "emart",
+   "id": "1021",
+   "name": "이마트 진주점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-749-1234",
+   "parking": "총 454대",
+   "address": "경남 진주시 진양호로 477",
+   "address_lot": "경남 진주시 진양호로 477",
+   "lat": 35.1913356,
+   "lng": 128.0776555
+  },
+  {
+   "brand": "emart",
+   "id": "1040",
+   "name": "이마트 창원점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-211-1234",
+   "parking": "총 815대",
+   "address": "경상남도 창원시 성산구 원이대로 608",
+   "address_lot": "경상남도 창원시 성산구 원이대로 608",
+   "lat": 35.2264163,
+   "lng": 128.6800123
+  },
+  {
+   "brand": "emart",
+   "id": "1064",
+   "name": "이마트 통영점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-650-1234",
+   "parking": "총 770대",
+   "address": "경상남도 통영시 광도면 죽림4로 9",
+   "address_lot": "경상남도 통영시 광도면 죽림4로 9",
+   "lat": 34.8872925,
+   "lng": 128.4174952
+  },
+  {
+   "brand": "traders",
+   "id": "2008",
+   "name": "트레이더스 홀세일 클럽 양산점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "055-380-6123",
+   "parking": "총 547대",
+   "address": "경상남도 양산시 평산로 16",
+   "address_lot": "경상남도 양산시 평산로 16",
+   "lat": 35.3823343,
+   "lng": 129.1527449
+  },
+  {
+   "brand": "everyday",
+   "id": "4205",
+   "name": "에브리데이 거제상동점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4118",
+   "name": "에브리데이 거제수월점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4143",
+   "name": "에브리데이 김해율하점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4013",
+   "name": "에브리데이 김해점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4082",
+   "name": "에브리데이 양산물금점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4753",
+   "name": "에브리데이 양산석산점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4188",
+   "name": "에브리데이 월영마린애시앙점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4204",
+   "name": "에브리데이 진주가좌점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4768",
+   "name": "에브리데이 진해경화점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4178",
+   "name": "에브리데이 창원더스퀘어점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3218",
+   "name": "노브랜드 거제아주점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3161",
+   "name": "노브랜드 거제양정점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3855",
+   "name": "노브랜드 김해율하점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3866",
+   "name": "노브랜드 김해주촌점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3091",
+   "name": "노브랜드 김해진영점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3859",
+   "name": "노브랜드 마산내서점",
+   "area": "경남",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3816",
+   "name": "노브랜드 마산현동점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3868",
+   "name": "노브랜드 밀양삼문점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3901",
+   "name": "노브랜드 양산가촌점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3073",
+   "name": "노브랜드 양산물금점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3829",
+   "name": "노브랜드 진주MBC점",
+   "area": "경남",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3136",
+   "name": "노브랜드 진주초전점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3061",
+   "name": "노브랜드 진주충무공점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3803",
+   "name": "노브랜드 진해용원점",
+   "area": "경남",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3820",
+   "name": "노브랜드 진해자은점",
+   "area": "경남",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3828",
+   "name": "노브랜드 진해풍호점",
+   "area": "경남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3137",
+   "name": "노브랜드 창원대동점",
+   "area": "경남",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "starfield",
+   "id": "1074",
+   "name": "스타필드 마켓 경산점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "주말, 공휴일 영업시간 / 매주 수요일 휴점[고유가지원금 사용가능]",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "053-940-1234",
+   "parking": "총 833대",
+   "address": "경북 경산시 옥산로 227 (중산동, 경산이마트)이마트 경산점",
+   "address_lot": "경북 경산시 옥산로 227 (중산동, 경산이마트)이마트 경산점",
+   "lat": 35.8349111322679,
+   "lng": 128.720087326388
+  },
+  {
+   "brand": "emart",
+   "id": "1039",
+   "name": "이마트 구미점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "054-467-1234",
+   "parking": "총 936대",
+   "address": "경상북도 구미시 구미대로 256",
+   "address_lot": "경상북도 구미시 구미대로 256",
+   "lat": 36.1095212,
+   "lng": 128.3649365
+  },
+  {
+   "brand": "emart",
+   "id": "1007",
+   "name": "이마트 김천점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "054-420-1234",
+   "parking": "총 350대",
+   "address": "경북 김천시 시청로 75",
+   "address_lot": "경북 김천시 시청로 75",
+   "lat": 36.1349523,
+   "lng": 128.1168079
+  },
+  {
+   "brand": "emart",
+   "id": "1122",
+   "name": "이마트 동구미점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "054-480-1234",
+   "parking": "총 694대",
+   "address": "경상북도 구미시 이계북로 23",
+   "address_lot": "경상북도 구미시 이계북로 23",
+   "lat": 36.1064429,
+   "lng": 128.4042176
+  },
+  {
+   "brand": "emart",
+   "id": "1081",
+   "name": "이마트 상주점",
+   "area": "경북",
+   "holiday_days": [
+    "30"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/30(수), 10/14(수)",
+   "closures": [
+    "9/30",
+    "10/14"
+   ],
+   "phone": "054-537-1234",
+   "parking": "총 454대",
+   "address": "경상북도 상주시 경상대로 3141",
+   "address_lot": "경상북도 상주시 경상대로 3141",
+   "lat": 36.4277888,
+   "lng": 128.1509826
+  },
+  {
+   "brand": "emart",
+   "id": "1061",
+   "name": "이마트 안동점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "054-850-1234",
+   "parking": "총 438대",
+   "address": "경북 안동시 옥동 1길2",
+   "address_lot": "경북 안동시 옥동 1길2",
+   "lat": 36.5585083,
+   "lng": 128.6992625
+  },
+  {
+   "brand": "emart",
+   "id": "1053",
+   "name": "이마트 영천점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "054-330-1234",
+   "parking": "총 594대",
+   "address": "경상북도 영천시 최무선로 83",
+   "address_lot": "경상북도 영천시 최무선로 83",
+   "lat": 35.9584732,
+   "lng": 128.9100191
+  },
+  {
+   "brand": "emart",
+   "id": "1102",
+   "name": "이마트 포항이동점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "054-721-1234",
+   "parking": "총 767대",
+   "address": "경북 포항시 북구 대이로 188 (득량동, 이마트)",
+   "address_lot": "경북 포항시 북구 대이로 188 (득량동, 이마트)",
+   "lat": 36.0317786480652,
+   "lng": 129.339041987992
+  },
+  {
+   "brand": "emart",
+   "id": "1035",
+   "name": "이마트 포항점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "054-223-1234",
+   "parking": "총 891대",
+   "address": "경북 포항시 남구 냉천로 10",
+   "address_lot": "경북 포항시 남구 냉천로 10",
+   "lat": 35.9909662,
+   "lng": 129.3988051
+  },
+  {
+   "brand": "everyday",
+   "id": "4184",
+   "name": "에브리데이 경산무학점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4709",
+   "name": "에브리데이 경주용강점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4080",
+   "name": "에브리데이 구미구평점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4119",
+   "name": "에브리데이 구미봉곡점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4011",
+   "name": "에브리데이 성주점",
+   "area": "경북",
+   "holiday_days": []
+  },
+  {
+   "brand": "everyday",
+   "id": "4019",
+   "name": "에브리데이 연일점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4199",
+   "name": "에브리데이 포항양덕점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4702",
+   "name": "에브리데이 포항학천점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4012",
+   "name": "에브리데이 형곡동점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3824",
+   "name": "노브랜드 경산백천점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3815",
+   "name": "노브랜드 경산사동점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3084",
+   "name": "노브랜드 경산정평점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3833",
+   "name": "노브랜드 경주용강점",
+   "area": "경북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3864",
+   "name": "노브랜드 구미문성점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3910",
+   "name": "노브랜드 구미상모점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3878",
+   "name": "노브랜드 구미선산시장점",
+   "area": "경북",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3841",
+   "name": "노브랜드 구미송정점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3856",
+   "name": "노브랜드 구미진평점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3811",
+   "name": "노브랜드 구미확장점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3059",
+   "name": "노브랜드 김천율곡점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3826",
+   "name": "노브랜드 문경모전점",
+   "area": "경북",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3897",
+   "name": "노브랜드 문경중앙시장점",
+   "area": "경북",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3819",
+   "name": "노브랜드 안동옥동점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3847",
+   "name": "노브랜드 영주가흥점",
+   "area": "경북",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3865",
+   "name": "노브랜드 영천조교점",
+   "area": "경북",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3849",
+   "name": "노브랜드 칠곡석적점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3827",
+   "name": "노브랜드 칠곡왜관점",
+   "area": "경북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3848",
+   "name": "노브랜드 포항상도점",
+   "area": "경북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3839",
+   "name": "노브랜드 포항양덕점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3860",
+   "name": "노브랜드 포항오천점",
+   "area": "경북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3838",
+   "name": "노브랜드 포항초곡점",
+   "area": "경북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3852",
+   "name": "노브랜드예천호명점",
+   "area": "경북",
+   "holiday_days": [
+    "22"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1051",
+   "name": "이마트 울산점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/14(수)",
+   "closures": [
+    "9/27",
+    "10/14"
+   ],
+   "phone": "052-220-1234",
+   "parking": "총 956대",
+   "address": "울산광역시 남구 남중로 48",
+   "address_lot": "울산광역시 남구 남중로 48",
+   "lat": 35.5376596,
+   "lng": 129.3484407
+  },
+  {
+   "brand": "everyday",
+   "id": "4139",
+   "name": "에브리데이 울산무거점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4124",
+   "name": "에브리데이 울산야음점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4148",
+   "name": "에브리데이 울산천상점",
+   "area": "울산",
+   "holiday_days": []
+  },
+  {
+   "brand": "nobrand",
+   "id": "3035",
+   "name": "노브랜드 울산달동점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3873",
+   "name": "노브랜드 울산명촌점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3802",
+   "name": "노브랜드 울산무거점",
+   "area": "울산",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3216",
+   "name": "노브랜드 울산방어점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3836",
+   "name": "노브랜드 울산범서점",
+   "area": "울산",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3861",
+   "name": "노브랜드 울산성남점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3057",
+   "name": "노브랜드 울산신천점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3810",
+   "name": "노브랜드 울산유곡점",
+   "area": "울산",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1046",
+   "name": "이마트 금정점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-606-1234",
+   "parking": "총 891대",
+   "address": "부산 금정구 중앙대로1841번길 24 (구서동, (주)이마트금정점)",
+   "address_lot": "부산 금정구 중앙대로1841번길 24 (구서동, (주)이마트금정점)",
+   "lat": 35.2499415346867,
+   "lng": 129.090596231215
+  },
+  {
+   "brand": "emart",
+   "id": "1045",
+   "name": "이마트 문현점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-609-1234",
+   "parking": "총 827대",
+   "address": "부산광역시 남구 전포대로91번길 47",
+   "address_lot": "부산광역시 남구 전포대로91번길 47",
+   "lat": 35.1442319,
+   "lng": 129.0642717
+  },
+  {
+   "brand": "emart",
+   "id": "1050",
+   "name": "이마트 사상점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-329-1234",
+   "parking": "총 577대",
+   "address": "부산광역시 사상구 광장로 17",
+   "address_lot": "부산광역시 사상구 광장로 17",
+   "lat": 35.163919,
+   "lng": 128.9789258
+  },
+  {
+   "brand": "emart",
+   "id": "1036",
+   "name": "이마트 연제점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-860-1234",
+   "parking": "총 912대",
+   "address": "부산 연제구 연수로 89이마트 연제점",
+   "address_lot": "부산 연제구 연수로 89이마트 연제점",
+   "lat": 35.1760592,
+   "lng": 129.0813232
+  },
+  {
+   "brand": "emart",
+   "id": "1018",
+   "name": "이마트 해운대점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-608-1234",
+   "parking": "총 694대",
+   "address": "부산 해운대구 좌동순환로 511",
+   "address_lot": "부산 해운대구 좌동순환로 511",
+   "lat": 35.1660659,
+   "lng": 129.1672929
+  },
+  {
+   "brand": "traders",
+   "id": "2018",
+   "name": "트레이더스 홀세일 클럽 명지점",
+   "area": "부산",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/12(월)",
+   "closures": [
+    "9/25",
+    "10/12"
+   ],
+   "phone": "051-922-4100",
+   "parking": "총 1273대",
+   "address": "부산 강서구 명지국제6로 168 (명지동, 스타필드 시티 명지점)지하 2층",
+   "address_lot": "부산 강서구 명지국제6로 168 (명지동, 스타필드 시티 명지점)지하 2층",
+   "lat": 35.09315401960825,
+   "lng": 128.9181577353177
+  },
+  {
+   "brand": "traders",
+   "id": "2004",
+   "name": "트레이더스 홀세일 클럽 서면점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-718-1234",
+   "parking": "총 794대",
+   "address": "부산광역시 부산진구 시민공원로 31",
+   "address_lot": "부산광역시 부산진구 시민공원로 31",
+   "lat": 35.1640542,
+   "lng": 129.0526883
+  },
+  {
+   "brand": "traders",
+   "id": "2020",
+   "name": "트레이더스 홀세일 클럽 연산점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/28(월), 10/12(월)",
+   "closures": [
+    "9/28",
+    "10/12"
+   ],
+   "phone": "051-968-5600",
+   "parking": "총 926대",
+   "address": "부산 연제구 좌수영로 241 (연산동)트레이더스 홀세일 클럽 연산점",
+   "address_lot": "부산 연제구 좌수영로 241 (연산동)트레이더스 홀세일 클럽 연산점",
+   "lat": 35.1850939786146,
+   "lng": 129.111950912034
+  },
+  {
+   "brand": "everyday",
+   "id": "4138",
+   "name": "에브리데이 부산구포점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4229",
+   "name": "에브리데이 부산반여점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4161",
+   "name": "에브리데이 부산일광점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4162",
+   "name": "에브리데이 오션시티점",
+   "area": "부산",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4077",
+   "name": "에브리데이 정관점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3254",
+   "name": "노브랜드 부산남산점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3884",
+   "name": "노브랜드 부산다대점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3911",
+   "name": "노브랜드 부산송정점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3122",
+   "name": "노브랜드 부산아웃렛점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3015",
+   "name": "노브랜드 부산아트몰링점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3882",
+   "name": "노브랜드 부산정관점",
+   "area": "부산",
+   "holiday_days": [
+    "28"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1054",
+   "name": "이마트 광산점",
+   "area": "광주",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "062-949-1234",
+   "parking": "총 646대",
+   "address": "전남광주통합특별시 광산구 사암로 172 (우산동, 광산 이마트)172",
+   "address_lot": "전남광주통합특별시 광산구 사암로 172 (우산동, 광산 이마트)172",
+   "lat": 35.1600053557975,
+   "lng": 126.80857976294
+  },
+  {
+   "brand": "emart",
+   "id": "1138",
+   "name": "이마트 광주점",
+   "area": "광주",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "062-360-0123",
+   "parking": "총 2,300대",
+   "address": "전남광주통합특별시 서구 죽봉대로 61 (화정동, 광주 이마트)",
+   "address_lot": "전남광주통합특별시 서구 죽봉대로 61 (화정동, 광주 이마트)",
+   "lat": 35.1586722673445,
+   "lng": 126.882007804032
+  },
+  {
+   "brand": "emart",
+   "id": "1082",
+   "name": "이마트 봉선점",
+   "area": "광주",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "062-611-1234",
+   "parking": "총 580대",
+   "address": "전남광주통합특별시 남구 봉선로 198 (봉선동, 이마트)198",
+   "address_lot": "전남광주통합특별시 남구 봉선로 198 (봉선동, 이마트)198",
+   "lat": 35.1223363050765,
+   "lng": 126.91611373117
+  },
+  {
+   "brand": "everyday",
+   "id": "4035",
+   "name": "에브리데이 동림동점",
+   "area": "광주",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4031",
+   "name": "에브리데이 일곡동점",
+   "area": "광주",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1022",
+   "name": "이마트 목포점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "061-260-1234",
+   "parking": "총 624대",
+   "address": "전남광주통합특별시 목포시 옥암로 138 (옥암동, 목포이마트)",
+   "address_lot": "전남광주통합특별시 목포시 옥암로 138 (옥암동, 목포이마트)",
+   "lat": 34.8116362145306,
+   "lng": 126.425213247586
+  },
+  {
+   "brand": "emart",
+   "id": "1065",
+   "name": "이마트 순천점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "고유가지원금 사용불가 [휴점안내 : 8/15(토)~8/17(월),3일간]",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "061-749-1234",
+   "parking": "총 676대",
+   "address": "전남광주통합특별시 순천시 팔마로 191 (덕암동, (주)이마트)",
+   "address_lot": "전남광주통합특별시 순천시 팔마로 191 (덕암동, (주)이마트)",
+   "lat": 34.9425532694815,
+   "lng": 127.508488451151
+  },
+  {
+   "brand": "emart",
+   "id": "1034",
+   "name": "이마트 여수점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "휴점일은 지자체 상황에 따라 변동될 수 있습니다",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "061-650-1234",
+   "parking": "총 458대",
+   "address": "전남광주통합특별시 여수시 좌수영로 277 (오림동, 이마트)",
+   "address_lot": "전남광주통합특별시 여수시 좌수영로 277 (오림동, 이마트)",
+   "lat": 34.7579017677845,
+   "lng": 127.71498937974
+  },
+  {
+   "brand": "everyday",
+   "id": "4030",
+   "name": "에브리데이 고흥점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4111",
+   "name": "에브리데이 나주혁신점",
+   "area": "전남",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4202",
+   "name": "에브리데이 무안오룡점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3067",
+   "name": "노브랜드 나주빛가람점",
+   "area": "전남",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "starfield",
+   "id": "1025",
+   "name": "스타필드 마켓 군산점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "063-472-1234",
+   "parking": "총 968대",
+   "address": "전북특별자치도 군산시 구암3.1로 137",
+   "address_lot": "전북특별자치도 군산시 구암3.1로 137",
+   "lat": 35.9827607787529,
+   "lng": 126.73471062411
+  },
+  {
+   "brand": "emart",
+   "id": "1005",
+   "name": "이마트 남원점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "063-620-3123",
+   "parking": "총 170대",
+   "address": "전북특별자치도 남원시 남문로 385-16",
+   "address_lot": "전북특별자치도 남원시 남문로 385-16",
+   "lat": 35.4076424833313,
+   "lng": 127.374818195873
+  },
+  {
+   "brand": "emart",
+   "id": "1076",
+   "name": "이마트 익산점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "063-860-1234",
+   "parking": "총 668대",
+   "address": "전북특별자치도 익산시 평동로 705 (동산동, E마트)",
+   "address_lot": "전북특별자치도 익산시 평동로 705 (동산동, E마트)",
+   "lat": 35.9306156196318,
+   "lng": 126.957987914744
+  },
+  {
+   "brand": "emart",
+   "id": "1010",
+   "name": "이마트 전주점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "063-259-1234",
+   "parking": "총 867대",
+   "address": "전북특별자치도 전주시 완산구 당산로 111",
+   "address_lot": "전북특별자치도 전주시 완산구 당산로 111",
+   "lat": 35.8325886207467,
+   "lng": 127.120284143219
+  },
+  {
+   "brand": "everyday",
+   "id": "4032",
+   "name": "에브리데이 나운동점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4168",
+   "name": "에브리데이 임실점",
+   "area": "전북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4108",
+   "name": "에브리데이 전주혁신점",
+   "area": "전북",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4712",
+   "name": "에브리데이 전주휴먼시아점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4033",
+   "name": "에브리데이 평화동점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3806",
+   "name": "노브랜드 군산미장점",
+   "area": "전북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3112",
+   "name": "노브랜드 익산부송점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3877",
+   "name": "노브랜드 익산송학점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3905",
+   "name": "노브랜드 전주 만성점",
+   "area": "전북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3906",
+   "name": "노브랜드 전주 인후점",
+   "area": "전북",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3805",
+   "name": "노브랜드 전주삼천점",
+   "area": "전북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3804",
+   "name": "노브랜드 전주송천점",
+   "area": "전북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3869",
+   "name": "노브랜드 전주평화점",
+   "area": "전북",
+   "holiday_days": [
+    "25",
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1043",
+   "name": "이마트 강릉점",
+   "area": "강원",
+   "holiday_days": [
+    "23"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/23(수), 10/14(수)",
+   "closures": [
+    "9/23",
+    "10/14"
+   ],
+   "phone": "033-649-1234",
+   "parking": "총 713대",
+   "address": "강원특별자치도 강릉시 경강로 2398-10 (송정동)",
+   "address_lot": "강원특별자치도 강릉시 경강로 2398-10 (송정동)",
+   "lat": 37.7705532388243,
+   "lng": 128.92270969201
+  },
+  {
+   "brand": "emart",
+   "id": "1052",
+   "name": "이마트 동해점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "033-539-7123",
+   "parking": "총 376대",
+   "address": "강원특별자치도 동해시 천곡로 100 (천곡동, 동해이마트)",
+   "address_lot": "강원특별자치도 동해시 천곡로 100 (천곡동, 동해이마트)",
+   "lat": 37.5239212895491,
+   "lng": 129.117129111996
+  },
+  {
+   "brand": "emart",
+   "id": "1049",
+   "name": "이마트 속초점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "033-630-1234",
+   "parking": "총 422대",
+   "address": "강원특별자치도 속초시 설악금강대교로 12 (청호동, E마트)",
+   "address_lot": "강원특별자치도 속초시 설악금강대교로 12 (청호동, E마트)",
+   "lat": 38.1910430695899,
+   "lng": 128.595843389626
+  },
+  {
+   "brand": "emart",
+   "id": "1011",
+   "name": "이마트 원주점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "033-749-1234",
+   "parking": "총 555대",
+   "address": "강원특별자치도 원주시 북원로 1928 (무실동, 이마트)",
+   "address_lot": "강원특별자치도 원주시 북원로 1928 (무실동, 이마트)",
+   "lat": 37.3206714811843,
+   "lng": 127.919047521687
+  },
+  {
+   "brand": "emart",
+   "id": "1066",
+   "name": "이마트 춘천점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/27(일), 10/11(일)",
+   "closures": [
+    "9/27",
+    "10/11"
+   ],
+   "phone": "033-240-1234",
+   "parking": "총 687대",
+   "address": "강원특별자치도 춘천시 경춘로 2353 (온의동, 이마트)",
+   "address_lot": "강원특별자치도 춘천시 경춘로 2353 (온의동, 이마트)",
+   "lat": 37.8638689190636,
+   "lng": 127.718718364612
+  },
+  {
+   "brand": "emart",
+   "id": "1079",
+   "name": "이마트 태백점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~22:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/14(수)",
+   "closures": [
+    "9/25",
+    "10/14"
+   ],
+   "phone": "033-580-1234",
+   "parking": "총 310대",
+   "address": "강원특별자치도 태백시 굴거랑길 4 (화전동)이마트 태백점",
+   "address_lot": "강원특별자치도 태백시 굴거랑길 4 (화전동)이마트 태백점",
+   "lat": 37.2000144790754,
+   "lng": 128.961832149274
+  },
+  {
+   "brand": "everyday",
+   "id": "4703",
+   "name": "에브리데이 속초삼환점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4705",
+   "name": "에브리데이 속초영랑점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4117",
+   "name": "에브리데이 춘천석사점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "everyday",
+   "id": "4192",
+   "name": "에브리데이 춘천우두점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3822",
+   "name": "노브랜드 강릉교동점",
+   "area": "강원",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3907",
+   "name": "노브랜드 강릉입암점",
+   "area": "강원",
+   "holiday_days": [
+    "23"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3813",
+   "name": "노브랜드 동해남부시장점",
+   "area": "강원",
+   "holiday_days": [
+    "20"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3222",
+   "name": "노브랜드 삼척중앙시장점",
+   "area": "강원",
+   "holiday_days": [
+    "21"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3842",
+   "name": "노브랜드 속초조양점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3846",
+   "name": "노브랜드 원주단계점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3065",
+   "name": "노브랜드 원주무실점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3063",
+   "name": "노브랜드 원주반곡점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3892",
+   "name": "노브랜드 원주지정점",
+   "area": "강원",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3870",
+   "name": "노브랜드 춘천만천점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3818",
+   "name": "노브랜드 춘천점",
+   "area": "강원",
+   "holiday_days": [
+    "27"
+   ]
+  },
+  {
+   "brand": "emart",
+   "id": "1073",
+   "name": "이마트 서귀포점",
+   "area": "제주",
+   "holiday_days": [
+    "25"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/25(금), 10/16(금)",
+   "closures": [
+    "9/25",
+    "10/16"
+   ],
+   "phone": "064-797-1234",
+   "parking": "총 480대",
+   "address": "제주특별자치도 서귀포시 일주동로 9209",
+   "address_lot": "제주특별자치도 서귀포시 일주동로 9209",
+   "lat": 33.2481478,
+   "lng": 126.50938
+  },
+  {
+   "brand": "emart",
+   "id": "1048",
+   "name": "이마트 신제주점",
+   "area": "제주",
+   "holiday_days": [
+    "26"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/26(토), 10/9(금)",
+   "closures": [
+    "9/26",
+    "10/9"
+   ],
+   "phone": "064-798-1234",
+   "parking": "총 295대",
+   "address": "제주특별자치도 제주시 1100로 3348",
+   "address_lot": "제주특별자치도 제주시 1100로 3348",
+   "lat": 33.48501,
+   "lng": 126.4803
+  },
+  {
+   "brand": "emart",
+   "id": "1004",
+   "name": "이마트 제주점",
+   "area": "제주",
+   "holiday_days": [
+    "26"
+   ],
+   "hours": "10:00~23:00",
+   "closure_rule": "",
+   "closures_raw": "9/26(토), 10/9(금)",
+   "closures": [
+    "9/26",
+    "10/9"
+   ],
+   "phone": "064-729-1234",
+   "parking": "총 475대",
+   "address": "제주특별자치도 제주시 탑동로 38",
+   "address_lot": "제주특별자치도 제주시 탑동로 38",
+   "lat": 33.518083,
+   "lng": 126.5209
+  },
+  {
+   "brand": "nobrand",
+   "id": "3879",
+   "name": "노브랜드 서귀포 서홍점",
+   "area": "제주",
+   "holiday_days": [
+    "25"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3807",
+   "name": "노브랜드 제주아라점",
+   "area": "제주",
+   "holiday_days": [
+    "25",
+    "26"
+   ]
+  },
+  {
+   "brand": "nobrand",
+   "id": "3904",
+   "name": "노브랜드 제주외도점",
+   "area": "제주",
+   "holiday_days": [
+    "25",
+    "26"
+   ]
+  }
+ ]
+}

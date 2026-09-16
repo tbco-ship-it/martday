@@ -1,0 +1,10 @@
+{# month calendar: closures = {iso: label or count}, year, month #}
+<div class="cal">
+  <div class="cal-h">{{ year }}년 {{ month }}월</div>
+  <div class="cal-grid">
+    {% for d in ['일','월','화','수','목','금','토'] %}<div class="cal-dow{% if loop.first %} sun{% endif %}">{{ d }}</div>{% endfor %}
+    {% for week in month_grid(year, month) %}{% for iso in week %}
+      <div class="cal-d{% if not iso %} empty{% elif iso in closures %} closed{% endif %}{% if iso == today %} today{% endif %}{% if iso and loop.first %} sun{% endif %}">{% if iso %}<span>{{ iso[8:]|int }}</span>{% if iso in closures %}<em>{{ closures[iso] }}</em>{% endif %}{% endif %}</div>
+    {% endfor %}{% endfor %}
+  </div>
+</div>

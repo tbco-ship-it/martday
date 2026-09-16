@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ area }} 마트 휴무일 — 이마트·코스트코·트레이더스·에브리데이·노브랜드 {{ stores|length }}개 점포 | {{ site }}{% endblock %}
+{% block description %}{{ area }} 지역 대형마트·창고형 매장·기업형 슈퍼 {{ stores|length }}개 점포의 이번 달 휴무일과 영업시간.{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="{{ base }}">홈</a> › {{ area }}</nav>
+<h1>{{ area }} 마트 휴무일</h1>
+<p class="prose">{{ area }}의 {{ stores|length }}개 점포. 다음 휴무일이 가까운 순서가 아니라 브랜드·이름 순입니다. 오늘 열었는지는 <a href="{{ base }}">홈에서 점포 검색</a>이 빠릅니다.</p>
+<div class="ad-slot"><!-- ad: region --></div>
+{% for b, info in brands.items() %}{% set lst = stores|selectattr('brand','equalto',b)|list %}{% if lst %}
+<div class="sec"><div class="sec-h"><h2>{{ info.short }} <span class="muted small">{{ lst|length }}개</span></h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>
+<ul class="list">{% for s in lst %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.name }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}—{% endif %}</span></a></li>{% endfor %}</ul></div>
+{% endif %}{% endfor %}
+{% endblock %}

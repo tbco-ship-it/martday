@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ info.short }} 휴무일 {{ months[0][0] }}년 {{ months[0][1] }}월 — 전국 {{ stores|length }}개 점포 휴점일·영업시간 | {{ site }}{% endblock %}
+{% block description %}{{ info.name }} 이번 달과 다음 달 휴무일 달력, 점포별 휴점일과 영업시간. 유통사 공식 점포 안내 기준, 매일 갱신.{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"{{ info.short }} 이번 달 휴무일은 언제인가요?","acceptedAnswer":{"@type":"Answer","text":"{{ months[0][1] }}월 {{ info.short }} 휴무일은 점포별로 다릅니다. 가장 많은 점포가 쉬는 날은 {% for iso, n in (counts.items()|list|sort(attribute='1', reverse=True))[:3] %}{{ iso|kdate }}({{ n }}개 점포){% if not loop.last %}, {% endif %}{% endfor %}입니다. 점포 이름으로 검색하면 해당 점포의 날짜를 정확히 볼 수 있습니다."}}]}</script>{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="{{ base }}">홈</a> › {{ info.short }}</nav>
+<h1>{{ info.short }} 휴무일</h1>
+<p class="prose">전국 {{ stores|length }}개 점포. {% for k, n in rules.items() %}{{ k }} 휴무 {{ n }}개{% if not loop.last %} · {% endif %}{% endfor %}. 달력의 숫자는 그날 쉬는 점포 수입니다 — 내 점포가 그날 쉬는지는 아래 목록이나 <a href="{{ base }}">점포 검색</a>에서 확인하세요.</p>
+<div class="grid2">
+{% for year, month in months %}{% set closures = {} %}{% for iso, n in counts.items() if iso[:7] == "%04d-%02d"|format(year, month) %}{% set _ = closures.update({iso: n}) %}{% endfor %}{% include "_calendar.html" %}{% endfor %}
+</div>
+<div class="ad-slot"><!-- ad: brand --></div>
+{% for a, lst in areas.items()|sort(attribute='0') %}
+<div class="sec"><div class="sec-h"><h2>{{ a }} <span class="muted small">{{ lst|length }}개</span></h2><a href="{{ base }}region/{{ a }}/">{{ a }} 전체 마트</a></div>
+<ul class="list">{% for s in lst|sort(attribute='name') %}<li><a href="{{ base }}{{ brand }}/{{ s.slug }}/">{{ s.name }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}휴무 정보 없음{% endif %}</span></a></li>{% endfor %}</ul></div>
+{% endfor %}
+{% endblock %}

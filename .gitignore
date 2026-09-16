@@ -1,0 +1,4 @@
+.venv/
+dist/
+__pycache__/
+data/stores/costco_raw.json
