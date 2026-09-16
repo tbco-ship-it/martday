@@ -30,8 +30,8 @@ def month_grid(year, month):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default="/")
-    ap.add_argument("--origin", default="https://tbco-ship-it.github.io")
-    ap.add_argument("--cname", default="")
+    ap.add_argument("--origin", default="https://martoday.com")
+    ap.add_argument("--cname", default="martoday.com")
     ap.add_argument("--adsense-pub", default="pub-8425563704095379")
     args = ap.parse_args()
     base = args.base if args.base.endswith("/") else args.base + "/"
