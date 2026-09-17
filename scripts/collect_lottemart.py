@@ -101,6 +101,52 @@ def main():
         }
         out.append(rec)
 
+    # Preserve existing coordinates or geocode
+    coord_cache = {}
+    if OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text())
+            for s in prev.get("stores", []):
+                if s.get("lat") and s.get("lng"):
+                    coord_cache[s.get("name")] = (s["lat"], s["lng"])
+                    coord_cache[s.get("address")] = (s["lat"], s["lng"])
+        except Exception:
+            pass
+
+    def clean_addr(address):
+        c = re.sub(r"\(.*?\)", "", address).strip()
+        c = re.sub(r"\s+(상가|지하|\d+층|B\d+층|지상).*$", "", c).strip()
+        return c.split(",")[0].strip()
+
+    def geocode_addr(address, store_name):
+        c_addr = clean_addr(address)
+        for q in [c_addr, store_name, " ".join(c_addr.split()[:3])]:
+            if not q.strip():
+                continue
+            try:
+                url = f"https://photon.komoot.io/api/?q={urllib.parse.quote(q)}&limit=1"
+                req = urllib.request.Request(url, headers={"User-Agent": "Martday/1.0"})
+                res = urllib.request.urlopen(req, timeout=4)
+                d = json.loads(res.read())
+                feats = d.get("features", [])
+                if feats:
+                    coords = feats[0]["geometry"]["coordinates"]
+                    return round(coords[1], 7), round(coords[0], 7)
+            except Exception:
+                pass
+        return None, None
+
+    for s in out:
+        if s["name"] in coord_cache:
+            s["lat"], s["lng"] = coord_cache[s["name"]]
+        elif s["address"] in coord_cache:
+            s["lat"], s["lng"] = coord_cache[s["address"]]
+        else:
+            lat, lng = geocode_addr(s["address"], s["name"])
+            if lat and lng:
+                s["lat"], s["lng"] = lat, lng
+                coord_cache[s["name"]] = (lat, lng)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"fetched": time.strftime("%Y-%m-%d"), "stores": out}, ensure_ascii=False, indent=1))
     has_closures = sum(1 for r in out if r.get("closures"))
