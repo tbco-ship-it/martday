@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block title %}오늘 마트 휴무일 확인 — 이마트·코스트코·트레이더스·에브리데이·노브랜드 {{ today_k }} | {{ site }}{% endblock %}
-{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"{{ site }}","applicationCategory":"UtilitiesApplication","inLanguage":"ko","url":"{{ origin }}{{ base }}","offers":{"@type":"Offer","price":"0","priceCurrency":"KRW"}}</script>{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"{{ site }}","applicationCategory":"UtilitiesApplication","inLanguage":"ko","url":"{{ origin }}{{ base }}","offers":{"@type":"Offer","price":"0","priceCurrency":"KRW"}}</script>
+<script>document.documentElement.classList.add('landing')</script>{% endblock %}
 {% block content %}
+<div class="stage" id="stage">
 <section class="hero">
   <h1>오늘 우리 동네 마트, 열었을까요?</h1>
   <p>{{ today_k }}. 점포 이름을 치거나 내 위치를 허용하면 지금 영업 여부와 다음 휴무일을 바로 보여드립니다. 전국 {{ n_stores }}개 점포, 유통사 공식 안내 기준.</p>
@@ -18,10 +20,13 @@
     <p id="geo-msg" class="muted small" hidden></p>
   </div>
   <p class="muted small">이마트·트레이더스·스타필드마켓·코스트코는 영업시간까지, 에브리데이·노브랜드는 이번 달 휴무일까지 제공합니다.</p>
+  <button type="button" class="last" id="last" hidden><span>지난번 점포</span><b id="last-name"></b></button>
 </div>
 <div id="result" class="result" aria-live="polite"></div>
 </section>
+</div>
 
+<div class="below" id="below">
 <div class="ad-slot"><!-- ad: home --></div>
 
 <section class="grid2">
@@ -41,5 +46,6 @@
   <h2>명절엔 정기휴무와 다릅니다</h2>
   <p>설·추석 당일은 대부분 휴무이고 전날은 일찍 닫는 점포가 많습니다. 코스트코는 명절 전날 19시까지 영업합니다. 명절 주간 일정은 <a href="{{ base }}guide/holidays/">명절 영업 안내</a>에 모아 두었습니다.</p>
 </section>
+</div>
 <script src="{{ base }}static/app.js?v={{ v }}" defer></script>
 {% endblock %}

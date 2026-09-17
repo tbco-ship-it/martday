@@ -46,7 +46,29 @@
     menu.hidden = false; input.setAttribute('aria-expanded', 'true');
   }
   function close() { menu.hidden = true; active = -1; input.setAttribute('aria-expanded', 'false'); }
-  function choose(s) { input.value = s.name; close(); out.innerHTML = card(s); localStorage.setItem('martday.store', s.slug); }
+  // Home: the first result ends the landing state — hero + card glide up from centre (FLIP on transform); the lists below rise in.
+  function leaveLanding() {
+    const html = document.documentElement; if (!html.classList.contains('landing')) return;
+    const stage = $('stage'), hero = stage.firstElementChild;
+    const y0 = hero.getBoundingClientRect().top;
+    html.classList.remove('landing');
+    const dy = y0 - hero.getBoundingClientRect().top;
+    if (dy > 0 && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      // transform, not padding: the glide must not register as layout shift (CLS)
+      stage.style.transition = 'none'; stage.style.transform = `translateY(${dy}px)`; void stage.offsetHeight;
+      stage.style.transition = 'transform 1s cubic-bezier(.16,1,.3,1)'; stage.style.transform = 'translateY(0)';
+      stage.addEventListener('transitionend', () => { stage.style.transition = ''; stage.style.transform = ''; }, { once: true });
+    }
+    if (window.__reveal) window.__reveal($('below'), true, 500);
+  }
+  // Result rises in Toss-style: each card, then its children, 90ms apart.
+  function show(html) {
+    leaveLanding(); out.innerHTML = html;
+    out.classList.remove('is-in'); out.classList.add('reveal');
+    let i = 0; out.querySelectorAll(':scope > *').forEach(c => { [c, ...c.children].forEach(el => { el.classList.add('rv'); el.style.setProperty('--d', (i++ * 90) + 'ms'); }); });
+    void out.offsetHeight; out.classList.add('is-in');
+  }
+  function choose(s) { input.value = s.name; close(); show(card(s)); localStorage.setItem('martday.store', s.slug); }
   input.addEventListener('focus', () => { setTimeout(() => input.select(), 0); open(input.value); });
   input.addEventListener('input', () => { active = -1; open(input.value); });
   input.addEventListener('keydown', e => {
@@ -60,20 +82,25 @@
   input.addEventListener('blur', () => setTimeout(close, 120));
 
   // geolocation
-  $('geo').addEventListener('click', () => {
-    const msg = $('geo-msg'); msg.hidden = false; msg.textContent = '위치를 확인하는 중…';
-    if (!navigator.geolocation) { msg.textContent = '이 브라우저는 위치를 지원하지 않아요. 점포 이름으로 찾아 주세요.'; return; }
+  const geoBtn = $('geo'), geoIdle = geoBtn.textContent;
+  const busy = on => { geoBtn.disabled = on; geoBtn.classList.toggle('busy', on); geoBtn.textContent = on ? '위치를 확인하는 중…' : geoIdle; };
+  geoBtn.addEventListener('click', () => {
+    const msg = $('geo-msg'); msg.hidden = true;
+    if (!navigator.geolocation) { msg.hidden = false; msg.textContent = '이 브라우저는 위치를 지원하지 않아요. 점포 이름으로 찾아 주세요.'; return; }
+    busy(true);
     navigator.geolocation.getCurrentPosition(pos => {
+      busy(false); msg.hidden = false;
       const { latitude: la, longitude: lo } = pos.coords;
       const dist = s => { const dLat = (s.lat - la) * Math.PI / 180, dLng = (s.lng - lo) * Math.PI / 180; const a = Math.sin(dLat / 2) ** 2 + Math.cos(la * Math.PI / 180) * Math.cos(s.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2; return 6371 * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)); };
       const near = D.stores.filter(s => s.lat).map(s => ({ s, d: dist(s) })).sort((a, b) => a.d - b.d).slice(0, 4);
       msg.textContent = `가까운 점포 ${near.length}곳`;
-      out.innerHTML = near.map(({ s, d }) => card(s, ` · ${d < 1 ? Math.round(d * 1000) + ' m' : d.toFixed(1) + ' km'}`)).join('');
-    }, () => { msg.textContent = '위치 권한이 없어요. 점포 이름으로 찾아 주세요.'; }, { timeout: 8000 });
+      show(near.map(({ s, d }) => card(s, ` · ${d < 1 ? Math.round(d * 1000) + ' m' : d.toFixed(1) + ' km'}`)).join(''));
+    }, () => { busy(false); msg.hidden = false; msg.textContent = '위치 권한이 없어요. 점포 이름으로 찾아 주세요.'; }, { timeout: 8000 });
   });
 
-  const remembered = D.stores.find(s => s.slug === localStorage.getItem('martday.store')) || D.stores.find(s => s.brand === 'emart' && s.name.includes('왕십리')) || D.stores.find(s => s.brand === 'emart');
-  if (remembered) { input.value = remembered.name; out.innerHTML = card(remembered); }
+  // First visit: only the centred search card, nothing pre-filled (the old 이마트 왕십리 sample is gone). A remembered store is offered as a one-tap chip.
+  const remembered = D.stores.find(s => s.slug === localStorage.getItem('martday.store'));
+  if (remembered) { $('last-name').textContent = remembered.name; $('last').hidden = false; $('last').addEventListener('click', () => choose(remembered)); }
 
   // store page: live status word
   const sheet = document.querySelector('.sheet[data-store]');
