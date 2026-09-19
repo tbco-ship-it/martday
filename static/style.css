@@ -615,3 +615,7 @@ html.landing .stage{display:flex;flex-direction:column;justify-content:center;mi
 .last[hidden]{display:none}.last span{white-space:nowrap}.last b{text-align:left}
 .last b{color:var(--text);font-weight:600}
 .last:hover{border-color:var(--blue);color:var(--blue)}
+
+/* <button class="next">: drop the UA outset border (shows as a pale ring on iOS dark mode) and inherit the site font; keep .next size/weight */
+button.next{appearance:none;-webkit-appearance:none;border:0;font-family:inherit;cursor:pointer}
+#result,#geo-msg{scroll-margin-top:calc(var(--hdr,64px) + 16px)}/* phone: the result (or the 가까운 점포 line) scrolls to just below the sticky header */

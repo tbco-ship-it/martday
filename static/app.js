@@ -68,7 +68,11 @@
     let i = 0; out.querySelectorAll(':scope > *').forEach(c => { [c, ...c.children].forEach(el => { el.classList.add('rv'); el.style.setProperty('--d', (i++ * 90) + 'ms'); }); });
     void out.offsetHeight; out.classList.add('is-in');
   }
-  function choose(s) { input.value = s.name; close(); show(card(s)); localStorage.setItem('martday.store', s.slug); }
+  // On a phone the result sits below the form (often behind the browser's bottom bar): bring it into view so a tap visibly did something.
+  // Layout position (offsetTop chain), not the rendered box: right after the first result the stage is mid-glide (translateY) and
+  // scrollIntoView would land ~100px too far down; scroll-margin-top keeps the target below the sticky header.
+  const bringIntoView = el => { if (innerWidth >= 900) return; setTimeout(() => { let y = 0; for (let e = el; e; e = e.offsetParent) y += e.offsetTop; y -= parseFloat(getComputedStyle(el).scrollMarginTop) || 0; scrollTo({ top: y, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }); }, 60); };
+  function choose(s) { input.value = s.name; close(); show(card(s)); localStorage.setItem('martday.store', s.slug); bringIntoView(out); }
   input.addEventListener('focus', () => { setTimeout(() => input.select(), 0); open(input.value); });
   input.addEventListener('input', () => { active = -1; open(input.value); });
   input.addEventListener('keydown', e => {
@@ -95,6 +99,7 @@
       const near = D.stores.filter(s => s.lat).map(s => ({ s, d: dist(s) })).sort((a, b) => a.d - b.d).slice(0, 4);
       msg.textContent = `가까운 점포 ${near.length}곳`;
       show(near.map(({ s, d }) => card(s, ` · ${d < 1 ? Math.round(d * 1000) + ' m' : d.toFixed(1) + ' km'}`)).join(''));
+      bringIntoView(msg);  // GPS list: the '가까운 점포 N곳' line first, cards right under it
     }, () => { busy(false); msg.hidden = false; msg.textContent = '위치 권한이 없어요. 점포 이름으로 찾아 주세요.'; }, { timeout: 8000 });
   });
 
