@@ -1,10 +1,11 @@
 {% extends "base.html" %}
-{% block title %}{{ info.short }} 휴무일 {{ months[0][0] }}년 {{ months[0][1] }}월 — 전국 {{ stores|length }}개 점포 휴점일·영업시간 | {{ site }}{% endblock %}
-{% block description %}{{ info.name }} 이번 달과 다음 달 휴무일 달력, 점포별 휴점일과 영업시간. 유통사 공식 점포 안내 기준, 매일 갱신.{% endblock %}
+{% block title %}{{ info.short }} 휴무일 {{ months[0][0] }}년 {{ months[0][1] }}월{% if chuseok_live and chuseok_known %} — 추석 당일 휴무 {{ chuseok_closed }}개 점포{% endif %} — 전국 {{ stores|length }}개 점포 휴점일·영업시간 | {{ site }}{% endblock %}
+{% block description %}{% if chuseok_live and chuseok_known %}{{ info.short }} 추석 당일(9/25) 휴무 점포 {{ chuseok_closed }}개, 영업 {{ chuseok_known - chuseok_closed }}개. {% endif %}{{ info.name }} 이번 달과 다음 달 휴무일 달력, 점포별 휴점일과 영업시간. 유통사 공식 점포 안내 기준, 매일 갱신.{% endblock %}
 {% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"{{ info.short }} 이번 달 휴무일은 언제인가요?","acceptedAnswer":{"@type":"Answer","text":"{{ months[0][1] }}월 {{ info.short }} 휴무일은 점포별로 다릅니다. 가장 많은 점포가 쉬는 날은 {% for iso, n in (counts.items()|list|sort(attribute='1', reverse=True))[:3] %}{{ iso|kdate }}({{ n }}개 점포){% if not loop.last %}, {% endif %}{% endfor %}입니다. 점포 이름으로 검색하면 해당 점포의 날짜를 정확히 볼 수 있습니다."}}]}</script>{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="{{ base }}">홈</a> › {{ info.short }}</nav>
 <h1>{{ info.short }} 휴무일</h1>
+{% if chuseok_live and chuseok_known %}<p class="prose"><strong>추석 당일 9월 25일(금)</strong>: 고시된 {{ chuseok_known }}개 점포 중 {{ chuseok_closed }}개 휴무, {{ chuseok_known - chuseok_closed }}개 영업. 점포별 확인은 <a href="{{ base }}guide/holidays/">추석 마트 영업 안내</a>.</p>{% endif %}
 <p class="prose">전국 {{ stores|length }}개 점포. {% for k, n in rules.items() %}{{ k }} 휴무 {{ n }}개{% if not loop.last %} · {% endif %}{% endfor %}. 달력의 숫자는 그날 쉬는 점포 수입니다 — 내 점포가 그날 쉬는지는 아래 목록이나 <a href="{{ base }}">점포 검색</a>에서 확인하세요.</p>
 <div class="grid2">
 {% for year, month in months %}{% set closures = {} %}{% for iso, n in counts.items() if iso[:7] == "%04d-%02d"|format(year, month) %}{% set _ = closures.update({iso: n}) %}{% endfor %}{% include "_calendar.html" %}{% endfor %}

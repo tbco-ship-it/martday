@@ -43,9 +43,15 @@ def main():
     months = [(today.year, today.month)]
     nm = today.replace(day=1) + dt.timedelta(days=32)
     months.append((nm.year, nm.month))
+    tomorrow = (today + dt.timedelta(days=1)).isoformat()
+    # 추석 2026-09-25: 당일 ±2일 동안만 제목·상태 문장에 추석 영업 여부를 앞세운다(지나면 자동 해제)
+    chuseok = "2026-09-25"
+    chuseok_live = "2026-09-10" <= today.isoformat() <= "2026-09-27"
     for s in stores:
         s["next_closure"] = next((c for c in s["closures"] if c >= today.isoformat()), None)
         s["brand_name"] = brands[s["brand"]]["short"]
+        # 고시 데이터가 있는 점포만 판정: 휴무 / 영업 / None(미확인)
+        s["chuseok"] = ("휴무" if chuseok in s["closures"] else "영업") if s["closures"] else None
     by_brand = defaultdict(list)
     by_area = defaultdict(list)
     for s in stores:
@@ -58,7 +64,7 @@ def main():
     v = h.hexdigest()[:8]
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
     env.filters["kdate"] = kdate
-    env.globals.update(site=SITE, base=base, origin=origin, today=today.isoformat(), today_k=f"{today.month}월 {today.day}일({KDAY[today.weekday()]})", v=v,
+    env.globals.update(site=SITE, base=base, origin=origin, today=today.isoformat(), tomorrow=tomorrow, chuseok=chuseok, chuseok_live=chuseok_live, today_k=f"{today.month}월 {today.day}일({KDAY[today.weekday()]})", v=v,
                        adsense_pub=args.adsense_pub, brands=brands, months=months, month_grid=month_grid, KDAY=KDAY,
                        sources=data["sources"], n_stores=len(stores), areas=sorted(by_area, key=lambda a: -len(by_area[a])))
 
@@ -84,7 +90,6 @@ def main():
     hdays = ["2026-09-24", "2026-09-25", "2026-09-26", "2026-09-27"]
     holiday_counts = {b: {d: sum(1 for s in lst if d in s["closures"]) for d in hdays} for b, lst in by_brand.items()}
     # 추석 당일 휴무 점포 목록(브랜드별) + 지역별 당일 휴무 수
-    chuseok = "2026-09-25"
     closed_day = {b: sorted([s for s in lst if chuseok in s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
     open_day = {b: sorted([s for s in lst if chuseok not in s["closures"] and s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
     area_counts = defaultdict(lambda: {"closed": 0, "total": 0})
@@ -107,7 +112,8 @@ def main():
         areas = defaultdict(list)
         for s in lst:
             areas[s["area"] or "기타"].append(s)
-        write(f"{b}/", "brand.html", brand=b, info=brands[b], stores=lst, counts=dict(counts), rules=dict(rules), areas=areas)
+        write(f"{b}/", "brand.html", brand=b, info=brands[b], stores=lst, counts=dict(counts), rules=dict(rules), areas=areas,
+              chuseok_closed=holiday_counts[b][chuseok], chuseok_known=sum(1 for s in lst if s["closures"]))
         for s in lst:
             near = sorted([x for x in lst if x is not s and x["area"] == s["area"]], key=lambda x: x["name"])[:8]
             write(f"{b}/{s['slug']}/", "store.html", s=s, info=brands[b], near=near)
