@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="{{ base }}static/style.css?v={{ v }}">
 <link rel="icon" href="{{ base }}static/favicon.svg?v={{ v }}" type="image/svg+xml">
 {% if adsense_pub %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{{ adsense_pub }}" crossorigin="anonymous"></script>{% endif %}
+{% if origin == "https://martoday.com" %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "2268197fa6a940d5847a4070f104a020"}'></script>{% endif %}
 {% block head %}{% endblock %}
 </head>
 <body>
