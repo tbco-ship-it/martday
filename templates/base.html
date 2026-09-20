@@ -12,6 +12,12 @@
 <noscript><link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"></noscript>
 <link rel="stylesheet" href="{{ base }}static/style.css?v={{ v }}">
 <link rel="icon" href="{{ base }}static/favicon.svg?v={{ v }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ base }}static/apple-touch-icon.png?v={{ v }}">
+<link rel="manifest" href="{{ base }}static/manifest.webmanifest?v={{ v }}">
+<meta name="apple-mobile-web-app-title" content="마트휴무일">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17171c" media="(prefers-color-scheme: dark)">
 {% if adsense_pub %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{{ adsense_pub }}" crossorigin="anonymous"></script>{% endif %}
 {% if origin == "https://martoday.com" %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "2268197fa6a940d5847a4070f104a020"}'></script>{% endif %}
 {% block head %}{% endblock %}
@@ -33,5 +39,6 @@
   <p class="muted">각 유통사 공식 점포 안내에서 매일 새로 가져옵니다(이마트 계열 {{ sources.emart }}, 코스트코 {{ sources.costco }} 확인). 점포 사정으로 바뀔 수 있으니 방문 전 전화 확인을 권합니다.</p>
 </footer>
 <script src="{{ base }}static/ui.js?v={{ v }}" defer></script>
+<script src="{{ base }}static/a2hs.js?v={{ v }}" defer></script>
 </body>
 </html>
