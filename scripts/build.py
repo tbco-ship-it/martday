@@ -51,7 +51,7 @@ def main():
         s["next_closure"] = next((c for c in s["closures"] if c >= today.isoformat()), None)
         s["brand_name"] = brands[s["brand"]]["short"]
         # 고시 데이터가 있는 점포만 판정: 휴무 / 영업 / None(미확인)
-        s["chuseok"] = ("휴무" if chuseok in s["closures"] else "영업") if s["closures"] else None
+        s["chuseok"] = ("휴무" if chuseok in s["closures"] else "영업") if s["closures"] and s.get("state", "open") == "open" else None
     by_brand = defaultdict(list)
     by_area = defaultdict(list)
     for s in stores:
@@ -72,7 +72,7 @@ def main():
         shutil.rmtree(DIST)
     DIST.mkdir()
     shutil.copytree(ROOT / "static", DIST / "static")
-    slim = [{k: s[k] for k in ("brand", "name", "slug", "area", "lat", "lng", "hours", "closures", "holiday_note", "address")} for s in stores]
+    slim = [{k: s.get(k, "") for k in ("brand", "name", "slug", "area", "lat", "lng", "hours", "closures", "holiday_note", "address", "state", "state_note")} for s in stores]
     (DIST / "static/stores.json").write_text(json.dumps({"brands": brands, "stores": slim}, ensure_ascii=False, separators=(",", ":")))
 
     urls = []
@@ -92,10 +92,12 @@ def main():
     # 추석 당일 휴무 점포 목록(브랜드별) + 지역별 당일 휴무 수
     closed_day = {b: sorted([s for s in lst if chuseok in s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
     open_day = {b: sorted([s for s in lst if chuseok not in s["closures"] and s["closures"]], key=lambda x: (x["area"], x["name"])) for b, lst in by_brand.items()}
-    area_counts = defaultdict(lambda: {"closed": 0, "total": 0})
+    area_counts = defaultdict(lambda: {"closed": 0, "total": 0, "inactive": 0, "unknown": 0})
     for s in stores:
         a = s["area"] or "기타"; area_counts[a]["total"] += 1
-        if chuseok in s["closures"]: area_counts[a]["closed"] += 1
+        if s.get("state", "open") != "open": area_counts[a]["inactive"] += 1
+        elif chuseok in s["closures"]: area_counts[a]["closed"] += 1
+        elif not s["closures"]: area_counts[a]["unknown"] += 1
     write("guide/holidays/", "guide_holidays.html", by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
           area_counts=dict(sorted(area_counts.items(), key=lambda kv: -kv[1]["total"])))
 
@@ -107,15 +109,16 @@ def main():
                 counts[c] += 1
         rules = defaultdict(int)
         for s in lst:
-            key = "둘째·넷째 일요일" if any(dt.date.fromisoformat(c).weekday() == 6 for c in s["closures"]) else ("평일" if s["closures"] else "미확인")
+            key = "둘째·넷째 일요일" if any(dt.date.fromisoformat(c).weekday() == 6 for c in s["closures"]) else ("평일" if s["closures"] else ("임시휴업·영업종료" if s.get("state", "open") != "open" else "미확인"))
             rules[key] += 1
         areas = defaultdict(list)
         for s in lst:
             areas[s["area"] or "기타"].append(s)
         write(f"{b}/", "brand.html", brand=b, info=brands[b], stores=lst, counts=dict(counts), rules=dict(rules), areas=areas,
-              chuseok_closed=holiday_counts[b][chuseok], chuseok_known=sum(1 for s in lst if s["closures"]))
+              chuseok_closed=holiday_counts[b][chuseok], chuseok_known=sum(1 for s in lst if s["closures"]),
+              n_inactive=sum(1 for s in lst if s.get("state", "open") != "open"))
         for s in lst:
-            near = sorted([x for x in lst if x is not s and x["area"] == s["area"]], key=lambda x: x["name"])[:8]
+            near = sorted([x for x in lst if x is not s and x["area"] == s["area"] and x.get("state", "open") == "open"], key=lambda x: x["name"])[:8]
             write(f"{b}/{s['slug']}/", "store.html", s=s, info=brands[b], near=near)
     for a, lst in by_area.items():
         write(f"region/{a}/", "region.html", area=a, stores=sorted(lst, key=lambda x: (x["brand"], x["name"])))

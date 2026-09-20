@@ -22,8 +22,15 @@ jobs:
           python-version: "3.12"
       - run: pip install jinja2
       - name: Refresh store data (best effort; Korean sites may refuse foreign IPs)
+        # Each collector runs on its own: one brand timing out (Lotte Mart blocks the runner) must not skip the others
+        # or the merge. A failed collector leaves its committed raw file, so normalize.py still sees the last good data
+        # per brand and stores.json carries each brand's own fetched date. normalize.py refuses to write if a brand
+        # shrinks >30%, which keeps the committed merge.
         run: |
-          (python scripts/collect_emart.py && python scripts/collect_costco.py && python scripts/collect_homeplus.py && python scripts/collect_lottemart.py && python scripts/normalize.py) || echo "refresh failed; keeping committed data"
+          for b in emart costco homeplus lottemart; do
+            timeout 240 python scripts/collect_$b.py || echo "::warning::collect_$b failed; keeping committed raw data"
+          done
+          python scripts/normalize.py || echo "::warning::normalize refused; keeping committed data/stores.json"
           if ! git diff --quiet data/; then
             git config user.name "data-bot" && git config user.email "data-bot@users.noreply.github.com"
             git add data && git commit -m "data: daily store refresh $(date -u +%F)" && git push

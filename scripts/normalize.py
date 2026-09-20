@@ -38,11 +38,13 @@ def month_dates(days, year, month):
     return out
 
 
-def md_to_iso(md_list, today):
+def md_to_iso(md_list, ref):
+    """Expand 'M/D' notices to ISO using the *source fetch date* as the year reference, so re-normalizing an
+    older raw file after a failed collection never rolls a past notice into next year."""
     out = []
     for md in md_list:
         m, d = md.split("/")
-        y = today.year if int(m) >= today.month else today.year + 1
+        y = ref.year if int(m) >= ref.month else ref.year + 1
         try:
             out.append(dt.date(y, int(m), int(d)).isoformat())
         except ValueError:
@@ -50,12 +52,32 @@ def md_to_iso(md_list, today):
     return out
 
 
+def store_state(hours, note):
+    """영업종료 > 임시휴업 > open. Homeplus publishes closures as free text in the hours field
+    ('마트 임시휴업. 몰영업시간 10:00~21:00', '계룡점 영업종료로 단골매장을 변경해주세요.'); an empty closure
+    list on such a store means 'no schedule', not 'open'."""
+    t = f"{hours} {note}"
+    if "영업종료" in t:
+        return "closed"
+    if "임시휴업" in t or "임시 휴업" in t:
+        return "temp_closed"
+    return "open"
+
+
+def fetched_date(doc, today):
+    try:
+        return dt.date.fromisoformat(doc.get("fetched", "")[:10])
+    except ValueError:
+        return today
+
+
 def main():
     today = dt.date.today()
     stores = []
     em = json.loads((ROOT / "data/stores/emart.json").read_text())
+    em_ref = fetched_date(em, today)
     for s in em["stores"]:
-        closures = md_to_iso(s.get("closures", []), today) or month_dates(s.get("holiday_days", []), today.year, today.month)
+        closures = md_to_iso(s.get("closures", []), em_ref) or month_dates(s.get("holiday_days", []), em_ref.year, em_ref.month)
         stores.append({
             "brand": s["brand"], "id": s["id"], "name": s["name"], "slug": slugify(s["name"]),
             "area": AREA_ALIAS.get(s.get("area", ""), s.get("area", "")), "address": s.get("address", ""),
@@ -77,8 +99,9 @@ def main():
     if hp_file.exists():
         hp = json.loads(hp_file.read_text())
         sources["homeplus"] = hp.get("fetched", today.isoformat())
+        hp_ref = fetched_date(hp, today)
         for s in hp.get("stores", []):
-            closures = md_to_iso(s.get("closures", []), today) or month_dates(s.get("holiday_days", []), today.year, today.month)
+            closures = md_to_iso(s.get("closures", []), hp_ref) or month_dates(s.get("holiday_days", []), hp_ref.year, hp_ref.month)
             stores.append({
                 "brand": "homeplus", "id": s["id"], "name": s["name"], "slug": slugify(s["name"]),
                 "area": AREA_ALIAS.get(s.get("area", ""), s.get("area", "")), "address": s.get("address", ""),
@@ -90,8 +113,9 @@ def main():
     if lm_file.exists():
         lm = json.loads(lm_file.read_text())
         sources["lottemart"] = lm.get("fetched", today.isoformat())
+        lm_ref = fetched_date(lm, today)
         for s in lm.get("stores", []):
-            closures = md_to_iso(s.get("closures", []), today) or month_dates(s.get("holiday_days", []), today.year, today.month)
+            closures = md_to_iso(s.get("closures", []), lm_ref) or month_dates(s.get("holiday_days", []), lm_ref.year, lm_ref.month)
             stores.append({
                 "brand": "lottemart", "id": s["id"], "name": s["name"], "slug": slugify(s["name"]),
                 "area": AREA_ALIAS.get(s.get("area", ""), s.get("area", "")), "address": s.get("address", ""),
@@ -99,6 +123,23 @@ def main():
                 "hours": s.get("hours", ""), "closure_rule": s.get("closure_rule", ""), "closures": sorted(set(closures)),
                 "holiday_note": s.get("holiday_note", ""), "detail": bool(s.get("hours")),
             })
+    # 영업 상태: 영업종료·임시휴업 점포는 hours 문구를 state_note로 옮기고 hours를 비운다(영업시간·스키마·"영업" 판정에 쓰지 않게)
+    for s in stores:
+        s["state"] = store_state(s["hours"], s["holiday_note"])
+        s["state_note"] = ""
+        if s["state"] != "open":
+            s["state_note"] = re.sub(r"<[^>]+>", " ", s["hours"]).strip(" .")
+            s["hours"] = ""
+            s["closures"] = []
+    # 수집 실패·빈 응답이 정상 데이터를 덮지 않게: 브랜드별 점포 수가 직전 통합본의 70% 미만이면 중단(워크플로가 기존 파일을 유지)
+    prev_file = ROOT / "data/stores.json"
+    if prev_file.exists():
+        from collections import Counter as _C
+        prev = _C(x["brand"] for x in json.loads(prev_file.read_text())["stores"])
+        cur = _C(x["brand"] for x in stores)
+        for b, n in prev.items():
+            if cur.get(b, 0) < n * 0.7:
+                raise SystemExit(f"refusing to write: {b} dropped {n} -> {cur.get(b, 0)}")
     # de-dup slugs
     seen = {}
     for s in stores:

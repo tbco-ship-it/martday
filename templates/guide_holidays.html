@@ -29,9 +29,10 @@
 <ul class="list">{% for s in closed_day[b][:12] %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.name }}<span class="meta">{{ s.area }}{% if s.hours %} · {{ s.hours }}{% endif %}</span></a></li>{% endfor %}{% if closed_day[b]|length > 12 %}<li class="more-row"><a href="{{ base }}{{ b }}/">나머지 {{ closed_day[b]|length - 12 }}개는 브랜드 페이지에서</a></li>{% endif %}</ul></div>
 {% endfor %}
 <h2>지역별 추석 당일 휴무</h2>
-<table class="tbl compact"><thead><tr><th>지역</th><th>점포 수</th><th>당일 휴무</th><th>영업</th></tr></thead><tbody>
-{% for a, c in area_counts.items() %}<tr><td><a href="{{ base }}region/{{ a }}/">{{ a }}</a></td><td>{{ c.total }}</td><td>{{ c.closed }}</td><td>{{ c.total - c.closed }}</td></tr>{% endfor %}
+<table class="tbl compact"><thead><tr><th>지역</th><th>점포 수</th><th>당일 휴무</th><th>영업 고시</th><th>미확인</th><th>임시휴업·영업종료</th></tr></thead><tbody>
+{% for a, c in area_counts.items() %}<tr><td><a href="{{ base }}region/{{ a }}/">{{ a }}</a></td><td>{{ c.total }}</td><td>{{ c.closed }}</td><td>{{ c.total - c.closed - c.unknown - c.inactive }}</td><td>{{ c.unknown }}</td><td>{{ c.inactive }}</td></tr>{% endfor %}
 </tbody></table>
+<p class="muted small">"영업 고시"는 유통사가 그 날짜를 휴무로 올리지 않은 점포이고, "미확인"은 이번 달 휴무 고시가 아예 없는 점포입니다. 미확인 점포는 영업으로 단정하지 않습니다.</p>
 <div class="prose">
 <h2>설 연휴는?</h2>
 <p>2027년 설(2월 6일~8일)도 같은 방식으로 점포별 고시가 나오는 대로 이 페이지에 반영됩니다. 대체로 설 당일 휴무 여부는 추석과 같은 점포에서 같은 패턴입니다.</p>
