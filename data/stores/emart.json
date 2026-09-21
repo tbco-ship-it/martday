@@ -1,5 +1,5 @@
 {
- "fetched": "2026-09-20",
+ "fetched": "2026-09-21",
  "stores": [
   {
    "brand": "starfield",
@@ -8023,9 +8023,7 @@
    "id": "3222",
    "name": "노브랜드 삼척중앙시장점",
    "area": "강원",
-   "holiday_days": [
-    "21"
-   ]
+   "holiday_days": []
   },
   {
    "brand": "nobrand",

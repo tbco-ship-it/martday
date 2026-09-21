@@ -1,9 +1,9 @@
 {
-"generated": "2026-09-20",
+"generated": "2026-09-21",
 "sources": {
-"emart": "2026-09-20",
-"costco": "2026-09-20",
-"homeplus": "2026-09-20",
+"emart": "2026-09-21",
+"costco": "2026-09-21",
+"homeplus": "2026-09-21",
 "lottemart": "2026-09-20"
 },
 "brands": {
@@ -14181,9 +14181,7 @@
 "parking": "",
 "hours": "",
 "closure_rule": "",
-"closures": [
-"2026-09-21"
-],
+"closures": [],
 "holiday_note": "",
 "detail": false,
 "state": "open",
