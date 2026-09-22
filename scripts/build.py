@@ -154,6 +154,15 @@ def main():
     for a, lst in by_area.items():
         write(f"region/{a}/", "region.html", area=a, stores=sorted(lst, key=lambda x: (x["brand"], x["name"])))
 
+    # 주소가 "서울시"/"부산시"로 적힌 점포 때문에 한동안 별도 허브가 만들어졌다. 정규화로 합쳤으므로
+    # 옛 URL 은 사이트맵에서 빼고 메타 리프레시만 남긴다(GitHub Pages 는 301 을 못 준다).
+    tpl = env.get_template("redirect.html")
+    for old, new in (("서울시", "서울"), ("부산시", "부산")):
+        out = DIST / "region" / old
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "index.html").write_text(tpl.render(target=f"{base}region/{new}/",
+                                                   canonical=f"{origin}{base}region/{new}/", name=new))
+
     write_sitemaps(urls, origin, base, today.isoformat())
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {origin}{base}sitemap.xml\n")
     (DIST / "404.html").write_text(env.get_template("404.html").render(path="404"))
