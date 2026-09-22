@@ -2,6 +2,7 @@
 """Merge collected sources into data/stores.json (one schema) and expand this month's closure days to ISO dates."""
 import calendar
 import datetime as dt
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -146,6 +147,20 @@ def main():
         if s["slug"] in seen:
             s["slug"] = f"{s['slug']}-{s['id']}"
         seen[s["slug"]] = 1
+    # 점포별 "내용이 마지막으로 바뀐 날". 사이트맵 lastmod 에 쓴다 — 구글은 lastmod 가
+    # "consistently and verifiably accurate" 할 때만 쓴다고 문서에 적어 두었으므로, 빌드한 날이 아니라
+    # 실제로 값이 바뀐 날을 넣는다. 해시가 그대로면 날짜도 그대로 둔다.
+    changed_file = ROOT / "data/changed.json"
+    prev_changed = json.loads(changed_file.read_text()) if changed_file.exists() else {}
+    changed = {}
+    for s in stores:
+        key = f"{s['brand']}/{s['slug']}"
+        fp = hashlib.sha1(json.dumps([s.get(k) for k in ("name", "area", "address", "hours", "closures",
+                                                         "state", "state_note", "holiday_note")],
+                                     ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:12]
+        old = prev_changed.get(key)
+        changed[key] = {"h": fp, "d": old["d"] if old and old.get("h") == fp else today.isoformat()}
+    changed_file.write_text(json.dumps(changed, ensure_ascii=False, indent=0, sort_keys=True))
     (ROOT / "data/stores.json").write_text(json.dumps({"generated": today.isoformat(), "sources": sources, "brands": BRANDS, "stores": stores}, ensure_ascii=False, indent=0))
     from collections import Counter
     print(len(stores), Counter(s["brand"] for s in stores), Counter(s["area"] for s in stores).most_common(6))

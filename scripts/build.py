@@ -45,8 +45,10 @@ def write_sitemaps(urls, origin, base, lastmod=None, limit=5000):
         parts = [rows[i:i + limit] for i in range(0, len(rows), limit)] or [[]]
         for n, part in enumerate(parts, 1):
             fn = f"{shard}.xml" if len(parts) == 1 else f"{shard}-{n}.xml"
-            lm = f"<lastmod>{lastmod}</lastmod>" if lastmod else ""
-            body = "\n".join(f"<url><loc>{escape(origin + base + u)}</loc>{lm}</url>" for u in part)
+            def entry(u):
+                d = lastmod.get(u) if isinstance(lastmod, dict) else lastmod
+                return f"<url><loc>{escape(origin + base + u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>"
+            body = "\n".join(entry(u) for u in part)
             (out / fn).write_text('<?xml version="1.0" encoding="UTF-8"?>\n'
                                   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                   + body + "\n</urlset>")
@@ -163,7 +165,22 @@ def main():
         (out / "index.html").write_text(tpl.render(target=f"{base}region/{new}/",
                                                    canonical=f"{origin}{base}region/{new}/", name=new))
 
-    write_sitemaps(urls, origin, base, today.isoformat())
+    # lastmod: 점포 페이지는 그 점포 데이터가 바뀐 날, 브랜드·지역 허브는 소속 점포 중 가장 최근 날.
+    # 나머지(홈·가이드·정책)는 정직하게 댈 날짜가 없으므로 lastmod 를 붙이지 않는다.
+    cf = ROOT / "data/changed.json"
+    lastmod = {}
+    if cf.exists():
+        ch = json.loads(cf.read_text())
+        by_page = {}
+        for s in stores:
+            d = ch.get(f"{s['brand']}/{s['slug']}", {}).get("d")
+            if not d:
+                continue
+            by_page[f"{s['brand']}/{s['slug']}/"] = d
+            for hub in (f"{s['brand']}/", f"region/{s['area'] or '기타'}/"):
+                by_page[hub] = max(by_page.get(hub, ""), d)
+        lastmod = by_page
+    write_sitemaps(urls, origin, base, lastmod)
     (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {origin}{base}sitemap.xml\n")
     (DIST / "404.html").write_text(env.get_template("404.html").render(path="404"))
     (DIST / ".nojekyll").write_text("")
