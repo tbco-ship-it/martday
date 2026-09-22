@@ -12600,9 +12600,7 @@
 "parking": "",
 "hours": "",
 "closure_rule": "",
-"closures": [
-"2026-09-22"
-],
+"closures": [],
 "holiday_note": "",
 "detail": false,
 "state": "open",
