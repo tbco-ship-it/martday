@@ -19,7 +19,7 @@
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#17171c" media="(prefers-color-scheme: dark)">
 {% if adsense_pub %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{{ adsense_pub }}" crossorigin="anonymous"></script>{% endif %}
-{% if origin == "https://martoday.com" %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "2268197fa6a940d5847a4070f104a020"}'></script>{% endif %}
+{% if origin == "https://martoday.com" %}<script>/* Cloudflare Web Analytics — skipped for automated browsers so our own QA runs don't land in the visitor counts */if(!navigator.webdriver){var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "2268197fa6a940d5847a4070f104a020"}');document.head.appendChild(b);}</script>{% endif %}
 {% block head %}{% endblock %}
 </head>
 <body>
