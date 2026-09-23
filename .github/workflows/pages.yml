@@ -32,7 +32,7 @@ jobs:
           for b in emart costco homeplus lottemart; do
             timeout 240 python scripts/collect_$b.py || echo "::warning::collect_$b failed; keeping committed raw data"
           done
-          timeout 300 python scripts/collect_dept.py || echo "::warning::collect_dept failed; keeping committed data/dept.json"
+          timeout 300 python scripts/collect_dept.py --only lotte,shinsegae,hyundai || echo "::warning::collect_dept failed; keeping committed data/dept.json"
           python scripts/normalize.py || echo "::warning::normalize refused; keeping committed data/stores.json"
           if ! git diff --quiet data/; then
             git config user.name "data-bot" && git config user.email "data-bot@users.noreply.github.com"

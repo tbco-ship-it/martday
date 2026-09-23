@@ -365,7 +365,14 @@ def main():
     today = now.date()
     prev = json.loads(OUT.read_text()) if OUT.exists() else {}
     res = {"fetched_at": now.isoformat(timespec="seconds"), "chains": {}, "errors": []}
+    # --only a,b: collect just these chains and carry the rest over unchanged. The GitHub runner gets lotte·shinsegae·hyundai;
+    # galleria·ak·ikea time out from there and are collected weekly from the Mac (scripts/ori_ops/lottemart_weekly.sh).
+    only = sys.argv[sys.argv.index("--only") + 1].split(",") if "--only" in sys.argv else None
     for key, name, source, fn in CHAINS:
+        if only and key not in only:
+            if key in prev.get("chains", {}):
+                res["chains"][key] = {"fetched_at": prev.get("fetched_at"), **prev["chains"][key]}
+            continue
         errs = []
         try:
             stores = fn(today, errs)
@@ -376,14 +383,14 @@ def main():
         if not stores:
             old = prev.get("chains", {}).get(key)
             if old:
-                old = {**old, "stale": True, "stale_fetched_at": old.get("stale_fetched_at", prev.get("fetched_at"))}
+                old = {"fetched_at": prev.get("fetched_at"), **old, "stale": True, "stale_fetched_at": old.get("stale_fetched_at", prev.get("fetched_at"))}
                 res["chains"][key] = old
                 res["errors"].append({"chain": key, "store": None, "error": f"no stores collected; kept data from {old['stale_fetched_at']}"})
             else:
                 res["errors"].append({"chain": key, "store": None, "error": "no stores collected and no previous data"})
             continue
         months = sorted({m for s in stores for m, v in s["months"].items() if v == "ok"})
-        res["chains"][key] = {"name": name, "source": source, "months_covered": months, "stores": stores}
+        res["chains"][key] = {"name": name, "source": source, "fetched_at": res["fetched_at"], "months_covered": months, "stores": stores}
         if key == "ikea": res["chains"][key]["note"] = IKEA_NOTE
         print(f"{key:10} stores {len(stores):3}  with closure {sum(1 for s in stores if s['closed']):3}  errors {len(errs)}", file=sys.stderr)
     OUT.write_text(json.dumps(res, ensure_ascii=False, indent=1))

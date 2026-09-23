@@ -229,11 +229,11 @@ def main():
         future = sorted(d for d in counts if d >= t)
         nxt = future[0] if future else None
         dept_chains.append({"key": key, "name": c["name"], "short": c["name"].split("·")[0], "source": c["source"], "note": c.get("note"),
-                            "n": len(c["stores"]), "covered": covered, "counts": dict(counts), "types": dict(types),
+                            "n": len(c["stores"]), "fetched": c.get("fetched_at", dept_raw["fetched_at"])[:10], "covered": covered, "counts": dict(counts), "types": dict(types),
                             "next": nxt, "next_n": counts.get(nxt, 0) if nxt else 0})
-    fetched = dept_raw["fetched_at"][:10]
+    fetched = min(c["fetched"] for c in dept_chains)
     for c in dept_chains:
-        write(f"dept/{c['key']}/", "dept.html", c=c, fetched=fetched, chains=dept_chains)
+        write(f"dept/{c['key']}/", "dept.html", c=c, fetched=c["fetched"], chains=dept_chains)
     write("dept/", "dept_hub.html", chains=dept_chains, fetched=fetched)
 
     # 주소가 "서울시"/"부산시"로 적힌 점포 때문에 한동안 별도 허브가 만들어졌다. 정규화로 합쳤으므로
