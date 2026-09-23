@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-09-24T01:36:14+09:00",
+ "fetched_at": "2026-09-24T01:40:29+09:00",
  "chains": {
   "lotte": {
-   "fetched_at": "2026-09-24T01:17:20+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
+   "fetched_at": "2026-09-24T01:40:29+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -5447,9 +5447,9 @@
    ]
   },
   "shinsegae": {
-   "fetched_at": "2026-09-24T01:17:20+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
+   "fetched_at": "2026-09-24T01:40:29+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -5665,9 +5665,9 @@
    ]
   },
   "hyundai": {
-   "fetched_at": "2026-09-24T01:17:20+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
+   "fetched_at": "2026-09-24T01:40:29+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -7948,9 +7948,9 @@
    ]
   },
   "galleria": {
+   "fetched_at": "2026-09-24T01:36:14+09:00",
    "name": "갤러리아백화점",
    "source": "https://dept.galleria.co.kr/store-info/",
-   "fetched_at": "2026-09-24T01:36:14+09:00",
    "months_covered": [
     "2026-09"
    ],
@@ -8028,9 +8028,9 @@
    ]
   },
   "ak": {
+   "fetched_at": "2026-09-24T01:36:14+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
-   "fetched_at": "2026-09-24T01:36:14+09:00",
    "months_covered": [
     "2026-09"
    ],
@@ -8145,9 +8145,9 @@
    ]
   },
   "ikea": {
+   "fetched_at": "2026-09-24T01:36:14+09:00",
    "name": "이케아",
    "source": "https://www.ikea.com/kr/ko/stores/",
-   "fetched_at": "2026-09-24T01:36:14+09:00",
    "months_covered": [],
    "stores": [
     {
