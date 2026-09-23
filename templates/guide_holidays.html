@@ -23,6 +23,8 @@
 <li><strong>롯데마트</strong>: 당일 휴무 {{ holiday_counts['lottemart']['2026-09-25'] }}개 점포. 그랑그로서리·맥스(창고형)도 같은 기준으로 고시됩니다.</li>
 <li><strong>에브리데이·노브랜드</strong>: 기업형 슈퍼라 의무휴업 대상이 아닌 점포가 많지만, 명절 당일은 쉬는 점포가 절반 안팎입니다.</li>
 </ul>
+<p>근처 마트가 모두 쉬는 날에는 온라인 장보기가 대안입니다(<a href="{{ coupang.fresh }}" rel="sponsored nofollow noopener" target="_blank">쿠팡 로켓프레시</a>). 연휴 중 배송 여부와 도착일은 지역마다 달라 주문 화면에서 확인해야 합니다.</p>
+<p class="muted small cp-note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 </div>
 {% for b, info in brands.items() if closed_day[b] %}
 <div class="sec"><div class="sec-h"><h2>{{ info.short }} — 추석 당일 휴무 {{ closed_day[b]|length }}개 점포</h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>

@@ -27,7 +27,9 @@
 <p class="sheet-text">{% if s.alt.n3 %}반경 3km 안 대형마트·SSM {{ s.alt.n3 }}곳 중 <strong>{{ s.alt.same3 }}곳</strong>이 이날 함께 쉽니다.{% else %}반경 3km 안에 다른 대형마트·SSM 이 없습니다.{% endif %}{% if s.alt.open and s.alt.far %} 반경 5km 안에는 그날 여는 곳이 없고, 가장 가까운 곳은 아래와 같습니다.{% elif s.alt.open %} 그날 문을 여는 가까운 곳은 아래와 같습니다.{% endif %}</p>
 {% if s.alt.open %}<ul class="list">{% for x, d in s.alt.open %}<li><a href="{{ base }}{{ x.brand }}/{{ x.slug }}/">{{ x.disp }}<span class="meta">{{ d }}km{% if x.hours %} · {{ x.hours }}{% endif %}</span></a></li>{% endfor %}</ul>
 {% else %}<p class="sheet-text">반경 20km 안에서 그날 여는 점포를 찾지 못했습니다.</p>{% endif %}
-<p class="muted small">직선거리 기준. 그달 휴무일이 확인된 점포만 셉니다.</p></div>{% endif %}
+<p class="muted small">직선거리 기준. 그달 휴무일이 확인된 점포만 셉니다.</p>
+<p class="sheet-text">가까운 곳이 다 쉬면 온라인 장보기도 방법입니다 — <a href="{{ coupang.fresh }}" rel="sponsored nofollow noopener" target="_blank">쿠팡 로켓프레시</a>. 도착 시각은 지역·주문 시각마다 달라 주문 화면에서 확인해야 합니다.</p>
+<p class="muted small cp-note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p></div>{% endif %}
 <div class="ad-slot"><!-- ad: store --></div>
 {% set closures = {} %}{% for c in s.closures %}{% set _ = closures.update({c: '휴무'}) %}{% endfor %}
 <div class="grid2">{% for year, month in months %}{% include "_calendar.html" %}{% endfor %}</div>

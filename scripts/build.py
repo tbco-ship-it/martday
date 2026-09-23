@@ -145,7 +145,7 @@ def main():
     env.filters["kdate"] = kdate
     env.globals.update(site=SITE, base=base, origin=origin, today=today.isoformat(), tomorrow=tomorrow, chuseok=chuseok, chuseok_live=chuseok_live, today_k=f"{today.month}월 {today.day}일({KDAY[today.weekday()]})", v=v,
                        adsense_pub=args.adsense_pub, brands=brands, months=months, month_grid=month_grid, KDAY=KDAY,
-                       sources=data["sources"], n_stores=len(stores), areas=sorted(by_area, key=lambda a: -len(by_area[a])))
+                       sources=data["sources"], coupang=json.loads((ROOT / "data/coupang.json").read_text()), n_stores=len(stores), areas=sorted(by_area, key=lambda a: -len(by_area[a])))
 
     if DIST.exists():
         shutil.rmtree(DIST)
