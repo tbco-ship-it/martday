@@ -8,6 +8,6 @@
 <div class="ad-slot"><!-- ad: region --></div>
 {% for b, info in brands.items() %}{% set lst = stores|selectattr('brand','equalto',b)|list %}{% if lst %}
 <div class="sec"><div class="sec-h"><h2>{{ info.short }} <span class="muted small">{{ lst|length }}개</span></h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>
-<ul class="list">{% for s in lst %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.name }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}—{% endif %}</span></a></li>{% endfor %}</ul></div>
+<ul class="list">{% for s in lst %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.disp }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}—{% endif %}</span></a></li>{% endfor %}</ul></div>
 {% endif %}{% endfor %}
 {% endblock %}

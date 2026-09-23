@@ -1,13 +1,13 @@
 {% extends "base.html" %}
-{% block title %}{% if s.state == 'closed' %}{{ s.name }} — 영업종료 (폐점) | {{ site }}{% elif s.state == 'temp_closed' %}{{ s.name }} — 마트 임시휴업{% if '몰' in s.state_note %}·몰 영업시간 안내{% endif %} | {{ site }}{% else %}{{ s.name }} 휴무일·영업시간{% if chuseok_live and s.chuseok %} — 추석 당일(9/25) {{ s.chuseok }}{% endif %} ({{ months[0][1] }}월 {% for c in s.closures if c[:7] == '%04d-%02d'|format(months[0][0], months[0][1]) %}{{ c|kdate }}{% if not loop.last %}, {% endif %}{% endfor %}) | {{ site }}{% endif %}{% endblock %}
+{% block title %}{% if s.state == 'closed' %}{{ s.disp }} — 영업종료 (폐점) | {{ site }}{% elif s.state == 'temp_closed' %}{{ s.disp }} — 마트 임시휴업{% if '몰' in s.state_note %}·몰 영업시간 안내{% endif %} | {{ site }}{% else %}{{ s.disp }} 휴무일·영업시간{% if chuseok_live and s.chuseok %} — 추석 당일(9/25) {{ s.chuseok }}{% endif %} ({{ months[0][1] }}월 {% for c in s.closures if c[:7] == '%04d-%02d'|format(months[0][0], months[0][1]) %}{{ c|kdate }}{% if not loop.last %}, {% endif %}{% endfor %}) | {{ site }}{% endif %}{% endblock %}
 {% block description %}{% if s.state != 'open' %}{{ s.name }}: {{ s.state_note }}. {{ info.name }} 공식 점포 안내 기준({{ sources[s.brand] or sources.emart }} 확인). 근처 영업 중인 점포는 아래 목록에서.{% else %}{% if chuseok_live and s.chuseok %}{{ s.name }} 추석 당일 9월 25일 {{ s.chuseok }}. {% endif %}{{ s.name }} 휴무일{% if s.closures %}: {% for c in s.closures[:4] %}{{ c|kdate }}{% if not loop.last %}, {% endif %}{% endfor %} 휴점{% else %}: 이번 달 고시된 휴무일 없음{% endif %}{% if s.hours %}. 영업시간 {{ s.hours }}{% endif %}{% if s.address %}. {{ s.address }}{% endif %}. {{ info.name }} 공식 점포 안내 기준, 매일 갱신.{% endif %}{% endblock %}
 {% block head %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"{{ s.name }}","brand":"{{ info.name }}"{% if s.address %},"address":{"@type":"PostalAddress","streetAddress":"{{ s.address }}","addressCountry":"KR"}{% endif %}{% if s.lat %},"geo":{"@type":"GeoCoordinates","latitude":{{ s.lat }},"longitude":{{ s.lng }}}{% endif %}{% if s.phone %},"telephone":"{{ s.phone }}"{% endif %}{% if s.hours %},"openingHours":"Mo-Su {{ s.hours.replace('~','-') }}"{% endif %}{% if s.closures %},"specialOpeningHoursSpecification":[{% for c in s.closures %}{"@type":"OpeningHoursSpecification","validFrom":"{{ c }}","validThrough":"{{ c }}","opens":"00:00","closes":"00:00"}{% if not loop.last %},{% endif %}{% endfor %}]{% endif %},"url":"{{ origin }}{{ base }}{{ path }}"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"{{ s.disp }}","brand":"{{ info.name }}"{% if s.address %},"address":{"@type":"PostalAddress","streetAddress":"{{ s.address }}","addressCountry":"KR"}{% endif %}{% if s.lat %},"geo":{"@type":"GeoCoordinates","latitude":{{ s.lat }},"longitude":{{ s.lng }}}{% endif %}{% if s.phone %},"telephone":"{{ s.phone }}"{% endif %}{% if s.hours %},"openingHours":"Mo-Su {{ s.hours.replace('~','-') }}"{% endif %}{% if s.closures %},"specialOpeningHoursSpecification":[{% for c in s.closures %}{"@type":"OpeningHoursSpecification","validFrom":"{{ c }}","validThrough":"{{ c }}","opens":"00:00","closes":"00:00"}{% if not loop.last %},{% endif %}{% endfor %}]{% endif %},"url":"{{ origin }}{{ base }}{{ path }}"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% if chuseok_live and s.chuseok %}{"@type":"Question","name":"{{ s.name }} 추석 당일 문 여나요?","acceptedAnswer":{"@type":"Answer","text":"{{ s.name }}은 2026년 추석 당일(9월 25일) {{ s.chuseok }}입니다.{% if s.holiday_note %} {{ s.holiday_note }}.{% endif %} 유통사 공식 점포 안내 기준이며 명절 영업시간은 바뀔 수 있습니다."}},{% endif %}{"@type":"Question","name":"{{ s.name }} 이번 달 휴무일은?","acceptedAnswer":{"@type":"Answer","text":"{% if s.state != 'open' %}{{ s.state_note }}. 공식 점포 안내 기준입니다.{% elif s.closures %}{% for c in s.closures %}{{ c|kdate }}{% if not loop.last %}, {% endif %}{% endfor %} 휴점입니다.{% else %}고시된 휴무일이 없습니다.{% endif %}{% if s.hours %} 영업시간은 {{ s.hours }}입니다.{% endif %}"}}]}</script>
 {% endblock %}
 {% block content %}
-<nav class="crumbs"><a href="{{ base }}">홈</a> › <a href="{{ base }}{{ s.brand }}/">{{ info.short }}</a> › {{ s.name }}</nav>
-<h1>{{ s.name }}</h1>
+<nav class="crumbs"><a href="{{ base }}">홈</a> › <a href="{{ base }}{{ s.brand }}/">{{ info.short }}</a> › {{ s.disp }}</nav>
+<h1>{{ s.disp }}</h1>
 <section class="sheet {{ 'severe' if s.next_closure == today or s.state != 'open' else 'balanced' }}" data-store="{{ s.slug }}">
   <p class="sheet-label">오늘 {{ today_k }}</p>
   <div class="sheet-num"><span class="num" id="status">{% if s.state == 'closed' %}영업종료{% elif s.state == 'temp_closed' %}임시휴업{% else %}{{ '휴무' if s.next_closure == today else ('영업' if s.hours else '영업일') }}{% endif %}</span></div>
@@ -21,12 +21,18 @@
     {% if s.parking %}<tr><th>주차</th><td>{{ s.parking }}</td></tr>{% endif %}
   </tbody></table>
   <p class="sheet-actions">{% if s.lat %}<a class="next" href="https://map.naver.com/p/search/{{ s.name|urlencode }}" rel="noopener" target="_blank">네이버 지도에서 길찾기</a>{% endif %}<a class="next" href="{{ base }}{{ s.brand }}/">{{ info.short }} 전체 휴무일</a></p>
+  {% if s.closures and s.state == 'open' %}{% set ics_url = (origin ~ base ~ s.brand ~ '/' ~ s.slug ~ '/holidays.ics') %}<p class="sheet-text small">휴무일을 내 달력에 받아 두면 다음 달 휴무일도 자동으로 들어옵니다. <a href="webcal://{{ ics_url.split('://')[1] }}">아이폰·맥 달력</a> · <a href="https://calendar.google.com/calendar/r?cid={{ ('webcal://' ~ ics_url.split('://')[1])|urlencode }}" rel="noopener" target="_blank">구글 캘린더</a></p>{% endif %}
 </section>
+{% if s.alt %}<div class="sec"><div class="sec-h"><h2>{{ s.alt.date|kdate }}{{ '(오늘)' if s.alt.date == today else '' }} 문 여는 근처 점포</h2></div>
+<p class="sheet-text">{% if s.alt.n3 %}반경 3km 안 대형마트·SSM {{ s.alt.n3 }}곳 중 <strong>{{ s.alt.same3 }}곳</strong>이 이날 함께 쉽니다.{% else %}반경 3km 안에 다른 대형마트·SSM 이 없습니다.{% endif %}{% if s.alt.open and s.alt.far %} 반경 5km 안에는 그날 여는 곳이 없고, 가장 가까운 곳은 아래와 같습니다.{% elif s.alt.open %} 그날 문을 여는 가까운 곳은 아래와 같습니다.{% endif %}</p>
+{% if s.alt.open %}<ul class="list">{% for x, d in s.alt.open %}<li><a href="{{ base }}{{ x.brand }}/{{ x.slug }}/">{{ x.disp }}<span class="meta">{{ d }}km{% if x.hours %} · {{ x.hours }}{% endif %}</span></a></li>{% endfor %}</ul>
+{% else %}<p class="sheet-text">반경 20km 안에서 그날 여는 점포를 찾지 못했습니다.</p>{% endif %}
+<p class="muted small">직선거리 기준. 그달 휴무일이 확인된 점포만 셉니다.</p></div>{% endif %}
 <div class="ad-slot"><!-- ad: store --></div>
 {% set closures = {} %}{% for c in s.closures %}{% set _ = closures.update({c: '휴무'}) %}{% endfor %}
 <div class="grid2">{% for year, month in months %}{% include "_calendar.html" %}{% endfor %}</div>
 {% if near %}<div class="sec"><div class="sec-h"><h2>{{ s.area }}의 다른 {{ info.short }}</h2><a href="{{ base }}region/{{ s.area }}/">{{ s.area }} 전체</a></div>
-<ul class="list">{% for n in near %}<li><a href="{{ base }}{{ n.brand }}/{{ n.slug }}/">{{ n.name }}<span class="meta">{% if n.next_closure %}다음 휴무 {{ n.next_closure|kdate }}{% endif %}</span></a></li>{% endfor %}</ul></div>{% endif %}
+<ul class="list">{% for n in near %}<li><a href="{{ base }}{{ n.brand }}/{{ n.slug }}/">{{ n.disp }}<span class="meta">{% if n.next_closure %}다음 휴무 {{ n.next_closure|kdate }}{% endif %}</span></a></li>{% endfor %}</ul></div>{% endif %}
 <p class="muted small">출처: {{ info.name }} 공식 점포 안내({{ sources.costco if s.brand == 'costco' else sources.emart }} 확인). 임시 휴점·명절 영업시간은 점포 사정으로 바뀔 수 있습니다.</p>
 <script src="{{ base }}static/app.js?v={{ v }}" defer></script>
 {% endblock %}

@@ -46,8 +46,24 @@ def parse_detail(h):
             "lat": float(xy.group(1)) if xy else None, "lng": float(xy.group(2)) if xy else None}
 
 
+# 에브리데이·노브랜드 상세(주소·좌표·영업시간·전화·주차)는 거의 안 바뀐다. 매일 519곳을 다 받으면 러너 제한
+# (collect 240초)을 넘기므로 지난 결과를 재사용하고, 오래된 순으로 하루 SSM_REFRESH 곳씩만 다시 받는다.
+# 휴점일은 여기서 받지 않는다 — SSM 휴점일은 지금처럼 목록의 holidayDay 로만 계산한다.
+SSM_KEYS = ("address", "address_lot", "lat", "lng", "phone", "parking", "hours")
+SSM_REFRESH = int(sys.argv[1]) if len(sys.argv) > 1 else 60
+SSM_MAX_AGE = 14
+
+
 def main():
     lst = json.loads(post("https://store.emart.com/branch/listAll.do"))["branchList"]
+    prev = {}
+    if OUT.exists():
+        prev = {r["id"]: r for r in json.loads(OUT.read_text()).get("stores", []) if r.get("ssm_detail")}
+    today = time.strftime("%Y-%m-%d")
+    stale = sorted((r.get("ssm_detail", ""), i) for i, r in prev.items()
+                   if r.get("ssm_detail", "") < time.strftime("%Y-%m-%d", time.localtime(time.time() - SSM_MAX_AGE * 86400)))
+    refresh = {i for _, i in stale[:SSM_REFRESH]}
+    fetched_ssm = 0
     out = []
     for i, b in enumerate(lst):
         brand = brand_of(b["jijumName"])
@@ -60,10 +76,23 @@ def main():
             except Exception as e:
                 rec["error"] = str(e)[:80]
             time.sleep(0.15)
+        elif brand in ("everyday", "nobrand"):
+            p = prev.get(b["jijumId"])
+            if p and b["jijumId"] not in refresh:
+                rec.update({k: p[k] for k in SSM_KEYS if k in p}, ssm_detail=p["ssm_detail"])
+            else:
+                try:
+                    d = parse_detail(get(f"https://store.emart.com/branch/view.do?id={b['jijumId']}&culture=f&popup=null"))
+                    rec.update({k: d[k] for k in SSM_KEYS}, ssm_detail=today)
+                    fetched_ssm += 1
+                except Exception as e:
+                    if p:
+                        rec.update({k: p[k] for k in SSM_KEYS if k in p}, ssm_detail=p["ssm_detail"])
+                time.sleep(0.15)
         out.append(rec)
         if i % 100 == 0: print(i, len(lst), file=sys.stderr)
     OUT.write_text(json.dumps({"fetched": time.strftime("%Y-%m-%d"), "stores": out}, ensure_ascii=False, indent=1))
-    print("stores", len(out), "detail", sum(1 for r in out if r.get("hours")))
+    print("stores", len(out), "detail", sum(1 for r in out if r.get("hours")), "ssm fetched", fetched_ssm)
 
 
 if __name__ == "__main__":

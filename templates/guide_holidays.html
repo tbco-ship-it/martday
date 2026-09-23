@@ -26,7 +26,7 @@
 </div>
 {% for b, info in brands.items() if closed_day[b] %}
 <div class="sec"><div class="sec-h"><h2>{{ info.short }} — 추석 당일 휴무 {{ closed_day[b]|length }}개 점포</h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>
-<ul class="list">{% for s in closed_day[b][:12] %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.name }}<span class="meta">{{ s.area }}{% if s.hours %} · {{ s.hours }}{% endif %}</span></a></li>{% endfor %}{% if closed_day[b]|length > 12 %}<li class="more-row"><a href="{{ base }}{{ b }}/">나머지 {{ closed_day[b]|length - 12 }}개는 브랜드 페이지에서</a></li>{% endif %}</ul></div>
+<ul class="list">{% for s in closed_day[b][:12] %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.disp }}<span class="meta">{{ s.area }}{% if s.hours %} · {{ s.hours }}{% endif %}</span></a></li>{% endfor %}{% if closed_day[b]|length > 12 %}<li class="more-row"><a href="{{ base }}{{ b }}/">나머지 {{ closed_day[b]|length - 12 }}개는 브랜드 페이지에서</a></li>{% endif %}</ul></div>
 {% endfor %}
 <h2>지역별 추석 당일 휴무</h2>
 <table class="tbl compact"><thead><tr><th>지역</th><th>점포 수</th><th>당일 휴무</th><th>영업 고시</th><th>미확인</th><th>임시휴업·영업종료</th></tr></thead><tbody>

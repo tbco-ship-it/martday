@@ -13,6 +13,6 @@
 <div class="ad-slot"><!-- ad: brand --></div>
 {% for a, lst in areas.items()|sort(attribute='0') %}
 <div class="sec"><div class="sec-h"><h2>{{ a }} <span class="muted small">{{ lst|length }}개</span></h2><a href="{{ base }}region/{{ a }}/">{{ a }} 전체 마트</a></div>
-<ul class="list">{% for s in lst|sort(attribute='name') %}<li><a href="{{ base }}{{ brand }}/{{ s.slug }}/">{{ s.name }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}휴무 정보 없음{% endif %}</span></a></li>{% endfor %}</ul></div>
+<ul class="list">{% for s in lst|sort(attribute='name') %}<li><a href="{{ base }}{{ brand }}/{{ s.slug }}/">{{ s.disp }}{% if s.hours %} <small>{{ s.hours }}</small>{% endif %}<span class="meta">{% if s.next_closure %}다음 휴무 {{ s.next_closure|kdate }}{% else %}휴무 정보 없음{% endif %}</span></a></li>{% endfor %}</ul></div>
 {% endfor %}
 {% endblock %}

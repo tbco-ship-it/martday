@@ -5,6 +5,7 @@ import calendar
 import datetime as dt
 import hashlib
 import json
+import math
 import shutil
 from collections import defaultdict
 from pathlib import Path
@@ -21,6 +22,45 @@ KDAY = "월화수목금토일"
 def kdate(iso):
     d = dt.date.fromisoformat(iso)
     return f"{d.month}/{d.day}({KDAY[d.weekday()]})"
+
+
+def km(a, b):
+    p1, p2 = math.radians(a["lat"]), math.radians(b["lat"])
+    h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(b["lng"] - a["lng"]) / 2) ** 2
+    return 6371 * 2 * math.asin(math.sqrt(h))
+
+
+def alt_open(s, stores):
+    """이 점포가 다음에 쉬는 날, 근처에서 문 여는 점포. 그 달 휴점일이 하나라도 확인된 점포만 '연다'고 센다
+    (SSM 은 이번 달 휴점일만 알 수 있어서, 다음 달 날짜에 대해 휴점일이 없다는 건 '모른다'는 뜻이다)."""
+    d = s.get("next_closure")
+    if not (d and s.get("lat") and s.get("state", "open") == "open"):
+        return None
+    known = [x for x in stores if x is not s and x.get("lat") and x.get("state", "open") == "open"
+             and any(c[:7] == d[:7] for c in x["closures"])]
+    dist = [(km(s, x), x) for x in known]
+    near3 = [x for k, x in dist if k <= 3]
+    opens = sorted(((k, x) for k, x in dist if k <= 20 and d not in x["closures"]), key=lambda t: t[0])
+    far = bool(opens) and opens[0][0] > 5  # 5km 안에 없으면 가장 가까운 두 곳만(20km 까지)
+    opens = opens[:2] if far else [t for t in opens if t[0] <= 5][:4]
+    return {"date": d, "n3": len(near3), "same3": sum(1 for x in near3 if d in x["closures"]), "far": far,
+            "open": [(x, f"{k:.1f}") for k, x in opens]}
+
+
+def ics(s, origin, base, b):
+    """점포 휴무일 구독용 달력. 빌드마다 다시 쓰므로 구독한 달력 앱이 새 휴무일을 알아서 받는다."""
+    url = f"{origin}{base}{b}/{s['slug']}/"
+    uid = hashlib.md5(url.encode()).hexdigest()[:12]
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//martoday.com//holidays//KO", "CALSCALE:GREGORIAN",
+             "METHOD:PUBLISH", f"X-WR-CALNAME:{s['disp']} 휴무일", "X-WR-TIMEZONE:Asia/Seoul",
+             "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+    for c in s["closures"]:
+        d = dt.date.fromisoformat(c)
+        lines += ["BEGIN:VEVENT", f"UID:{uid}-{c}@martoday.com", f"DTSTAMP:{c.replace('-', '')}T000000Z",
+                  f"DTSTART;VALUE=DATE:{d:%Y%m%d}", f"DTEND;VALUE=DATE:{d + dt.timedelta(days=1):%Y%m%d}",
+                  f"SUMMARY:{s['disp']} 휴무", f"URL:{url}", "TRANSP:TRANSPARENT", "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(lines) + "\r\n"
 
 
 def month_grid(year, month):
@@ -85,6 +125,12 @@ def main():
         s["brand_name"] = brands[s["brand"]]["short"]
         # 고시 데이터가 있는 점포만 판정: 휴무 / 영업 / None(미확인)
         s["chuseok"] = ("휴무" if chuseok in s["closures"] else "영업") if s["closures"] and s.get("state", "open") == "open" else None
+    for s in stores:
+        # 네이버 데이터랩: "에브리데이 남가좌점" 보다 "이마트에브리데이 남가좌" 가 45배 검색된다(OUTBOX/DATALAB_11TH_POPO_20260923.md).
+        # URL(slug)은 그대로 두고 화면·제목 표기만 사람들이 치는 이름으로 쓴다.
+        s["disp"] = "이마트" + s["name"] if s["brand"] == "everyday" and s["name"].startswith("에브리데이") else s["name"]
+    for s in stores:
+        s["alt"] = alt_open(s, stores)
     by_brand = defaultdict(list)
     by_area = defaultdict(list)
     for s in stores:
@@ -153,6 +199,8 @@ def main():
         for s in lst:
             near = sorted([x for x in lst if x is not s and x["area"] == s["area"] and x.get("state", "open") == "open"], key=lambda x: x["name"])[:8]
             write(f"{b}/{s['slug']}/", "store.html", s=s, info=brands[b], near=near)
+            if s["closures"] and s.get("state", "open") == "open":
+                (DIST / b / s["slug"] / "holidays.ics").write_text(ics(s, origin, base, b))
     for a, lst in by_area.items():
         write(f"region/{a}/", "region.html", area=a, stores=sorted(lst, key=lambda x: (x["brand"], x["name"])))
 

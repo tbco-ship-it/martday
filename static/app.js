@@ -45,8 +45,11 @@
   let items = [], active = -1;
   const label = s => s.name;
   function open(q) {
-    const nq = norm(q);
-    items = (nq ? D.stores.filter(s => norm(s.name).includes(nq) || (s.address && norm(s.address).includes(nq))) : D.stores.filter(s => s.brand === 'emart')).slice(0, 8);
+    const nq = norm(q).replace(/^이마트에브리데이/, '에브리데이');
+    // "민락 노브랜드", "이마트에브리데이 목동"처럼 브랜드를 앞뒤 어디에 쳐도 찾는다
+    const bm = nq.match(/노브랜드|에브리데이/), rest = bm ? nq.replace(bm[0], '') : '';
+    const hit = s => { const n = norm(s.name); return bm ? n.includes(bm[0]) && n.includes(rest) : n.includes(nq); };
+    items = (nq ? D.stores.filter(s => hit(s) || (s.address && norm(s.address).includes(nq))) : D.stores.filter(s => s.brand === 'emart')).slice(0, 8);
     menu.innerHTML = items.length ? items.map((s, i) => `<li role="option" data-i="${i}" ${i === active ? 'aria-selected="true"' : ''}>${s.name}<small class="muted"> ${s.area || ''}</small></li>`).join('') : '<li class="empty">해당 점포가 없어요. 동네 이름으로도 찾아보세요.</li>';
     menu.hidden = false; input.setAttribute('aria-expanded', 'true');
   }
