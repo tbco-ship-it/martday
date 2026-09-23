@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 SITE = "마트휴무일"
 KDAY = "월화수목금토일"
+IKEA_CLOSED = ["2026-09-25", "2027-02-07"]  # 추석·설날 당일; 2027 설 이후엔 다음 해 날짜를 넣을 것
 
 
 def kdate(iso):
@@ -203,6 +204,37 @@ def main():
                 (DIST / b / s["slug"] / "holidays.ics").write_text(ics(s, origin, base, b))
     for a, lst in by_area.items():
         write(f"region/{a}/", "region.html", area=a, stores=sorted(lst, key=lambda x: (x["brand"], x["name"])))
+
+    # 백화점·아울렛·몰: 체인별 페이지만 만든다(점포별 페이지 없음 — 검색 수요가 "롯데백화점 휴무일" 같은 체인명 쿼리다).
+    dept_raw = json.loads((ROOT / "data/dept.json").read_text())
+    dept_chains = []
+    for key, c in dept_raw["chains"].items():
+        t = today.isoformat()
+        covered = sorted({m for s in c["stores"] for m in s.get("months", {})})
+        counts = defaultdict(int)
+        types = defaultdict(list)
+        for s in c["stores"]:
+            if key == "ikea":  # 이케아 정기 휴점 = 설날·추석 당일뿐(공식 고객센터 안내). 매장 페이지에 날짜를 안 올린 매장도 같다.
+                s["policy"] = [d for d in IKEA_CLOSED if d not in s["closed"]]
+                s["closed"] = sorted(s["closed"] + s["policy"])
+            for d in s["closed"]:
+                counts[d] += 1
+            upcoming = [d for d in s["closed"] if d >= t]
+            notes = [f"{kdate(x['date'])} {x['hours']} 영업" for x in s.get("special", []) if x["kind"] != "extend" and x["date"] >= t and x.get("hours")]
+            if [d for d in s.get("policy", []) if d >= t]:
+                notes.append("공지에 없는 날은 이케아 공통 규정(설날·추석 당일 휴무) 기준")
+            ms = sorted(m for m in s.get("months", {}) if m >= t[:7])
+            empty = "·".join(f"{int(m[5:])}월" for m in ms) + " 휴무 없음" if ms else "공지된 날짜 없음"
+            types[s.get("type") or c["name"]].append({**s, "upcoming": upcoming, "notes": notes, "empty": empty})
+        future = sorted(d for d in counts if d >= t)
+        nxt = future[0] if future else None
+        dept_chains.append({"key": key, "name": c["name"], "short": c["name"].split("·")[0], "source": c["source"], "note": c.get("note"),
+                            "n": len(c["stores"]), "covered": covered, "counts": dict(counts), "types": dict(types),
+                            "next": nxt, "next_n": counts.get(nxt, 0) if nxt else 0})
+    fetched = dept_raw["fetched_at"][:10]
+    for c in dept_chains:
+        write(f"dept/{c['key']}/", "dept.html", c=c, fetched=fetched, chains=dept_chains)
+    write("dept/", "dept_hub.html", chains=dept_chains, fetched=fetched)
 
     # 주소가 "서울시"/"부산시"로 적힌 점포 때문에 한동안 별도 허브가 만들어졌다. 정규화로 합쳤으므로
     # 옛 URL 은 사이트맵에서 빼고 메타 리프레시만 남긴다(GitHub Pages 는 301 을 못 준다).

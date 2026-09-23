@@ -15,6 +15,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Seoul  # build.py 의 "오늘"(다음 휴무·추석 문구)은 한국 날짜여야 한다; 05:10 KST 실행은 UTC 로는 전날이다
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -30,6 +32,7 @@ jobs:
           for b in emart costco homeplus lottemart; do
             timeout 240 python scripts/collect_$b.py || echo "::warning::collect_$b failed; keeping committed raw data"
           done
+          timeout 300 python scripts/collect_dept.py || echo "::warning::collect_dept failed; keeping committed data/dept.json"
           python scripts/normalize.py || echo "::warning::normalize refused; keeping committed data/stores.json"
           if ! git diff --quiet data/; then
             git config user.name "data-bot" && git config user.email "data-bot@users.noreply.github.com"

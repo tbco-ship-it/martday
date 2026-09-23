@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}백화점 휴무일 {{ months[0][0] }}년 {{ months[0][1] }}월 — 롯데·신세계·현대·갤러리아·AK 점포별 휴점일 | {{ site }}{% endblock %}
+{% block description %}롯데·신세계·현대·갤러리아·AK플라자 백화점과 아울렛·몰, 이케아의 점포별 휴점일. 각 백화점 공식 점포 안내를 매일 확인해 옮깁니다.{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="{{ base }}">홈</a> › 백화점 휴무일</nav>
+<h1>백화점 휴무일</h1>
+<p class="prose">백화점은 대형마트와 달리 의무휴업 대상이 아니어서, 회사마다 한 달에 하루 정도 휴점일을 따로 정합니다. 같은 회사라도 본점급과 아울렛·몰은 날짜가 다릅니다. 백화점을 고르면 점포별 날짜가 나옵니다.</p>
+<div class="sec"><ul class="list">{% for c in chains %}<li><a href="{{ base }}dept/{{ c.key }}/">{{ c.short }}<span class="meta">{% if c.next %}다음 휴점 {{ c.next|kdate }} · {{ c.next_n }}/{{ c.n }}곳{% else %}{{ c.n }}곳{% endif %}</span></a></li>{% endfor %}</ul></div>
+{% if chuseok_live %}<p class="prose">추석 연휴 휴점일은 <a href="{{ base }}guide/holidays/#dept">명절 영업 안내</a>에 한 표로 모아 두었습니다.</p>{% endif %}
+<p class="muted small">각 백화점 공식 점포 안내를 {{ fetched }}에 확인했습니다. 대형마트 휴무일은 <a href="{{ base }}">홈</a>에서 점포 이름으로 찾을 수 있습니다.</p>
+{% endblock %}

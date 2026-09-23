@@ -32,7 +32,7 @@
 <section class="grid2">
   <div class="sec">
     <div class="sec-h"><h2>브랜드별 이번 달 휴무일</h2></div>
-    <ul class="list">{% for b, info in brands.items() %}<li><a href="{{ base }}{{ b }}/">{{ info.short }}<span class="meta">{{ by_brand[b]|length }}개 점포</span></a></li>{% endfor %}</ul>
+    <ul class="list">{% for b, info in brands.items() %}<li><a href="{{ base }}{{ b }}/">{{ info.short }}<span class="meta">{{ by_brand[b]|length }}개 점포</span></a></li>{% endfor %}<li><a href="{{ base }}dept/">백화점·아울렛<span class="meta">롯데·신세계·현대 등</span></a></li></ul>
   </div>
   <div class="sec">
     <div class="sec-h"><h2>지역별</h2></div>

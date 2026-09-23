@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% set cm = c.covered|select(">=", today[:7])|list %}
+{% block title %}{{ c.short }} 휴무일 {{ months[0][0] }}년 {% for m in cm %}{{ m[5:]|int }}월{% if not loop.last %}·{% endif %}{% else %}{{ months[0][1] }}월{% endfor %}{% if c.next %} — 다음 휴점 {{ c.next|kdate }}{% endif %} · 점포 {{ c.n }}곳 | {{ site }}{% endblock %}
+{% block description %}{{ c.name }} {{ c.n }}개 점포의 휴점일{% if c.next %}. 다음 휴점일은 {{ c.next|kdate }}({{ c.next_n }}곳){% endif %}. 점포마다 쉬는 날이 달라 점포별로 정리했습니다. {{ c.short }} 공식 점포 안내 기준, 매일 확인.{% endblock %}
+{% block content %}
+<nav class="crumbs"><a href="{{ base }}">홈</a> › <a href="{{ base }}dept/">백화점 휴무일</a> › {{ c.short }}</nav>
+<h1>{{ c.short }} 휴무일</h1>
+<p class="prose">{% if c.next %}<strong>다음 휴점일은 {{ c.next|kdate }}</strong>, {{ c.n }}곳 중 {{ c.next_n }}곳이 쉽니다. {% endif %}{% if c.name != c.short %}이 페이지는 {{ c.name }} 점포를 함께 보여 줍니다. {% endif %}{% if c.key != "ikea" %}백화점은 보통 한 달에 하루 쉬지만 점포마다 날짜가 다르고, 아울렛·몰은 휴점일이 따로 정해집니다. 아래 표에서 가려는 점포를 찾으세요.{% endif %}</p>
+{% if c.key == "ikea" %}<p class="prose">이케아는 설날 당일과 추석 당일, 1년에 이틀만 쉽니다. 그 밖의 날은 매장별 특별 영업시간만 아래에 적었습니다.</p>{% endif %}
+{% if cm %}<div class="grid2">
+{% for m in cm %}{% set year = m[:4]|int %}{% set month = m[5:]|int %}{% set closures = {} %}{% for iso, n in c.counts.items() if iso[:7] == m %}{% set _ = closures.update({iso: n}) %}{% endfor %}{% include "_calendar.html" %}{% endfor %}
+</div>
+<p class="muted small">달력의 숫자는 그날 쉬는 점포 수입니다.{% if cm|length < 2 %} 다음 달 휴점일은 아직 공지 전입니다.{% endif %}</p>{% endif %}
+<div class="ad-slot"><!-- ad: dept --></div>
+{% for ty, lst in c.types.items() %}
+<div class="sec"><div class="sec-h"><h2>{{ ty }} <span class="muted small">{{ lst|length }}곳</span></h2></div>
+<table class="tbl compact dept-tbl"><thead><tr><th>점포</th><th>쉬는 날</th></tr></thead><tbody>
+{% for s in lst %}<tr><td><a href="{{ s.url }}" rel="nofollow noopener" target="_blank">{{ s.name }}</a>{% for n in s.notes %}<br><small class="muted">{{ n }}</small>{% endfor %}</td><td>{% if s.upcoming %}{% for d in s.upcoming %}{{ d|kdate }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}<span class="muted">{{ s.empty }}</span>{% endif %}</td></tr>
+{% endfor %}</tbody></table></div>
+{% endfor %}
+<p class="muted small">{{ c.short }} 공식 점포 안내(<a href="{{ c.source }}" rel="nofollow noopener" target="_blank">{{ c.source.split('/')[2] }}</a>)의 점포별 휴점일을 {{ fetched }}에 확인했습니다. 점포 이름을 누르면 공식 페이지로 갑니다. 주말 연장 영업시간은 공식 페이지를 보세요. 점포 사정으로 바뀔 수 있으니 방문 전 확인을 권합니다.</p>
+<div class="sec"><div class="sec-h"><h2>다른 백화점·몰</h2></div>
+<ul class="list">{% for o in chains if o.key != c.key %}<li><a href="{{ base }}dept/{{ o.key }}/">{{ o.short }}<span class="meta">{% if o.next %}다음 휴점 {{ o.next|kdate }}{% else %}{{ o.n }}곳{% endif %}</span></a></li>{% endfor %}</ul></div>
+{% endblock %}

@@ -1,0 +1,2826 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1120">
+		<title>신세계백화점 본점 한눈에 보기</title>
+        <link rel="shortcut icon" href="/resources/site/img/favicons.png">
+		<link rel="stylesheet" type="text/css" href="/resources/site/css/common.css?v=20260923 174816">
+		<link rel="stylesheet" type="text/css" href="/resources/site/css/login/common_2504.css?v=20260923 174816">
+		
+				            <link rel="stylesheet" type="text/css" href="/resources/site/fonts/fonts.css?v=20260923 174816">
+		
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery-3.7.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery-migrate-3.5.0.min.js"></script>
+		<!--<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery-1.9.1.min.js"></script>-->
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.cookie.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.tmplPlus.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/TweenMax.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.nanoscroller.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.plugin.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/vendor/jquery.realperson.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/jquery.form.js?v=20260923 174816"></script>
+		<script>
+			var rootDomain = "";
+			var resourceDomain = "/resources/site";
+			var topNPopupPath = "/upload/main/topnpopup/";
+			var ssoPath = "https://member.ssg.com/myssg/ssgGate.ssg";
+			var signupPath = "https://member.shinsegaepoint.com/shinbaek/shinbaekmembers/member/join/cert";
+						var IS_DEBUG_MODE = false;
+			
+			/*커스텀 start*/
+			function changeStore(storeCd) {
+				var url = location.pathname;
+				var menuArr = url.split(".")[0].split("/");
+				var menu = menuArr[menuArr.length-1];
+				
+				if(menu != "main"){
+					$.ajax({
+						url : '/store/selectStoreNaviYn.do',
+						data : {
+							storeCd : storeCd
+						},
+						type : "POST",
+						dataType : "json",
+						success : function(data) {
+							if(data.result != null){
+								url += "?storeCd="+storeCd;
+								if(menu == "floor" && data.result.menuFloorYn == "Y"){
+									move(url);
+								}else if(menu == "restaurant" && data.result.menuRestntYn == "Y"){
+									move(url);
+								}else if(menu == "facility" && data.result.menuSvcFacYn == "Y"){
+									move(url);
+								}else if(menu == "entertainment" && data.result.menuCplxFacYn == "Y"){
+									move("/store/centum-entertainment.do?storeCd=SC00008");
+								}else if(menu == "centum-entertainment" && data.result.menuCplxFacYn == "Y"){
+									move("/store/entertainment.do?storeCd=SC00013");
+								}else{
+									move("/store/main.do" + "?storeCd="+storeCd);
+								}
+							}else{
+								move("/store/main.do" + "?storeCd="+storeCd);
+							}
+						}
+					});
+				}else{
+					move(url + "?storeCd="+storeCd);
+				}
+			}
+			
+			function pageInit() {
+				var url = location.pathname;
+				var menuArr = url.split(".")[0].split("/");
+				var menu = menuArr[menuArr.length-1];
+				
+				$("#"+menu).addClass("on");
+				
+				switch(menu) {
+				case "main":
+					StoreMain.init();
+					break;
+				case "facility":
+					StoreFacility.init();
+					break;
+				case "restaurant":
+					break;
+				}
+				
+				StoreCommon.init();
+			}
+			
+		</script>
+				<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer',"GTM-T244DPFK");</script>
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FN49J2HYEX"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		// PC
+		gtag('config', "G-FN49J2HYEX");
+		function gtag_event_isAvailable_PC(mbrLoginId) {
+			gtag('set', {'user_id': mbrLoginId});
+			gtag('event', 'authentication', {'isAvailable' : 'user_id available'});
+		}
+
+		// All(PC + MO)
+		gtag('config', "G-K1NBN99SFR");
+		function gtag_event_isAvailable_All(mbrLoginId, GA_MEASUREMENT_ID) {
+			gtag('set', {'user_id': mbrLoginId});
+			gtag('event', 'authentication', {'send_to': GA_MEASUREMENT_ID, 'isAvailable' : 'user_id available'});
+		}
+		</script>
+		
+		
+		<meta name="menu" depth1Menu="점포안내" depth2Menu="신세계백화점-본점" depth3Menu="한눈에 보기" depth="3">
+		<meta name="description" content="신세계백화점 본점 점포 소식을 한눈에 확인하세요.">
+				<meta name="keywords" content="신세계 본점, 본점 신세계, 영업시간, 휴점일안내, 오시는길">
+		<meta property="og:title" content="신세계백화점 본점"/>
+		<meta property="og:description" content="신세계백화점 본점 점포 소식을 한눈에 확인하세요."/>
+		<meta property="og:image" content="/resources/site/img/share_thumb.jpg"/>
+		<link rel="stylesheet" type="text/css" href="/resources/site/css/store/store.common.css?v=20260923 174816">
+		<link rel="stylesheet" type="text/css" href="/resources/site/css/store/store.main.css?v=20260923 174816">
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#store_hour_info").attr("tabindex",0);
+				$(".naviDepth3_store_empty_main").attr("title","한눈에 보기 선택됨");
+				$(".naviDepth3_store_empty_main").attr("aria-selected",true);
+			});
+			
+		</script>
+	
+	</head>
+	<body>
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T244DPFK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+				<div class="s-skip-content">
+			<a href="#page_contents" id="skipToContent">본문 바로가기</a>
+		</div>
+		<div id="WRAP">
+			<style>
+#GNB .slide_pop_group .slide_pop_container.on{outline:none;}
+</style>
+<script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld3AwwsAAAAAEA6IVKmnpz9ApfkzPpaHEC82app"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		Recaptcha.init("6Ld3AwwsAAAAAEA6IVKmnpz9ApfkzPpaHEC82app");
+	});
+</script>
+
+<div id="GNB">
+  <div id="BAND_BANNER" class="banner" style="display:none;">
+	<div class="banner_inner">
+	  <a href="javascript:void(0);" id="bandBanner_img" class="thumb"><span class="ir_text">배너</span></a>
+	  <a href="javascript:void(0);" onclick="topNPopupClose('BAND_BANNER')" class="btn_close"><img src="/resources/site/img/common/banner_close.png" alt="배너 닫기" /></a>
+	</div>
+  </div>
+
+	<div class="top">
+		<div class="top_inner">
+			<div class="lang en_gill_400">
+				<a href="/index.do" class="on">KR</a>
+				<a href="http://en.shinsegae.cn/index.do">EN</a>
+				<a href="http://shinsegae.cn/index.do">CN</a>
+			</div>
+			<div class="ssgcom en_gill_400">
+				<a href="http://department.ssg.com/?ckwhere=dept_top1"  target="_blank" tilte="새창열림" >SSG.COM</a>
+			</div>
+		</div>
+	</div>
+        <div class="navi">
+	<div class="navi_inner">
+	  <div class="depth2_bg"></div>
+	  <div class="logo"><h1><a href="/index.do"><img src="/resources/site/img/common/gnb/gnb_logo.png" alt="SHINSEGAE"/></a></h1></div>
+	  <div class="depth1">
+		<ul>
+		  <li data-idx="1" class="depth1_1">
+			<a href="/store/main.do" onClick="gtag('event', 'MENU', {'MENU_Depth1': '점포 안내'});" class="naviDepth1_store" aria-selected="false">점포 안내</a>
+			<div class="depth2 ">
+			  <div class="depth2_1_1">
+				<a href="/store/main.do" onclick="gtag('event', 'MENU', {'MENU_Depth2': '점포 안내_신세계백화점'});" class="kr_g_600"><span>신세계백화점</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/store/main.do?storeCd=SC00002" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_강남점'});" class="dbDepth3_store_empty_SC00002">강남점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00006" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_광주신세계'});" class="dbDepth3_store_empty_SC00006">광주신세계</a></li>
+					<li><a href="/store/main.do?storeCd=SC00011" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_김해점'});" class="dbDepth3_store_empty_SC00011">김해점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00013" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_대구신세계'});" class="dbDepth3_store_empty_SC00013">대구신세계</a></li>
+					<li><a href="/store/main.do?storeCd=SC00060" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_대전신세계 Art & Science'});" class="dbDepth3_store_empty_SC00060">대전신세계<br>Art & Science</a></li>
+					<li><a href="/store/main.do?storeCd=SC00005" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_마산점'});" class="dbDepth3_store_empty_SC00005">마산점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_본점'});" class="dbDepth3_store_empty_SC00001">본점</a></li>
+					
+				  </ul>
+				  <ul>
+					<li><a href="/store/main.do?storeCd=SC00008" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_센텀시티'});" class="dbDepth3_store_empty_SC00008">센텀시티</a></li>
+					<li><a href="/store/main.do?storeCd=SC00012" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_스타필드 하남점'});" class="dbDepth3_store_empty_SC00012">스타필드 하남점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00007" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_신세계 사우스시티'});" class="dbDepth3_store_empty_SC00007">신세계 사우스시티</a></li>
+					<li><a href="/store/main.do?storeCd=SC00010" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_의정부점'});" class="dbDepth3_store_empty_SC00010">의정부점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00009" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_천안아산점'});" class="dbDepth3_store_empty_SC00009">천안아산점</a></li>
+					<li><a href="/store/main.do?storeCd=SC00003" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계백화점_타임스퀘어점'});" class="dbDepth3_store_empty_SC00003">타임스퀘어점</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_1_2">
+				<a href="/factoryStore/main.do?storeCd=FC00001" onclick="gtag('event', 'MENU', {'MENU_Depth2': '점포 안내_신세계 팩토리스토어'});" class="kr_g_600"><span>신세계 팩토리스토어</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/factoryStore/main.do?storeCd=FC00014" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_가산점'});" class="dbDepth3_store_empty_FC00014">가산점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00004" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_인천점'});" class="dbDepth3_store_empty_FC00004">강남점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_본점'});" class="dbDepth3_store_empty_FC00001">고양점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00008" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_센텀시티'});" class="dbDepth3_store_empty_FC00008">기장점</a></li>
+																<li><a href="/factoryStore/main.do?storeCd=FC00024" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_김해점'});" class="dbDepth3_store_empty_FC00024">김해점</a>
+															<span class="text_new" style="color:#f22c2d;font-size:12px;margin-left:5px;">NEW</span>
+													</li>
+										<li><a href="/factoryStore/main.do?storeCd=FC00012" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_스타필드 하남점'});" class="dbDepth3_store_empty_FC00012">광양점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00011" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_김해점'});" class="dbDepth3_store_empty_FC00011">대구점</a></li>					<li><a href="/factoryStore/main.do?storeCd=FC00005" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_마산점'});" class="dbDepth3_store_empty_FC00005">대전점</a></li>
+				  	<li><a href="/factoryStore/main.do?storeCd=FC00002" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_강남점'});" class="dbDepth3_store_empty_FC00002">센텀점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00016" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_'});" class="dbDepth3_store_empty_FC00016">수원점</a></li>
+				  </ul>
+				  <ul>
+					<li><a href="/factoryStore/main.do?storeCd=FC00007" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_신세계 사우스시티'});" class="dbDepth3_store_empty_FC00007">시흥점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00020" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_스타필드마켓 경산점'});" class="dbDepth3_store_empty_FC00020">스타필드마켓 경산점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00018" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_스타필드마켓 죽전점'});" class="dbDepth3_store_empty_FC00018">스타필드마켓 죽전점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00019" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_스타필드마켓 일산점'});" class="dbDepth3_store_empty_FC00019">스타필드마켓 일산점</a></li>+
+					<li>
+						<a href="/factoryStore/main.do?storeCd=FC00023" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_스타필드마켓 월계점'});" class="dbDepth3_store_empty_FC00023">스타필드마켓 월계점</a>
+													<span class="text_new" style="color:#f22c2d;font-size:12px;margin-left:5px;">NEW</span>
+											</li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00009" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_천안아산점'});" class="dbDepth3_store_empty_FC00009">안성점</a></li>
+										<li><a href="/factoryStore/main.do?storeCd=FC00010" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_의정부점'});" class="dbDepth3_store_empty_FC00010">여주점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00017" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_'});" class="dbDepth3_store_empty_FC00017">여주 프리미엄빌리지점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00022" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_의정부점'});" class="dbDepth3_store_empty_FC00022">의정부점</a>
+													<span class="text_new" style="color:#f22c2d;font-size:12px;margin-left:5px;">NEW</span>
+											</li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00015" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_천안아산점'});" class="dbDepth3_store_empty_FC00015">천안아산점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00021" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_천안터미널점'});" class="dbDepth3_store_empty_FC00021">천안터미널점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00006" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_광주신세계'});" class="dbDepth3_store_empty_FC00006">타임스퀘어점</a></li>
+					<li><a href="/factoryStore/main.do?storeCd=FC00003" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 팩토리스토어_타임스퀘어점'});" class="dbDepth3_store_empty_FC00003">파주점</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  
+									  <div class="depth2_1_5">
+				<a href="/hos/main.do?storeCd=HS00001" onclick="gtag('event', 'MENU', {'MENU_Depth2': '점포 안내_신세계 하우스오브신세계'});" class="kr_g_600"><span>하우스오브신세계</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/hos/main.do?storeCd=HS00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 하우스오브신세계_청담'});" class="dbDepth3_store_empty_HS00001">청담</a></li>
+				  </ul>
+				</div>
+			  </div>
+						  
+			  <div class="depth2_1_3">
+				<a href="/styleMarket/main.do?storeCd=MC00001" onclick="gtag('event', 'MENU', {'MENU_Depth2': '점포 안내_신세계 스타일마켓'});" class="kr_g_600"><span>신세계 스타일마켓</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/styleMarket/main.do?storeCd=MC00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 스타일마켓_대전 스타일마켓'});" class="dbDepth3_store_empty_MC00001">대전 스타일마켓</a></li>
+				  </ul>
+				</div>
+			  </div>
+		  <div class="depth2_1_4">
+			<a href="/foodMarket/main.do?storeCd=FM00001" onclick="gtag('event', 'MENU', {'MENU_Depth2': '점포 안내_신세계 푸드마켓'});" class="kr_g_600"><span>신세계 푸드마켓</span></a>
+			<div class="depth3">
+				<ul>
+					<li><a href="/foodMarket/main.do?storeCd=FM00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '점포 안내_신세계 푸드마켓_도곡 푸드마켓'});" class="dbDepth3_store_empty_FM00001">도곡점</a></li>
+				</ul>
+			</div>
+		  </div>
+			</div>
+		  </li>
+		  <li data-idx="2" class="depth1_2">
+			<a href="/shopping/list.do" onClick="gtag('event', 'MENU', {'MENU_Depth1': '쇼핑 정보'});" class="naviDepth1_shopping" aria-selected="false">쇼핑 정보</a>
+			<div class="depth2 ">
+			  <div class="depth2_1_1">
+				<div class="depth3">
+				  <ul>
+					<li><a href="/shopping/list.do?storeCd=SC00002" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_강남점'});" class="dbDepth3_shopping_SC00002">강남점</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00006" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_광주신세계'});" class="dbDepth3_shopping_SC00006">광주신세계</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00011" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_김해점'});" class="dbDepth3_shopping_SC00011">김해점</a></li>
+				  </ul>
+				  <ul>
+					<li><a href="/shopping/list.do?storeCd=SC00013" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_대구신세계'});" class="dbDepth3_shopping_SC00013">대구신세계</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00060" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_대전신세계 Art & Science'});" class="dbDepth3_shopping_SC00060">대전신세계<br>Art & Science</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00005" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_마산점'});" class="dbDepth3_shopping_SC00005">마산점</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00001" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_본점'});" class="dbDepth3_shopping_SC00001">본점</a></li>
+				  </ul>
+				  <ul>
+					<li><a href="/shopping/list.do?storeCd=SC00008" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_센텀시티'});" class="dbDepth3_shopping_SC00008">센텀시티</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00012" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_스타필드 하남점'});" class="dbDepth3_shopping_SC00012">스타필드 하남점</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00007" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_신세계 사우스시티'});" class="dbDepth3_shopping_SC00007">신세계 사우스시티</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00010" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_의정부점'});" class="dbDepth3_shopping_SC00010">의정부점</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00009" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_천안아산점'});" class="dbDepth3_shopping_SC00009">천안아산점</a></li>
+					<li><a href="/shopping/list.do?storeCd=SC00003" onClick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_타임스퀘어점'});" class="dbDepth3_shopping_SC00003">타임스퀘어점</a></li>
+				  </ul>
+				  <ul>
+										<li><a class="naviDepth2_shopping_event" href="/shopping/event/list.do" onclick="gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_뉴스&이벤트'});">뉴스&이벤트</a></li>
+					<script type="text/javascript">
+						  function reTimeChk(url) {
+						var sDay1= new Date("2021/12/29 23:00:00");
+						var eDay1= new Date("2021/12/30 01:00:00");
+
+						if(Date.now() >= sDay1 && Date.now() < eDay1){
+						  alert('2021년 12월 29일 01:00 ~ 2021년 12월 30일 01:00 동안 서비스 점검으로 계절과 식탁 접속이 제한됩니다. \n이용에 불편을 드려 죄송합니다.');
+						  return ;
+						}else{
+						  location.href = url;
+						}
+					  }
+					</script>
+															  <!-- <li> -->
+						<!-- <a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '쇼핑 정보_계절과 식탁'});" onclick="reTimeChk('/shopping/recipe/recipe_magazine.do')" class="naviDepth1_recipe"> -->
+						<!-- <span class="title_table">계절과 식탁</span> -->
+						<!-- </a> -->
+					  <!-- </li> -->
+					
+														  </ul>
+				</div>
+			  </div>
+			</div>
+		  </li>
+		  <li data-idx="3" class="depth1_3">
+			<a href="/brands/index.do" onclick="gtag('event', 'MENU', {'MENU_Depth1': '신세계 브랜드'});" class="naviDepth1_brands" aria-selected="false">신세계 브랜드</a>
+			<div class="depth2">
+			  <div class="depth2_3_1">
+				<a href="/brands/index.do" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_All'});"  class="dbDepth3_brands_all kr_g_600" ><span>All</span></a>
+			  </div>
+			  <div class="depth2_3_2">
+				<a href="/brands/index.do?categCd=SB01" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_WOMEN'});" class="dbDepth3_brands_SB01 kr_g_600"><span>WOMEN</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/brands/brand.do?ssgBSeq=1"onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_WOMEN_분더샵'});" class="dbDepth3_brands_1">분더샵</a></li>
+					<li>
+					  <a href="/brands/brand.do?ssgBSeq=66" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_WOMEN_엑시츠'});" class="dbDepth3_brands_66">엑시츠</a>
+					  					</li>
+										<li><a href="/brands/brand.do?ssgBSeq=4" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_WOMEN_트리니티'});" class="dbDepth3_brands_4">트리니티</a></li>
+																																		  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_3_3">
+				<a href="/brands/index.do?categCd=SB02" class="dbDepth3_brands_SB02 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_MEN'});"><span>MEN</span></a>
+				<div class="depth3">
+				  <ul>
+										<li><a href="/brands/brand.do?ssgBSeq=10" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_MEN_분더샵 남성'});" class="dbDepth3_brands_10">분더샵 남성</a></li>
+														  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_3_4">
+				<a href="/brands/index.do?categCd=SB03" class="dbDepth3_brands_SB03 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_KIDS'});"><span>KIDS</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/brands/brand.do?ssgBSeq=12" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_KIDS_분 주니어'});" class="dbDepth3_brands_12">분 주니어</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_3_5">
+				<a href="/brands/index.do?categCd=SB04" class="dbDepth3_brands_SB04 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_ACC'});"><span>ACC</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/brands/brand.do?ssgBSeq=13" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_ACC_케이스스터디'});" class="dbDepth3_brands_13">케이스스터디</a></li>
+					<li><a href="/brands/brand.do?ssgBSeq=15" class="dbDepth3_brands_15" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_ACC_아디르'});">아디르</a></li>
+					<li><a href="/brands/brand.do?ssgBSeq=14" class="dbDepth3_brands_14" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_ACC_분더샵 슈'});">분더샵 슈</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_3_6">
+				<a href="/brands/index.do?categCd=SB05" class="dbDepth3_brands_SB05 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_BEAUTY'});"><span>BEAUTY</span></a>
+				<div class="depth3">
+				  <ul>
+					<li>
+					  <a href="/brands/brand.do?ssgBSeq=46" class="dbDepth3_brands_46" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_BEAUTY_오노마'});">오노마</a>
+					  					</li>
+					<li><a href="/brands/brand.do?ssgBSeq=16" class="dbDepth3_brands_16" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_BEAUTY_시코르'});">시코르</a></li>
+					
+									  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_3_7">
+				<a href="/brands/index.do?categCd=SB06" class="dbDepth3_brands_SB06 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_LIVING'});"><span>LIVING</span></a>
+				<div class="depth3">
+				  <ul>
+										  <li><a href="/brands/brand.do?ssgBSeq=106" class="dbDepth3_brands_22" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_LIVING_하우스오브신세계'});">하우스오브신세계</a></li>
+					<li><a href="/brands/brand.do?ssgBSeq=21" class="dbDepth3_brands_21" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_LIVING_포트넘앤메이슨'});">포트넘앤메이슨</a></li>
+										<li><a href="/brands/brand.do?ssgBSeq=17" class="dbDepth3_brands_17" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_LIVING_생루이'});">생루이</a></li>
+					<li><a href="/brands/brand.do?ssgBSeq=19" class="dbDepth3_brands_19" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_LIVING_피숀'});">피숀</a></li>
+					
+				  </ul>
+				</div>
+			  </div>
+			  
+						  <div class="depth2_3_10">
+				<a href="/brands/index.do?categCd=SB09" class="dbDepth3_brands_SB09 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_FOOD'});"><span>FOOD</span></a>
+				<div class="depth3">
+				  <ul>
+																				  <li><a href="/brands/brand.do?ssgBSeq=166" class="dbDepth3_brands_166" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_E-SHOP_트웰브'});">트웰브</a></li>
+				  </ul>
+				</div>
+			  </div>
+						  
+			  <div class="depth2_3_9">
+				<a href="/brands/index.do?categCd=SB08" class="dbDepth3_brands_SB08 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_E-SHOP'});"><span>E-SHOP</span></a>
+				<div class="depth3">
+				  <ul>
+																				  <li><a href="/brands/brand.do?ssgBSeq=146" class="dbDepth3_brands_146" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_E-SHOP_비욘드신세계'});">비욘드신세계</a>
+					  					  </li>
+				  </ul>
+				</div>
+			  </div>
+
+			  <div class="depth2_3_8">
+				<a href="/brands/index.do?categCd=SB07" class="dbDepth3_brands_SB07 kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '신세계 브랜드_TRAVEL'});"><span>TRAVEL</span></a>
+				<div class="depth3">
+				  <ul>
+																				<li><a href="/brands/brand.do?ssgBSeq=126" class="dbDepth3_brands_126" onclick="gtag('event', 'MENU', {'MENU_Depth3': '신세계 브랜드_TRAVEL_비아신세계'});">비아신세계</a>
+										</li>
+				  </ul>
+				</div>
+			  </div>
+
+			</div>
+		  </li>
+		  <script type="text/javascript">
+				function timeChk(url) {
+			  var sDay1= new Date("2023/07/20 01:00:00");
+			  var eDay1= new Date("2023/07/20 03:00:00");
+
+			  var sDay2= new Date("2019/08/07 00:00:00");
+			  var eDay2= new Date("2019/08/07 04:00:00");
+			  if(Date.now() >= sDay1 && Date.now() < eDay1){
+				alert('2023년 7월 20일 01:00 ~ 2023년 7월 20일 03:00 동안 아카데미 접속이 제한됩니다. \n이용에 불편을 드려 죄송합니다.');
+				return ;
+			  }else if(Date.now() >= sDay2 && Date.now() < eDay2){
+				alert('2019년 8월 7일 00:00 ~ 2019년 8월 7일 07:00 동안 아카데미 접속이 제한됩니다. \n이용에 불편을 드려 죄송합니다.');
+				return ;
+			  }else{
+				location.href = url;
+			  }
+			}
+
+			function movSsg() {
+			  window.open("http://department.ssg.com/?ckwhere=dept_top1");
+			}
+		  </script>
+		  <li data-idx="4" class="depth1_4">
+			<a href="javascript:gtag('event', 'MENU', {'MENU_Depth1': '아트&컬쳐'});" onclick="timeChk('/culture/academy/index.do?tapCode=')" class="naviDepth1_culture" aria-selected="false">아트&컬처</a>
+			<div class="depth2 ">
+			  <div class="depth2_4_1">
+				<a href="javascript:gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_신세계 아카데미'});" onclick="timeChk('/culture/academy/index.do?tapCode=')" class="naviDepth3_culture_academy_main kr_g_600"><span>신세계 아카데미</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 아카데미_수강신청'});" onclick="timeChk('/culture/academy/lecture.do?app=&tapCode=')" class="naviDepth3_culture_academy_lecture">수강신청</a></li>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 아카데미_카탈로그'});" onclick="timeChk('/culture/academy/catalog.do?tapCode=')" class="naviDepth3_culture_academy_catalog">카탈로그</a></li>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 아카데미_강사 지원'});" onclick="timeChk('/culture/academy/instructor.do?tapCode=')" class="naviDepth3_culture_academy_instructor">강사 지원</a></li>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 아카데미_MY 아카데미'});" onclick="timeChk('/culture/academy/myacademy.do?tapCode=')" class="naviDepth3_culture_academy_myacademy">MY 아카데미</a></li>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 아카데미_아카데미 소개'});" onclick="timeChk('/culture/academy/about.do?tapCode=')" class="naviDepth3_culture_academy_about">아카데미 소개</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_4_2">
+				<a href="https://ten-spear-f5a.notion.site/aaeef103bc9245aabd0b65e4ceab7576?v=d12452775cbb4447bf95bdf100891ec4" target="_blank" title="새 창 열림" class="naviDepth3_culture_onacademy_main kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_신세계 온 아카데미'});"><span>신세계 온 아카데미</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/culture/academy/lecture.do?tapCode=01" class="naviDepth3_culture_onacademy_totalview" onclick="gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 온 아카데미_수강신청'});">수강신청</a></li>
+									  </ul>
+				</div>
+			  </div>
+
+			  <div class="depth2_4_2">
+				<a href="/culture/culturehall/index.do" class="naviDepth3_culture_culturehall_main kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_신세계 문화홀'});"><span>신세계 문화홀</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/culture/culturehall/show/list.do" class="naviDepth3_culture_culturehall_performance" onclick="gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 문화홀_공연'});">공연</a></li>
+					<li><a href="/culture/culturehall/about.do" class="naviDepth3_culture_culturehall_about" onclick="gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계 문화홀_문화홀 안내'});">문화홀 안내</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_4_3">
+				<a href="/culture/gallery/index.do" class="naviDepth3_culture_gallery_main kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_신세계갤러리'});"><span>신세계갤러리</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계갤러리_전시'});" onclick="goGalleryPage('Y')" class="naviDepth3_culture_gallery_exhibition">전시</a></li>
+					<li><a href="javascript:gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계갤러리_아트 컬렉션'});" onclick="goGalleryPage('N')" class="naviDepth3_culture_gallery_artcollection">아트 컬렉션</a></li>
+					<li><a href="/culture/gallery/about.do" class="naviDepth3_culture_gallery_about" onclick="gtag('event', 'MENU', {'MENU_Depth3': '아트&컬쳐_신세계갤러리_갤러리 안내'});">갤러리 안내</a></li>
+					<li><a href="/culture/gallery/artFestival.do" class="naviDepth3_culture_gallery_artFestival">광주신세계미술제</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_4_4">
+				<a href="/science/index.do" class="naviDepth3_culture_science_main kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_신세계 넥스페리움'});"><span>신세계 넥스페리움</span></a>
+			  </div>
+			  <div class="depth2_4_4">
+				<a href="/observatory/index.do" class="naviDepth3_culture_observe_main kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '아트&컬쳐_SKY 193'});"><span>SKY 193</span></a>
+			  </div>
+			</div>
+		  </li>
+		  <li data-idx="5" class="depth1_5">
+			<a href="/magazine/list.do" class="naviDepth1_magazine" onclick="gtag('event', 'MENU', {'MENU_Depth1': '매거진'});" aria-selected="false">매거진</a>
+		  </li>
+		  <li data-idx="6" class="depth1_6">
+			<a href="/service/vipclub/guide.do" class="naviDepth1_service" onclick="gtag('event', 'MENU', {'MENU_Depth1': '고객 서비스'});" aria-selected="false">고객 서비스</a>
+			<div class="depth2">
+			  <div class="depth2_6_1">
+				<a href="/service/vipclub/guide.do" class="kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_신세계 VIP 클럽'});" ><span>신세계 VIP 클럽</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/service/vipclub/guide.do" class="naviDepth3_service_vipclub_guide" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 VIP 클럽_선정 기준 안내'});">선정 기준 안내</a></li>
+					<li><a href="/service/vipclub/benefits-trinity.do" class="naviDepth3_service_vipclub_benefits" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 VIP 클럽_혜택 안내'});">혜택 안내</a></li>
+					<li><a href="/service/vipclub/vip-card.do" class="naviDepth3_service_vipclub_theboon" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 VIP 클럽_VIP 카드'});">VIP 카드</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_6_2">
+				<a href="/service/membership/shinsegae-members.do" class="kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_신세계 멤버십'});"><span>신세계 멤버십</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/service/membership/shinsegae-members.do" class="naviDepth3_service_membership_members" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_신백멤버스'});">신백멤버스</a></li>
+					<li><a href="/service/membership/shinsegae-namsan.do" class="naviDepth3_service_membership_namsan" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_남산클럽'});">NAMSAN CLUB</a></li>
+					<li><a href="/service/membership/shinsegae-point.do" class="naviDepth3_service_membership_point" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_신세계포인트'});">신세계포인트</a></li>
+					<li><a href="/service/membership/card.do" class="naviDepth3_service_membership_card" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_신세계 카드'});">신세계 카드</a></li>
+					<li><a href="/service/membership/certificate.do" class="naviDepth3_service_membership_certificate" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_신세계상품권'});">신세계상품권</a></li>
+					<li><a href="/service/membership/ssg-pay.do" class="naviDepth3_service_membership_ssgpay" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_SSG PAY'});">SSG PAY</a></li>
+					<li><a href="/service/membership/prime.do" class="naviDepth3_service_membership_prime" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_신세계 멤버십_신세계 프라임'});">신세계 프라임</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_6_4">
+				<a href="/service/voc/faq.do" class="kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_고객 의견'});"><span>고객 의견</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/service/voc/faq.do" class="naviDepth3_service_voc_faq" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_고객 의견_자주하는 질문'});">자주하는 질문</a></li>
+					<li><a href="/service/voc/service-center.do" class="naviDepth3_service_voc_servicecenter" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_고객 의견_상담실 안내'});">상담실 안내</a></li>
+										<li><a href="/service/voc/opinion.do" class="naviDepth3_service_voc_opinion" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_고객 의견_고객 의견 작성'});">고객 의견 작성</a></li>
+				  </ul>
+				</div>
+			  </div>
+			  <div class="depth2_6_3">
+				<a href="/service/info/programs.do" class="kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_서비스 안내'});"><span>서비스 안내</span></a>
+				<div class="depth3">
+				  <ul>
+					<li><a href="/service/info/programs.do" class="naviDepth3_service_info_programs" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_서비스 안내_서비스 제도'});">서비스 제도</a></li>
+					<li><a href="/service/info/awards.do" class="naviDepth3_service_info_awards" onclick="gtag('event', 'MENU', {'MENU_Depth3': '고객 서비스_서비스 안내_대외수상내역'});">대외수상내역</a></li>
+				  </ul>
+				</div>
+			  </div>
+
+			  <script type="text/javascript">
+					function deliTimeChk() {
+				  
+					location.href = "/service/delivery/index.do";
+				  				}
+			  </script>
+			  <div class="together_depth2">
+				<a href="/service/notice/list.do" class="naviDepth2_service_notice kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_공지사항'});"><span>공지사항</span></a>
+				<a href="/service/lostAndFound/list.do" class="naviDepth2_service_lostandfound kr_g_600" onclick="gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_분실물 조회'});"><span>분실물 조회</span></a>
+				<a href="javascript:gtag('event', 'MENU', {'MENU_Depth2': '고객 서비스_배송 조회'});" onclick="deliTimeChk()" class="naviDepth2_service_delivery kr_g_600"><span>배송 조회</span></a>
+																			  </div>
+			</div>
+		  </li>
+		  <li data-idx="7" class="depth1_7">
+			<a href="/company/esg/overview.do" class="naviDepth1_esg" onclick="gtag('event', 'MENU', {'MENU_Depth1': 'ESG 경영'});" aria-selected="false">ESG 경영</a>
+		  </li>
+
+		  		  		  		  <style>
+			/* 2024설 GNB 수정 */
+				 /* //24S02 개발테스트 수정사항 반영4 */
+							.depth1_9 .title_table {
+								vertical-align: middle;
+								width: 115px;
+								height: 39px;
+								display: inline-block;
+								background: url(/resources/site/img/scatalog24/scatalog2024.png)
+								0 0/cover no-repeat;
+								text-indent: -9999px;
+								-moz-transition: all 0.3s ease-in-out;
+								-webkit-transition: all 0.3s ease-in-out;
+								-o-transition: all 0.3s ease-in-out;
+								-ms-transition: all 0.3s ease-in-out;
+								transition: all 0.3s ease-in-out;
+							}
+							.depth1_9 a:hover .title_table,
+							.depth1_9 .on .title_table {
+								background: url(/resources/site/img/scatalog24/scatalog2024_on.png)
+								0 0/cover no-repeat;
+							}
+							/* 24S02 개발테스트 수정사항 반영4// */
+				  .depth1_10 .title_table {
+					vertical-align: middle;
+					width: 115px;
+					height: 39px;
+					display: inline-block;
+					background: url(/resources/site/img/vip/dellalana2024.png)
+					  0 0 no-repeat;
+					text-indent: -9999px;
+					-moz-transition: all 0.3s ease-in-out;
+					-webkit-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
+				  }
+				  /* 2024설 GNB 수정 */
+		  </style>
+		  		  		  		   				<!-- update : 260812 2026 추석 카달로그 반영 -->
+				<style>
+					.depth1_11 .title_table{
+						vertical-align:middle;
+						width:135px;
+						height:39px;
+						display:inline-block;
+						background:url('/resources/site/img/special_selection/banner_pc_2026_catalog.png') 0 0 no-repeat;
+						background-size:cover;
+						text-indent:-9999px;
+						-moz-transition: all .3s ease-in-out;
+						-webkit-transition: all .3s ease-in-out;
+						-o-transition: all .3s ease-in-out;
+						-ms-transition: all .3s ease-in-out;
+						transition: all .3s ease-in-out;}
+				</style>
+				<!-- // update : 260812 2026 추석 카달로그 반영 -->
+		  
+		  <li data-idx="9" class="depth1_11" id="scatalogClick">
+			<a href="/brand/selection.do"  class="naviDepth1_new_year" onClick="gtag('event', 'MENU_PC', {'MENU_Depth1': '추석선물 특선집'});">
+			  <span class="title_table">추석선물 선물 특선집</span>
+			</a>
+			<div class="depth2">
+			  <div class="depth2_1_1">
+				<a href="/brand/selection.do" class="dbDepth3_scatalog_index kr_g_600" onClick="gtag('event', 'MENU_PC', {'MENU_Depth2': '추석선물 특선집'});"><span>추석선물 특선집</span></a>
+												<a href="/scatalog/page/shinsegaeDelivery.do" class="naviDepth3_scatalog_shinsegae_shinsegaeDelivery" onClick="gtag('event', 'MENU_PC', {'MENU_Depth2': 추석 선물 특선집_상품권 및 배송안내'});">상품권 및 배송안내</a>
+				<a href="/resources/site/download/scatalog/index.html" target="_blank" class="kr_g_600"  onClick="gtag('event', 'MENU_PC', {'MENU_Depth2': '추석 선물 특선집_e카탈로그'});"><span>e카탈로그</span></a>
+			  </div>
+			</div>
+		  </li>
+		  		  
+		  		  
+		  		  
+		  		  
+		  		  
+		  		  
+		  		  <style>
+			.depth1_8 .title_table{ vertical-align:middle;width:115px;height:39px;display:inline-block;background:url(/resources/brand/banner_pc_tiffany.jpg) 0 0 no-repeat;text-indent:-9999px;
+						-moz-transition: all .3s ease-in-out;
+						-webkit-transition: all .3s ease-in-out;
+						-o-transition: all .3s ease-in-out;
+						-ms-transition: all .3s ease-in-out;
+						transition: all .3s ease-in-out;}
+		  </style>
+
+		  <li data-idx="8" class="depth1_8" id="depth1_8" style="display:none">		   
+			<a href="javascript:void(0);" id="brandGa" class="naviDepth1_estee">
+			  <span class="title_table" id="brandName"></span>
+			</a>
+		  </li>
+		  
+
+		  		  
+		  
+
+		  		  		
+		  <!--  2025 설 카달로그 퍼블리싱 -->
+		  
+		  
+		  		  		  		  		  		  <!--  // 2025 설 카달로그 퍼블리싱 -->
+		  
+		  
+		  <!-- 델라라나 메뉴 추가 -->
+		  <!-- <li data-idx="10" class="depth1_10">
+			<a href="/brand/della.do" class="naviDepth1_dellalana" onclick="gtag('event', 'BRAND_GNB_BANNER', {'Brand_Gnb_Banner': 'PC 배너 클릭'});"><span class="title_table">델라라나</span></a>
+		  </li> -->
+		  <!-- //델라라나 메뉴 추가 -->
+		</ul>
+	  </div>
+	  <div class="login" id="gnbLogin">
+						<a href="javascript:void(0);" class="btn_login_open" onClick="gnbLogin();">로그인</a>
+				<span class="line"></span>
+		<a href="javascript:;" onclick="openSearch()" class="btn_search"><img src="/resources/site/img/common/gnb/gnb_ico_search.png" alt="검색"/></a>
+	  </div>
+	  <div class="depth3_container">
+		<div class="depth3_container_inner">
+		  <div class="naviDepth2_culture_academy">
+			<ul>
+			  <li><a href="/culture/academy/index.do?tapCode=" class="naviDepth3_culture_academy_main" >신세계 아카데미</a></li>
+			  <li><a href="/culture/academy/lecture.do?app=&tapCode=" class="naviDepth3_culture_academy_lecture">수강신청</a></li>
+			  <!-- <li><a href="/culture/academy/catalog.do?tapCode="  class="naviDepth3_culture_academy_catalog">카탈로그</a></li> -->
+			  <li><a href="/culture/academy/instructor.do?tapCode=" class="naviDepth3_culture_academy_instructor">강사지원</a></li>
+			  <li><a href="/culture/academy/myacademy.do?tapCode=" class="naviDepth3_culture_academy_myacademy">MY 아카데미</a></li>
+			  <li><a href="/culture/academy/about.do?tapCode=" class="naviDepth3_culture_academy_about">아카데미 소개</a></li>
+			</ul>
+		  </div>
+		  <div class="naviDepth2_culture_stagingAcademy">
+			<ul>
+			  <li><a href="/culture/stagingAcademy/index.do" class="naviDepth3_culture_stagingAcademy_main">신세계 아카데미</a></li>
+			  <li><a href="/culture/stagingAcademy/lecture.do" class="naviDepth3_culture_stagingAcademy_lecture">강좌검색</a></li>
+			  <!-- <li><a href="/culture/stagingAcademy/catalog.do" class="naviDepth3_culture_stagingAcademy_catalog">카탈로그</a></li> -->
+			  <li><a href="/culture/stagingAcademy/bag.do" class="naviDepth3_culture_stagingAcademy_instructor">책가방</a></li>
+			  <li><a href="/culture/stagingAcademy/myacademy.do" class="naviDepth3_culture_stagingAcademy_myacademy">MY 아카데미</a></li>
+			  <li><a href="/culture/stagingAcademy/about.do" class="naviDepth3_culture_stagingAcademy_about">아카데미 소개</a></li>
+			</ul>
+		  </div>
+		  <div class="naviDepth2_culture_onacademy">
+			<ul>
+			  <li><a href="/culture/academy/lecture.do?app=&tapCode=" class="naviDepth3_culture_onacademy_totalview">수강신청</a></li>
+			  <!-- <li><a href="https://bit.ly/44bVN0S" target="_blank" class="naviDepth3_culture_onacademy_catalog" >카탈로그</a></li> -->
+			</ul>
+		  </div>
+		  <div class="naviDepth1_fit">
+			<ul>
+			  <li><a  href="/bmp/recommend_benefit.do" class="naviDepth2_fit_recommend">추천 혜택</a></li>
+			  <li><a href="/bmp/follow_benefit.do"class="naviDepth2_fit_follow">팔로우 혜택</a></li>
+			  <li><a  href="/bmp/all_benefit.do" class="naviDepth2_fit_all">전체 혜택</a></li>
+			  <li><a href="/bmp/coupon_list.do" class="naviDepth2_fit_coupon">내 쿠폰함</a></li>
+			</ul>
+		  </div>
+		  <div class="naviDepth2_culture_culturehall">
+			<ul>
+			  <li><a href="/culture/culturehall/index.do" class="naviDepth3_culture_culturehall_main">신세계 문화홀</a></li>
+			  <li><a href="/culture/culturehall/show/list.do" class="naviDepth3_culture_culturehall_performance">공연</a></li>
+			  <li><a href="/culture/culturehall/about.do" class="naviDepth3_culture_culturehall_about">문화홀 안내</a></li>
+			</ul>
+		  </div>
+		  <div class="naviDepth2_culture_gallery">
+			<ul>
+			  <li><a href="/culture/gallery/index.do" class="naviDepth3_culture_gallery_main">신세계갤러리</a></li>
+			  <li><a href="javascript:void(0);" onclick="goGalleryPage('Y')" class="naviDepth3_culture_gallery_exhibition" >전시</a></li>
+			  			  <li><a href="javascript:void(0);" onclick="goGalleryPage('N')" class="naviDepth3_culture_gallery_artcollection">아트 컬렉션</a></li>
+			  <li><a href="/culture/gallery/about.do" class="naviDepth3_culture_gallery_about">갤러리 안내</a></li>
+			  <li><a href="/culture/gallery/artFestival.do" class="naviDepth3_culture_gallery_artFestival">광주신세계미술제</a></li>
+			</ul>
+		  </div>
+		  <div class="naviDepth1_service">
+			<ul>
+			  <li><a href="/service/vipclub/guide.do" class="naviDepth2_service_vipclub" role="tab" aria-selected="false">신세계 VIP 클럽</a></li>
+			  <li><a href="/service/membership/shinsegae-members.do" class="naviDepth2_service_membership" role="tab" aria-selected="false">신세계 멤버십</a></li>
+			  <li><a href="/service/voc/faq.do" class="naviDepth2_service_voc" role="tab" aria-selected="false">고객 의견</a></li>
+			  <li><a href="/service/info/programs.do" class="naviDepth2_service_info" role="tab" aria-selected="false">서비스 안내</a></li>
+			  <li><a href="/service/notice/list.do" class="naviDepth2_service_notice" role="tab" aria-selected="false">공지사항</a></li>
+			  <li><a href="/service/lostAndFound/list.do" class="naviDepth2_service_lostandfound" role="tab" aria-selected="false">분실물 조회</a></li>
+			  <li><a href="javascript:void(0);" onclick="deliTimeChk()" class="naviDepth2_service_delivery" role="tab" aria-selected="false">배송 조회</a></li>
+
+			  			  			</ul>
+		  </div>
+		  <div class="naviDepth1_company">
+			<ul>
+			  <li><a href="/company/about/business.do#direct_move" class="naviDepth2_company_about">기업정보</a></li>
+			  <li><a href="/company/esg/overview.do#direct_move" class="naviDepth2_company_esg">ESG 경영</a></li>
+			  <li><a href="/company/ir-ko/corporate-governance.do#direct_move" class="naviDepth2_company_irko">투자정보</a></li>
+							<li><a href="/company/job/job.do#direct_move" class="naviDepth2_company_job">채용정보</a></li>
+			  <li><a href="/company/partner/guide.do#direct_move" class="naviDepth2_company_partner">협력회사 상담실</a></li>
+			</ul>
+		  </div>
+
+		  <div class="naviDepth1_policy">
+			<ul style="width: 100%; white-space: nowrap;overflow-x: auto;overflow-y: hidden;">
+			  <li><a href="/policy/terms.do" class="naviDepth2_policy_terms">신세계닷컴 이용약관</a></li>
+			  <li><a href="/policy/shinsegae-members.do" class="naviDepth2_policy_members">신백멤버스 회원약관</a></li>
+			  <li><a href="/policy/shinsegae-point.do" class="naviDepth2_policy_point">신세계포인트 이용약관</a></li>
+			  <li><a href="/policy/privacy.do" class="naviDepth2_policy_privacy">개인정보처리방침</a></li>
+			  <li><a href="/policy/email-security.do" class="naviDepth2_policy_email">이메일무단수집거부</a></li>
+			  <li><a href="/policy/media.do" class="naviDepth2_policy_media">영상정보처리기기 운영·관리 방침</a></li>
+			  <li><a href="/policy/position.do" class="naviDepth2_policy_position">위치기반서비스 이용약관</a></li>
+			</ul>
+		  </div>
+		  
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  <div class="slide_pop_group">
+		<div class="login_container slide_pop_container">
+		<!-- DESC : 1차로그인이 정상이고, 신세계포인트에 등록된 휴대폰번호 설정한 경우 .login_contents에 .auth_login_active 클래스 추가 (CAPTCHA 및 로그인 버튼 삭제됨) -->
+	  <div class="login_contents slide_pop_contents">
+		<div class="top_copy">
+		  <span class="en_gara_400">LOGIN</span>
+		</div>
+		<div class="type_login">
+		  <form id="gnbLoginFrm" name="gnbLoginFrm" method="post">
+			<input type="hidden" name="reCaptchaVersion" value="3"/>
+			<input type="hidden" name="reCaptchaTokenV3" />
+		  <div class="input_container">
+			<div class="input_inner">
+			  <div class="idpw">
+				<div class="id"><label for="loginId"><input type="text" placeholder="아이디" title="아이디" name="loginId" autocomplete="off" maxlength="20"/></label></div>
+				<div class="pw"><label for="loginPw"><input type="password" placeholder="비밀번호" title="비밀번호" name="loginPw" autocomplete="off" maxlength="20"/></label></div>
+			  </div>
+			</div>
+			<div class="find_inner">
+			  <div class="id_save_check">
+				<label for="chkSaveId">
+				  <input type="checkbox" id="chkSaveId" name="chkSaveId" value="Y"/>
+				  <span class="check_box"></span>
+				  아이디 저장하기
+				</label>
+			  </div>
+<!--							 <a href="javascript:void(0);" onclick="gnbLoginForm();" class="btn_login">로그인</a> -->
+			  <a href="https://member.shinsegaepoint.com/shinsegae/shinsegaeApp/main?svcCode=S0100&ssoToken=" class="btn_find_idpw" target="_blank" title="새 창 열림" rel="noopener noreferrer">아이디 / 비밀번호 찾기</a>
+			</div>
+
+		  </div>
+		  <!-- <div class="security_container" id="gnbCaptchaDiv" style="display:none;">
+			<p class="title">보안문자 입력</p>
+				<img id="gnbCaptchaImg" src="/captchaImg.do?" alt="스팸방지코드">
+				<button type="button" class="sequrity_btn" onclick="gnbCaptchaAudio()"><i class="icon_sequrity voice">보안문자 음성 듣기</i></button>
+				<button type="button"  id="reLoad" class="sequrity_btn" onclick="gnbCaptchaRefresh()"><i class="icon_sequrity refresh">새로고침</i></button>
+				<div class="sequrity_input">
+					<input type="text" class="realperson_input"  name="captcha"   autocomplete="off" title="보안문자 입력" placeholder="보안문자 입력" maxlength="5" />
+				</div>
+		  </div> -->
+
+			<!-- UPDATE : 250422 2차 로그인 인증 시, display:none 처리를 위해 최상단 div.auth_control_box 추가 -->
+			<div class="auth_control_box">		  
+				<form action="" method="POST">
+					<div class="g-recaptcha" data-sitekey="6LdsbKkqAAAAAPBi2oTvCWuPxgga_bL4-eA0wYLp" data-action="LOGIN" style="display: none;"></div>
+					<br/>
+				</form>
+				<!-- 2024 웹접근성 개선 소스추가 : 로그인 버튼 이동 -->
+				<a role="button" href="javascript:void(0);" onclick="gnbLoginForm();" class="btn_login">로그인</a>
+			</div>
+			<!-- // UPDATE : 250422 2차 로그인 인증 시, display:none 처리를 위해 최상단 div.auth_control_box 추가 -->
+		</form>
+		
+		<!-- 2차 로그인 인증 퍼블리싱 추가 -->
+		<!-- DESC : 2차 인증 성공한 경우 .is_active 클래스 추가 -->
+		<div class="second_auth_login_wrap" id="gnbSecondAuthForm">
+			<div class="stext_sm fc_gold">신세계포인트에 등록된 휴대폰 번호로 인증번호가 전송됩니다.</div>
+			<ul class="form_list">
+				<li class="form_item">
+					<div class="form_cont">
+						<!-- DESC : 유효성 검사 결과에 따라 실패시, fail 클래스 추가 -->
+						<!-- CASE 1 : 유효성 검사 기본형-->
+					  <!--
+					  <div class="input_flex_box">
+							<div class="input_group vail_check">
+								<div class="input_box">
+									<input type="number" inputmode="numeric" class="ui_input"
+										   title="인증번호 입력" placeholder="인증번호 6자리 입력"/>
+									<span class="timer_count">
+									<span class="count">2</span><span class="gap">:</span><span
+											class="count">59</span>
+								</span>
+								</div>
+							</div>
+							 DESC : 재전송 후 인증번호 입력 가능 시간(3분) 동안 [disabled] 속성 추가 필요
+							<button type="button" class="btn_lg line_gray"><span class="text">재전송</span></button>
+						</div>
+						-->
+						<!-- // CASE 1 : 유효성 검사 기본형-->
+						<!-- CASE 2 : 유효성 검사 실패 -->
+						<div class="input_flex_box">
+							<div class="input_group vail_check fail">
+								<div class="input_box">
+									<input type="text" inputmode="numeric" class="ui_input" title="인증번호 입력" placeholder="인증번호 6자리 입력"/ name="authNo"  autocomplete="one-time-code" pattern="\d{6}"   
+										 onKeyDown="goEnter('SecondAuth.valAuthNo');" onKeyUp="$(this).val(numberOnly($(this).val()).substring(0,6));" />
+									<span class="timer_count">
+										<span class="count">2</span><span class="gap">:</span><span class="count">59</span>
+									</span>
+								</div>
+								<!-- // CASE 1 : 유효성 검사 기본형-->
+
+								<!-- 유효성 검사 실패 노출 문구 CASE 01 : 인증번호 잘못 입력한 경우 -->
+								<p class="valid_desc">인증번호를 정확히 입력해주세요.</p>
+								<!-- // 유효성 검사 실패 노출 문구 CASE 01 : 인증번호 잘못 입력한 경우 -->
+
+								<!-- 유효성 검사 실패 노출 문구 CASE 02 : 일치하지 않는 인증번호 입력한 경우 -->
+								<!--<p class="valid_desc">인증번호가 일치하지 않습니다.</p>-->
+								<!-- // 유효성 검사 실패 노출 문구 CASE 02 : 일치하지 않는 인증번호 입력한 경우 -->
+
+								<!-- 유효성 검사 실패 노출 문구 CASE 03 : 재전송 유효시간 3분 경과 만료된 경우 -->
+								<!--<p class="valid_desc">유효시간이 초과되었습니다. 다시 로그인 진행해주세요.</p>-->
+								<!-- // 유효성 검사 실패 노출 문구 CASE 03 : 재전송 유효시간 3분 경과 만료된 경우 -->
+							</div>
+							<!-- DESC : 재전송 후 인증번호 입력 가능 시간(3분) 동안 [disabled] 속성 추가 필요 -->
+							<button type="button" class="btn_lg line_gray btn_resend" onclick="SecondAuth.reqAuthNo();"><span class="text">재전송</span></button>
+						</div>
+					</div>
+					<!-- // CASE 2 : 유효성 검사 실패 -->
+				</li>
+			</ul>
+			<div class="btn_wrap">
+				<!-- DESC : 재전송 후 인증번호 입력 가능 시간(3분) 동안 [disabled] 속성 추가 필요 -->
+				<button type="button" class="btn_md fill_black" onclick="SecondAuth.valAuthNo();"><span class="text">확인</span></button>
+			</div>
+		</div>
+		<!-- // 2차 로그인 인증 퍼블리싱 추가 -->
+		
+		  <div class="info_container">
+			<span class="copy">
+			  			  			  			  신세계닷컴에 로그인을 하시려면, 신백멤버스 회원으로 가입하셔야 합니다. <br>가입 시 신세계포인트 통합회원으로 가입되며, 신세계닷컴, 신세계백화점 APP 및 신세계 그룹사 사이트를 하나의 아이디로 이용하실 수 있습니다.<br> 
+			</span>
+						<a href="javascript:void(0);"  class="sign_pop open_pop btn_apply gu_kr_lineBtn">회원가입</a>
+		  </div>
+		</div>
+				<a href="javascript:;" class="slide_close">팝업 닫기</a>
+	  </div>
+	</div>
+		<div class="login_result_container slide_pop_container">
+	  <div class="result_contents slide_pop_contents">
+		<div class="top_copy">
+		  <span class="en_gara_400">MY SHINSEGAE</span>
+		</div>
+		<div class="result" id="loginResult">
+		  <div class="left">
+			<div class="desc">
+			  <span class="user">
+			  			 				  고객님,</span> 안녕하세요.<br>
+			  즐거운 쇼핑에 보탬이 될<br>
+			  신세계포인트가<br>
+			  <span class="point" style="cursor:pointer;" onclick="move('/myssg/shinsegae-point.do')">$number.format("integer",$!{userDetails.ssgPoint})</span>
+			  <span class="p_copy">&nbsp;P</span> 있습니다.
+			</div>
+			<div class="btns">
+			  <a href="/myssg/shinsegae-point.do">자세히 보기</a>
+			  <a href="/myssg/myssg.do">MY 신세계</a>
+			</div>
+		  </div>
+		  <div class="right">
+			<ul class="top">
+			  <!-- <li> -->
+				<!-- <a href="/myssg/coupon.do"> -->
+				  <!-- <div class="ico coupon"></div> -->
+				  <!-- <div class="copy"> -->
+					<!-- <span class="copy1">주차 / 할인 쿠폰</span> -->
+					<!-- <span class="copy2"></span> -->
+				  <!-- </div> -->
+				<!-- </a> -->
+			  <!-- </li> -->
+			  <!-- <li> -->
+				<!-- <a href="/myssg/shopping-voucher.do"> -->
+				  <!-- <div class="ico voucher"></div> -->
+				  <!-- <div class="copy"> -->
+					<!-- <span class="copy1">쇼핑 바우처</span> -->
+					<!-- <span class="copy2"></span> -->
+				  <!-- </div> -->
+				<!-- </a> -->
+			  <!-- </li> -->
+			  
+			</ul>
+			<div class="bottom">
+			  <a href="/store/main.do">
+				<img src="/resources/site/img/common/gnb/btn_store_loginResult.png" alt=" 자주 찾는 점포 안내" />
+				<span>
+				  자주 찾는<br>
+				  점포 안내
+				</span>
+			  </a>
+			  <a href="javascript:void(0);" onclick="moveShoppingSection()">
+				<img src="/resources/site/img/common/gnb/btn_shopping_loginResult.png" alt="맞춤 쇼핑 정보" />
+				<span>
+				  맞춤<br>
+				  쇼핑 정보
+				</span>
+			  </a>
+			  <a href="/culture/academy/lecture.do?app=">
+				<img src="/resources/site/img/common/gnb/btn_academy_loginResult.png" alt="아카데미 수강신청" />
+				<span>
+				  아카데미<br>
+				  수강신청
+				</span>
+			  </a>
+			</div>
+		  </div>
+		</div>
+				<a href="javascript:;" class="slide_close">팝업 닫기</a>
+	  </div>
+	</div>
+		<div class="login_result_vip_container slide_pop_container">
+	  <div class="result_contents slide_pop_contents">
+		<div class="top_copy">
+		  <span class="en_gara_400">VIP CLUB</span>
+		</div>
+		<div class="result" id="vipLoginResult">
+		  <div class="left">
+			<div class="desc">
+			  <span class="user">
+			  			 				  고객님,</span> 안녕하세요.<br>
+			  고객님의 등급은<br>
+			  			  <span class="class kr_m_500">${userDetails.vipApi.vipNm}</span> 입니다.
+			</div>
+			<div class="btns">
+			  			  
+				<a href="/service/vipclub/benefits-trinity.do"></a>
+			  			  <a href="/myssg/myssg.do">MY 신세계</a>
+			</div>
+		  </div>
+		  <div class="right">
+			<ul class="top vip">
+			  <li>
+				<a href="/myssg/shinsegae-point.do">
+				  <div class="ico point"></div>
+				  <div class="copy">
+					<span class="copy1">신세계포인트</span>
+					<span class="copy2">
+											0
+										</span>
+				  </div>
+				</a>
+			  </li>
+			  
+			  <!-- <li> -->
+				<!-- <a href="/myssg/coupon.do"> -->
+				  <!-- <div class="ico coupon"></div> -->
+				  <!-- <div class="copy"> -->
+					<!-- <span class="copy1">쿠폰</span> -->
+					<!-- <span class="copy2">0</span> -->
+				  <!-- </div> -->
+				<!-- </a> -->
+			  <!-- </li> -->
+			  <!-- <li> -->
+				<!-- <a href="javascript:void(0);"> -->
+				  <!-- <div class="ico my_wallet"></div> -->
+				  <!-- <div class="copy"> -->
+					<!-- <span class="copy1">마이 월렛</span> -->
+					<!-- <span class="copy2"></span> -->
+				  <!-- </div> -->
+				<!-- </a> -->
+			  <!-- </li> -->
+			  			  <li class=''>
+							  </li>
+
+			  			  				<li>
+					<a href="/myssg/myssg.do">
+					  <div class="ico pay"></div>
+					  <div class="copy">
+						<span class="copy1">VIP 선정 구매금액<span><!--  -->2026년 기준</span></span>
+						<span class="copy2">$number.format("integer",$!{userDetails.vipApi.SAGE_SALE_AMT})</span>
+					  </div>
+					</a>
+				  </li>
+				  <li>
+					<a href="/myssg/myssg.do">
+					  <div class="ico date"></div>
+					  <div class="copy">
+						<span class="copy1">VIP 선정 구매일수<span><!--  -->2026년 기준</span></span>
+						<span class="copy2">$number.format("integer",$!{userDetails.vipApi.PUCHR_DAY_CNT})</span>
+					  </div>
+					</a>
+				  </li>
+			  			  			  
+			  <li class='right_li'>
+			  			  			</li>
+			</ul>
+			<div class="bottom">
+			  <a href="/store/main.do">
+				<img src="/resources/site/img/common/gnb/btn_store_loginResult.png" alt="" />
+				<span>
+				  자주 찾는<br>
+				  점포 안내
+				</span>
+			  </a>
+			  <a href="javascript:void(0);" onclick="moveShoppingSection()">
+				<img src="/resources/site/img/common/gnb/btn_shopping_loginResult.png" alt="" />
+				<span>
+				  맞춤<br>
+				  쇼핑 정보
+				</span>
+			  </a>
+			  <a href="/culture/academy/lecture.do?app=&tapCode=">
+				<img src="/resources/site/img/common/gnb/btn_academy_loginResult.png" alt="" />
+				<span>
+				  아카데미<br>
+				  수강신청
+				</span>
+			  </a>
+			</div>
+		  </div>
+		</div>
+				<a href="javascript:;" class="slide_close">팝업 닫기</a>
+	  </div>
+	</div>
+	<div class="search_container slide_pop_container">
+	  <div class="search_contents slide_pop_contents">
+		<div class="top_copy">
+		  <span class="en_gara_400">SEARCH</span>
+		</div>
+		<div class="type_search">
+		  <div class="input_area">
+			<input type="text" class="search_input gu_input_clear_remove" id="integSearchWord" placeholder=" 브랜드를 입력해주세요" title="검색어입력란, 브랜드를 입력해주세요." maxlength="50"  tabindex="1"/>
+			<a href="javascript:void(0);" onclick="integratedSearch()" tabindex="1"><img src="/resources/site/img/common/search/btn_search.png" alt="검색" /></a>
+		  </div>
+		  <div class="info">* 점포별 입점 브랜드 및 쇼핑정보에 대한 검색결과를 제공합니다.<br><br>* 신세계 팩토리스토어, 신세계 스타일마켓 입점 브랜드 검색은 서비스 준비중입니다.</div>
+		  <div class="recommend_area">
+			<span>추천검색어</span>
+			<div id="recommendArea" class="btns_recommend">
+			  			  			</div>
+		  </div>
+		</div>
+				<a href="javascript:;" class="slide_close">팝업 닫기</a>
+	  </div>
+	</div>
+  </div>
+</div>
+<!-- 팝업 시작 -->
+  <div class="new_pop_style" id="sign_pop">
+    <div class="dim"></div>
+    <div class="in">
+      <p>회원정보 수정을 위해 개인정보 관리 페이지로 이동합니다.</p>
+
+<!--       <div class="gray_box"> -->
+<!--         <strong class="top">잠깐</strong> -->
+<!--         <em>개인정보 수정 시 <br> '개인정보 수집 및 이용'에 동의해주세요!</em> -->
+<!--         <p> -->
+<!--           고객님을 위한 신세계백화점의 점포별 행사, 장르별 우수고객 혜택 등 다양한 쇼핑정보를 안내 받으실 수 있습니다. -->
+<!--         </p> -->
+<!--       </div> -->
+
+      <div class="layer_btn_box">
+        <a href="javascript:editMemberInfo();" class="btn style1" tabindex="-1">확인</a>
+        <a href="javascript:void(0);" class="btn" tabindex="-1">취소</a>
+      </div>
+
+      <button class="close"><img src="/resources/site/img/btn_pop_close.png" alt="닫기" tabindex="-1"></button>
+    </div>
+  </div>
+  <!-- // 팝업 끝 -->
+
+  <!-- 팝업 열어주는 스크립트 -->
+  <script>
+    $(function(){
+	$("#sign_pop").hide();
+      $(".sign_pop.open_pop").click(function(){
+        var chkId = $(this)[0].className.split(" ")[0];
+         
+        if(chkId == "sign_pop"){
+	        $('#sign_pop .in > p').text("신세계포인트 통합회원 가입을 위해  별도 가입 페이지로 이동합니다.");
+// 	        $('#sign_pop .in .gray_box em').html("통합회원 가입 시 <br>'개인정보 수집 및 이용'에 동의해주세요!");
+	        $('#sign_pop .in .layer_btn_box .btn.style1').attr('href',"javascript:window.open(signupPath, '_blank');");
+	        $('#sign_pop .in .layer_btn_box .btn.style1').attr('title',"회원가입 페이지로 새 창 이동");
+        }else if(chkId == "modify_pop"){
+        	chkId = "sign_pop";
+        }
+		$("#sign_pop").show();
+        $("#"+chkId+"").css({ zIndex : 9999 }).animate({ opacity:1 } , { duration : 500 });
+        $("#sign_pop").attr("tabIndex",0);
+        $("#sign_pop").focus();
+        $("#sign_pop .layer_btn_box a").attr("tabIndex",0);
+      })
+
+      $("#sign_pop .in button.close, #sign_pop .in .layer_btn_box .btn").click(function(){
+
+        $(this).closest(".new_pop_style").animate({ opacity: 0 } , { duration : 500 , complete : function(){
+          $(this).css({ zIndex : "-1" });
+		  $("#sign_pop").hide();
+		  $(".btn_apply").focus(); /* todo 2024 웹접근성 개선 소스추가 */
+        }});
+      })
+    })
+  </script>
+  <!-- // 팝업 열어주는 스크립트 --><script type="text/javascript">
+
+
+
+  function ThousandSeparate(val) {
+	while (/(\d+)(\d{3})/.test(val.toString())){
+	  val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+	}
+	return val;
+  }
+
+    function fnLoginEnterKey(){
+	if (window.event.keyCode == 13) {
+	  // 엔터키가 눌렸을 때 실행할 내용
+	  gnbLoginForm();
+	}
+  }
+
+  function goMsg(l) {
+	  if (l == "E") {
+		  alert("We are experiencing technical difficulties. We apologize for the inconvenience.");
+	  } else if (l == "C") {
+		  alert("服务器维护中，很抱歉给您带来不便，我们会尽快恢复，请稍后再试。");
+	  }
+  }
+
+  function gnbCloseBtn(){
+	  $(".util .login").trigger("click");
+  }
+
+</script>
+
+<script type="text/javascript">
+
+	  /* 20250710 비아신세계 퍼블리싱 추가 */
+	  $(document).ready(function() {
+		// 비아신세계 (예시 시간 기입)
+		var viaStart = new Date(2025, 3, 8, 9, 0, 0); // DESC :: 개발 적용 시 노출될 날짜로 인자값 변경 필요
+		var viaEnd = new Date(2025, 11, 15, 23, 59, 59); //  DESC :: 개발 적용 시 미노출될 날짜로 인자값 변경 필요
+		var today = new Date();
+
+		if (document.getElementById('brandBanner') != null) {
+		  if (viaStart <= today && viaEnd > today) $('#brandBanner').show();
+		  else $('#brandBanner').hide();
+		}
+	  });
+	  /* //20250710 비아신세계 퍼블리싱 추가 */
+
+</script>
+
+<script type="text/javascript">
+
+ $(document).ready(function() {
+                                                                      // 현재 브랜드 기간
+    
+  // 다음 브랜드 기간 1
+    
+  // 다음 브랜드 기간 2
+    
+
+  	$(".depth1_8").hide();
+   });
+</script>
+<script>
+$(document).ready(function() {
+
+  var a1 = new Date(2025, 2, 13, 06, 46);
+  var a2 = new Date(2025, 2, 13, 06, 48);
+  var today = new Date('2026-09-23 17:48:16');
+  if(a1<today && a2>today) {
+	 window.location.href="https://www.shinsegae.com/error.do";
+  }
+  });
+</script>
+<form id="shoppingSectionForm" action="/index.do" method="post">
+  <input type="hidden" id="shoppingSection" name="shoppingSection" value="Y"/>
+</form>
+
+<form name="ssgGateUrl" action="https://member.ssg.com/spoint/ssoLogin.ssg" method="POST">
+	<input type="hidden" name="ssoToken"/>
+	<input type="hidden" name="o2oRetUrl"/>
+</form>
+<!--로그인 로딩바용 html -->
+<div id="progress-bar">
+	<div id="progress-lottie"></div>
+</div>
+<!--로그인 로딩바용 js 파일  -->
+<script src="/resources/site/js/loading/lottie.min.js"></script>
+
+<!-- 2025 2차 로그인 인증 퍼블리싱 -->
+<dialog class="auth_dialog dialog_size_md" id="pop2ndLoginAuth">
+	<!-- dialog_content -->
+	<div class="dialog_content">
+		<!-- dialog_inner -->
+		<div class="dialog_inner">
+			<!-- dialog_header -->
+			<div class="dialog_header">
+				<div class="ctitle_wrap">
+					<div class="ctitle">고객님의 개인정보를 안전하게 <br>보호하기 위해 본인 인증을 진행합니다.</div>
+					<p class="stext">아래 확인 버튼을 클릭하시면<br>등록된 휴대폰 번호로 인증번호가 발송됩니다.</p>
+				</div>
+			</div>
+			<!-- // dialog_header -->
+			<!-- dialog_body -->
+			<div class="dialog_body">
+				<div class="gray_box">
+					<p class="title">등록된 휴대폰번호</p>
+					<p class="num">010-****-****</p>
+				</div>
+				<div class="info_area">
+					<p class="stext fc_gray">휴대폰 번호가 다른 경우 신세계포인트에서 <br>번호를 수정하신 후 인증해주세요.</p>
+					<p class="info_text">[신세계포인트 로그인 > 마이회원정보 > 회원정보 수정]</p>
+					<a href="https://member.shinsegaepoint.com/shinsegae/shinsegaeApp/member/login" class="link_text_udl" target="_blank"><span class="text">바로가기</span></a>
+					<p class="star_text">로그인 후 <span class="fc_gray">[홈페이지 > MY 신세계 > 로그인 보안설정]</span>에서 사용여부를 설정하실 수 있습니다.</p>
+				</div>
+			</div>
+			<!-- // dialog_body -->
+			<!-- dialog_footer -->
+			<div class="dialog_footer">
+				<div class="dialog_btn_wrap">
+					<button type="button" class="btn_md light_black" onclick="closePopup('#pop2ndLoginAuth'); SecondAuth.reqAuthNo();">
+						<span class="text">확인</span>
+					</button>
+				</div>
+			</div>
+			<!-- dialog_footer -->
+		</div>
+		<!-- // dialog_inner -->
+	</div>
+	<!-- // dialog_content -->
+</dialog>
+
+<!-- 240613 2차 로그인 재전송 팝업 퍼블리싱 수정 -->
+<dialog class="auth_dialog dialog_size_sm" id="popResend2ndLoginAuth">
+	<!-- dialog_content -->
+	<div class="dialog_content">
+		<!-- dialog_inner -->
+		<div class="dialog_inner">
+			<!-- dialog_body -->
+			<div class="dialog_body">
+				<p class="stext-lg ta_center">인증번호가 재전송 되었습니다.<br/>(1/5)</p>
+			</div>
+			<!-- // dialog_body -->
+			<!-- dialog_footer -->
+			<div class="dialog_footer">
+				<div class="dialog_btn_wrap full">
+					<button type="button" class="btn_md light_black" onclick="closePopup('#popResend2ndLoginAuth');SecondAuth.authNo.focus();">
+						<span class="text">확인</span>
+					</button>
+				</div>
+			</div>
+			<!-- dialog_footer -->
+		</div>
+		<!-- // dialog_inner -->
+	</div>
+	<!-- // dialog_content -->
+</dialog>
+<!-- // 240613 2차 로그인 재전송 팝업 퍼블리싱 수정 -->
+<!-- 250704  2차 로그인 인증 휴면계정 로그인 팝업 퍼블리싱 추가 -->
+<!-- DESC :  휴면계정 로그인 팝업 신세계 포인트 / 신세계 멤버십 가입자 구분하여 노출 필요 -->
+<dialog class="auth_dialog dialog_size_sm" id="popInactiveAccount">
+	<!-- dialog_content -->
+	<div class="dialog_content">
+		<!-- dialog_inner -->
+		<div class="dialog_inner">
+			<!-- dialog_header -->
+			<div class="dialog_header">
+				<div class="ctitle_wrap">
+					<div class="ctitle">고객님은 현재 비활동 회원입니다.</div>
+				</div>
+			</div>
+			<!-- // dialog_header -->
+			<!-- dialog_body -->
+			<div class="dialog_body">
+				<p class="stext fc_gray">신세계포인트에서 본인 인증을 하신 후 다시 로그인 부탁드립니다.</p>
+				<p class="stext fc_gray">확인 버튼을 클릭하시면 신세계포인트의 본인인증 화면으로 이동합니다.</p>
+			</div>
+			<!-- // dialog_body -->
+			<!-- dialog_footer -->
+			<div class="dialog_footer">
+				<div class="dialog_btn_wrap full">
+					<button type="button" class="btn_md fill_gray" onclick="closePopup('#popInactiveAccount')">
+						<span class="text">취소</span>
+					</button>
+					<a href=""  target="_blank" title="새창열기" class="btn_md light_black">
+						<span class="text">확인</span>
+					</a>
+				</div>
+			</div>
+			<!-- dialog_footer -->
+		</div>
+		<!-- // dialog_inner -->
+	</div>
+	<!-- // dialog_content -->
+</dialog>
+<!-- 250704  2차 로그인 인증 휴면계정 로그인 팝업 퍼블리싱 추가 -->
+<script>
+	let popupCount = 9999;
+	let activeContainer = null;
+
+	function showPopup(selector, triggerBtn) {
+		const popup = document.querySelector(selector);
+		if (!popup) return;
+
+		popup.classList.contains('auth_dialog') ? popup.showModal() : popup.show();
+		popup.style.zIndex = ++popupCount;
+
+		//activeContainer = triggerBtn.closest('.login_contents');
+		if (triggerBtn) activeContainer = triggerBtn.closest('.login_contents');
+	}
+
+	function closePopup(selector) {
+		const popup = document.querySelector(selector);
+		if (!popup) return;
+
+		popup.close();
+		popup.style.zIndex = '';
+		popupCount--;
+
+		/* 250704 2차 로그인 팝업닫기 퍼블리싱 수정 */
+		// 로그인 관련일 때만 처리
+		if (activeContainer && selector === '#pop2ndLoginAuth') {
+			activeContainer.classList.add('auth_login_active');
+
+			const secondAuth = activeContainer.querySelector('.second_auth_login_wrap');
+			secondAuth?.classList.add('is_active');
+
+			console.log('클래스추가');
+			activeContainer = null;
+		}
+		/* // 250704 2차 로그인 팝업닫기 퍼블리싱 수정 */
+	}
+	function setInactiveAccount(tier){
+		var urlTier1 	= "https://member.shinsegaepoint.com/shinsegae/shinsegaeApp/member/inactiveAccount";
+		var urlTier2 	= "https://member.shinsegaepoint.com/shinbaek/shinbaekmembers/member/inactiveAccount";
+		var tierUrl	=  (tier == "tier2") ? urlTier2 : urlTier1;
+		$("#popInactiveAccount a").prop("href", tierUrl);
+		showPopup('#popInactiveAccount')
+	}
+</script>
+<!-- // 2025 2차 로그인 인증 퍼블리싱 -->
+            <div id="page_contents"></div>
+			<div id="STORE_MAIN" class="container subNavi_store_empty_main dbNavi_store_empty_SC00001 noGnbFix">
+			<h1 class="gu_no_title">점포 안내</h1>
+			<div id="STORE_COMMON_KEYVISUAL" class="gu_sub_kv" >
+				<div class="bg" style="background:url('/upload/storeBase/1696318673601-94098.jpg') no-repeat center center; background-size:cover;"></div>
+			</div>
+			<div class="contents">
+				<div class="contents_inner">
+				
+									<div id="STORE_COMMON_NAVI">
+					<div class="navi section">
+						<div class="navi_inner">
+							<div class="store_name">
+								<a href="javascript:;" class="kr_m_500">본점</a>
+							</div>
+							<div class="gu_selectStore">
+								<div class="gu_select_store_inner">
+									<div class="gu_custom_scroll">
+										<div class="custom_scroll_content">
+																							<a href="#"  onclick="javascript:changeStore('SC00002')">강남점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00006')">광주신세계</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00011')">김해점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00013')">대구신세계</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00060')">대전신세계 Art & Science</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00005')">마산점</a>
+																							<a href="#" class="on" onclick="javascript:changeStore('SC00001')">본점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00008')">센텀시티</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00012')">스타필드 하남점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00007')">신세계 사우스시티</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00010')">의정부점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00009')">천안아산점</a>
+																							<a href="#"  onclick="javascript:changeStore('SC00003')">타임스퀘어점</a>
+																					</div>
+									</div>
+								</div>
+							</div>
+							<div class="navi_btns">
+								<a href="/store/main.do?storeCd=SC00001" class="naviDepth3_store_empty_main" id="main">한눈에 보기</a>
+								<a href="/store/floor.do?storeCd=SC00001#focus_move" class="naviDepth3_store_empty_floor" id="floor">층별 안내</a>								<a href="/store/restaurant.do?storeCd=SC00001#focus_move" class="naviDepth3_store_empty_restaurant" id="restaurant">레스토랑</a>								<a href="/store/facility.do?storeCd=SC00001#focus_move" class="naviDepth3_store_empty_facility" id="facility">서비스 시설</a>																																							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				
+				
+				<div id="STORE_COMMON_INFO" class="section">
+					<ul class="new_btns_type">
+						<li class="store_info">
+							<div class="top">
+								<div class="type_dept">
+									<span class="kr_m_500 ">본점</span>
+									<a href="javascript:;" class="btn_changeStore">점포 변경<img src="/resources/site/img/store/ico_findStore.png" alt="" /></a>
+									<div class="gu_selectStore">
+										<div class="gu_select_store_inner">
+											<div class="gu_custom_scroll">
+												<div class="custom_scroll_content">
+																											<a href="#"  onclick="javascript:changeStore('SC00002')" data-code="SC00002">강남점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00006')" data-code="SC00006">광주신세계</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00011')" data-code="SC00011">김해점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00013')" data-code="SC00013">대구신세계</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00060')" data-code="SC00060">대전신세계 Art & Science</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00005')" data-code="SC00005">마산점</a>
+																											<a href="#" class="on" onclick="javascript:changeStore('SC00001')" data-code="SC00001">본점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00008')" data-code="SC00008">센텀시티</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00012')" data-code="SC00012">스타필드 하남점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00007')" data-code="SC00007">신세계 사우스시티</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00010')" data-code="SC00010">의정부점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00009')" data-code="SC00009">천안아산점</a>
+																											<a href="#"  onclick="javascript:changeStore('SC00003')" data-code="SC00003">타임스퀘어점</a>
+																									</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+																					<div class="bottom">
+								<div id="weatherChk" class="weather ">
+																			<img src="/resources/site/img/store/weather/weather_ico3.gif" alt="구름많음" />
+																		<span class="en_gill_200">25.9</span><img src="/resources/site/img/store/ico_do.png" alt="도씨" />
+								</div>
+																	<span class="hour">오늘은 10:30부터 20:00까지<br> 정상 영업합니다.</span>
+																
+																															</div>
+						</li>
+						<li class="hour_info">
+							<div class="list gu_custom_scroll">
+								<div class="custom_scroll_content" id="store_hour_info">
+									<div class="phone">
+										<p class="sr-only">전화번호</p>
+										<span>1588-1234</span>
+									</div>
+																			<div class="hour">
+											<span><p class="sr-only">영업시간</p>정상영업 10:30~20:00</span>											<span><p class="sr-only">영업시간</p>연장영업 10:30~20:30</span>											<span><p class="sr-only">영업시간</p>식당가영업 11:00~21:30 </span>											<span><p class="sr-only">영업시간</p>식당가 영업시간 11:00~21:30
+라스트오더 폐점전 30분전(푸드홀 포함)
+단, 재료소진 시 대체되거나 오더 조기 마감가능</span>																																																																												</div>
+																	</div>
+							</div>
+														<a href="/shopping/list.do?storeCd=SC00001" onclick="gtag('event', 'MAIN_STORE', { 'Main_Store_Info_Btn': '점포 안내_쇼핑 정보 바로가기_본점'});" class="btn_direct gu_btn_white">쇼핑 정보 바로가기</a>
+						</li>
+						<script>
+							function changeMonth(){
+								$('.cal1').toggle();
+								$('.cal2').toggle();
+							}
+						</script>
+						<li class="calender_info">
+							<div class="month en_gara_400">
+								<div class="cal1">
+									<span class="num">09</span>
+									<span class="str">September</span>
+								</div>
+								<div class="cal2" style="display:none;">
+									<span class="num">10</span>
+									<span class="str">October</span>
+								</div>
+								
+								<div class="next_month cal2" style="display:none;">
+									<a href="javascript:void(0);" onclick="javascript:changeMonth();" class="en_gara_400">09</a>
+								</div>
+								<div class="next_month cal1">
+									<a href="javascript:void(0);" onclick="javascript:changeMonth();" class="en_gara_400" title="다음달 보기">10</a>
+								</div>
+								
+							</div>
+							<div class="calender">
+								<div class="week en_gara_400">
+									<span>S<i class="ir_text">일요일</i></span>
+									<span>M<i class="ir_text">월요일</i></span>
+									<span>T<i class="ir_text">화요일</i></span>
+									<span>W<i class="ir_text">수요일</i></span>
+									<span>T<i class="ir_text">목요일</i></span>
+									<span>F<i class="ir_text">금요일</i></span>
+									<span>S<i class="ir_text">토요일</i></span>
+								</div>
+								<div class="day cal1">
+																																																																																																																																
+																																										<div class=""><span></span></div>
+																													<div class=""><span></span></div>
+																																							
+																																																																																							<div ><span>1</span></div>
+																																																																																																														<div ><span>2</span></div>
+																																																																																																														<div ><span>3</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>4</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>5</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>6</span></div>
+																																																																																																														<div ><span>7</span></div>
+																																																																																																														<div ><span>8</span></div>
+																																																																																																														<div ><span>9</span></div>
+																																																																																																														<div ><span>10</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>11</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>12</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>13</span></div>
+																																																																																																														<div ><span>14</span></div>
+																																																																																																														<div ><span>15</span></div>
+																																																																																																														<div ><span>16</span></div>
+																																																																																																														<div ><span>17</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>18</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>19</span></div>
+																																																																																																														<div class="late" ><span class="sr-only">연장영업</span><span>20</span></div>
+																																																																																																														<div ><span>21</span></div>
+																																																																																																														<div ><span>22</span></div>
+																																																																																																														<div class=" today" ><span class="sr-only">오늘</span><span>23</span></div>
+																																																																																				<div class="academy_late" ><span class="sr-only">연장영업, 아카데미 휴강일</span><span>24</span></div>
+																																																																																				<div class="half_holiday" ><span class="sr-only">휴점일, 아카데미 휴강일</span><span>25</span></div>
+																																																																																				<div class="half_holiday" ><span class="sr-only">휴점일, 아카데미 휴강일</span><span>26</span></div>
+																																																																																				<div class="academy_late" ><span class="sr-only">연장영업, 아카데미 휴강일</span><span>27</span></div>
+																																																																																																														<div ><span>28</span></div>
+																																																																																																														<div ><span>29</span></div>
+																																																																																																														<div ><span>30</span></div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																</div>
+								<div class="day cal2" style="display:none;">
+																																																																																																																																										<div class=""><span></span></div>
+																													<div class=""><span></span></div>
+																													<div class=""><span></span></div>
+																													<div class=""><span></span></div>
+																																																																																																					<div class="" ><span class="sr-only"></span><span>1</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>2</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>3</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>4</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>5</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>6</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>7</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>8</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>9</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>10</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>11</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>12</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>13</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>14</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>15</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>16</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>17</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>18</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>19</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>20</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>21</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>22</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>23</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>24</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>25</span></div>
+																																																											<div class="half_holiday" ><span class="sr-only">휴점일, 아카데미 휴점일</span><span>26</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>27</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>28</span></div>
+																																																																																					<div class="" ><span class="sr-only"></span><span>29</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>30</span></div>
+																																																																																					<div class="late" ><span class="sr-only">연장영업</span><span>31</span></div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																							</div>
+								<div class="calender_info_dot kr_g_600">
+									<span class="holiday">휴점</span>
+									<span class="late">연장영업</span>
+									<span class="academy">아카데미휴강</span>
+									<span class="today">오늘</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>					
+					
+					<div id="INDICATOR" class="section">
+																																																																																																																																																																																																		<div class="indicator_inner">
+							<a href="/index.do"><span>HOME</span></a>
+							<a href="/store/main.do"><span>점포 안내</span></a>
+							<a href="/store/main.do?storeCd=SC00001"><span>본점</span></a>
+							<a href="javascript:void(0);"><span>한눈에 보기</span></a>
+						</div>
+					</div>
+					
+								
+																																						
+				<div id="STORE_EVENT" class="section">
+			<ul>
+																									<li style="background:url('/upload/storeBase/1790123495610-88188.jpg') no-repeat center center; background-size:cover;">
+															<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2827&amp;" onclick="updateReadCnt('news', '7127')"   tabindex="-1" aria-hidden="true">
+								<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2827&amp;" onclick="gtag('event', 'MAIN_STORE', {'Main_Store_Banner': 'ACTIVE FALL'});" alt="ACTIVE FALL" >
+															<img src="/resources/site/img/store/store_empty_banner.png" alt="" />
+								<span class="kr_m_500">
+									ACTIVE FALL
+								</span>
+							</a>
+						</li>
+																																<li style="background:url('/upload/storeBase/1788739813234-59081.jpg') no-repeat center center; background-size:cover;">
+															<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2789&amp;" onclick="updateReadCnt('news', '7080')"   tabindex="-1" aria-hidden="true">
+								<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2789&amp;" onclick="gtag('event', 'MAIN_STORE', {'Main_Store_Banner': 'Wedding Fair'});" alt="Wedding Fair" >
+															<img src="/resources/site/img/store/store_empty_banner.png" alt="" />
+								<span class="kr_m_500">
+									Wedding Fair
+								</span>
+							</a>
+						</li>
+																																<li style="background:url('/upload/storeBase/1788739969977-54102.jpg') no-repeat center center; background-size:cover;">
+															<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2787&amp;" onclick="updateReadCnt('news', '7067')"   tabindex="-1" aria-hidden="true">
+								<a href="https://www.shinsegae.com/shopping/event/view.do?eventSeq=2787&amp;" onclick="gtag('event', 'MAIN_STORE', {'Main_Store_Banner': '추석 GIFT 전개'});" alt="추석 GIFT 전개" >
+															<img src="/resources/site/img/store/store_empty_banner.png" alt="" />
+								<span class="kr_m_500">
+									추석 GIFT 전개
+								</span>
+							</a>
+						</li>
+																																						</ul>
+		</div>
+				
+		<div id="STORE_ART_CULTURE" class="section">
+					<h2 class="gu_kr_subTitle">아트 & 컬처</h2>
+			<div class="list">
+				<ul class="box">
+											<li class="gu_link_hover">
+							<a href="/culture/academy/index.do" onclick="gtag('event', 'MAIN_STORE', {'Main_Store_ArtandCulture_Banner': '배움으로 채우는 새로운 경험, 지금 신청 가능한 아카데미 강좌를 알아보세요'})">
+								<div class="gu_img_area">
+									<div class="gu_img_box">
+										<img src="/resources/site/img/store/academy_default1.jpg" alt="" >
+									</div>
+								</div>
+								<div>
+									<span class="type en_gill_400">Shinsegae Academy</span>
+									<span class="title">배움으로 채우는 새로운 경험, 지금 신청 가능한 아카데미 강좌를 알아보세요</span>
+								</div>
+							</a>
+						</li>
+					
+											<li id="defaultShow" class="gu_link_hover">
+							<a href="/culture/culturehall/index.do" onclick="gtag('event', 'MAIN_STORE', {'Main_Store_ArtandCulture_Banner': '수준 높은 문화 공연을 만나실 수 있는 공간, 신세계 문화홀로 초대합니다'})">
+								<div class="gu_img_area">
+									<div class="gu_img_box">
+										<img src="/resources/site/img/store/academy_default2.jpg" alt="신세계 문화홀">
+									</div>
+								</div>
+								<div>
+									<span class="type en_gill_400">Shinsegae CULTURE HALL</span>
+									<span class="title">수준 높은 문화 공연을 만나실 수 있는 공간, 신세계 문화홀로 초대합니다</span>
+								</div>
+							</a>
+						</li>
+						
+						<li id="culturehallShow" class="gu_link_hover" style="display:none;"></li>
+					
+																																								<li class="gu_link_hover">
+										<a href="/culture/gallery/exhibition/view.do?glrySeq=2899&storeCd=SC00001">
+											<div class="gu_img_area">
+												<div class="gu_img_box">
+													<img src="/upload/gallery/display/introduce/1789632933213-85554.jpg" alt="작품:최영욱: 겹겹의 고요">
+												</div>
+											</div>
+											<div>
+												<span class="type en_gill_400">
+													Shinsegae Gallery
+												</span>
+												<span class="title">최영욱: 겹겹의 고요</span>
+												<span class="desc">
+													2026.09.21 - 
+													2026.11.10
+												</span>
+											</div>
+										</a>
+									</li>
+																																																																																																																																																						
+				</ul>
+			</div>
+				</div>
+		
+		<div id="STORE_LOCATION">
+			<div id="STORE_LOCATION_FOCUS_MOVE"></div>
+			<div class="location_inner section">
+				<h2 class="gu_kr_subTitle kr_m_500">오시는 길</h2>
+				<div class="btns_tab gu_kr_btnsTab tabSmall">
+					<h3>주차안내 및 방문 수단 리스트(주차안내, 지하철, 버스, 자가용 순(점포별 주차장 여부와 방문 수단에 따라 리스트가 다를 수 있음))</h3>
+											<a href="javascript:;" class="on" title="주차안내 선택됨" >주차안내</a>
+																<a href="javascript:;" >지하철</a>
+																<a href="javascript:;" >버스</a>
+														</div>
+				<div class="list">
+					<h4 class="gu_no_title">주차안내 상세 정보</h4>
+					<div class="left">
+						<div class="map">
+							<div id="map" style="width:100%;height:400px;"></div>
+							
+						</div>
+						<div class="info_box">
+							<span class="location_str">서울특별시 중구 소공로63 (충무로1가)</span>
+							<a href="https://m.place.naver.com/place/12134149/location?entry=plt&amp;filter=location&amp;selected_place_id=12134149" target="_blank" rel="noopener noreferrer" class="btn_find" onclick="return popUp()" title="새 창 열림">네이버 길찾기</a>
+						</div>
+					</div>
+					<div class="right">
+						<ul>
+															<li class="type_parking on">
+									<p>&nbsp;</p><dl class="kr_g_400" style="border-width: 0px 0px 1px; margin: 0px; padding: 0px 0px 20px; color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 0px; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; background-color: rgb(246, 246, 246);">
+<dt style="margin: 0px 0px 17px; padding: 0px; border: 0px currentColor; border-image: none; line-height: 21px; font-size: 15px; vertical-align: top;"><b>무료주차 이용안내</b></dt>
+<dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;">
+<span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 5만원 이상 구매 : 1시간</span>
+<span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 10만원 이상 구매 : 2시간</span>
+<span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 15만원 이상 구매 : 3시간</span>
+<span class="info kr_g_400" style="margin: 0px 0px 16px; padding: 0px; border: 0px currentcolor; display: block; font-size: 9pt; color: rgb(113, 113, 113);">* 당일 구매영수증에 한합니다.<br>* 다른 무료주차권 또는 구매 영수증과 합산 불가합니다.<br>* 외부주차장 이용 시에도 동일합니다.<br></span></dd></dl><p>&nbsp;</p><p>&nbsp;</p><dl class="kr_g_400" style="border-width: 0px 0px medium; border-color: currentcolor; margin: 0px; padding: 20px 0px; color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 0px; background-color: rgb(246, 246, 246);"><dt style="margin: 0px 0px 17px; padding: 0px; border: 0px currentcolor; line-height: 21px; font-size: 15px; vertical-align: top;"><b>주차요금</b></dt>
+<dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;">
+<span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 10분당 : 2,000원</span>
+<span class="info kr_g_400" style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; font-size: 12px; color: rgb(113, 113, 113);">* 구매 영수증 미지참 시 주차요금이 부과됩니다.<br>* 전자 영수증으로도 확인이 가능합니다.</span>
+</dd>
+</dl><p><br style="clear:both;"><br style="clear:both;">&nbsp;&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><dt style="color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; margin: 0px 0px 17px; padding: 0px; border: 0px currentcolor; line-height: 30px; font-size: 15px; vertical-align: top;"><b>주말(토/일) 외부 주차장</b></dt><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><dl class="kr_g_400" style="border-width: 0px 0px 1px; margin: 0px; padding: 0px 0px 20px; color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 0px; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; background-color: rgb(246, 246, 246);"><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><img src="/upload/editor/1744112537008-19757.jpg" alt="회현지하 쇼핑센터 도보1"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br></span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 우리은행 본점 - 우리은행 지하 1층 신세계 안내데스크 영수증 확인</span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><span style="color: rgb(113, 113, 113); font-size: 12px;">* 토/일 공휴일만 해당되며, 오후 12:00시 부터 백화점 폐점 시 까지 운영됩니다.</span></span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><span style="color: rgb(113, 113, 113); font-size: 12px;">* 영수증 확인 후 3시간 무료 주차 가능합니다.(이후 10분당 1,000원 부과)</span></span></dd></dl><p>&nbsp;</p><p>&nbsp;</p><dl class="kr_g_400" style="border-width: 0px 0px 1px; margin: 0px; padding: 0px 0px 20px; color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 0px; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; background-color: rgb(246, 246, 246);"><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><span style="color: rgb(113, 113, 113); font-size: 12px;"><img src="/upload/editor/1744112548727-20304.jpg" alt="회현지하 쇼핑센터 도보2"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br style="clear:both;"><br></span></span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);">• 스테이트 타워 - 스테이트 타워 지하 1층 신세계 정산소 영수증 확인</span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><span style="color: rgb(113, 113, 113); font-size: 12px;">* 토/일 공휴일만 해당되며, 오후 13:00시 부터 백화점 폐점 시 까지 운영됩니다.</span></span></dd><dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;"><span style="margin: 0px 0px 10px; padding: 0px; border: 0px currentcolor; display: block; color: rgb(68, 68, 68);"><span style="color: rgb(113, 113, 113); font-size: 12px;">* 영수증 확인 후 3시간 무료 주차 가능합니다.(이후 10분당 1,000원 부과)</span></span></dd></dl><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+								</li>
+																						<li class="type_subway ">
+									<dl class="kr_g_600">
+<dt>
+<span class="subway_lines subway_line_4">4호선</span>
+<span style="background-color: rgb(246, 246, 246); color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 15px; font-weight: 600;">호선 회현역</span>
+</dt>
+<dd style="margin: 0px; padding: 0px; border: 0px; font-size: 14px; line-height: 23px; color: rgb(102, 102, 102); font-family: SDGothic, sans-serif; font-weight: 600; background-color: rgb(246, 246, 246);">
+<span class="kr_g_400" style="margin: 0px; padding: 0px; border: 0px; font-weight: 400;">7번 출구(식품층 바로 연결)를 이용하시면 편안하게 오실 수 있습니다.</span>
+</dd>
+</dl>
+								</li>
+																						<li class="type_bus ">
+									9-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p style="margin-left: 40px;">&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><dl class="kr_g_600" style="border-width: 0px 0px 1px; margin: 0px; padding: 0px 0px 20px; color: rgb(34, 34, 34); font-family: SDGothic, sans-serif; font-size: 0px; font-weight: 600; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; background-color: rgb(246, 246, 246);">
+<dt style="margin: 0px 0px 17px; padding: 0px; border: 0px currentColor; border-image: none; line-height: 21px; font-size: 15px; vertical-align: top;">신세계백화점 앞 하차</dt>
+<dd style="margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;">
+<span class="type_b" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(44, 95, 202); display: block;">간선버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); font-weight: 400; vertical-align: top; display: inline-block;">143, 406, 705, N31</span></span></dd></dl>
+
+<dl class="kr_g_600" style="border-width: 0px 0px 1px; margin: 0px; padding: 20px 0px 20px; color: rgb(34, 34, 34); padding: 20px 0px 20px; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid;">
+
+
+<dt style="margin: 0px 0px 17px; padding: 0px; border: 0px currentColor; border-image: none; line-height: 21px; font-size: 15px; vertical-align: top;">남대문시장.회현역 하차</dt>
+<dd style="margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;">
+<span class="type_default" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(61, 136, 37); display: block;">지선버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); font-weight: 400; vertical-align: top; display: inline-block;">7011, 7013A, 7013B</span></span>
+<span class="type_b" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(44, 95, 202); display: block;">간선버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); font-weight: 400; vertical-align: top; display: inline-block;">104, 105, 463, 604, 705, N16, 707</span></span>
+<span class="type_airport" style="margin: 0px; padding: 0px; border: 0px; display: block;">공항버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px; font-weight: 400; vertical-align: top;  display: inline-block;">6015</span></span></dd></dl>
+
+<dl class="kr_g_600" style="border-width: 0px 0px 1px; margin: 0px; padding: 20px 0px; border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; background-color: rgb(246, 246, 246);">
+
+<dt style="color: rgb(34, 34, 34); margin: 0px 0px 17px; padding: 0px; border: 0px currentcolor; line-height: 21px; font-size: 15px; vertical-align: top;"></dt><dt style="margin: 0px 0px 17px; padding: 0px; border: 0px currentcolor; line-height: 21px; vertical-align: top;">남대문시장 앞, 이회영 활동터 하차</dt>
+<dd style="margin: 0px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); line-height: 23px; font-size: 14px;">
+<span class="type_default" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentcolor; color: rgb(61, 136, 37); display: block;">지선버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); vertical-align: top; display: inline-block;">7017, 7021, 7022</span></span>
+<span class="type_b" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentcolor; color: rgb(44, 95, 202); display: block;">간선버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentcolor; color: rgb(102, 102, 102); vertical-align: top; display: inline-block;">100, 103, 105, 151, 152, 162, 173, 201, 202, 261, 262, 400, 401, 406, 500, 504, 701, 704, N15, N30</span></span>
+<span class="type_r" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(196, 75, 61); display: block;">광역버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px currentColor; border-image: none; color: rgb(102, 102, 102); font-weight: 400; vertical-align: top; display: inline-block;">9000-1, M4101, M4102, 4103, 9007</span></span>
+<span class="type_airport" style="margin: 0px 0px 15px; padding: 0px; border: 0px currentColor; border-image: none; display: block;">공항버스<span class="kr_g_400" style="margin: 0px 0px 0px 19px; padding: 0px; border: 0px; font-weight: 400; color: rgb(102, 102, 102); vertical-align: top; display: inline-block;">6015</span></span>
+</dd>
+</dl>
+								</li>
+																				</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<input type="hidden" id="storeCd" name="storeCd" value="SC00001"/>
+		
+	
+				</div>
+			</div>
+		</div>
+		<script>
+	
+	var sDay= new Date("2025/05/30 15:00:00");
+	var eDay= new Date("2025/06/02 16:00:00");
+
+function sbotOpen() {
+	if(Date.now() >= sDay && Date.now() < eDay){
+				alert('보다 안정적인 서비스 제공을 위해 시스템을 점검 중입니다.\n※ 점검일시 : 5/30(금) 오후 3시 ~ 6/2(월) 오후 4시');
+		return ;
+  	}else{		
+  		sbotGetId();
+   	}
+}function sbotGetId() {
+	$.ajax({
+		url : '/myssg/sbotGetId.do',
+		data : {},
+		type : "GET",
+		dataType : "json",
+		success : function(data) {
+			var f = document.frm_post;
+			f.cust_id.value = data.custId;
+			console.log(data.custId);
+			connectSbot();
+		}, 
+		error : function(){
+			connectSbot();
+		}
+	});
+}
+function connectSbot() {
+	var gsWin = window.open("about:blank", "sBot", "width=450, height=800, left=1000, top=50"); 
+	var f = document.frm_post;
+	
+	f.action = "https://sbot.shinsegae.com/web";
+	f.target = "sBot";
+	f.submit();
+}
+</script>
+	<div id="btn_top">
+		<a href="javascript:;" title="상단으로"><span class="ir_text">상단으로</span></a>
+	</div>
+
+	<div id="FOOTER">
+		<form name="frm_post" action="" method="POST">
+			<input type="hidden" name="cust_id"/>
+		</form>
+		<div class="section">
+			<div class="top">
+				<div class="logo"><img src="/resources/site/img/common/footer/logo.png" alt="SHINSEGAE" /></div>
+				<div class="btns_another">
+					<a href="/company/about/business.do" class="naviDepth1_company">회사소개</a>
+					<a href="/corporation-business/about.do" class="naviDepth1_corporationbusiness">법인영업</a>
+					<a href="/company/esg/report/write.do" class="">백화점 신문고</a>
+					<a href="/sitemap.do" class="">사이트맵</a><br>
+					<a href="/policy/privacy.do" class="naviDepth2_policy_privacy" style="font-weight:bolder;color:#f22c2d">개인정보처리방침</a>
+					<a href="/policy/media.do" class="naviDepth2_policy_media" style="font-weight:bolder;color:#f22c2d">영상정보처리기기 운영·관리방침</a>
+					<a href="/policy/terms.do" class="naviDepth2_policy_terms">이용약관</a>
+					<a href="/policy/shinsegae-members.do" class="naviDepth2_policy_members">신백멤버스 회원약관</a>
+					<a href="/policy/shinsegae-point.do" class="naviDepth2_policy_point">신세계포인트 이용약관</a>
+				</div>
+				<div class="btns_sns_family">
+					<div class="family">
+						<a href="javascript:;" class="depth1 kr_g_600">패밀리 사이트<img src="/resources/site/img/common/footer/ico_arrowFamily.png" alt="" /></a>
+						<ul>
+							<li><a href="https://www.shinsegaegroupnewsroom.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계그룹 </span></a></li>
+							<li><a href="https://www.shinsegaepoint.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계포인트</span></a></li>
+							<li><a href="https://store.emart.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>이마트</span></a></li>
+							<li><a href="http://www.traders.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>이마트 트레이더스</span></a></li>
+							<li><a href="http://www.emarteveryday.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>이마트 에브리데이</span></a></li>
+							<li><a href="https://www.emart24.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>이마트24</span></a></li>
+							<li><a href="http://www.shinsegaetvshopping.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계라이브쇼핑</span></a></li>
+							<li><a href="https://www.premiumoutlets.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>프리미엄아울렛</span></a></li>
+							<li><a href="https://www.starfield.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>스타필드</span></a></li>
+							<li><a href="http://www.ssgdfm.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계면세점</span></a></li>
+							<li><a href="http://www.sikorea.co.kr/main" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계인터내셔날</span></a></li>
+							<li><a href="http://www.shinsegaefood.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계푸드</span></a></li>
+							<li><a href="http://www.shinsegae-lnb.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계 L&B</span></a></li>
+							<li><a href="http://www.istarbucks.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>스타벅스커피 코리아</span></a></li>
+							<li><a href="https://www.josunhotel.com" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>조선호텔앤리조트</span></a></li>
+							<li><a href="https://www.shinsegae-enc.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계건설</span></a></li>
+							<li><a href="http://www.sinc.co.kr/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>신세계아이앤씨</span></a></li>
+							<li><a href="https://business.ssgpay.com/" target="_blank" rel="noopener noreferrer" title="새 창 열림"><span>에스에스지페이먼츠</span></a></li>
+						</ul>
+					</div>
+					<div class="sns">
+<!-- 						<a href="https://post.naver.com/shinsegaedept" target="_blank" rel="noopener noreferrer" class="post" title="새 창">신세계백화점 포스트 바로가기</a>
+						<a href="https://web.facebook.com/shinsegae.dep?fref=ts&_rdc=1&_rdr" target="_blank" rel="noopener noreferrer" class="facebook" title="새 창" >신세계백화점 페이스북 바로가기</a> -->
+						<a href="https://www.instagram.com/only_shinsegae/" target="_blank" rel="noopener noreferrer" class="insta" title="새 창" >신세계백화점 인스타그램 바로가기</a>
+						<a href="http://www.youtube.com/user/ShinsegaeDep" target="_blank" rel="noopener noreferrer" class="youtube" title="새 창" >신세계백화점 유튜브 바로가기</a>
+						<a href="javaScript:;" onclick="sbotOpen()" rel="noopener noreferrer" class="sbot" title="새 창" >신세계백화점 sbot 바로가기</a>
+					</div>
+				</div>
+				<div class="fclear"></div>
+			</div>
+			
+						
+			<div class="bottom">
+			
+	 			<span class="info kr_g_600">(주)신세계 대표이사 : 박주형 &nbsp;&nbsp;|&nbsp;&nbsp;주소 : 서울특별시 중구 소공로 63(충무로 1가)&nbsp;&nbsp;|&nbsp;&nbsp;개인정보보호책임자 : 이성환 상무  <br>
+	 			대표전화 : 1588-1234 (유료)&nbsp;&nbsp;|&nbsp;&nbsp;사업자등록번호 : 201-81-32195&nbsp;&nbsp;|&nbsp;&nbsp;통신판매업신고번호 : 1996-서울중구-0291&nbsp;&nbsp;				<span class="copyright en_gill_400">COPYRIGHT © 2019 SHINSEGAE. ALL RIGHTS RESERVED.</span>
+				<div class="ico_wa">
+					<a href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank"><img src="/resources/site/img/common/footer/ico_wa_2026.png" alt="웹접근성 인증마크 새 탭 열림" /></a>
+									</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+						
+				
+		
+					
+	if("" != null && "" != ""){
+		gtag_event_isAvailable_PC("");
+		gtag_event_isAvailable_All("", "G-K1NBN99SFR");
+	}
+	</script>
+
+	<script>
+		var g_val = 0;
+		if($('.container').hasClass('isTopBanner')){
+			g_val = 100
+		}else{
+			g_val = 0
+		}
+		
+		var clickList;
+		var mouseOverIdx;
+		
+
+		var link = window.location.pathname + window.location.search;
+		if(link.indexOf("/service/delivery/index.do") > -1 || link.indexOf("/culture/culturehall/index.do") > -1 || link.indexOf("/culture/academysupport/support.jsp") > -1){
+			link = "";
+		}
+				if(! navigator.userAgent.match(/Android/i) &&
+		! navigator.userAgent.match(/webOS/i) &&
+		! navigator.userAgent.match(/iPhone/i) &&
+		! navigator.userAgent.match(/iPod/i) &&
+		! navigator.userAgent.match(/iPad/i) &&
+		! navigator.userAgent.match(/Blackberry/i) ) {
+				} else if ( navigator.userAgent.match(/iPad/i) ) {
+				} else {
+			location.href="https://deptmapp.shinsegae.com" + link;
+		}
+		
+		function getClickListCookie(paramClickList) {
+			var clickListString = $.cookie("clickList");
+			if(location.pathname.split("/")[1] == "scatalog"){
+				if(typeof(clickListString) !== "undefined"){
+					clickList = JSON.parse(clickListString);
+					if(clickList.length >= 11){
+						clickList.splice(clickList.length-1, 1);
+					$.cookie("clickList", JSON.stringify(clickList));
+					}
+				}
+			
+				if(typeof(paramClickList) !== "undefined"){
+					clickListString = paramClickList;
+				}
+		var html = '';
+		var htmlDtl = '';
+		if(clickListString != null && typeof(clickListString) !== "undefined" && clickListString != "[]"){
+			clickList = JSON.parse(clickListString); 
+			
+			$("#login").hide();
+			html += `<div class="swiper-slide">`;
+			html += `	<ul class="grid_list">`;			
+			for(var i = 0; i < clickList.length; i++ ){
+				if (i > 0 && (i % 5 == 0) ){
+					html += `	</ul>`;
+					html += `</div>`;
+					html += `<div class="swiper-slide">`;
+					html += `	<ul class="grid_list">`;						
+				}
+				html += `		<li class="grid_item">`;
+				html += `			<div class="product_img">`;
+				html += `				<div class="img">`;
+				html += `					<img src="/upload/scatalog/product/`+clickList[i].detailCode+`.png" alt="">`;
+				html += `				</div>`;
+				html += `			</div>`;
+				html += `			<a href="javascript:void(0)" onclick="getProductInfo('`+clickList[i].serviceSym+`', '`+clickList[i].detailCode+`', '`+clickList[i].giftId+`', '`+fn_chkNull(clickList[i].hCode)+`', '`+fn_chkNull(clickList[i].mCode)+`', '`+fn_chkNull(clickList[i].sCode)+`')" class="btn_link">`;
+				html += `				<span class="offscreen">바로가기</span>`;
+				html += `			</a>`;
+				html += `		</li>`;
+			}
+			
+			html += `	</ul>`;
+			html += `</div>`;			
+		} else {
+			html += `	<div class="no_data_box">`;
+			html += `		<div class="no_data_desc">최근 본 상품이 없습니다</div>`;
+			html += `	</div>`;
+			
+			//$("#clickListCnt").html("최근 본 상품 <span>0</span>");
+			$("#login").show();
+		}
+			$(".recent_prod_swiper .swiper-wrapper").html(html);		
+			setRecentProdSwiper();
+		}
+
+	  }
+	  
+	  	  function fn_chkNull(str){
+		 if(typeof(str) == 'undefined' || str == null){
+			return '';
+		 } else {
+			return str;
+		 }
+	  }
+	  
+	  	  function numberFormat(inputNumber) {
+		 return inputNumber.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	  }
+	  
+	  	  function setMouseEvent(){
+		   var recent_productUl = $(".recently_view .recent_list .recent_box ul");
+		   var recent_product = recent_productUl.find(">li")
+		   var _imgLength = recent_product.length;
+		   var nowNums = 0;
+		   var _thisTop = $(this);
+	   
+		   recent_product.mouseover(function(){
+			   var idx = $(this).index();
+			   _thisTop = $(this);
+			   mouseOverIdx = idx;
+
+			   			   $("#itemName").attr("onclick", "getProductInfo('"+clickList[idx].serviceSym+"','"+clickList[idx].detailCode+"','"+clickList[idx].giftId+"','"+fn_chkNull(clickList[idx].hCode)+"','"+fn_chkNull(clickList[idx].mCode)+"','"+fn_chkNull(clickList[idx].sCode)+"');");
+			   $("#itemName").html(clickList[idx].name);
+			   
+			   $("#itemPrice").html(numberFormat(clickList[idx].price) + "원");
+			   			   $("#imgId").html('<img src="/upload/scatalog/product/'+clickList[idx].imageS+'.png" alt="">');
+			   $(".recent_layer").show();
+	   
+			   if( idx > 0 ){
+				   $(".recent_layer").css({ top : _thisTop.position().top+110+( nowNums*75 ) })
+				   }else{
+				   $(".recent_layer").css({ top : _thisTop.position().top+100+( nowNums*75 ) })
+			   }
+		   })
+	   
+		   $(".recently_view").mouseleave(function(){
+			   $(".recent_layer").hide();
+		   })
+	   
+		   $(".recently_view .recent_list > button").click(function(){
+	   
+			   if( _imgLength > 5 ){
+			   
+			   if( $(this).hasClass("up") ){
+				   
+				   if( nowNums == 0 ){
+	   
+				   }else{
+					  nowNums++;
+					  moveingEvent(nowNums);
+				   }
+			   }else{
+				   if( nowNums < -(_imgLength-6) ){
+				   
+				   }else{
+					  nowNums--;
+					  moveingEvent(nowNums);
+				   }
+			   }
+			   }
+			   
+		   })
+	   
+		   function moveingEvent(moveNums){
+			   recent_productUl.animate({ top : moveNums*75 })
+		   }
+		   
+	  }
+	  
+	 	function getProductInfo(serviceSym, detailCode, giftId, hCode, mCode, sCode){
+		  if(sCode == 'null'){
+ 			 location.href = '/scatalog/detail.do?serviceSym='+serviceSym+'&detailCode='+detailCode+'&giftId='+giftId+'&hCode='+hCode+'&mCode='+mCode+'&pathNm='+location.pathname.split("/")[2];
+ 		   }
+ 		   else{
+ 			 location.href = '/scatalog/detail.do?serviceSym='+serviceSym+'&detailCode='+detailCode+'&giftId='+giftId+'&hCode='+hCode+'&mCode='+mCode+'&sCode='+sCode+'&pathNm='+location.pathname.split("/")[2];
+ 		   }	 	 
+	} 
+	   	   function deleteItem(){
+	   		$(".recent_layer").hide();
+			var clickListString = $.cookie("clickList");
+			if(clickListString != null && typeof(clickListString) !== "undefined"){
+				clickList = JSON.parse(clickListString);
+				clickList.splice(mouseOverIdx, 1);
+				if(clickList.length <= 0){
+					$(".new_product_layer").removeClass("on");
+				}
+				$.cookie("clickList", JSON.stringify(clickList));
+									getClickListCookie();
+							}
+		}
+		
+				function deleteAllItem(){
+			$.removeCookie("clickList");
+						$(".new_product_layer").removeClass("on");
+			getClickListCookie();
+		} 
+		
+		function fnClose_recently(){ 
+			$("#recently_viewId").hide();
+			sessionStorage.setItem("clickListViewYn", "Y")
+		}
+		
+		  $(window).scroll(function(){
+	var _winS = $(window).scrollTop();
+	var _quickH = $(document).height() - $(window).height() - $(".footer").height(); 
+
+	if( _winS > _quickStandard-20 ){
+	  $(".right_quick").addClass("on").css({ top : 20 });
+	  if( _winS > _quickH ){
+		$(".right_quick").removeClass("on").css({ top : _quickH })
+	  }
+	}else{
+	  $(".right_quick").removeClass("on").css({ top : _quickStandard });
+	}
+  })
+
+  if( $("body").find(".quick_top.big").length > 0 ){
+	$(".right_quick").css({ marginLeft : "660px" })
+  }
+	if(location.pathname.split("/")[1] == "scatalog"){
+	  var _quickStandard = 0;
+	  _quickStandard = $(".quick_top").offset().top ;
+	
+	  $(".right_quick").css({ top : _quickStandard })
+	}
+		
+	
+	function saveMyWishList2(){
+ 
+		$.ajax({
+			url : '/scatalog/chkMyclipLogin.do',
+			data : {
+				serviceSym : "{messageUtil.getMessage('code.scatalog.sym')}"
+			},
+			type : "GET",
+			dataType : "json",
+			success : function(data) {
+				
+				if(data.result == "1"){
+					location.href = "/scatalog/myWishList.do";
+				} else {
+					$(".detail_wish_pop.detail_2").show();
+				}
+			}, 
+			error : function(){
+				$(".detail_wish_pop.detail_2").show();
+			}
+		});
+	}
+	</script>
+	
+
+  <div class="right_quick" style="display:none;">
+	<div>
+	  <a href="/scatalog/search.do" class="search_toggle"><img src="/resources/site/img/scatalog/btn_quick_search.gif" alt="상품검색"></a>
+
+	</div>
+	<div>
+	  <a href="#;"><img src="/resources/site/img/scatalog/btn_quick_view.gif" alt="최근 본 상품"></a>
+	</div>
+
+	<div class="product_rolling">
+	  <button class="prev"><img src="/resources/site/img/scatalog/btn_arr_up.gif" alt="이전"></button>
+	  <div class="in">
+		<ul id="ul_clickList"> 
+		  
+		</ul>
+	  </div>
+	  <button class="next"><img src="/resources/site/img/scatalog/btn_arr_down.gif" alt="다음"></button>
+	</div>
+			</div>   
+	   	   <div class='recent_layer' style="display:none">
+		   <a href="#;">
+			 <div class="recent_info">
+			   <strong id="itemName"></strong>
+			   <ul>
+				 <li class="price" id="itemPrice"></li>
+				 			   </ul>
+			 </div>
+			 <span class="img" id="imgId">
+			 			 	</span>
+		   </a>
+		   <button class="close_recent" onclick="deleteItem()">
+			 <img src="/resources/site/img/scatalog/btn_delete.gif" alt="닫기">
+		   </button>
+		</div>
+		 
+		 
+				<div class="new_product_layer" style="display:none">
+		  <strong id="clickListCnt"></strong>
+		
+		  <ul class="new_products" id="ul_clickListDtl">
+		   
+		  </ul>
+		
+		  <div class="bottom_btn">
+			<button class='all_clear' onclick='deleteAllItem();'>전체삭제</button>
+		  </div>
+		
+		  <button class="back"></button>
+		</div>
+				
+	 </div>
+
+
+<!--  2025 설 카달로그 퍼블리싱 -->
+		<!-- quick_nav_wrap -->
+		<div class="quick_nav_wrap">
+			<div class="recent_prod_wrap">
+				<p class="title">최근 본 상품</p>
+				<div class="swiper-container recent_prod_swiper">
+					<div class="swiper-wrapper">
+					</div>
+				</div>
+				<div class="swiper_control_box">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+			<a href="/scatalog/search.do" class="btn_prod_search">
+				<span class="text">상품검색</span>
+				<span class="ico_search_h12"></span>
+			</a>
+		</div>
+		<script>
+		if(location.pathname != '/scatalog/index.do'){
+			$('.quick_nav_wrap').hide();	
+		}
+		
+		   $(function() {
+			   $(function() {
+				   $(window).on('scroll', function() {
+					 let windowHeight = $(window).height();
+					 let wrap = $('#WRAP');
+					 let wrapHeight = wrap.height();
+					 let nav = $('.quick_nav_wrap');
+					 let navHeight = nav.height();
+					 let navTopPos = 909;
+					 let fixedTopPos = navTopPos - ((navTopPos - (navTopPos - (windowHeight - navHeight))) / 2);
+					 let fixedBotPos = wrapHeight - navHeight - 315 + 113;
+
+					 currenty = $(window).scrollTop(); //현재 스크롤 top 위치
+
+					 if (currenty > fixedTopPos ) {
+					   nav.addClass('fixed');
+
+					   if (currenty >= fixedBotPos) {
+						 nav.css({'position': 'absolute', 'top': (wrapHeight - navHeight) + 'px', transform: 'translate(calc(-50% + 800px), 0)'});
+					   }
+					   else nav.css({'position': '', 'top': '', transform: ''});
+					 }
+					 else nav.removeClass('fixed');
+				   })
+				 });
+			});
+		   
+			function setRecentProdSwiper(){
+				if( $('.recent_prod_wrap .swiper-slide').length > -1 ) {
+					var recentProdSwiper = new Swiper('.recent_prod_wrap .swiper-container', {
+					  init: false,
+					  speed: 500,
+					  resistance: '100%',
+					  resistanceRatio: 0,
+					  observer: true,
+					  observeParents: true,
+					  watchOverflow: false,
+					  pagination: {
+						el: '.recent_prod_wrap .swiper-pagination',
+						type: 'fraction',
+						formatFractionCurrent: function (number) {
+						  return number < 10 ? '0' + number+" " : number+" ";
+						},
+						formatFractionTotal: function (number) {
+						  return number < 10 ? '- 0' + number+" " : "- "+number;
+						},
+					  },
+					  navigation: {
+						nextEl: '.recent_prod_wrap .swiper-button-next',
+						prevEl: '.recent_prod_wrap .swiper-button-prev',
+					  },
+					});
+					recentProdSwiper.init();
+				  }				
+			}
+			
+		</script>
+		<!-- // quick_nav_wrap -->
+<!-- // 2025 설 카달로그 퍼블리싱 -->
+<script>
+		 
+  $(".right_quick .search_toggle").click(function(){
+	if( !$(".right_quick .smart_search").is(":animated") ){
+	  $(".right_quick .smart_search").css({ zIndex:3 }).animate({opacity:1  } , { duration : 600 })
+	}
+  })
+
+  $(".right_quick .in_search_toggle").click(function(){
+	if( !$(".right_quick .smart_search").is(":animated") ){
+	  $(".right_quick .smart_search").animate({ opacity:0  } , { duration : 600 , complete : function(){
+		$(this).css({zIndex:-1})
+	  }})
+	}
+  })
+  
+  $(".family").on('focusout', function(e){
+	var related = e.relatedTarget;	
+	if($(".family").has(related).length >0 ) return;	
+		$(this).find('ul, .open').removeClass('open').slideUp(150);
+	
+  });
+  
+  //펼치기 줄이기 웹 접근성
+  $('.family > a').on('click', function (e) {
+	  var alink = $(this);
+	  var expanded = alink.attr('aria-expanded') == 'true';
+	  alink.attr('aria-expanded', !expanded);
+  });
+  
+  window.onload = function() {
+	  var _defaultNum = 0;
+	  var _quickList = $(".right_quick .product_rolling .in ul li");
+	  var _quickListLength = _quickList.length;
+	  if( _quickListLength < 6 ){
+		$(".right_quick .product_rolling > button").hide();
+	  }
+	  $(".product_rolling > button").click(function(){
+		if( !$(".right_quick .product_rolling .in ul").is(":animated") ){
+		if( _quickListLength > 5 ){
+		  if( $(this).hasClass("prev") ){
+			if( _defaultNum > 0 ){
+			  if( _defaultNum < 1 ){
+				 _defaultNum = _quickListLength -1
+			   }else{
+				_defaultNum--;
+			  }
+			}
+		  }else{
+			if( _defaultNum < _quickListLength-5 ){
+			  if( _defaultNum > _quickListLength-2 ){
+				_defaultNum = 0
+			  }else{
+				_defaultNum++;
+			  }
+			}
+		  }
+			$(".right_quick .product_rolling .in ul").animate({ top : -(70*_defaultNum) } , { duration : 600 })
+		  }
+		}
+	  }) 		
+  };
+  
+  		$(document).ready(function(){
+  		
+  		var Day= new Date("2023/01/31 21:00:00");	
+  		var url = location.pathname.split("/")[1];
+		
+			getClickListCookie();
+			$(".event_box .tabs li").click(function(){
+				var idx = $(this).index();
+				$("body, html").animate({ scrollTop : $(".tab_box > ul > li").eq(idx).offset().top-60 })
+			})
+			
+			$(".lately_layer .in_list .ctroll").click(function(){
+			
+				$(".chkchk label").toggle();
+				if( $(this).text() == "편집" ){
+					$(this).text("취소");
+				}else{
+					$(this).text("편집");
+				}
+			})
+			
+			$(".new_products").click(function(){
+				$(".lately_layer").addClass("on");
+				$("body").addClass("on").append("<div class='dim'></div>");
+				
+				var _titleHe = $(".lately_title").height();
+				
+				$(".lately_list").css({ height : $(window).height() - _titleHe })
+				
+			})
+			
+			$(".lately_layer .in_list .close").click(function(){
+				$("body .dim").remove();
+				$("body , .lately_layer").removeClass("on");			
+			})
+			 
+			
+		})
+		
+				$(document).ready(function(){
+						
+			
+			var ScatalogDay = new Date ("2023/09/31 21:00:00");
+			var ScatalogUrl = location.pathname.split("/")[1];
+			
+			if(Date.now() >= ScatalogDay) {
+				if(ScatalogUrl=='scatalog') {
+					//location.href="/index";
+				}
+			} else {
+				if(window.location.pathname.split("/")[1] == "scatalog" && window.location.pathname.split("/")[3] !="shinsegaeGift.do" && window.location.pathname.split("/")[3] != "shinsegaeDelivery.do" && window.location.pathname.split("/")[3] != "smartService.do"){
+															$(".right_quick").show();
+					$(".lately_layer").show();
+				}else{
+					$(".right_quick").hide();
+					$(".lately_layer").hide();
+				}
+			}	
+			
+			
+		})
+		
+		function detailWishPopupClose(){
+		gnbLogin();
+		$(".wish_pop").hide();
+	}
+	
+</script>
+  <script type="text/javascript" src="/resources/site/js/scatalog/tweenmax.js"></script>
+		<div class="wish_pop detail_wish_pop detail_2" style="display:none;">
+		<h2>2026 추석 선물 특선집</h2>
+		<div class="in">
+			<div class="line">
+				<strong>
+					<em>로그인 후 이용해주세요.</em>
+				</strong>
+				<a href="javascript:void(0)" onclick="detailWishPopupClose()">확인</a>
+			</div>
+		</div>
+		<button onclick="detailWishPopupClose()"><img src="/resources/site/img/scatalog/btn_menu_close_w.png" alt="메뉴 닫기"></button>
+	</div>
+      <div id="product_detail"></div>
+   		<script type="text/javascript" charset="utf-8" src="/resources/site/js/common.js?v=20260923 174816"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/commonSSG.js?v=20260923 174816"></script>
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/store/store.js?v=20260923 174816"></script>
+		
+			<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=q445lt89wn&submodules=geocoder" ></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+										viewMore();
+					
+										$('.left #map').attr("tabindex",-1)
+				});
+				
+				function viewMore() {
+					$.ajax({
+						url : '/culture/culturehall/show/ajaxShow.do',
+						type : 'POST',
+						data : {"pg" : 1,"schStoreCd" : "SC00001"},
+						success : function(data) {
+							if (data == "") {
+								$("#defaultShow").show();
+								$("#culturehallShow").hide();
+							} else { 
+								$("#defaultShow").hide();
+								$("#culturehallShow").show();
+								$("#culturehallShow").append(data);
+							}
+						}
+					});
+				}
+
+				function updateReadCnt(type, seq, url, newYn){
+					var params = {type : type, seq : seq};
+					SSG.post("./updateReadCnt.do", params, function(data){});
+					if((url != null || url != '') && (newYn != null || newYn != '')){	
+						openWindow(url, newYn);
+					}
+				}
+				
+				var mapOptions = {
+					center: new naver.maps.LatLng('37.560932', '126.98115'),
+					zoom: 16,
+					draggable: false,
+					pinchZoom: false,
+					scrollWheel: false,
+					keyboardShortcuts: false,
+					disableDoubleTapZoom: true,
+					disableDoubleClickZoom: true,
+					disableTwoFingerTapZoom: true
+				};
+				
+				var map = new naver.maps.Map('map', mapOptions);
+				
+				var xy = new naver.maps.LatLng('37.560932', '126.98115');
+				var option = { position: xy, icon: { url: '/resources/site/img/store/pin_shinsegae.png', size: new naver.maps.Size(93, 43), origin: new naver.maps.Point(0, 0) } };
+				var marker = new naver.maps.Marker(option);
+				marker.setMap(map);
+				
+				$("#map").on("click",function(e){
+					e.preventDefault();
+
+					map.setOptions({ //지도 인터랙션 켜기
+						draggable: true,
+						pinchZoom: true,
+						scrollWheel: true,
+						keyboardShortcuts: true,
+						disableDoubleTapZoom: false,
+						disableDoubleClickZoom: false,
+						disableTwoFingerTapZoom: false
+					});
+			
+					$(this).addClass("control-on");
+				});
+				
+								function popUp(){
+					return confirm('네이버 길찾기 페이지로 이동합니다. 진행 하시겠습니까?'); 
+				}
+			</script>
+			<script>StoreMain.init();</script>
+		
+		<script type="text/javascript" charset="utf-8" src="/resources/site/js/layout.js?v=20260923 174816"></script>
+			<script id="template-gnb-login" type="text/x-jquery-tmpl">
+		<div class="login_complete">
+			{{if vip}}
+			<a href="javascript:void(0);" onclick="LoginResultVip.on();" class="btn_diamond" ><img src="${contextPath}/resources/site/img/common/gnb/gnb_ico_vip.png" alt=""/></a>
+			{{/if}}
+			<a href="${contextPath}/myssg/myssg.do" class="btn_myssg" >MY 신세계</a>
+			<a href="${contextPath}/myssg/logout.do" class="btn_logout" >로그아웃</a>
+		</div>
+		<span class="line"></span>
+		<a href="javascript:;" onclick="openSearch()" class="btn_search"><img src="${contextPath}/resources/site/img/common/gnb/gnb_ico_search.png" alt="search"/></a>
+	</script>
+	
+	<script id="template-login-vip" type="text/x-jquery-tmpl">
+		<div class="left">
+			<div class="desc">
+				<span class="user">${customerNm} 고객님,</span> 안녕하세요.<br>
+				고객님의 등급은<br>
+				<span class="class kr_m_500">${vipGrdEnm}</span> 입니다.
+			</div>
+			<div class="btns">
+				{{if vipNm == "트리니티"}}
+					<a href="${contextPath}/service/vipclub/benefits-trinity.do">혜택안내</a>
+				{{else vipNm == "다이아몬드_"}}
+					<a href="${contextPath}/service/vipclub/benefits-diamond.do">혜택안내</a>
+				{{else vipNm == "플래티넘"}}
+					<a href="${contextPath}/service/vipclub/benefits-platinum.do">혜택안내</a>
+				{{else vipNm == "골드"}}
+					<a href="${contextPath}/service/vipclub/benefits-gold.do">혜택안내</a>
+				{{else vipNm == "블랙"}}
+					<a href="${contextPath}/service/vipclub/benefits-black.do">혜택안내</a>
+				{{else vipNm == "레드"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else vipNm == "우수고객(스토어레드)"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else vipNm == "우수고객 (R+)"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else vipNm == "하나금융그룹 임직원"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else vipNm == "RED SSG"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else vipNm == "우수고객(R+)"}}
+					<a href="${contextPath}/service/vipclub/benefits-red.do">혜택안내</a>
+				{{else}}
+					<a href="${contextPath}/service/vipclub/benefits-trinity.do">혜택안내</a>
+				{{/if}}
+				<a href="${contextPath}/myssg/myssg.do">MY 신세계</a>
+			</div>
+		</div>
+		<div class="right">
+			<ul class="top">
+				<li>
+					<a href="${contextPath}/myssg/shinsegae-point.do">
+						<div class="ico point"></div>
+						<div class="copy">
+							<span class="copy1">신세계포인트</span>
+							<span class="copy2">${ssgPoint}</span>
+						</div>
+					</a>
+				</li>
+								<!-- <li> -->
+					<!-- <a href="${contextPaht}/myssg/coupon.do"> -->
+						<!-- <div class="ico coupon"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">쿠폰</span> -->
+							<!-- <span class="copy2">${totalCouponCnt}</span> -->
+						<!-- </div> -->
+					<!-- </a> -->
+				<!-- </li> -->
+				<!-- <li> -->
+					<!-- <a href="javascript:void(0);"> -->
+						<!-- <div class="ico my_wallet"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">마이 월렛</span> -->
+							<!-- <span class="copy2">${rewards}</span> -->
+						<!-- </div> -->
+					<!-- </a> -->
+				<!-- </li> -->
+				<!-- li class='right_li' -->
+				<li class=''>
+					{{if privatePoint}}
+						<a href="${contextPath}/myssg/myssg.do">
+						<div class="ico private"></div>
+						<div class="copy">
+							<span class="copy1">프라이빗 포인트</span>
+							<span class="copy2">${privatePoint}</span>
+						</div>
+						</a>
+					{{/if}}
+				</li>
+				<li>
+					<a href="${contextPath}/myssg/myssg.do">
+						<div class="ico pay"></div>
+						<div class="copy">
+								<span class="copy1">VIP 선정 구매금액<span>2024년 기준</span></span>
+														<span class="copy2">${sageSaleAmt}</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="${contextPath}/myssg/myssg.do">
+						<div class="ico date"></div>
+						<div class="copy">
+							<span class="copy1">VIP 선정 구매일수<span>2024년 기준</span></span>
+														<span class="copy2">${puchrDayCnt}</span>
+						</div>
+					</a>
+				</li>
+				
+				
+								{{if vipNm == "레드"  || vipNm == '분기 레드'}}
+			  	<!-- <li> -->
+			    	<!-- <a href="/myssg/myssg.do"> -->
+			      		<!-- <div class="ico pay3"></div> -->
+			      		<!-- <div class="copy""> -->
+			        		<!-- <span class="copy1">최근 3개월 총 구매금액</span> -->
+			        		<!-- <span class="copy2">${amtSum}</span> -->
+			      		<!-- </div> -->
+			    	<!-- </a> -->
+			  	<!-- </li> -->
+			  	<!-- <li> -->
+			    	<!-- <a href="/myssg/myssg.do"> -->
+			      		<!-- <div class="ico date3"></div> -->
+			        	<!-- <div class="copy"> -->
+			        		<!-- <span class="copy1">최근 3개월 총 구매일수</span>	 -->
+			        		<!-- <span class="copy2">${daySum}</span> -->
+			      		<!-- </div> -->
+			    	<!-- </a> -->
+			  	<!-- </li> -->
+				{{/if}}
+				
+				{{if sageCustYn == "Y"}}
+					<!-- <li class='right_li'> -->
+						<!-- <a href="${contextPath}/myssg/myssg.do"> -->
+						<!-- <div class="ico sale"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">세일리지 할인한도</span> -->
+							<!-- <span class="copy2"><em>정규</em>${sageBoundsAmt}</span> -->
+							<!-- {{if sageBoundsAmt2 != "" }} -->
+								<!-- <span class="copy2 right_copy"><em>프로모션</em>${sageBoundsAmt2}</em></span> -->
+							<!-- {{/if}} -->
+						<!-- </div> -->
+						<!-- </a> -->
+					<!-- </li> -->
+				{{/if}}
+			</ul>
+			<div class="bottom">
+				<a href="${contextPath}/store/main.do">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_store_loginResult.png" alt="자주 찾는 점포 안내" />
+					<span>
+						자주 찾는<br>
+						점포 안내
+					</span>
+				</a>
+				<a href="javascript:void(0);" onclick="moveShoppingSection()">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_shopping_loginResult.png" alt="맞춤 쇼핑 정보" />
+					<span>
+						맞춤<br>
+						쇼핑 정보
+					</span>
+				</a>
+				<a href="${contextPath}/culture/academy/lecture.do?app=">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_academy_loginResult.png" alt="아카데미 수강신청" />
+					<span>
+						아카데미<br>
+						수강신청
+					</span>
+				</a>
+			</div>
+		</div>
+	</script>
+	
+	<script id="template-login" type="text/x-jquery-tmpl">
+		<div class="left">
+			<div class="desc">
+				<span class="user">${customerNm} 고객님,</span> 안녕하세요.<br>
+				즐거운 쇼핑에 보탬이 될<br>
+				신세계포인트가<br>
+				<span class="point" style="cursor:pointer;" onclick="move('${contextPath}/myssg/shinsegae-point.do')">${ssgPoint}</span>
+				<span class="p_copy">&nbsp;P</span> 있습니다.
+			</div>
+			<div class="btns">
+				<a href="${contextPath}/myssg/shinsegae-point.do">자세히 보기</a>
+				<a href="${contextPath}/myssg/myssg.do">MY 신세계</a>
+			</div>
+		</div>
+		<div class="right">
+			<ul class="top">
+				<!-- <li> -->
+					<!-- <a href="${contextPath}/myssg/coupon.do"> -->
+						<!-- <div class="ico coupon"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">주차 / 할인 쿠폰</span> -->
+							<!-- <span class="copy2">${parkingSaleCouponCnt}</span> -->
+						<!-- </div> -->
+					<!-- </a> -->
+				<!-- </li> -->
+				<!-- <li> -->
+					<!-- <a href="${contextPath}/myssg/shopping-voucher.do"> -->
+						<!-- <div class="ico voucher"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">쇼핑 쿠폰</span> -->
+							<!-- <span class="copy2">${shoppingVoucherCnt}</span>  -->
+						<!-- </div> -->
+					<!-- </a> -->
+				<!-- </li> -->
+				<!-- <li> -->
+					<!-- <a href="javascript:void(0);"> -->
+						<!-- <div class="ico my_wallet"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">마이 월렛</span> -->
+							<!-- <span class="copy2">${rewards}</span> -->
+						<!-- </div> -->
+					<!-- </a> -->
+				<!-- </li> -->
+				<li class="right_li" id="fitYn" style="display:none;">
+					<a href="/myssg/fit.do">
+						<div class="ico fit"></div>
+						<div class="copy">
+							<span class="copy1">FIT</span>
+							<span class="copy2 kr_g_600">${fitCnt}</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="${contextPath}/myssg/myssg.do">
+						<div class="ico pay"></div>
+						<div class="copy">
+								<span class="copy1">VIP 선정 구매금액<span>2024년 기준</span></span>
+							<span class="copy2">${sageSaleAmt}</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="${contextPath}/myssg/myssg.do">
+						<div class="ico date"></div>
+						<div class="copy">
+							<span class="copy1">VIP 선정 구매일수<span>2024년 기준</span></span>
+							<span class="copy2">${puchrDayCnt}</span>
+						</div>
+					</a>
+				</li>
+				<!-- <li> -->
+			    	<!-- <a href="/myssg/myssg.do"> -->
+			      		<!-- <div class="ico pay3"></div> -->
+			      		<!-- <div class="copy""> -->
+			        		<!-- <span class="copy1">최근 3개월 총 구매금액</span> -->
+			        		<!-- <span class="copy2">${amtSum}</span> -->
+			      		<!-- </div> -->
+			    	<!-- </a> -->
+			  	<!-- </li> -->
+			  	<!-- <li> -->
+			    	<!-- <a href="/myssg/myssg.do"> -->
+			      		<!-- <div class="ico date3"></div> -->
+			        	<!-- <div class="copy"> -->
+			        		<!-- <span class="copy1">최근 3개월 총 구매일수</span>	 -->
+			        		<!-- <span class="copy2">${daySum}</span> -->
+			      		<!-- </div> -->
+			    	<!-- </a> -->
+			  	<!-- </li> -->
+				{{if sageCustYn == "Y"}}
+					<!-- <li class='right_li'> -->
+						<!-- <a href="${contextPath}/myssg/myssg.do"> -->
+						<!-- <div class="ico sale"></div> -->
+						<!-- <div class="copy"> -->
+							<!-- <span class="copy1">세일리지 할인한도</span> -->
+							<!-- <span class="copy2"><em>정규</em> ${sageBoundsAmt} </span> -->
+							<!-- {{if sageBoundsAmt2 != ""}} -->
+								<!-- <span class="copy2 right_copy"><em>프로모션</em> ${sageBoundsAmt2}</span> -->
+							<!-- {{/if}} -->
+						<!-- </div> -->
+						<!-- </a> -->
+					<!-- </li> -->
+				{{/if}}
+			</ul>
+			<div class="bottom">
+				<a href="${contextPath}/store/main.do">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_store_loginResult.png" alt="" />
+					<span>
+						자주 찾는<br>
+						점포 안내
+					</span>
+				</a>
+				<a href="javascript:void(0);" onclick="moveShoppingSection()">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_shopping_loginResult.png" alt="" />
+					<span>
+						맞춤<br>
+						쇼핑 정보
+					</span>
+				</a>
+				<a href="${contextPath}/culture/academy/lecture.do?app=">
+					<img src="${contextPath}/resources/site/img/common/gnb/btn_academy_loginResult.png" alt="" />
+					<span>
+						아카데미<br>
+						수강신청
+					</span>
+				</a>
+			</div>
+		</div>
+	</script>
+	
+	<script id="template-fitCount" type="text/j-query-tmpl">
+		 <a href="/bmp/recommend_benefit.do">
+		    <span class="txt_info login"><span>쇼핑 혜택 <em>${iconFitCnt} 개</em></span></span><!-- 로그인 후 -->
+		    <img src="/resources/site/img/icon_fit.png" alt="FIT">
+		    <span class="count">${iconFitCnt}</span><!-- 로그인 후 -->
+		  </a>
+	</script>	</body>
+</html>

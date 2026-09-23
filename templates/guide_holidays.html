@@ -32,7 +32,7 @@
 {% for c in dept.chains %}<tbody><tr class="dept-chain"><th colspan="2">{{ c.chain }}{% if c.src %} <small class="muted"><a href="{{ c.src }}" rel="nofollow noopener" target="_blank">공식 안내</a></small>{% endif %}</th></tr>
 {% for r in c.rows %}<tr><td>{{ r.stores }}{% if r.note %}<br><small class="muted">{{ r.note }}</small>{% endif %}{% if r.news %} <small class="muted">(<a href="{{ r.news }}" rel="nofollow noopener" target="_blank">연합뉴스 보도</a>)</small>{% endif %}</td><td>{{ r.closed }}</td></tr>{% endfor %}</tbody>
 {% endfor %}</table>
-<p class="muted small">각 백화점 홈페이지의 점포별 휴점일 달력을 {{ dept.checked }}에 확인한 것입니다(보도 표시는 공식 공지를 못 찾아 언론 보도 기준). {{ dept.unknown }}</p>
+<p class="muted small">각 백화점 홈페이지의 점포별 휴점일 달력을 {{ dept.checked }}에 확인한 것입니다(보도 표시는 공식 공지를 못 찾아 언론 보도 기준). {{ dept.unknown }} 추석 뒤 휴점일은 <a href="{{ base }}dept/">백화점 휴무일</a>에서 체인별로 볼 수 있습니다.</p>
 </div>
 {% for b, info in brands.items() if closed_day[b] %}
 <div class="sec"><div class="sec-h"><h2>{{ info.short }} — 추석 당일 휴무 {{ closed_day[b]|length }}개 점포</h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>

@@ -29,6 +29,7 @@
   <nav>
     <a href="{{ base }}">오늘 영업</a>
     {% for b, info in brands.items() %}<a href="{{ base }}{{ b }}/">{{ info.short }}</a>{% endfor %}
+    <a href="{{ base }}dept/">백화점</a>
     <a href="{{ base }}guide/holidays/">명절 영업</a>
   </nav>
 </header>
