@@ -1,9 +1,9 @@
 {
-"generated": "2026-09-23",
+"generated": "2026-09-24",
 "sources": {
-"emart": "2026-09-23",
-"costco": "2026-09-23",
-"homeplus": "2026-09-23",
+"emart": "2026-09-24",
+"costco": "2026-09-24",
+"homeplus": "2026-09-24",
 "lottemart": "2026-09-23"
 },
 "brands": {
@@ -15014,10 +15014,8 @@
 "phone": "033-649-8000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/23(수)",
-"closures": [
-"2026-09-23"
-],
+"closure_rule": "",
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -15298,10 +15296,8 @@
 "phone": "031-999-8000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/23(수)",
-"closures": [
-"2026-09-23"
-],
+"closure_rule": "",
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -15319,10 +15315,8 @@
 "phone": "031-999-0000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/23(수)",
-"closures": [
-"2026-09-23"
-],
+"closure_rule": "",
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -15803,10 +15797,8 @@
 "phone": "033-571-8000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/23(수)",
-"closures": [
-"2026-09-23"
-],
+"closure_rule": "",
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -15923,10 +15915,8 @@
 "phone": "02-6948-8000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/23(수)",
-"closures": [
-"2026-09-23"
-],
+"closure_rule": "",
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
