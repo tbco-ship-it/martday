@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#17171c" media="(prefers-color-scheme: dark)">
 {% if adsense_pub %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{{ adsense_pub }}" crossorigin="anonymous"></script>{% endif %}
 {% if origin == "https://martoday.com" %}<script>/* Cloudflare Web Analytics — skipped for automated browsers so our own QA runs don't land in the visitor counts */if(!navigator.webdriver){var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "2268197fa6a940d5847a4070f104a020"}');document.head.appendChild(b);}</script>{% endif %}
+{% if origin == "https://martoday.com" %}<script>/* Microsoft Clarity heatmaps — same QA skip; never on pages that show a seller's own numbers or parcel ids */if(!navigator.webdriver&&!/^\/(business|track|rocket)\//.test(location.pathname)){(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","ymnm9hvi7i");}</script>{% endif %}
 {% block head %}{% endblock %}
 </head>
 <body>
