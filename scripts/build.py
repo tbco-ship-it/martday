@@ -117,7 +117,7 @@ def main():
         urls.append((sm or path.split("/")[0] or "core", path))
 
     write("", "index.html", by_brand=by_brand)
-    for page in ("about", "methodology", "privacy", "contact"):
+    for page in ("about", "methodology", "privacy", "terms", "contact"):
         write(f"{page}/", f"{page}.html")
     write("guide/mandatory-closing/", "guide_mandatory.html")
     hdays = ["2026-09-24", "2026-09-25", "2026-09-26", "2026-09-27"]
