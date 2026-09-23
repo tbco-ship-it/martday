@@ -1,0 +1,31 @@
+{
+  "checked": "2026-09-23",
+  "chains": [
+    {"chain": "롯데백화점", "src": "https://www.lotteshopping.com/store/main?cstrCd=0001", "rows": [
+      {"stores": "본점·잠실·강남·건대스타시티·관악·김포공항·노원·미아·영등포·청량리·인천·동탄·구리·타임빌라스 수원·안산·일산·중동·평촌·부산본점·광복·광주·대구·대전·동래·상인·울산·전주·창원·포항 (29곳)", "closed": "9/24(목)·9/25(금)"},
+      {"stores": "센텀시티", "closed": "9/25(금)·9/26(토)"}]},
+    {"chain": "롯데아울렛·롯데몰", "src": "https://www.lotteshopping.com/store/main?cstrCd=0406", "rows": [
+      {"stores": "프리미엄아울렛 의왕·동부산·기흥·김해·이천·파주, 아울렛 고양·고양터미널·광주수완·광주월드컵·구리·남악·대구율하·부여·서울역·이시아폴리스·청주, 롯데몰 광교·광명·군산·진주, 피트인 산본", "closed": "9/25(금)"},
+      {"stores": "롯데몰 수지·은평", "closed": "휴무 없음", "note": "9/25 12:00~22:00 단축"},
+      {"stores": "롯데월드몰(잠실)·롯데몰 김포공항·타임빌라스 수원(몰)", "closed": "휴무 없음", "note": "9/25 12:00~22:00 단축", "news": "https://m.news.nate.com/view/20260921n06709"}]},
+    {"chain": "신세계백화점", "src": "https://www.shinsegae.com/store/main.do?storeCd=SC00002", "rows": [
+      {"stores": "강남·타임스퀘어·마산·광주·사우스시티·센텀시티·천안아산·의정부·김해·대구·대전 Art&Science (11곳)", "closed": "9/24(목)·9/25(금)"},
+      {"stores": "본점", "closed": "9/25(금)·9/26(토)"},
+      {"stores": "스타필드 하남", "closed": "9/25(금)"}]},
+    {"chain": "현대백화점", "src": "https://www.ehyundai.com/", "rows": [
+      {"stores": "무역센터·천호·미아·목동·중동·킨텍스·판교·울산·충청·더현대 서울·더현대 대구 (11곳)", "closed": "9/24(목)·9/25(금)"},
+      {"stores": "압구정본점·신촌", "closed": "9/25(금)·9/26(토)"},
+      {"stores": "커넥트현대 부산·청주, 현대프리미엄아울렛·시티아울렛 가산·김포·동대문·송도·가든파이브·대구·대전·SPACE1", "closed": "9/25(금)"}]},
+    {"chain": "갤러리아", "src": "https://dept.galleria.co.kr/store-info/luxuryhall", "rows": [
+      {"stores": "명품관", "closed": "9/25(금)·9/26(토)"},
+      {"stores": "타임월드·광교·센터시티·진주", "closed": "9/24(목)·9/25(금)"}]},
+    {"chain": "AK플라자", "src": "https://www.akplaza.com/store/introduce?store=02", "rows": [
+      {"stores": "수원·분당·평택·원주", "closed": "9/25(금)"},
+      {"stores": "AK& 홍대·기흥·광명·금정·세종", "closed": "9월 휴점일 없음", "note": "입점 매장은 따로 쉴 수 있음"}]},
+    {"chain": "이케아", "src": "https://www.ikea.com/kr/ko/stores/goyang/", "rows": [
+      {"stores": "고양·동부산·광명·강동·기흥", "closed": "9/25(금)", "note": "이케아는 설·추석 당일만 쉼. 동부산 9/24 10:00~21:00"}]},
+    {"chain": "신세계사이먼 프리미엄 아울렛", "src": null, "rows": [
+      {"stores": "여주·파주·부산·시흥", "closed": "휴무 없음", "note": "9/25 정오 개점, 브랜드별로 다를 수 있음", "news": "https://m.news.nate.com/view/20260921n06709"}]}
+  ],
+  "unknown": "스타필드(하남·고양·코엑스몰·안성·수원)와 타임스퀘어 몰은 9/23 까지 공식 추석 공지를 찾지 못했습니다. 입점한 이마트 트레이더스·노브랜드는 위 마트 표를 보세요."
+}

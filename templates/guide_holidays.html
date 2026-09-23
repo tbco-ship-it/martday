@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}2026 추석 마트 휴무 — 이마트·홈플러스·롯데마트·코스트코 당일 쉬는 점포와 전날 영업시간 | {{ site }}{% endblock %}
-{% block description %}2026 추석(9/25) 당일에 쉬는 대형마트 점포 목록과 브랜드별 휴무 수, 지역별 현황, 전날 단축 영업. 이마트·트레이더스·홈플러스·롯데마트·코스트코·에브리데이·노브랜드 {{ n_stores }}개 점포, 유통사 공식 고시 기준으로 매일 갱신.{% endblock %}
+{% block title %}2026 추석 마트·백화점 휴무 — 이마트·홈플러스·롯데마트·코스트코, 롯데·신세계·현대백화점 쉬는 날 | {{ site }}{% endblock %}
+{% block description %}2026 추석(9/25) 당일에 쉬는 대형마트 점포 목록과 브랜드별 휴무 수, 지역별 현황, 전날 단축 영업. 이마트·트레이더스·홈플러스·롯데마트·코스트코·에브리데이·노브랜드 {{ n_stores }}개 점포, 유통사 공식 고시 기준으로 매일 갱신. 롯데·신세계·현대·갤러리아·AK 백화점과 아울렛·이케아 추석 휴점일도 함께.{% endblock %}
 {% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"2026 추석 당일 마트 문 여나요?","acceptedAnswer":{"@type":"Answer","text":"점포마다 다릅니다. 코스트코는 전 점포 휴무, 이마트는 {{ holiday_counts['emart']['2026-09-25'] }}개 점포, 홈플러스 {{ holiday_counts['homeplus']['2026-09-25'] }}개, 롯데마트 {{ holiday_counts['lottemart']['2026-09-25'] }}개 점포가 추석 당일(9/25) 휴무를 고시했습니다. 나머지는 영업하며 대부분 단축 영업합니다."}},{"@type":"Question","name":"추석 전날 마트 몇 시까지 하나요?","acceptedAnswer":{"@type":"Answer","text":"코스트코는 명절 전날 19:00까지 영업합니다. 이마트·홈플러스·롯데마트는 점포별로 1~2시간 단축 영업하는 곳이 많아 방문 전 점포 페이지의 전화번호로 확인을 권합니다."}}]}</script>{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="{{ base }}">홈</a> › 추석 마트 영업</nav>
@@ -8,6 +8,7 @@
 <div class="prose">
 <p>추석 당일(9월 25일 금요일)은 코스트코 전 점포가 쉬고, 이마트·홈플러스·롯데마트는 점포별로 쉬는 곳과 여는 곳이 갈립니다. 연휴 마지막 날 9월 27일은 넷째 일요일이라 의무휴업일과 겹쳐 쉬는 점포가 더 많습니다. 아래는 유통사가 점포별로 고시한 날짜를 그대로 모은 것이고, 매일 새로 가져옵니다.</p>
 <p>내 점포 하나만 보려면 <a href="{{ base }}">홈에서 점포 이름을 검색</a>하는 게 빠릅니다.</p>
+<p>백화점·아울렛은 <a href="#dept">아래 백화점 표</a>에 있습니다. 롯데·신세계·현대는 대부분 9/24~25 이틀, 본점급 몇 곳은 9/25~26에 쉽니다.</p>
 </div>
 <h2>연휴 날짜별 휴무 점포 수</h2>
 <table class="tbl compact"><thead><tr><th>브랜드</th><th>9/24(목)</th><th>9/25(금·추석)</th><th>9/26(토)</th><th>9/27(일)</th></tr></thead><tbody>
@@ -26,6 +27,13 @@
 <p>근처 마트가 모두 쉬는 날에는 온라인 장보기가 대안입니다(<a href="{{ coupang.fresh }}" rel="sponsored nofollow noopener" target="_blank">쿠팡 로켓프레시</a>). 연휴 중 배송 여부와 도착일은 지역마다 달라 주문 화면에서 확인해야 합니다.</p>
 <p class="muted small cp-note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 </div>
+<div class="sec" id="dept"><div class="sec-h"><h2>백화점·아울렛·몰 추석 휴점일</h2></div>
+<table class="tbl compact dept-tbl"><thead><tr><th>점포</th><th>쉬는 날</th></tr></thead>
+{% for c in dept.chains %}<tbody><tr class="dept-chain"><th colspan="2">{{ c.chain }}{% if c.src %} <small class="muted"><a href="{{ c.src }}" rel="nofollow noopener" target="_blank">공식 안내</a></small>{% endif %}</th></tr>
+{% for r in c.rows %}<tr><td>{{ r.stores }}{% if r.note %}<br><small class="muted">{{ r.note }}</small>{% endif %}{% if r.news %} <small class="muted">(<a href="{{ r.news }}" rel="nofollow noopener" target="_blank">연합뉴스 보도</a>)</small>{% endif %}</td><td>{{ r.closed }}</td></tr>{% endfor %}</tbody>
+{% endfor %}</table>
+<p class="muted small">각 백화점 홈페이지의 점포별 휴점일 달력을 {{ dept.checked }}에 확인한 것입니다(보도 표시는 공식 공지를 못 찾아 언론 보도 기준). {{ dept.unknown }}</p>
+</div>
 {% for b, info in brands.items() if closed_day[b] %}
 <div class="sec"><div class="sec-h"><h2>{{ info.short }} — 추석 당일 휴무 {{ closed_day[b]|length }}개 점포</h2><a href="{{ base }}{{ b }}/">{{ info.short }} 전체</a></div>
 <ul class="list">{% for s in closed_day[b][:12] %}<li><a href="{{ base }}{{ b }}/{{ s.slug }}/">{{ s.disp }}<span class="meta">{{ s.area }}{% if s.hours %} · {{ s.hours }}{% endif %}</span></a></li>{% endfor %}{% if closed_day[b]|length > 12 %}<li class="more-row"><a href="{{ base }}{{ b }}/">나머지 {{ closed_day[b]|length - 12 }}개는 브랜드 페이지에서</a></li>{% endif %}</ul></div>
@@ -37,7 +45,7 @@
 <p class="muted small">"영업 고시"는 유통사가 그 날짜를 휴무로 올리지 않은 점포이고, "미확인"은 이번 달 휴무 고시가 아예 없는 점포입니다. 미확인 점포는 영업으로 단정하지 않습니다.</p>
 <div class="prose">
 <h2>설 연휴는?</h2>
-<p>2027년 설(2월 6일~8일)도 같은 방식으로 점포별 고시가 나오는 대로 이 페이지에 반영됩니다. 대체로 설 당일 휴무 여부는 추석과 같은 점포에서 같은 패턴입니다.</p>
+<p>2027년 설 연휴(2월 6일~9일, 9일은 대체공휴일)도 같은 방식으로 점포별 고시가 나오는 대로 이 페이지에 반영됩니다. 대체로 설 당일 휴무 여부는 추석과 같은 점포에서 같은 패턴입니다.</p>
 <h2>의무휴업일과 겹칠 때</h2>
 <p>대형마트는 월 2회 의무휴업(대부분 둘째·넷째 일요일)이 있습니다. 명절 주간에 이 날이 겹치면 한 주에 두 번 쉬는 점포가 생깁니다. 지자체마다 요일이 달라 같은 브랜드라도 점포별로 다릅니다 — <a href="{{ base }}guide/mandatory-closing/">의무휴업일 제도</a>를 참고하세요.</p>
 </div>

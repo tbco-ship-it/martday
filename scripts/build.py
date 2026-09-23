@@ -177,7 +177,7 @@ def main():
         if s.get("state", "open") != "open": area_counts[a]["inactive"] += 1
         elif chuseok in s["closures"]: area_counts[a]["closed"] += 1
         elif not s["closures"]: area_counts[a]["unknown"] += 1
-    write("guide/holidays/", "guide_holidays.html", by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
+    write("guide/holidays/", "guide_holidays.html", dept=json.loads((ROOT / "data/dept_chuseok_2026.json").read_text()), by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
           area_counts=dict(sorted(area_counts.items(), key=lambda kv: -kv[1]["total"])))
 
     for b, lst in by_brand.items():
