@@ -1,5 +1,5 @@
 {
- "fetched": "2026-09-22",
+ "fetched": "2026-09-23",
  "stores": [
   {
    "brand": "starfield",
@@ -76,7 +76,7 @@
     "27"
    ],
    "hours": "10:00~23:00",
-   "closure_rule": "9월 의무휴점 : 9/13(일), 9/27(일)",
+   "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
     "9/27",
