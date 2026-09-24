@@ -1,5 +1,5 @@
 {
- "fetched": "2026-09-24",
+ "fetched": "2026-09-25",
  "stores": [
   {
    "brand": "starfield",
@@ -9,7 +9,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -31,7 +31,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "가든5점 둘째/넷째 일요일 휴점입니다.",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -53,7 +53,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -75,7 +75,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -97,7 +97,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -119,7 +119,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -141,7 +141,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -163,7 +163,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -185,7 +185,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -207,7 +207,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -229,7 +229,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -251,7 +251,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -273,7 +273,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:30",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -317,7 +317,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -339,7 +339,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -361,7 +361,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -383,7 +383,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -405,7 +405,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -427,7 +427,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -449,7 +449,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "매월 2째주,4째주 일요일 휴점",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -471,7 +471,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -493,7 +493,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -537,7 +537,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "입점 매장(치과/동물병원/미용실 등)의 휴점일 및 영업시간은 해당 이마트 점포와 다를 수 있습니다.",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -559,7 +559,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -603,7 +603,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2001,7 +2001,6 @@
    "name": "노브랜드 동대문두타몰점",
    "area": "서울",
    "holiday_days": [
-    "24",
     "25"
    ],
    "address": "서울 중구 장충단로 275 (을지로6가, 두산타워빌딩)4층 1호",
@@ -2174,7 +2173,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2196,7 +2195,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "운영시간: 10시 ~ 23시(2째, 4째주 일요일 의무휴점일 제외)",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2218,7 +2217,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "매주 수요일 휴점(소비쿠폰 사용가능)",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2240,7 +2239,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2856,7 +2855,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2944,7 +2943,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2986,7 +2985,7 @@
    "name": "이마트 김포한강점",
    "area": "경기",
    "holiday_days": [],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "9/24 10시~13시 영업, 9/25(추석) 휴점, 9/26 10시~13시 영업",
    "closures_raw": "10/14(수)",
    "closures": [
@@ -3051,7 +3050,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3095,7 +3094,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3117,7 +3116,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3139,7 +3138,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3162,7 +3161,7 @@
     "25",
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/25(금), 9/27(일), 10/11(일)",
    "closures": [
@@ -3185,7 +3184,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3207,7 +3206,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3229,7 +3228,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3251,7 +3250,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3405,7 +3404,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3515,7 +3514,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "운영시간:06시~23시(2,4째주 의무휴점일 제외)",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3625,7 +3624,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3757,7 +3756,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3801,7 +3800,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -7429,7 +7428,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -7451,7 +7450,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -7473,7 +7472,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -7818,7 +7817,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "주말/공휴일17:00 종료 ※수요일 휴점(고유가지원금 사용가능)",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -8076,7 +8075,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -8098,7 +8097,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -8120,7 +8119,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -8942,7 +8941,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -8964,7 +8963,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -8986,7 +8985,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "토요일 13:00~19:00, 일요일/공휴일 휴점",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -9008,7 +9007,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -9030,7 +9029,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -9052,7 +9051,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -9318,7 +9317,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9340,7 +9339,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9362,7 +9361,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9384,7 +9383,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9406,7 +9405,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9428,7 +9427,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9450,7 +9449,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -9472,7 +9471,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -10046,7 +10045,7 @@
    "holiday_days": [
     "30"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/30(수), 10/14(수)",
    "closures": [
@@ -10112,7 +10111,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -10134,7 +10133,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -10695,7 +10694,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/14(수)",
    "closures": [
@@ -10903,7 +10902,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -10925,7 +10924,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -10947,7 +10946,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -10969,7 +10968,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -10991,7 +10990,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -11035,7 +11034,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -11057,7 +11056,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -11266,7 +11265,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11288,7 +11287,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11310,7 +11309,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11366,7 +11365,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11388,7 +11387,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11410,7 +11409,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "휴점일은 지자체 상황에 따라 변동될 수 있습니다",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11500,7 +11499,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11522,7 +11521,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11544,7 +11543,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11566,7 +11565,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11812,7 +11811,7 @@
    "name": "이마트 강릉점",
    "area": "강원",
    "holiday_days": [],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "10/14(수)",
    "closures": [
@@ -11833,7 +11832,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~22:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11855,7 +11854,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -11899,7 +11898,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -12212,7 +12211,7 @@
    "holiday_days": [
     "26"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/26(토), 10/9(금)",
    "closures": [
@@ -12234,7 +12233,7 @@
    "holiday_days": [
     "26"
    ],
-   "hours": "10:00~23:00",
+   "hours": "11:00~21:00",
    "closure_rule": "",
    "closures_raw": "9/26(토), 10/9(금)",
    "closures": [
