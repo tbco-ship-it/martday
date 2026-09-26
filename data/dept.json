@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-09-27T06:00:31+09:00",
+ "fetched_at": "2026-09-27T06:03:53+09:00",
  "chains": {
   "lotte": {
-   "fetched_at": "2026-09-26T08:19:46+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
+   "fetched_at": "2026-09-27T06:03:53+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -5447,9 +5447,9 @@
    ]
   },
   "shinsegae": {
-   "fetched_at": "2026-09-26T08:19:46+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
+   "fetched_at": "2026-09-27T06:03:53+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -5665,9 +5665,9 @@
    ]
   },
   "hyundai": {
-   "fetched_at": "2026-09-26T08:19:46+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
+   "fetched_at": "2026-09-27T06:03:53+09:00",
    "months_covered": [
     "2026-09",
     "2026-10"
@@ -5751,7 +5751,8 @@
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00146000",
      "closed": [
       "2026-09-24",
-      "2026-09-25"
+      "2026-09-25",
+      "2026-10-12"
      ],
      "special": [
       {
@@ -5808,11 +5809,81 @@
        "date": "2026-09-27",
        "kind": "extend",
        "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-02",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-03",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-04",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-09",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-10",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-11",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-16",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-17",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-18",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-23",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-24",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-25",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-30",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-10-31",
+       "kind": "extend",
+       "extend_minutes": 30
       }
      ],
      "months": {
       "2026-09": "ok",
-      "2026-10": "unpublished"
+      "2026-10": "ok"
      }
     },
     {
@@ -7953,9 +8024,9 @@
    ]
   },
   "galleria": {
+   "fetched_at": "2026-09-27T06:00:31+09:00",
    "name": "갤러리아백화점",
    "source": "https://dept.galleria.co.kr/store-info/",
-   "fetched_at": "2026-09-27T06:00:31+09:00",
    "months_covered": [
     "2026-09"
    ],
@@ -8033,9 +8104,9 @@
    ]
   },
   "ak": {
+   "fetched_at": "2026-09-27T06:00:31+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
-   "fetched_at": "2026-09-27T06:00:31+09:00",
    "months_covered": [
     "2026-09"
    ],
@@ -8150,9 +8221,9 @@
    ]
   },
   "ikea": {
+   "fetched_at": "2026-09-27T06:00:31+09:00",
    "name": "이케아",
    "source": "https://www.ikea.com/kr/ko/stores/",
-   "fetched_at": "2026-09-27T06:00:31+09:00",
    "months_covered": [],
    "stores": [
     {

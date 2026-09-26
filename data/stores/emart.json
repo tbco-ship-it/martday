@@ -1,5 +1,5 @@
 {
- "fetched": "2026-09-26",
+ "fetched": "2026-09-27",
  "stores": [
   {
    "brand": "starfield",
@@ -575,7 +575,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "11:00~21:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -2236,7 +2236,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "11:00~21:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -3706,7 +3706,7 @@
    "name": "트레이더스 홀세일 클럽 김포점",
    "area": "경기",
    "holiday_days": [],
-   "hours": "11:00~21:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "10/14(수)",
    "closures": [
@@ -3790,7 +3790,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "12:00~22:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -7074,7 +7074,7 @@
    "holiday_days": [
     "27"
    ],
-   "hours": "11:00~21:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "9/27(일), 10/11(일)",
    "closures": [
@@ -8529,7 +8529,7 @@
     "28"
    ],
    "hours": "10:00~23:00",
-   "closure_rule": "",
+   "closure_rule": "매월 둘째, 넷째 월요일 휴점합니다",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
     "9/28",
@@ -8594,7 +8594,7 @@
    "holiday_days": [
     "28"
    ],
-   "hours": "11:00~21:00",
+   "hours": "10:00~23:00",
    "closure_rule": "",
    "closures_raw": "9/28(월), 10/12(월)",
    "closures": [
@@ -11636,14 +11636,11 @@
    "id": "1048",
    "name": "이마트 신제주점",
    "area": "제주",
-   "holiday_days": [
-    "26"
-   ],
+   "holiday_days": [],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "9/26(토), 10/9(금)",
+   "closures_raw": "10/9(금)",
    "closures": [
-    "9/26",
     "10/9"
    ],
    "phone": "064-798-1234",
@@ -11658,14 +11655,11 @@
    "id": "1004",
    "name": "이마트 제주점",
    "area": "제주",
-   "holiday_days": [
-    "26"
-   ],
+   "holiday_days": [],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "9/26(토), 10/9(금)",
+   "closures_raw": "10/9(금)",
    "closures": [
-    "9/26",
     "10/9"
    ],
    "phone": "064-729-1234",
@@ -11695,9 +11689,7 @@
    "id": "3807",
    "name": "노브랜드 제주아라점",
    "area": "제주",
-   "holiday_days": [
-    "26"
-   ],
+   "holiday_days": [],
    "address": "제주특별자치도 제주시 구산로 27",
    "address_lot": "제주특별자치도 제주시 구산로 27",
    "lat": 33.4835737602773,
@@ -11712,9 +11704,7 @@
    "id": "3904",
    "name": "노브랜드 제주외도점",
    "area": "제주",
-   "holiday_days": [
-    "26"
-   ],
+   "holiday_days": [],
    "address": "제주특별자치도 제주시 일주서로 7426 (내도동)노브랜드 제주외도점",
    "address_lot": "제주특별자치도 제주시 일주서로 7426 (내도동)노브랜드 제주외도점",
    "lat": 33.4932039479121,
