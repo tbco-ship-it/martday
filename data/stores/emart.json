@@ -1,5 +1,5 @@
 {
- "fetched": "2026-09-29",
+ "fetched": "2026-09-30",
  "stores": [
   {
    "brand": "starfield",
@@ -3282,7 +3282,7 @@
    "area": "경기",
    "holiday_days": [],
    "hours": "10:00~22:00",
-   "closure_rule": "",
+   "closure_rule": "매월 둘째, 넷째 일요일은 의무휴점 입니다.",
    "closures_raw": "10/11(일)",
    "closures": [
     "10/11"
@@ -8831,14 +8831,11 @@
    "id": "1081",
    "name": "이마트 상주점",
    "area": "경북",
-   "holiday_days": [
-    "30"
-   ],
+   "holiday_days": [],
    "hours": "10:00~22:00",
    "closure_rule": "",
-   "closures_raw": "9/30(수), 10/14(수)",
+   "closures_raw": "10/14(수)",
    "closures": [
-    "9/30",
     "10/14"
    ],
    "phone": "054-537-1234",
