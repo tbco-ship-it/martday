@@ -1,9 +1,9 @@
 {
-"generated": "2026-09-30",
+"generated": "2026-10-01",
 "sources": {
-"emart": "2026-09-30",
-"costco": "2026-09-30",
-"homeplus": "2026-09-30",
+"emart": "2026-10-01",
+"costco": "2026-10-01",
+"homeplus": "2026-10-01",
 "lottemart": "2026-09-27"
 },
 "brands": {
@@ -63,7 +63,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -84,7 +86,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "가든5점 둘째/넷째 일요일 휴점입니다.",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -105,7 +109,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -126,7 +132,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -147,7 +155,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -168,7 +178,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -189,7 +201,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -210,7 +224,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -231,7 +247,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -252,7 +270,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -273,7 +293,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -294,7 +316,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -315,7 +339,9 @@
 "hours": "10:00~22:30",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -336,7 +362,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -357,7 +384,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -378,7 +407,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -399,7 +430,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -420,7 +453,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -441,7 +476,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -462,7 +499,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -483,7 +522,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "매월 2째주,4째주 일요일 휴점",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -504,7 +545,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -525,7 +568,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -546,7 +591,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -567,7 +614,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "입점 매장(치과/동물병원/미용실 등)의 휴점일 및 영업시간은 해당 이마트 점포와 다를 수 있습니다.",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -588,7 +637,8 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -609,7 +659,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -630,7 +682,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -650,7 +704,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -669,7 +726,10 @@
 "parking": "총 6대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -688,7 +748,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -707,7 +770,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -726,7 +792,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -745,7 +814,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -764,7 +836,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -783,7 +858,10 @@
 "parking": "총 600대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -802,7 +880,10 @@
 "parking": "총 45대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -821,7 +902,10 @@
 "parking": "총 75대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -840,7 +924,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -859,7 +946,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -878,7 +968,10 @@
 "parking": "총 100대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -897,7 +990,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -916,7 +1012,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -935,7 +1034,10 @@
 "parking": "총 12대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -954,7 +1056,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -973,7 +1078,10 @@
 "parking": "총 43대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -992,7 +1100,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1011,7 +1122,10 @@
 "parking": "총 150대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1030,7 +1144,10 @@
 "parking": "총 4대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1049,7 +1166,10 @@
 "parking": "총 5대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1068,7 +1188,10 @@
 "parking": "총 148대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1087,7 +1210,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1106,7 +1232,10 @@
 "parking": "총 90대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1125,7 +1254,10 @@
 "parking": "총 40대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1144,7 +1276,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1163,7 +1298,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1182,7 +1320,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1201,7 +1342,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1220,7 +1364,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1239,7 +1386,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1258,7 +1408,10 @@
 "parking": "총 3대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1277,7 +1430,10 @@
 "parking": "총 12대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1296,7 +1452,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1315,7 +1474,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1334,7 +1496,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1353,7 +1518,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1372,7 +1540,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1391,7 +1562,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1410,7 +1584,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1429,7 +1606,10 @@
 "parking": "총 34대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1448,7 +1628,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1486,7 +1669,10 @@
 "parking": "총 460대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1505,7 +1691,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1524,7 +1713,10 @@
 "parking": "총 null대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1543,7 +1735,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1562,7 +1757,10 @@
 "parking": "총 54대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1581,7 +1779,10 @@
 "parking": "총 3대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1600,7 +1801,10 @@
 "parking": "총 30대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1619,7 +1823,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1638,7 +1845,10 @@
 "parking": "총 150대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1657,7 +1867,10 @@
 "parking": "총 18대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1676,7 +1889,10 @@
 "parking": "총 18대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1695,7 +1911,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1714,7 +1933,10 @@
 "parking": "총 88대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1733,7 +1955,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1752,7 +1977,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1771,7 +1999,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1790,7 +2021,10 @@
 "parking": "총 100대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1809,7 +2043,10 @@
 "parking": "총 null대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1828,7 +2065,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1847,7 +2087,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1866,7 +2109,10 @@
 "parking": "총 13대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1885,7 +2131,10 @@
 "parking": "총 12대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1904,7 +2153,10 @@
 "parking": "총 676대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1923,7 +2175,10 @@
 "parking": "총 23대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1942,7 +2197,10 @@
 "parking": "총 9대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1961,7 +2219,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1980,7 +2241,10 @@
 "parking": "총 13대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -1999,7 +2263,10 @@
 "parking": "총 48대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2018,7 +2285,10 @@
 "parking": "총 4대",
 "hours": "11:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2037,7 +2307,10 @@
 "parking": "총 18대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2056,7 +2329,10 @@
 "parking": "총 122대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2075,7 +2351,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2094,7 +2373,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2113,7 +2395,10 @@
 "parking": "총 70대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2132,7 +2417,10 @@
 "parking": "총 0대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2151,7 +2439,10 @@
 "parking": "총 2대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2170,7 +2461,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2189,7 +2483,10 @@
 "parking": "총 0대",
 "hours": "10:30~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2208,7 +2505,10 @@
 "parking": "총 90대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2227,7 +2527,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2246,7 +2549,10 @@
 "parking": "총 0대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2265,7 +2571,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2284,7 +2593,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2303,7 +2615,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2322,7 +2637,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2341,7 +2659,10 @@
 "parking": "총 123대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2360,7 +2681,10 @@
 "parking": "총 96대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2380,7 +2704,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2401,7 +2727,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "운영시간: 10시 ~ 23시(2째, 4째주 일요일 의무휴점일 제외)",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2422,7 +2750,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "매주 수요일 휴점(소비쿠폰 사용가능)",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2443,7 +2773,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2464,7 +2796,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2485,7 +2819,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -2505,7 +2841,10 @@
 "parking": "총 30대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2524,7 +2863,10 @@
 "parking": "총 11대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2543,7 +2885,10 @@
 "parking": "총 100대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2562,7 +2907,10 @@
 "parking": "총 8대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2600,7 +2948,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2619,7 +2970,10 @@
 "parking": "총 25대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2638,7 +2992,10 @@
 "parking": "총 80대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2657,7 +3014,10 @@
 "parking": "총 640대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2676,7 +3036,10 @@
 "parking": "총 150대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2695,7 +3058,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2714,7 +3080,10 @@
 "parking": "총 63대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2733,7 +3102,10 @@
 "parking": "총 23대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2752,7 +3124,10 @@
 "parking": "총 8대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2771,7 +3146,10 @@
 "parking": "총 7대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2790,7 +3168,10 @@
 "parking": "총 879대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2809,7 +3190,10 @@
 "parking": "총 10대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2828,7 +3212,10 @@
 "parking": "총 15대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2847,7 +3234,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2866,7 +3256,10 @@
 "parking": "총 131대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2885,7 +3278,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2904,7 +3300,10 @@
 "parking": "총 38대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2923,7 +3322,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2942,7 +3344,10 @@
 "parking": "총 4대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2961,7 +3366,10 @@
 "parking": "총 23대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2980,7 +3388,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -2999,7 +3410,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -3018,7 +3432,10 @@
 "parking": "총 337대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -3037,7 +3454,10 @@
 "parking": "총 7대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -3056,7 +3476,10 @@
 "parking": "총 330대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -3075,7 +3498,10 @@
 "parking": "총 0대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -3095,7 +3521,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3116,7 +3544,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3137,7 +3567,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3158,7 +3590,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3179,7 +3613,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3200,7 +3635,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3221,7 +3658,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3242,7 +3681,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3263,7 +3704,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3284,7 +3727,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3305,7 +3749,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3326,7 +3772,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3347,7 +3795,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3368,7 +3818,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-15"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3389,7 +3841,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3410,7 +3864,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3431,7 +3887,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3452,7 +3909,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3473,7 +3932,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3494,7 +3955,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3515,7 +3978,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-10"
+"2026-10-10",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3536,7 +4000,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3557,7 +4023,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3578,7 +4046,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3599,7 +4069,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3620,7 +4092,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3641,7 +4115,8 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3662,7 +4137,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "이마트 의왕점은 둘째 넷째주 수요일 휴점합니다",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3683,7 +4160,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3704,7 +4183,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3725,7 +4206,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3746,7 +4229,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "운영시간:06시~23시(2,4째주 의무휴점일 제외)",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3767,7 +4252,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3788,7 +4275,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3809,7 +4298,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3830,7 +4321,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3851,7 +4344,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3872,7 +4367,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3893,7 +4390,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3914,7 +4413,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3935,7 +4436,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "휴점일은 지자체 상황에 따라 변동될 수 있습니다.",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3956,7 +4459,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3977,7 +4482,8 @@
 "hours": "10:00~22:00",
 "closure_rule": "매월 둘째, 넷째 일요일은 의무휴점 입니다.",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -3998,7 +4504,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4019,7 +4527,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4040,7 +4550,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4061,7 +4573,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4082,7 +4596,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4103,7 +4618,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "입점 매장(치과/동물병원/미용실 등)의 휴점일 및 영업시간은 해당 이마트 점포와 다를 수 있습니다.",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4124,7 +4641,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4145,7 +4664,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4166,7 +4687,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-10"
+"2026-10-10",
+"2026-10-25",
+"2026-11-10"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4187,7 +4710,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4208,7 +4733,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4229,7 +4756,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4250,7 +4779,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -4270,7 +4801,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4289,7 +4823,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4308,7 +4845,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4327,7 +4867,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4346,7 +4889,10 @@
 "parking": "총 5대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4365,7 +4911,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4384,7 +4933,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4403,7 +4955,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4441,7 +4996,10 @@
 "parking": "총 0대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4460,7 +5018,10 @@
 "parking": "총 25대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4479,7 +5040,10 @@
 "parking": "총 4대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4517,7 +5081,10 @@
 "parking": "총 66대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4536,7 +5103,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4555,7 +5125,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4593,7 +5166,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4612,7 +5188,10 @@
 "parking": "총 14대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4631,7 +5210,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4650,7 +5232,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4669,7 +5254,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4688,7 +5276,10 @@
 "parking": "총 18대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4707,7 +5298,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4726,7 +5320,10 @@
 "parking": "총 13대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4745,7 +5342,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4764,7 +5364,10 @@
 "parking": "총 55대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4783,7 +5386,10 @@
 "parking": "총 186대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4802,7 +5408,10 @@
 "parking": "총 65대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4840,7 +5449,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4859,7 +5471,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4878,7 +5493,10 @@
 "parking": "총 500대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4897,7 +5515,10 @@
 "parking": "총 650대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4916,7 +5537,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4935,7 +5559,10 @@
 "parking": "총 22대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4954,7 +5581,10 @@
 "parking": "총 25대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -4992,7 +5622,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5011,7 +5644,10 @@
 "parking": "총 8대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5030,7 +5666,10 @@
 "parking": "총 160대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5049,7 +5688,10 @@
 "parking": "총 6대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5068,7 +5710,10 @@
 "parking": "총 150대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5087,7 +5732,10 @@
 "parking": "총 700대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5106,7 +5754,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5125,7 +5776,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5144,7 +5798,10 @@
 "parking": "총 13대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5163,7 +5820,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5182,7 +5842,10 @@
 "parking": "총 24대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5201,7 +5864,10 @@
 "parking": "총 16대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5220,7 +5886,10 @@
 "parking": "총 45대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5239,7 +5908,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5258,7 +5930,10 @@
 "parking": "총 5대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5277,7 +5952,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5296,7 +5974,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5315,7 +5996,10 @@
 "parking": "총 8대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5334,7 +6018,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5353,7 +6040,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5372,7 +6062,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5391,7 +6084,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5410,7 +6106,10 @@
 "parking": "총 60대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5448,7 +6147,10 @@
 "parking": "총 8대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5467,7 +6169,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5486,7 +6191,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5505,7 +6213,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5524,7 +6235,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5543,7 +6257,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5562,7 +6279,10 @@
 "parking": "총 158대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5581,7 +6301,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5600,7 +6323,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5619,7 +6345,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5638,7 +6367,10 @@
 "parking": "총 6대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5657,7 +6389,10 @@
 "parking": "총 30대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5676,7 +6411,10 @@
 "parking": "총 75대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5695,7 +6433,10 @@
 "parking": "총 65대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5714,7 +6455,10 @@
 "parking": "총 48대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5733,7 +6477,10 @@
 "parking": "총 11대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5752,7 +6499,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5771,7 +6521,10 @@
 "parking": "총 25대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5790,7 +6543,10 @@
 "parking": "총 500대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5809,7 +6565,10 @@
 "parking": "총 42대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5828,7 +6587,10 @@
 "parking": "총 57대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5847,7 +6609,10 @@
 "parking": "총 12대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5866,7 +6631,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5885,7 +6653,10 @@
 "parking": "총 40대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5904,7 +6675,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5923,7 +6697,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5942,7 +6719,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5961,7 +6741,10 @@
 "parking": "총 15대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5980,7 +6763,10 @@
 "parking": "총 1000대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -5999,7 +6785,9 @@
 "parking": "총 0대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-13"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6018,7 +6806,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6037,7 +6828,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6056,7 +6850,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6075,7 +6872,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6094,7 +6894,10 @@
 "parking": "총 17대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6113,7 +6916,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6132,7 +6938,10 @@
 "parking": "총 0대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6151,7 +6960,10 @@
 "parking": "총 80대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6170,7 +6982,10 @@
 "parking": "총 25대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6189,7 +7004,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6208,7 +7026,10 @@
 "parking": "총 360대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6227,7 +7048,10 @@
 "parking": "총 14대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6246,7 +7070,10 @@
 "parking": "총 851대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6265,7 +7092,10 @@
 "parking": "총 714대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6284,7 +7114,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6303,7 +7136,10 @@
 "parking": "총 40대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6322,7 +7158,10 @@
 "parking": "총 7대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6341,7 +7180,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6360,7 +7202,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6379,7 +7224,10 @@
 "parking": "총 180대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6398,7 +7246,10 @@
 "parking": "총 70대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6417,7 +7268,10 @@
 "parking": "총 60대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6436,7 +7290,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6455,7 +7312,10 @@
 "parking": "총 14대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6474,7 +7334,10 @@
 "parking": "총 4대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6493,7 +7356,10 @@
 "parking": "총 27대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6512,7 +7378,10 @@
 "parking": "총 100대",
 "hours": "10:30~21:30",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6531,7 +7400,10 @@
 "parking": "총 25대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6550,7 +7422,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6569,7 +7444,10 @@
 "parking": "총 null대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6588,7 +7466,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6607,7 +7488,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6626,7 +7510,10 @@
 "parking": "총 78대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6645,7 +7532,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6664,7 +7554,10 @@
 "parking": "총 29대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6683,7 +7576,10 @@
 "parking": "총 705대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6702,7 +7598,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6721,7 +7620,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6740,7 +7642,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6759,7 +7664,10 @@
 "parking": "총 25대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6778,7 +7686,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6797,7 +7708,10 @@
 "parking": "총 null대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6816,7 +7730,10 @@
 "parking": "총 49대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6835,7 +7752,10 @@
 "parking": "총 27대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6854,7 +7774,10 @@
 "parking": "총 6200대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6873,7 +7796,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6892,7 +7818,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6911,7 +7840,10 @@
 "parking": "총 18대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6930,7 +7862,10 @@
 "parking": "총 2000대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6949,7 +7884,10 @@
 "parking": "총 16대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6968,7 +7906,10 @@
 "parking": "총 0대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -6987,7 +7928,10 @@
 "parking": "총 10대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7006,7 +7950,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7025,7 +7972,10 @@
 "parking": "총 80대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7044,7 +7994,10 @@
 "parking": "총 15대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7063,7 +8016,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7082,7 +8038,10 @@
 "parking": "총 15대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7101,7 +8060,10 @@
 "parking": "총 18대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-07",
+"2026-10-21"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7120,7 +8082,10 @@
 "parking": "총 20대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7139,7 +8104,10 @@
 "parking": "총 35대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7158,7 +8126,10 @@
 "parking": "총 70대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7177,7 +8148,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7196,7 +8170,10 @@
 "parking": "총 6대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7215,7 +8192,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7234,7 +8214,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7253,7 +8236,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7272,7 +8258,10 @@
 "parking": "총 6대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7291,7 +8280,10 @@
 "parking": "총 6대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7310,7 +8302,10 @@
 "parking": "총 843대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7329,7 +8324,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7348,7 +8346,10 @@
 "parking": "총 357대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7367,7 +8368,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7386,7 +8390,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7405,7 +8412,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7424,7 +8434,10 @@
 "parking": "총 25대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7443,7 +8456,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7462,7 +8478,10 @@
 "parking": "총 1366대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7481,7 +8500,10 @@
 "parking": "총 null대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7500,7 +8522,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7519,7 +8544,10 @@
 "parking": "총 0대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7538,7 +8566,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7557,7 +8588,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7576,7 +8610,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7595,7 +8632,10 @@
 "parking": "총 6대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7614,7 +8654,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7633,7 +8676,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7652,7 +8698,10 @@
 "parking": "총 7대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7671,7 +8720,10 @@
 "parking": "총 16대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7690,7 +8742,10 @@
 "parking": "총 0대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7709,7 +8764,10 @@
 "parking": "총 6대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7728,7 +8786,10 @@
 "parking": "총 240대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7747,7 +8808,10 @@
 "parking": "총 20대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7766,7 +8830,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7785,7 +8852,10 @@
 "parking": "총 56대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7804,7 +8874,10 @@
 "parking": "총 42대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7823,7 +8896,10 @@
 "parking": "총 60대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7842,7 +8918,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7861,7 +8940,10 @@
 "parking": "총 80대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7880,7 +8962,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7899,7 +8984,10 @@
 "parking": "총 15대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7918,7 +9006,10 @@
 "parking": "총 200대",
 "hours": "10:00~22:30",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7937,7 +9028,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -7956,7 +9050,10 @@
 "parking": "총 6대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8052,7 +9149,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8073,7 +9172,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8094,7 +9194,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8114,7 +9216,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8133,7 +9238,10 @@
 "parking": "총 120대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8152,7 +9260,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8171,7 +9282,10 @@
 "parking": "총 18대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8190,7 +9304,10 @@
 "parking": "총 23대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8209,7 +9326,10 @@
 "parking": "총 12대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8228,7 +9348,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8247,7 +9370,10 @@
 "parking": "총 22대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8266,7 +9392,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8285,7 +9414,10 @@
 "parking": "총 20대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8304,7 +9436,10 @@
 "parking": "총 64대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8323,7 +9458,10 @@
 "parking": "총 4대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8342,7 +9480,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8361,7 +9502,10 @@
 "parking": "총 36대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8380,7 +9524,10 @@
 "parking": "총 0대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8399,7 +9546,10 @@
 "parking": "총 40대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8418,7 +9568,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8437,7 +9590,10 @@
 "parking": "총 3대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8456,7 +9612,10 @@
 "parking": "총 7대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8476,7 +9635,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "주말/공휴일17:00 종료 ※수요일 휴점(고유가지원금 사용가능)",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8496,7 +9657,10 @@
 "parking": "총 30대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8515,7 +9679,10 @@
 "parking": "총 45대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8534,7 +9701,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8553,7 +9723,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8572,7 +9745,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8591,7 +9767,10 @@
 "parking": "총 117대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8610,7 +9789,10 @@
 "parking": "총 7대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8629,7 +9811,10 @@
 "parking": "총 67대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8648,7 +9833,10 @@
 "parking": "총 57대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8667,7 +9855,10 @@
 "parking": "총 70대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8687,7 +9878,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8708,7 +9901,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8729,7 +9924,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8750,7 +9947,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8771,7 +9970,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8792,7 +9993,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8813,7 +10016,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -8833,7 +10037,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8852,7 +10059,10 @@
 "parking": "총 30대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8871,7 +10081,10 @@
 "parking": "총 16대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8890,7 +10103,10 @@
 "parking": "총 14대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8909,7 +10125,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8928,7 +10147,10 @@
 "parking": "총 64대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8947,7 +10169,10 @@
 "parking": "총 50대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8966,7 +10191,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -8985,7 +10213,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9004,7 +10235,10 @@
 "parking": "총 7대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9023,7 +10257,10 @@
 "parking": "총 40대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9061,7 +10298,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9080,7 +10320,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9099,7 +10342,10 @@
 "parking": "총 67대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9118,7 +10364,10 @@
 "parking": "총 0대",
 "hours": "11:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9137,7 +10386,10 @@
 "parking": "총 15대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9156,7 +10408,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9175,7 +10430,10 @@
 "parking": "총 12대",
 "hours": "11:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9194,7 +10452,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9213,7 +10474,10 @@
 "parking": "총 20대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9232,7 +10496,10 @@
 "parking": "총 7대",
 "hours": "11:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9251,7 +10518,10 @@
 "parking": "총 152대",
 "hours": "11:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9270,7 +10540,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9289,7 +10562,10 @@
 "parking": "총 110대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9309,7 +10585,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9330,7 +10608,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9351,7 +10631,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-10"
+"2026-10-10",
+"2026-10-25",
+"2026-11-10"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9371,7 +10653,10 @@
 "parking": "총 28대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9390,7 +10675,10 @@
 "parking": "총 30대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9409,7 +10697,10 @@
 "parking": "총 38대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9428,7 +10719,10 @@
 "parking": "총 11대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9447,7 +10741,10 @@
 "parking": "총 6대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9466,7 +10763,10 @@
 "parking": "총 2대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9485,7 +10785,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9504,7 +10807,10 @@
 "parking": "총 7대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9523,7 +10829,10 @@
 "parking": "총 53대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9542,7 +10851,10 @@
 "parking": "총 0대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-04",
+"2026-10-18"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9561,7 +10873,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9580,7 +10895,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9599,7 +10917,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9618,7 +10939,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9637,7 +10961,10 @@
 "parking": "총 20대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9656,7 +10983,10 @@
 "parking": "총 62대",
 "hours": "10:30~21:30",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9675,7 +11005,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-10",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9695,7 +11028,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9716,7 +11051,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9737,7 +11074,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "토요일 13:00~19:00, 일요일/공휴일 휴점",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9758,7 +11097,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "매월 둘째, 넷째 월요일 휴점합니다",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9779,7 +11120,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9800,7 +11143,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9821,7 +11166,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -9841,7 +11188,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9860,7 +11210,10 @@
 "parking": "총 16대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9879,7 +11232,10 @@
 "parking": "총 45대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9898,7 +11254,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9917,7 +11276,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9936,7 +11298,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9955,7 +11320,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9974,7 +11342,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -9993,7 +11364,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10012,7 +11386,10 @@
 "parking": "총 28대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10031,7 +11408,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10050,7 +11430,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10069,7 +11452,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10089,7 +11475,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10110,7 +11498,8 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10131,7 +11520,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10152,7 +11543,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10173,7 +11566,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10194,7 +11589,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10215,7 +11612,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10236,7 +11635,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10256,7 +11657,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10275,7 +11679,10 @@
 "parking": "총 40대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10294,7 +11701,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10313,7 +11723,10 @@
 "parking": "총 50대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10332,7 +11745,10 @@
 "parking": "총 62대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10351,7 +11767,10 @@
 "parking": "총 4대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10370,7 +11789,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10389,7 +11811,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10408,7 +11833,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10427,7 +11855,10 @@
 "parking": "총 120대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10446,7 +11877,10 @@
 "parking": "총 20대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10465,7 +11899,10 @@
 "parking": "총 20대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10484,7 +11921,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10503,7 +11943,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10522,7 +11965,10 @@
 "parking": "총 21대",
 "hours": "10:00~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10541,7 +11987,10 @@
 "parking": "총 13대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10560,7 +12009,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10579,7 +12031,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10598,7 +12053,10 @@
 "parking": "총 53대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10617,7 +12075,10 @@
 "parking": "총 40대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10636,7 +12097,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10655,7 +12119,10 @@
 "parking": "총 15대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10674,7 +12141,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10693,7 +12163,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10712,7 +12185,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10731,7 +12207,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10750,7 +12229,10 @@
 "parking": "총 280대",
 "hours": "10:30~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10770,7 +12252,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "주말, 공휴일 영업시간 / 매주 수요일 휴점[고유가지원금 사용가능]",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10791,7 +12275,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10812,7 +12298,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10833,7 +12321,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10854,7 +12344,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10875,7 +12367,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10896,7 +12390,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10917,7 +12413,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10938,7 +12436,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10958,7 +12458,10 @@
 "parking": "총 10대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10977,7 +12480,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -10996,7 +12502,10 @@
 "parking": "총 15대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11015,7 +12524,10 @@
 "parking": "총 10대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11034,7 +12546,10 @@
 "parking": "총 36대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11053,7 +12568,10 @@
 "parking": "총 40대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11072,7 +12590,10 @@
 "parking": "총 0대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11091,7 +12612,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11110,7 +12634,10 @@
 "parking": "총 80대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11129,7 +12656,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11148,7 +12678,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-07",
+"2026-10-21"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11167,7 +12700,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11186,7 +12722,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11205,7 +12744,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11224,7 +12766,10 @@
 "parking": "총 23대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11243,7 +12788,10 @@
 "parking": "총 30대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11262,7 +12810,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11281,7 +12832,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11300,7 +12854,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11319,7 +12876,10 @@
 "parking": "총 8대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11338,7 +12898,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11357,7 +12920,10 @@
 "parking": "총 null대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11376,7 +12942,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11395,7 +12964,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11414,7 +12986,10 @@
 "parking": "총 30대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11433,7 +13008,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11452,7 +13030,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-13",
+"2026-10-27"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11471,7 +13052,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11490,7 +13074,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11509,7 +13096,10 @@
 "parking": "총 29대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11528,7 +13118,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11547,7 +13140,10 @@
 "parking": "총 5대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-13",
+"2026-10-27"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11567,7 +13163,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-25",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11587,7 +13185,10 @@
 "parking": "총 4대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11606,7 +13207,10 @@
 "parking": "총 20대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11644,7 +13248,10 @@
 "parking": "총 23대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11663,7 +13270,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11682,7 +13292,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11701,7 +13314,10 @@
 "parking": "총 6대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11739,7 +13355,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11758,7 +13377,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11777,7 +13399,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11797,7 +13422,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11818,7 +13444,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11839,7 +13467,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11860,7 +13490,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11881,7 +13513,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11902,7 +13536,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11923,7 +13559,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11944,7 +13582,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-12"
+"2026-10-12",
+"2026-10-26",
+"2026-11-09"
 ],
 "holiday_note": "",
 "detail": true,
@@ -11964,7 +13604,10 @@
 "parking": "총 10대",
 "hours": "09:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -11983,7 +13626,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12002,7 +13648,10 @@
 "parking": "총 4대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12021,7 +13670,10 @@
 "parking": "총 0대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12040,7 +13692,10 @@
 "parking": "총 6대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12059,7 +13714,10 @@
 "parking": "총 83대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12078,7 +13736,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12097,7 +13758,10 @@
 "parking": "총 12대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12116,7 +13780,10 @@
 "parking": "총 1000대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12135,7 +13802,10 @@
 "parking": "총 200대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12154,7 +13824,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-12",
+"2026-10-26"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12174,7 +13847,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12195,7 +13869,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12216,7 +13892,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12236,7 +13914,10 @@
 "parking": "총 60대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12255,7 +13936,10 @@
 "parking": "총 75대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12275,7 +13959,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12296,7 +13982,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12317,7 +14005,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "휴점일은 지자체 상황에 따라 변동될 수 있습니다",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12337,7 +14027,10 @@
 "parking": "총 30대",
 "hours": "08:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12356,7 +14049,10 @@
 "parking": "총 38대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12375,7 +14071,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12394,7 +14093,10 @@
 "parking": "총 100대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12414,7 +14116,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12435,7 +14139,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12456,7 +14162,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12477,7 +14185,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12497,7 +14207,10 @@
 "parking": "총 80대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12516,7 +14229,10 @@
 "parking": "총 8대",
 "hours": "09:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12535,7 +14251,10 @@
 "parking": "총 45대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12554,7 +14273,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12573,7 +14295,10 @@
 "parking": "총 35대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12592,7 +14317,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12611,7 +14339,10 @@
 "parking": "총 10대",
 "hours": "10:30~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12630,7 +14361,10 @@
 "parking": "총 60대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12649,7 +14383,10 @@
 "parking": "총 28대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12668,7 +14405,10 @@
 "parking": "총 7대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12687,7 +14427,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12706,7 +14449,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12725,7 +14471,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12745,7 +14494,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12766,7 +14517,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12787,7 +14540,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12808,7 +14563,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12829,7 +14586,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-11"
+"2026-10-11",
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12850,7 +14609,9 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
-"2026-10-14"
+"2026-10-14",
+"2026-10-28",
+"2026-11-11"
 ],
 "holiday_note": "",
 "detail": true,
@@ -12870,7 +14631,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12889,7 +14653,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12908,7 +14675,10 @@
 "parking": "총 28대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12927,7 +14697,10 @@
 "parking": "총 0대",
 "hours": "10:00~23:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12946,7 +14719,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12965,7 +14741,10 @@
 "parking": "총 50대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -12984,7 +14763,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-04",
+"2026-10-18"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13003,7 +14785,10 @@
 "parking": "총 0대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-05",
+"2026-10-19"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13022,7 +14807,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13041,7 +14829,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13060,7 +14851,10 @@
 "parking": "총 57대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13079,7 +14873,10 @@
 "parking": "총 155대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13098,7 +14895,10 @@
 "parking": "총 null대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-14",
+"2026-10-28"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13117,7 +14917,10 @@
 "parking": "총 10대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13136,7 +14939,10 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13156,7 +14962,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-16"
+"2026-10-16",
+"2026-10-24",
+"2026-11-13"
 ],
 "holiday_note": "",
 "detail": true,
@@ -13177,7 +14985,8 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-09"
+"2026-10-09",
+"2026-10-24"
 ],
 "holiday_note": "",
 "detail": true,
@@ -13198,7 +15007,9 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-09"
+"2026-10-09",
+"2026-10-24",
+"2026-11-13"
 ],
 "holiday_note": "",
 "detail": true,
@@ -13218,7 +15029,10 @@
 "parking": "총 29대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-09",
+"2026-10-24"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13237,7 +15051,10 @@
 "parking": "총 0대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-09",
+"2026-10-24"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13256,7 +15073,10 @@
 "parking": "총 18대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [],
+"closures": [
+"2026-10-09",
+"2026-10-24"
+],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -13364,7 +15184,6 @@
 "hours": "09:00~21:30",
 "closure_rule": "정부시책에 의거 유통산업 발전법에 따라 매월 둘째, 넷째 월요일 의무 휴무합니다. * 휴무일: 1월 1일, 설날, 추석 (전일은 오후 7시까지 영업)",
 "closures": [
-"2026-09-28",
 "2026-10-12",
 "2026-10-26"
 ],
@@ -13563,7 +15382,6 @@
 "hours": "09:30~22:00",
 "closure_rule": "정부시책에 의거 유통산업 발전법에 따라 매월 둘째, 넷째 월요일 의무 휴무합니다. * 휴무일: 1월 1일, 설날, 추석 (전일은 오후 7시까지 영업)",
 "closures": [
-"2026-09-28",
 "2026-10-12",
 "2026-10-26"
 ],
@@ -13675,6 +15493,19 @@
 "closure_rule": "정부시책에 의거 유통산업 발전법에 따라 매월 둘째, 넷째 일요일 의무 휴무합니다. * 휴무일: 1월 1일, 설날, 추석 (전일은 오후 7시까지 영업)",
 "closures": [
 "2026-10-11",
+"2026-10-12",
+"2026-10-13",
+"2026-10-14",
+"2026-10-15",
+"2026-10-16",
+"2026-10-17",
+"2026-10-18",
+"2026-10-19",
+"2026-10-20",
+"2026-10-21",
+"2026-10-22",
+"2026-10-23",
+"2026-10-24",
 "2026-10-25"
 ],
 "holiday_note": "명절(설·추석) 당일 휴무, 전날은 19:00까지 영업",
@@ -14362,10 +16193,10 @@
 "phone": "054-559-8000",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/30(수), 10/14(수)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-30",
-"2026-10-14"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
