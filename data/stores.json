@@ -1,9 +1,9 @@
 {
-"generated": "2026-10-01",
+"generated": "2026-10-02",
 "sources": {
-"emart": "2026-10-01",
-"costco": "2026-10-01",
-"homeplus": "2026-10-01",
+"emart": "2026-10-02",
+"costco": "2026-10-02",
+"homeplus": "2026-10-02",
 "lottemart": "2026-09-27"
 },
 "brands": {
@@ -16136,7 +16136,7 @@
 "phone": "055-259-8000",
 "parking": "",
 "hours": "",
-"closure_rule": "",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [],
 "holiday_note": "마트 임시휴업",
 "detail": true,

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-01",
+ "fetched": "2026-10-02",
  "stores": [
   {
    "brand": "homeplus",
@@ -545,10 +545,16 @@
    "lng": 128.585,
    "phone": "055-259-8000",
    "hours": "마트 임시휴업. 몰영업시간 10:00~21:00",
-   "closure_rule": "",
-   "closures": [],
+   "closure_rule": "10/11(일), 10/25(일)",
+   "closures": [
+    "10/11",
+    "10/25"
+   ],
    "holiday_note": "마트 임시휴업",
-   "holiday_days": []
+   "holiday_days": [
+    11,
+    25
+   ]
   },
   {
    "brand": "homeplus",
