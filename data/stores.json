@@ -1,9 +1,9 @@
 {
-"generated": "2026-10-02",
+"generated": "2026-10-03",
 "sources": {
-"emart": "2026-10-02",
-"costco": "2026-10-02",
-"homeplus": "2026-10-02",
+"emart": "2026-10-03",
+"costco": "2026-10-03",
+"homeplus": "2026-10-03",
 "lottemart": "2026-09-27"
 },
 "brands": {
@@ -4597,7 +4597,8 @@
 "closure_rule": "",
 "closures": [
 "2026-10-11",
-"2026-10-25"
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
@@ -10017,7 +10018,8 @@
 "closure_rule": "",
 "closures": [
 "2026-10-11",
-"2026-10-25"
+"2026-10-25",
+"2026-11-08"
 ],
 "holiday_note": "",
 "detail": true,
