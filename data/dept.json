@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-04T06:00:20+09:00",
+ "fetched_at": "2026-10-04T06:04:25+09:00",
  "chains": {
   "lotte": {
-   "fetched_at": "2026-10-03T08:47:05+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
+   "fetched_at": "2026-10-04T06:04:25+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -3426,9 +3426,9 @@
    ]
   },
   "shinsegae": {
-   "fetched_at": "2026-10-03T08:47:05+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
+   "fetched_at": "2026-10-04T06:04:25+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -3628,9 +3628,9 @@
    ]
   },
   "hyundai": {
-   "fetched_at": "2026-10-03T08:47:05+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
+   "fetched_at": "2026-10-04T06:04:25+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -5566,9 +5566,9 @@
    "stale_fetched_at": "2026-10-03T08:47:05+09:00"
   },
   "ak": {
+   "fetched_at": "2026-10-04T06:00:20+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
-   "fetched_at": "2026-10-04T06:00:20+09:00",
    "months_covered": [
     "2026-10"
    ],
@@ -5681,9 +5681,9 @@
    ]
   },
   "ikea": {
+   "fetched_at": "2026-10-04T06:00:20+09:00",
    "name": "이케아",
    "source": "https://www.ikea.com/kr/ko/stores/",
-   "fetched_at": "2026-10-04T06:00:20+09:00",
    "months_covered": [],
    "stores": [
     {
@@ -5750,36 +5750,5 @@
    "note": "설날·추석 당일 휴무 (체인 공통 규정). 매장 페이지에 날짜가 없는 매장도 이 두 날은 쉰다."
   }
  },
- "errors": [
-  {
-   "chain": "galleria",
-   "store": "luxuryhall",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "timeworld",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "gwanggyo",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "centercity",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "jinju",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": null,
-   "error": "no stores collected; kept data from 2026-10-03T08:47:05+09:00"
-  }
- ]
+ "errors": []
 }
