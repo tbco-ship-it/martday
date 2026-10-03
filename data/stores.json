@@ -1,10 +1,10 @@
 {
-"generated": "2026-10-03",
+"generated": "2026-10-04",
 "sources": {
 "emart": "2026-10-03",
 "costco": "2026-10-03",
 "homeplus": "2026-10-03",
-"lottemart": "2026-09-27"
+"lottemart": "2026-10-04"
 },
 "brands": {
 "emart": {
@@ -17726,11 +17726,9 @@
 "phone": "02-6226-2236",
 "parking": "",
 "hours": "10:30~21:00",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17747,12 +17745,12 @@
 "phone": "031-540-1400",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17769,12 +17767,12 @@
 "phone": "02-3016-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17791,11 +17789,9 @@
 "phone": "053-555-2500",
 "parking": "",
 "hours": "11:00~20:00",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17812,12 +17808,13 @@
 "phone": "02-390-2595",
 "parking": "",
 "hours": "10:00 - 22:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/07(수), 10/14(수), 10/21(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-07",
+"2026-10-14",
+"2026-10-21"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17872,12 +17869,12 @@
 "phone": "064 798 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/11(금), 09/26(토)",
+"closure_rule": "10/09(금), 10/24(토)",
 "closures": [
-"2026-09-11",
-"2026-09-26"
+"2026-10-09",
+"2026-10-24"
 ],
-"holiday_note": "추석 연휴(9/26) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17894,12 +17891,12 @@
 "phone": "033 260 7700",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17935,12 +17932,12 @@
 "phone": "0332402500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17957,12 +17954,12 @@
 "phone": "033 749 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -17998,12 +17995,12 @@
 "phone": "061-740-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18020,12 +18017,12 @@
 "phone": "061 339 3200",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18061,12 +18058,12 @@
 "phone": "062 975 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18083,12 +18080,12 @@
 "phone": "063 620 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18105,12 +18102,12 @@
 "phone": "061-650-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18127,12 +18124,12 @@
 "phone": "063 570 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18168,12 +18165,12 @@
 "phone": "063 249 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18209,12 +18206,12 @@
 "phone": "063-441-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18231,12 +18228,12 @@
 "phone": "062-610-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18253,12 +18250,12 @@
 "phone": "061-640-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18275,12 +18272,12 @@
 "phone": "062 962 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18297,12 +18294,12 @@
 "phone": "063 830 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18338,10 +18335,10 @@
 "phone": "051-922-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18360,10 +18357,10 @@
 "phone": "051-441-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18382,12 +18379,12 @@
 "phone": "055-790-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18404,12 +18401,12 @@
 "phone": "054-748-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18426,12 +18423,12 @@
 "phone": "055-641-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18467,12 +18464,12 @@
 "phone": "055-243-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18489,12 +18486,12 @@
 "phone": "055-340-2800",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18511,12 +18508,12 @@
 "phone": "055 719 5200",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18552,10 +18549,10 @@
 "phone": "053-607-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18593,10 +18590,10 @@
 "phone": "051-608-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18615,12 +18612,12 @@
 "phone": "054-222-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18637,12 +18634,12 @@
 "phone": "055 385 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18678,10 +18675,10 @@
 "phone": "051-668-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18719,12 +18716,12 @@
 "phone": "052-240-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/09(수), 09/27(일)",
+"closure_rule": "10/14(수), 10/25(일)",
 "closures": [
-"2026-09-09",
-"2026-09-27"
+"2026-10-14",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18760,12 +18757,12 @@
 "phone": "054-440-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18801,10 +18798,10 @@
 "phone": "051-329-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18823,12 +18820,12 @@
 "phone": "055 541 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18845,12 +18842,12 @@
 "phone": "055-379-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18867,12 +18864,12 @@
 "phone": "055-311-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18889,12 +18886,12 @@
 "phone": "055-640-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18911,12 +18908,12 @@
 "phone": "055 230 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18933,10 +18930,10 @@
 "phone": "051-604-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18955,10 +18952,10 @@
 "phone": "051-603-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/14(월), 09/28(월)",
+"closure_rule": "10/12(월), 10/26(월)",
 "closures": [
-"2026-09-14",
-"2026-09-28"
+"2026-10-12",
+"2026-10-26"
 ],
 "holiday_note": "",
 "detail": true,
@@ -18977,12 +18974,12 @@
 "phone": "052-228-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/27(일)",
+"closure_rule": "10/14(수), 10/25(일)",
 "closures": [
-"2026-09-09",
-"2026-09-27"
+"2026-10-14",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -18999,12 +18996,12 @@
 "phone": "043 290 7000",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19021,12 +19018,12 @@
 "phone": "041 339 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19043,12 +19040,12 @@
 "phone": "042-525-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19065,12 +19062,12 @@
 "phone": "041-832-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19106,12 +19103,12 @@
 "phone": "043-254-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19128,12 +19125,12 @@
 "phone": "041 537 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19150,12 +19147,12 @@
 "phone": "043 647 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19191,12 +19188,12 @@
 "phone": "042-930-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19232,12 +19229,12 @@
 "phone": "041-553-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19254,12 +19251,12 @@
 "phone": "041 665 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19295,12 +19292,12 @@
 "phone": "043 841 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/10(목), 09/25(금)",
+"closure_rule": "10/10(토), 10/25(일)",
 "closures": [
-"2026-09-10",
-"2026-09-25"
+"2026-10-10",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19317,12 +19314,12 @@
 "phone": "042 540 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19339,12 +19336,12 @@
 "phone": "043 236 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19380,10 +19377,10 @@
 "phone": "031-8049-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/23(수)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-23"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -19402,12 +19399,12 @@
 "phone": "031-299-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19424,12 +19421,12 @@
 "phone": "031 487 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/10(목), 09/25(금)",
+"closure_rule": "10/10(토), 10/25(일)",
 "closures": [
-"2026-09-10",
-"2026-09-25"
+"2026-10-10",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19446,12 +19443,12 @@
 "phone": "031-8079-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19468,12 +19465,12 @@
 "phone": "031 701 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19509,12 +19506,12 @@
 "phone": "032 550 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19531,12 +19528,12 @@
 "phone": "031-442-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19553,11 +19550,9 @@
 "phone": "031-478-0333",
 "parking": "",
 "hours": "11:00~20:30",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19593,12 +19588,12 @@
 "phone": "032 222 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19615,12 +19610,12 @@
 "phone": "031 8086 0800",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/10(목), 09/25(금)",
+"closure_rule": "10/10(토), 10/25(일)",
 "closures": [
-"2026-09-10",
-"2026-09-25"
+"2026-10-10",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19637,12 +19632,12 @@
 "phone": "031-410-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19659,12 +19654,12 @@
 "phone": "031-410-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19700,12 +19695,12 @@
 "phone": "031-8067-2500",
 "parking": "",
 "hours": "10:00~22:30",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19741,12 +19736,12 @@
 "phone": "032 590 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19763,12 +19758,12 @@
 "phone": "031 435 7500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19785,12 +19780,12 @@
 "phone": "031 229 7700",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19807,12 +19802,12 @@
 "phone": "031 579 7700",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19829,12 +19824,12 @@
 "phone": "031 496 7700",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19851,12 +19846,12 @@
 "phone": "031 930 7000",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19873,12 +19868,12 @@
 "phone": "031 748 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19914,12 +19909,12 @@
 "phone": "031-5174-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19955,12 +19950,12 @@
 "phone": "02-6124-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19977,12 +19972,12 @@
 "phone": "031 8053 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -19999,10 +19994,10 @@
 "phone": "031 830 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/09(수), 09/30(수)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-30"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -20021,12 +20016,12 @@
 "phone": "032 560 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20043,12 +20038,12 @@
 "phone": "031-849-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20065,12 +20060,12 @@
 "phone": "032-509-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20087,12 +20082,12 @@
 "phone": "032-747-2500",
 "parking": "",
 "hours": "10:00~22:30",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20109,12 +20104,12 @@
 "phone": "031-8011-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/25(금)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-25"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20131,12 +20126,12 @@
 "phone": "032-363-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20153,12 +20148,12 @@
 "phone": "031-691-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20194,12 +20189,12 @@
 "phone": "031-508-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/10(목), 09/25(금)",
+"closure_rule": "10/10(토), 10/25(일)",
 "closures": [
-"2026-09-10",
-"2026-09-25"
+"2026-10-10",
+"2026-10-25"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20216,12 +20211,12 @@
 "phone": "031-240-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20238,12 +20233,12 @@
 "phone": "031 371 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20260,12 +20255,12 @@
 "phone": "031 470 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20282,12 +20277,12 @@
 "phone": "031 947 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20304,12 +20299,12 @@
 "phone": "032 810 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20326,12 +20321,12 @@
 "phone": "032 454 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20348,12 +20343,12 @@
 "phone": "031-913-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20389,12 +20384,12 @@
 "phone": "02-2097-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20411,12 +20406,12 @@
 "phone": "02-918-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20433,12 +20428,12 @@
 "phone": "02-6960-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20455,12 +20450,12 @@
 "phone": "02-2057-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20477,12 +20472,12 @@
 "phone": "02-450-2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20499,10 +20494,10 @@
 "phone": "02-3395-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/09(수), 09/23(수)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-23"
+"2026-10-14",
+"2026-10-28"
 ],
 "holiday_note": "",
 "detail": true,
@@ -20521,12 +20516,12 @@
 "phone": "02 2295 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20543,12 +20538,12 @@
 "phone": "02 2248 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20584,12 +20579,12 @@
 "phone": "02 3298 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20625,12 +20620,12 @@
 "phone": "02 2092 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20647,12 +20642,12 @@
 "phone": "02-411-8025",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20688,12 +20683,12 @@
 "phone": "02 411 8025",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20710,12 +20705,12 @@
 "phone": "02 3424 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20732,12 +20727,12 @@
 "phone": "02-390-2500",
 "parking": "",
 "hours": "10:00~24:00",
-"closure_rule": "09/09(수), 09/25(금)",
+"closure_rule": "10/14(수), 10/28(수)",
 "closures": [
-"2026-09-09",
-"2026-09-25"
+"2026-10-14",
+"2026-10-28"
 ],
-"holiday_note": "추석 당일(9/25) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20754,11 +20749,9 @@
 "phone": "031-887-4507",
 "parking": "",
 "hours": "10:30~20:30",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "금~일,공휴일: 10:30~21:00, 추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "금~일,공휴일: 10:30~21:00",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20775,11 +20768,9 @@
 "phone": "031-960-2750",
 "parking": "",
 "hours": "10:30~21:00",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20796,11 +20787,9 @@
 "phone": "031-8036-3200",
 "parking": "",
 "hours": "10:30~20:30",
-"closure_rule": "09/25(금)",
-"closures": [
-"2026-09-25"
-],
-"holiday_note": "추석 당일(9/25) 휴무",
+"closure_rule": "-",
+"closures": [],
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20817,12 +20806,12 @@
 "phone": "055-240-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20839,12 +20828,12 @@
 "phone": "063 219 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20861,12 +20850,12 @@
 "phone": "061 280 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20883,12 +20872,12 @@
 "phone": "062-602-2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20905,12 +20894,12 @@
 "phone": "062 602 2500",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20927,12 +20916,12 @@
 "phone": "02 2165 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
@@ -20949,12 +20938,12 @@
 "phone": "02 809 2500",
 "parking": "",
 "hours": "10:00~23:00",
-"closure_rule": "09/13(일), 09/27(일)",
+"closure_rule": "10/11(일), 10/25(일)",
 "closures": [
-"2026-09-13",
-"2026-09-27"
+"2026-10-11",
+"2026-10-25"
 ],
-"holiday_note": "추석 연휴(9/27) 휴무",
+"holiday_note": "",
 "detail": true,
 "state": "open",
 "state_note": ""
