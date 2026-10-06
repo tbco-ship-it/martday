@@ -1,9 +1,9 @@
 {
-"generated": "2026-10-05",
+"generated": "2026-10-06",
 "sources": {
-"emart": "2026-10-05",
-"costco": "2026-10-05",
-"homeplus": "2026-10-05",
+"emart": "2026-10-06",
+"costco": "2026-10-06",
+"homeplus": "2026-10-06",
 "lottemart": "2026-10-04"
 },
 "brands": {
@@ -14787,7 +14787,6 @@
 "hours": "10:00~20:00",
 "closure_rule": "",
 "closures": [
-"2026-10-05",
 "2026-10-19"
 ],
 "holiday_note": "",
