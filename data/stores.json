@@ -1,9 +1,9 @@
 {
-"generated": "2026-10-07",
+"generated": "2026-10-08",
 "sources": {
-"emart": "2026-10-07",
-"costco": "2026-10-07",
-"homeplus": "2026-10-07",
+"emart": "2026-10-08",
+"costco": "2026-10-08",
+"homeplus": "2026-10-08",
 "lottemart": "2026-10-04"
 },
 "brands": {
@@ -8315,6 +8315,28 @@
 },
 {
 "brand": "nobrand",
+"id": "3912",
+"name": "노브랜드 용인포곡점",
+"slug": "노브랜드-용인포곡점",
+"area": "경기",
+"address": "경기 용인시 처인구 포곡읍 포곡로 149-1 (둔전리)1층",
+"lat": 37.2718448618893,
+"lng": 127.220787134506,
+"phone": "031-339-0988",
+"parking": "총 16대",
+"hours": "10:00~22:00",
+"closure_rule": "",
+"closures": [
+"2026-10-11",
+"2026-10-25"
+],
+"holiday_note": "",
+"detail": true,
+"state": "open",
+"state_note": ""
+},
+{
+"brand": "nobrand",
 "id": "3056",
 "name": "노브랜드 위례창곡점",
 "slug": "노브랜드-위례창곡점",
@@ -13399,6 +13421,28 @@
 "lng": 129.29642742410738,
 "phone": "02-380-5111",
 "parking": "총 0대",
+"hours": "10:00~22:00",
+"closure_rule": "",
+"closures": [
+"2026-10-14",
+"2026-10-25"
+],
+"holiday_note": "",
+"detail": true,
+"state": "open",
+"state_note": ""
+},
+{
+"brand": "nobrand",
+"id": "3913",
+"name": "노브랜드 울산천곡점",
+"slug": "노브랜드-울산천곡점",
+"area": "울산",
+"address": "울산 북구 가재길 1071층",
+"lat": 35.6357096231766,
+"lng": 129.332842158539,
+"phone": "052-286-2012",
+"parking": "총 11대",
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
