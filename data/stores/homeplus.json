@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-09",
+ "fetched": "2026-10-10",
  "stores": [
   {
    "brand": "homeplus",
@@ -854,14 +854,12 @@
    "lng": 126.56,
    "phone": "064-731-8114",
    "hours": "10:00~22:00",
-   "closure_rule": "10/09(금), 10/24(토)",
+   "closure_rule": "10/24(토)",
    "closures": [
-    "10/9",
     "10/24"
    ],
    "holiday_note": "",
    "holiday_days": [
-    9,
     24
    ]
   },

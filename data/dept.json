@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-09T09:21:20+09:00",
+ "fetched_at": "2026-10-10T09:02:58+09:00",
  "chains": {
   "lotte": {
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-10-09T09:21:20+09:00",
+   "fetched_at": "2026-10-10T09:02:58+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -3428,7 +3428,7 @@
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-09T09:21:20+09:00",
+   "fetched_at": "2026-10-10T09:02:58+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -3632,7 +3632,7 @@
   "hyundai": {
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-10-09T09:21:20+09:00",
+   "fetched_at": "2026-10-10T09:02:58+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
