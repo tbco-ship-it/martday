@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-12",
+ "fetched": "2026-10-13",
  "stores": [
   {
    "brand": "homeplus",
@@ -371,14 +371,12 @@
    "lng": 128.57,
    "phone": "053-659-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -407,14 +405,12 @@
    "lng": 127.1,
    "phone": "041-731-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -428,14 +424,12 @@
    "lng": 128.623,
    "phone": "053-760-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -487,14 +481,12 @@
    "lng": 129.086,
    "phone": "051-559-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -682,14 +674,12 @@
    "lng": 129.176,
    "phone": "051-519-8200",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -915,14 +905,12 @@
    "lng": 128.528,
    "phone": "053-550-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -1076,14 +1064,12 @@
    "lng": 129.064,
    "phone": "051-500-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -1171,14 +1157,12 @@
    "lng": 128.621,
    "phone": "054-630-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
@@ -1717,14 +1701,12 @@
    "lng": 128.556,
    "phone": "053-607-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "10/12(월), 10/26(월)",
+   "closure_rule": "10/26(월)",
    "closures": [
-    "10/12",
     "10/26"
    ],
    "holiday_note": "",
    "holiday_days": [
-    12,
     26
    ]
   },
