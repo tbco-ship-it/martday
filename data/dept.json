@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-16T08:05:34+09:00",
+ "fetched_at": "2026-10-17T07:50:39+09:00",
  "chains": {
   "lotte": {
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-10-16T08:05:34+09:00",
+   "fetched_at": "2026-10-17T07:50:39+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -4373,7 +4373,8 @@
      "type": "아울렛",
      "url": "https://www.lotteshopping.com/store/main?cstrCd=0337",
      "closed": [
-      "2026-10-12"
+      "2026-10-12",
+      "2026-11-02"
      ],
      "special": [],
      "months": {
@@ -4917,7 +4918,7 @@
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-16T08:05:34+09:00",
+   "fetched_at": "2026-10-17T07:50:39+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -5123,7 +5124,7 @@
   "hyundai": {
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-10-16T08:05:34+09:00",
+   "fetched_at": "2026-10-17T07:50:39+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6360,7 +6361,8 @@
      "type": "현대백화점",
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00148000",
      "closed": [
-      "2026-10-19"
+      "2026-10-19",
+      "2026-11-16"
      ],
      "special": [
       {
@@ -6437,11 +6439,76 @@
        "date": "2026-10-31",
        "kind": "extend",
        "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "extend_minutes": 30
       }
      ],
      "months": {
       "2026-10": "ok",
-      "2026-11": "unpublished"
+      "2026-11": "ok"
      }
     },
     {
@@ -6450,7 +6517,8 @@
      "type": "현대백화점",
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00129000",
      "closed": [
-      "2026-10-19"
+      "2026-10-19",
+      "2026-11-09"
      ],
      "special": [
       {
@@ -6527,11 +6595,76 @@
        "date": "2026-10-31",
        "kind": "extend",
        "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "extend_minutes": 30
       }
      ],
      "months": {
       "2026-10": "ok",
-      "2026-11": "unpublished"
+      "2026-11": "ok"
      }
     },
     {
