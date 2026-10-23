@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-23T08:20:46+09:00",
+ "fetched_at": "2026-10-24T08:09:28+09:00",
  "chains": {
   "lotte": {
+   "fetched_at": "2026-10-23T08:20:46+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-10-23T08:20:46+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -5742,12 +5742,14 @@
       "2026-11": "ok"
      }
     }
-   ]
+   ],
+   "stale": true,
+   "stale_fetched_at": "2026-10-23T08:20:46+09:00"
   },
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-23T08:20:46+09:00",
+   "fetched_at": "2026-10-24T08:09:28+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -5953,7 +5955,7 @@
   "hyundai": {
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-10-23T08:20:46+09:00",
+   "fetched_at": "2026-10-24T08:09:28+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6896,7 +6898,8 @@
      "type": "현대백화점",
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00141000",
      "closed": [
-      "2026-10-19"
+      "2026-10-19",
+      "2026-11-09"
      ],
      "special": [
       {
@@ -6973,11 +6976,76 @@
        "date": "2026-10-31",
        "kind": "extend",
        "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "extend_minutes": 30
       }
      ],
      "months": {
       "2026-10": "ok",
-      "2026-11": "unpublished"
+      "2026-11": "ok"
      }
     },
     {
@@ -8810,18 +8878,13 @@
  "errors": [
   {
    "chain": "lotte",
-   "store": "0340 김포공항점",
-   "error": "HTTP Error 404: Not Found"
+   "store": null,
+   "error": "chain failed: <urlopen error timed out>"
   },
   {
    "chain": "lotte",
-   "store": "0022 노원점",
-   "error": "HTTP Error 404: Not Found"
-  },
-  {
-   "chain": "lotte",
-   "store": "0010 영등포점",
-   "error": "HTTP Error 404: Not Found"
+   "store": null,
+   "error": "no stores collected; kept data from 2026-10-23T08:20:46+09:00"
   }
  ]
 }
