@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-25T06:05:05+09:00",
+ "fetched_at": "2026-10-25T07:30:01+09:00",
  "chains": {
   "lotte": {
-   "fetched_at": "2026-10-23T08:20:46+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
+   "fetched_at": "2026-10-25T07:30:01+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -791,10 +791,478 @@
      }
     },
     {
+     "id": "0340",
+     "name": "김포공항점",
+     "type": "백화점",
+     "url": "https://www.lotteshopping.com/store/main?cstrCd=0340",
+     "closed": [
+      "2026-10-12",
+      "2026-11-02"
+     ],
+     "special": [
+      {
+       "date": "2026-10-02",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-03",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-04",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-05",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-09",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-10",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-11",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-16",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-17",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-18",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-23",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-24",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-25",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-30",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-31",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      }
+     ],
+     "months": {
+      "2026-10": "ok",
+      "2026-11": "ok"
+     }
+    },
+    {
+     "id": "0022",
+     "name": "노원점",
+     "type": "백화점",
+     "url": "https://www.lotteshopping.com/store/main?cstrCd=0022",
+     "closed": [
+      "2026-10-12",
+      "2026-11-02"
+     ],
+     "special": [
+      {
+       "date": "2026-10-02",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-03",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-04",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-05",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-09",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-10",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-11",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-16",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-17",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-18",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-23",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-24",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-25",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-30",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-31",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      }
+     ],
+     "months": {
+      "2026-10": "ok",
+      "2026-11": "ok"
+     }
+    },
+    {
      "id": "0026",
      "name": "미아점",
      "type": "백화점",
      "url": "https://www.lotteshopping.com/store/main?cstrCd=0026",
+     "closed": [
+      "2026-10-12",
+      "2026-11-02"
+     ],
+     "special": [
+      {
+       "date": "2026-10-02",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-03",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-04",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-05",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-09",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-10",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-11",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-16",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-17",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-18",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-23",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-24",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-25",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-30",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-10-31",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      }
+     ],
+     "months": {
+      "2026-10": "ok",
+      "2026-11": "ok"
+     }
+    },
+    {
+     "id": "0010",
+     "name": "영등포점",
+     "type": "백화점",
+     "url": "https://www.lotteshopping.com/store/main?cstrCd=0010",
      "closed": [
       "2026-10-12",
       "2026-11-02"
@@ -5742,14 +6210,12 @@
       "2026-11": "ok"
      }
     }
-   ],
-   "stale": true,
-   "stale_fetched_at": "2026-10-23T08:20:46+09:00"
+   ]
   },
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-25T06:05:05+09:00",
+   "fetched_at": "2026-10-25T07:30:01+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -5953,9 +6419,9 @@
    ]
   },
   "hyundai": {
-   "fetched_at": "2026-10-24T08:09:28+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
+   "fetched_at": "2026-10-25T07:30:01+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -8602,9 +9068,7 @@
       "2026-11": "unpublished"
      }
     }
-   ],
-   "stale": true,
-   "stale_fetched_at": "2026-10-25T06:00:14+09:00"
+   ]
   },
   "galleria": {
    "fetched_at": "2026-09-27T06:00:31+09:00",
@@ -8877,26 +9341,5 @@
    "stale_fetched_at": "2026-10-10T09:02:58+09:00"
   }
  },
- "errors": [
-  {
-   "chain": "lotte",
-   "store": null,
-   "error": "chain failed: <urlopen error timed out>"
-  },
-  {
-   "chain": "lotte",
-   "store": null,
-   "error": "no stores collected; kept data from 2026-10-23T08:20:46+09:00"
-  },
-  {
-   "chain": "hyundai",
-   "store": null,
-   "error": "chain failed: branch_list not found"
-  },
-  {
-   "chain": "hyundai",
-   "store": null,
-   "error": "no stores collected; kept data from 2026-10-25T06:00:14+09:00"
-  }
- ]
+ "errors": []
 }
