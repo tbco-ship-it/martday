@@ -1,9 +1,9 @@
 {
 "generated": "2026-10-25",
 "sources": {
-"emart": "2026-10-23",
-"costco": "2026-10-24",
-"homeplus": "2026-10-24",
+"emart": "2026-10-25",
+"costco": "2026-10-25",
+"homeplus": "2026-10-25",
 "lottemart": "2026-10-25"
 },
 "brands": {
@@ -14395,7 +14395,6 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-24",
 "2026-11-13"
 ],
 "holiday_note": "",
@@ -14417,7 +14416,6 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-24",
 "2026-11-13"
 ],
 "holiday_note": "",
@@ -14439,7 +14437,6 @@
 "hours": "10:00~23:00",
 "closure_rule": "",
 "closures": [
-"2026-10-24",
 "2026-11-13"
 ],
 "holiday_note": "",
@@ -14460,9 +14457,7 @@
 "parking": "총 29대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [
-"2026-10-24"
-],
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -14481,9 +14476,7 @@
 "parking": "총 0대",
 "hours": "10:30~21:00",
 "closure_rule": "",
-"closures": [
-"2026-10-24"
-],
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -14502,9 +14495,7 @@
 "parking": "총 18대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [
-"2026-10-24"
-],
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -15917,10 +15908,10 @@
 "phone": "064-731-8114",
 "parking": "",
 "hours": "10:00~22:00",
-"closure_rule": "10/24(토), 11/13(금)",
+"closure_rule": "11/13(금), 11/28(토)",
 "closures": [
-"2026-10-24",
-"2026-11-13"
+"2026-11-13",
+"2026-11-28"
 ],
 "holiday_note": "",
 "detail": true,

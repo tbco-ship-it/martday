@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-25T06:00:14+09:00",
+ "fetched_at": "2026-10-25T06:05:05+09:00",
  "chains": {
   "lotte": {
    "fetched_at": "2026-10-23T08:20:46+09:00",
@@ -5747,9 +5747,9 @@
    "stale_fetched_at": "2026-10-23T08:20:46+09:00"
   },
   "shinsegae": {
-   "fetched_at": "2026-10-24T08:09:28+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
+   "fetched_at": "2026-10-25T06:05:05+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -8602,7 +8602,9 @@
       "2026-11": "unpublished"
      }
     }
-   ]
+   ],
+   "stale": true,
+   "stale_fetched_at": "2026-10-25T06:00:14+09:00"
   },
   "galleria": {
    "fetched_at": "2026-09-27T06:00:31+09:00",
@@ -8687,9 +8689,9 @@
    "stale_fetched_at": "2026-10-03T08:47:05+09:00"
   },
   "ak": {
+   "fetched_at": "2026-10-25T06:00:14+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
-   "fetched_at": "2026-10-25T06:00:14+09:00",
    "months_covered": [
     "2026-10"
    ],
@@ -8877,64 +8879,24 @@
  },
  "errors": [
   {
-   "chain": "galleria",
-   "store": "luxuryhall",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "timeworld",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "gwanggyo",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "centercity",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
-   "store": "jinju",
-   "error": "unparsed 휴점일 text: -"
-  },
-  {
-   "chain": "galleria",
+   "chain": "lotte",
    "store": null,
-   "error": "no stores collected; kept data from 2026-10-03T08:47:05+09:00"
+   "error": "chain failed: <urlopen error timed out>"
   },
   {
-   "chain": "ikea",
-   "store": "gwangmyeong",
-   "error": "'data'"
-  },
-  {
-   "chain": "ikea",
-   "store": "goyang",
-   "error": "'data'"
-  },
-  {
-   "chain": "ikea",
-   "store": "giheung",
-   "error": "'data'"
-  },
-  {
-   "chain": "ikea",
-   "store": "dong-busan",
-   "error": "'data'"
-  },
-  {
-   "chain": "ikea",
-   "store": "gangdong",
-   "error": "'data'"
-  },
-  {
-   "chain": "ikea",
+   "chain": "lotte",
    "store": null,
-   "error": "no stores collected; kept data from 2026-10-10T09:02:58+09:00"
+   "error": "no stores collected; kept data from 2026-10-23T08:20:46+09:00"
+  },
+  {
+   "chain": "hyundai",
+   "store": null,
+   "error": "chain failed: branch_list not found"
+  },
+  {
+   "chain": "hyundai",
+   "store": null,
+   "error": "no stores collected; kept data from 2026-10-25T06:00:14+09:00"
   }
  ]
 }
