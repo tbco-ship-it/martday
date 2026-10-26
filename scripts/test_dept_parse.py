@@ -9,6 +9,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import collect_dept as cd
+import build as site_build
 
 FX = HERE / "fixtures/dept"
 TODAY = date(2026, 9, 23)
@@ -148,6 +149,50 @@ class Dates(unittest.TestCase):
         self.assertEqual(cd.month_keys(date(2026, 12, 20)), ["2026-12", "2027-01"])
         self.assertEqual(cd.year_for(1, date(2026, 12, 20)), 2027)
         self.assertEqual(cd.year_for(12, date(2027, 1, 2)), 2026)
+
+
+class HubSummary(unittest.TestCase):
+    def test_brand_summaries_include_date_metadata(self):
+        brand_ids = ("emart", "homeplus", "traders", "nobrand")
+        brands = {brand: {"short": brand} for brand in brand_ids}
+        stores = [
+            {"brand": brand, "slug": f"{brand}-test", "name": f"{brand} test", "state": "open",
+             "area": "서울", "closures": ["2026-10-28"]}
+            for brand in brand_ids
+        ]
+
+        summaries = site_build.build_hub_summaries(
+            stores, brands, {}, date(2026, 10, 26), "2026-10-26"
+        )
+
+        for brand in brand_ids:
+            with self.subTest(brand=brand):
+                self.assertEqual(summaries["brands"][brand]["as_of"], "2026-10-26")
+                self.assertEqual(summaries["brands"][brand]["generated"], "2026-10-26")
+
+    def test_brand_template_hides_empty_date_line(self):
+        env = site_build.Environment(
+            loader=site_build.FileSystemLoader(str(site_build.ROOT / "templates")),
+            autoescape=site_build.select_autoescape(["html"]),
+        )
+        env.filters["kdate"] = site_build.kdate
+        env.globals.update(month_grid=site_build.month_grid, today="2026-10-26")
+        hub_data = {
+            "as_of": "", "generated": "", "date_from": None, "date_to": None,
+            "open_count": 0, "dated_open_count": 0, "without_future_date_count": 0,
+            "area_count": 0, "scheduled_area_count": 0, "date_rows": [], "month_rows": [],
+            "weekday_rows": [], "area_rows": [], "scheduled_area_rows": [], "rule_rows": [],
+            "recent_updates": [], "comparisons": [],
+        }
+        html = env.get_template("brand.html").render(
+            site=site_build.SITE, base="/", origin="https://martoday.com", path="emart/", v="test",
+            adsense_pub="", brands={}, sources={"emart": "2026-10-26", "homeplus": "2026-10-26", "costco": "2026-10-26"},
+            brand="emart", info={"short": "이마트", "name": "이마트"}, months=[(2026, 10)],
+            chuseok_live=False, chuseok_known=0, chuseok_closed=0, stores=[], counts={}, rules={},
+            areas={}, n_inactive=0, hub_data=hub_data,
+        )
+
+        self.assertNotIn("기준일  · 통합 자료  생성", html)
 
 
 if __name__ == "__main__":

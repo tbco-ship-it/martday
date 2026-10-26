@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}2026 추석 마트·백화점 휴무 — 이마트·홈플러스·롯데마트·코스트코, 롯데·신세계·현대백화점 쉬는 날 | {{ site }}{% endblock %}
-{% block description %}2026 추석(9/25) 당일에 쉬는 대형마트 점포 목록과 브랜드별 휴무 수, 지역별 현황, 전날 단축 영업. 이마트·트레이더스·홈플러스·롯데마트·코스트코·에브리데이·노브랜드 {{ n_stores }}개 점포, 유통사 공식 고시 기준으로 매일 갱신. 롯데·신세계·현대·갤러리아·AK 백화점과 아울렛·이케아 추석 휴점일도 함께.{% endblock %}
+{% block title %}이마트·홈플러스·트레이더스·노브랜드 마트 휴무 공지 — 날짜·지역별 점포 현황{% endblock %}
+{% block description %}대형마트 점포가 공지한 이번 달·다음 달 휴무 날짜별 점포 수와 브랜드·지역별 현황. 날짜가 공지되지 않은 점포는 영업으로 추정하지 않습니다. 기준일 {{ hub_summaries.as_of }}, 통합 자료 {{ hub_summaries.generated }} 생성.{% endblock %}
 {% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이 표는 무엇을 보여 주나요?","acceptedAnswer":{"@type":"Answer","text":"공식 점포 안내에서 수집한 점포별 휴무 날짜를 날짜와 브랜드, 지역별로 집계합니다. 각 브랜드의 자료 기준일과 날짜 범위도 함께 표시합니다."}},{"@type":"Question","name":"휴무 날짜가 표시되지 않은 점포는 영업하나요?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. 수집 자료에 날짜가 없다는 뜻이며 영업으로 추정하지 않습니다. 임시휴업·영업종료 상태도 일정 집계에서 구분합니다."}}]}</script>{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="{{ base }}">홈</a> › 전국 마트 휴무 일정</nav>

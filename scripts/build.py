@@ -197,6 +197,8 @@ def build_hub_summaries(stores, brands, changed, today, generated):
 
         future_dates = sorted(date_counts)
         return {
+            "as_of": today_iso,
+            "generated": generated,
             "open_count": len(open_rows),
             "dated_open_count": len(dated_keys),
             "without_future_date_count": len(open_rows) - len(dated_keys),
