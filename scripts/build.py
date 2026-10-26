@@ -7,7 +7,7 @@ import hashlib
 import json
 import math
 import shutil
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -69,6 +69,166 @@ def month_grid(year, month):
     return [[(d.isoformat() if d.month == month else "") for d in week] for week in cal.monthdatescalendar(year, month)]
 
 
+def build_hub_summaries(stores, brands, changed, today, generated):
+    """Build the current schedule summaries used only by the five information hubs."""
+    today_iso = today.isoformat()
+    guide_by_date = {}
+    records_by_brand = defaultdict(list)
+
+    for store in stores:
+        if store.get("state") != "open":
+            continue
+        brand = store.get("brand", "")
+        store_key = f"{brand}/{store.get('slug', '')}"
+        area = store.get("area") or "지역 미확인"
+        for closure in sorted(set(store.get("closures") or [])):
+            if closure < today_iso:
+                continue
+            records_by_brand[brand].append((store, store_key, closure, area))
+            summary = guide_by_date.setdefault(closure, {"total": 0, "brands": Counter(), "areas": Counter()})
+            summary["total"] += 1
+            summary["brands"][brand] += 1
+            if area != "지역 미확인":
+                summary["areas"][area] += 1
+
+    guide_rows = []
+    for closure, summary in sorted(guide_by_date.items()):
+        guide_rows.append({
+            "date": closure,
+            "total": summary["total"],
+            "brands": [
+                {"name": brands.get(brand, {}).get("short", brand), "count": count}
+                for brand, count in sorted(summary["brands"].items(), key=lambda item: (-item[1], brands.get(item[0], {}).get("short", item[0])))
+            ],
+            "areas": [
+                {"name": area, "count": count}
+                for area, count in sorted(summary["areas"].items(), key=lambda item: (-item[1], item[0]))[:3]
+            ],
+            "area_count": len(summary["areas"]),
+        })
+
+    def summarize_brand(brand):
+        rows = [store for store in stores if store.get("brand") == brand]
+        open_rows = [store for store in rows if store.get("state") == "open"]
+        events = records_by_brand.get(brand, [])
+        dated_keys = {store_key for _, store_key, _, _ in events}
+        all_areas = sorted({store.get("area") for store in open_rows if store.get("area")})
+        scheduled_areas = {area for _, _, _, area in events if area != "지역 미확인"}
+        date_counts = Counter(closure for _, _, closure, _ in events)
+        month_stores = defaultdict(set)
+        weekday_counts = Counter()
+        area_dates = defaultdict(set)
+        for store, store_key, closure, area in events:
+            month_stores[closure[:7]].add(store_key)
+            weekday_counts[dt.date.fromisoformat(closure).weekday()] += 1
+            area_dates[area].add(store_key)
+
+        areas = sorted({store.get("area") or "지역 미확인" for store in rows})
+        area_rows = []
+        for area in areas:
+            area_stores = [store for store in rows if (store.get("area") or "지역 미확인") == area]
+            area_open = [store for store in area_stores if store.get("state") == "open"]
+            area_dated = {
+                f"{store.get('brand', '')}/{store.get('slug', '')}"
+                for store in area_open
+                if any(closure >= today_iso for closure in set(store.get("closures") or []))
+            }
+            state_counts = Counter(store.get("state", "") for store in area_stores)
+            area_rows.append({
+                "area": area,
+                "open": len(area_open),
+                "dated": len(area_dated),
+                "no_future_date": len(area_open) - len(area_dated),
+                "temp_closed": state_counts.get("temp_closed", 0),
+                "closed": state_counts.get("closed", 0),
+                "other_nonopen": sum(count for state, count in state_counts.items() if state not in ("open", "temp_closed", "closed")),
+                "future_dated": len(area_dated),
+            })
+
+        recent_updates = []
+        if brand == "homeplus":
+            cutoff = (today - dt.timedelta(days=6)).isoformat()
+            by_key = {f"{store.get('brand', '')}/{store.get('slug', '')}": store for store in rows}
+            for key, update in changed.items():
+                if not key.startswith(f"{brand}/"):
+                    continue
+                changed_on = update.get("d", "")
+                if not cutoff <= changed_on <= today_iso or key not in by_key:
+                    continue
+                store = by_key[key]
+                recent_updates.append({
+                    "date": changed_on,
+                    "name": store.get("name", ""),
+                    "area": store.get("area") or "지역 미확인",
+                    "slug": store.get("slug", ""),
+                })
+            recent_updates.sort(key=lambda item: item["name"])
+            recent_updates.sort(key=lambda item: item["date"], reverse=True)
+
+        rule_rows = []
+        if brand == "emart":
+            rule_rows = [
+                {"name": store.get("name", ""), "area": store.get("area") or "지역 미확인",
+                 "slug": store.get("slug", ""), "text": store.get("closure_rule", "")}
+                for store in open_rows if store.get("closure_rule")
+            ]
+            rule_rows.sort(key=lambda item: (item["area"], item["name"]))
+
+        comparisons = []
+        if brand == "traders":
+            open_totals = {
+                target_brand: Counter((store.get("area") or "지역 미확인") for store in stores
+                                      if store.get("brand") == target_brand and store.get("state") == "open")
+                for target_brand in ("traders", "emart")
+            }
+            events_by_date_area = defaultdict(lambda: Counter())
+            for target_brand in ("traders", "emart"):
+                for _, _, closure, event_area in records_by_brand.get(target_brand, []):
+                    events_by_date_area[(closure, event_area)][target_brand] += 1
+            for (closure, event_area), counts in sorted(events_by_date_area.items()):
+                comparisons.append({
+                    "date": closure,
+                    "area": event_area,
+                    "traders_closed": counts.get("traders", 0),
+                    "traders_total": open_totals["traders"].get(event_area, 0),
+                    "emart_closed": counts.get("emart", 0),
+                    "emart_total": open_totals["emart"].get(event_area, 0),
+                })
+
+        future_dates = sorted(date_counts)
+        return {
+            "open_count": len(open_rows),
+            "dated_open_count": len(dated_keys),
+            "without_future_date_count": len(open_rows) - len(dated_keys),
+            "area_count": len(all_areas),
+            "scheduled_area_count": len(scheduled_areas),
+            "date_from": future_dates[0] if future_dates else None,
+            "date_to": future_dates[-1] if future_dates else None,
+            "date_rows": [{"date": closure, "count": date_counts[closure]} for closure in future_dates],
+            "month_rows": [{"month": month, "store_count": len(keys)} for month, keys in sorted(month_stores.items())],
+            "weekday_rows": [{"name": KDAY[weekday], "count": weekday_counts[weekday]}
+                             for weekday in sorted(weekday_counts)],
+            "area_rows": area_rows,
+            "scheduled_area_rows": [
+                {"area": area, "count": len(store_keys)}
+                for area, store_keys in sorted(area_dates.items(), key=lambda item: (-len(item[1]), item[0]))
+                if area != "지역 미확인"
+            ],
+            "rule_rows": rule_rows,
+            "recent_updates": recent_updates,
+            "comparisons": comparisons,
+        }
+
+    return {
+        "as_of": today_iso,
+        "generated": generated,
+        "guide_rows": guide_rows,
+        "guide_date_from": guide_rows[0]["date"] if guide_rows else None,
+        "guide_date_to": guide_rows[-1]["date"] if guide_rows else None,
+        "brands": {brand: summarize_brand(brand) for brand in ("emart", "homeplus", "traders", "nobrand")},
+    }
+
+
 
 def write_sitemaps(urls, origin, base, lastmod=None, limit=5000):
     """One sitemap index plus a file per section, so Search Console reports coverage per section
@@ -113,7 +273,10 @@ def main():
 
     data = json.loads((ROOT / "data/stores.json").read_text())
     stores, brands = data["stores"], data["brands"]
+    changed_path = ROOT / "data/changed.json"
+    changed = json.loads(changed_path.read_text()) if changed_path.exists() else {}
     today = dt.date.today()
+    hub_summaries = build_hub_summaries(stores, brands, changed, today, data.get("generated", today.isoformat()))
     months = [(today.year, today.month)]
     nm = today.replace(day=1) + dt.timedelta(days=32)
     months.append((nm.year, nm.month))
@@ -178,7 +341,8 @@ def main():
         if s.get("state", "open") != "open": area_counts[a]["inactive"] += 1
         elif chuseok in s["closures"]: area_counts[a]["closed"] += 1
         elif not s["closures"]: area_counts[a]["unknown"] += 1
-    write("guide/holidays/", "guide_holidays.html", dept=json.loads((ROOT / "data/dept_chuseok_2026.json").read_text()), by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
+    write("guide/holidays/", "guide_holidays.html", hub_summaries=hub_summaries,
+          dept=json.loads((ROOT / "data/dept_chuseok_2026.json").read_text()), by_brand=by_brand, holiday_counts=holiday_counts, closed_day=closed_day, open_day=open_day,
           area_counts=dict(sorted(area_counts.items(), key=lambda kv: -kv[1]["total"])))
 
     for b, lst in by_brand.items():
@@ -196,7 +360,8 @@ def main():
             areas[s["area"] or "기타"].append(s)
         write(f"{b}/", "brand.html", brand=b, info=brands[b], stores=lst, counts=dict(counts), rules=dict(rules), areas=areas,
               chuseok_closed=holiday_counts[b][chuseok], chuseok_known=sum(1 for s in lst if s["closures"]),
-              n_inactive=sum(1 for s in lst if s.get("state", "open") != "open"))
+              n_inactive=sum(1 for s in lst if s.get("state", "open") != "open"),
+              hub_data=hub_summaries["brands"].get(b))
         for s in lst:
             near = sorted([x for x in lst if x is not s and x["area"] == s["area"] and x.get("state", "open") == "open"], key=lambda x: x["name"])[:8]
             write(f"{b}/{s['slug']}/", "store.html", s=s, info=brands[b], near=near)
@@ -247,10 +412,9 @@ def main():
 
     # lastmod: 점포 페이지는 그 점포 데이터가 바뀐 날, 브랜드·지역 허브는 소속 점포 중 가장 최근 날.
     # 나머지(홈·가이드·정책)는 정직하게 댈 날짜가 없으므로 lastmod 를 붙이지 않는다.
-    cf = ROOT / "data/changed.json"
     lastmod = {}
-    if cf.exists():
-        ch = json.loads(cf.read_text())
+    if changed:
+        ch = changed
         by_page = {}
         for s in stores:
             d = ch.get(f"{s['brand']}/{s['slug']}", {}).get("d")
