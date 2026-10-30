@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-29T09:03:00+09:00",
+ "fetched_at": "2026-10-30T08:59:01+09:00",
  "chains": {
   "lotte": {
+   "fetched_at": "2026-10-29T09:03:00+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-10-29T09:03:00+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6210,12 +6210,14 @@
       "2026-11": "ok"
      }
     }
-   ]
+   ],
+   "stale": true,
+   "stale_fetched_at": "2026-10-29T09:03:00+09:00"
   },
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-29T09:03:00+09:00",
+   "fetched_at": "2026-10-30T08:59:01+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6421,7 +6423,7 @@
   "hyundai": {
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-10-29T09:03:00+09:00",
+   "fetched_at": "2026-10-30T08:59:01+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -7520,7 +7522,8 @@
      "type": "현대백화점",
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00142000",
      "closed": [
-      "2026-10-19"
+      "2026-10-19",
+      "2026-11-09"
      ],
      "special": [
       {
@@ -7597,11 +7600,76 @@
        "date": "2026-10-31",
        "kind": "extend",
        "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-01",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-06",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-07",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-08",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-13",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-14",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-15",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-20",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-21",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-22",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-27",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-28",
+       "kind": "extend",
+       "extend_minutes": 30
+      },
+      {
+       "date": "2026-11-29",
+       "kind": "extend",
+       "extend_minutes": 30
       }
      ],
      "months": {
       "2026-10": "ok",
-      "2026-11": "unpublished"
+      "2026-11": "ok"
      }
     },
     {
@@ -7609,474 +7677,6 @@
      "name": "중동점",
      "type": "현대백화점",
      "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00143000",
-     "closed": [
-      "2026-10-19",
-      "2026-11-09"
-     ],
-     "special": [
-      {
-       "date": "2026-10-02",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-03",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-04",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-05",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-09",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-10",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-11",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-16",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-17",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-18",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-23",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-24",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-25",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-30",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-31",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-01",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-06",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-07",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-08",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-13",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-14",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-15",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-20",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-21",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-22",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-27",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-28",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-29",
-       "kind": "extend",
-       "extend_minutes": 30
-      }
-     ],
-     "months": {
-      "2026-10": "ok",
-      "2026-11": "ok"
-     }
-    },
-    {
-     "id": "B00145000",
-     "name": "킨텍스점",
-     "type": "현대백화점",
-     "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00145000",
-     "closed": [
-      "2026-10-19",
-      "2026-11-09"
-     ],
-     "special": [
-      {
-       "date": "2026-10-02",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-03",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-04",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-05",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-09",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-10",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-11",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-16",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-17",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-18",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-23",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-24",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-25",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-30",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-31",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-01",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-06",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-07",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-08",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-13",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-14",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-15",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-20",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-21",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-22",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-27",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-28",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-29",
-       "kind": "extend",
-       "extend_minutes": 30
-      }
-     ],
-     "months": {
-      "2026-10": "ok",
-      "2026-11": "ok"
-     }
-    },
-    {
-     "id": "B00148000",
-     "name": "판교점",
-     "type": "현대백화점",
-     "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00148000",
-     "closed": [
-      "2026-10-19",
-      "2026-11-16"
-     ],
-     "special": [
-      {
-       "date": "2026-10-02",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-03",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-04",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-05",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-09",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-10",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-11",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-16",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-17",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-18",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-23",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-24",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-25",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-30",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-31",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-01",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-06",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-07",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-08",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-13",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-14",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-15",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-20",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-21",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-22",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-27",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-28",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-29",
-       "kind": "extend",
-       "extend_minutes": 30
-      }
-     ],
-     "months": {
-      "2026-10": "ok",
-      "2026-11": "ok"
-     }
-    },
-    {
-     "id": "B00129000",
-     "name": "울산점",
-     "type": "현대백화점",
-     "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00129000",
      "closed": [
       "2026-10-19",
       "2026-11-09"
@@ -8237,372 +7837,6 @@
       "2026-10-19",
       "2026-11-09"
      ],
-     "special": [
-      {
-       "date": "2026-10-02",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-03",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-04",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-05",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-09",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-10",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-11",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-16",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-17",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-18",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-23",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-24",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-25",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-30",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-31",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-01",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-06",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-07",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-08",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-13",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-14",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-15",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-20",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-21",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-22",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-27",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-28",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-29",
-       "kind": "extend",
-       "extend_minutes": 30
-      }
-     ],
-     "months": {
-      "2026-10": "ok",
-      "2026-11": "ok"
-     }
-    },
-    {
-     "id": "B00124000",
-     "name": "커넥트현대 부산",
-     "type": "커넥트현대",
-     "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00124000",
-     "closed": [],
-     "special": [
-      {
-       "date": "2026-10-02",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-03",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-04",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-05",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-09",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-10",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-11",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-16",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-17",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-18",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-23",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-24",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-25",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-30",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-10-31",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-01",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-06",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-07",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-08",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-13",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-14",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-15",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-20",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-21",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-22",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-27",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-28",
-       "kind": "extend",
-       "extend_minutes": 30
-      },
-      {
-       "date": "2026-11-29",
-       "kind": "extend",
-       "extend_minutes": 30
-      }
-     ],
-     "months": {
-      "2026-10": "ok",
-      "2026-11": "ok"
-     }
-    },
-    {
-     "id": "B00179000",
-     "name": "커넥트현대 청주",
-     "type": "커넥트현대",
-     "url": "https://www.ehyundai.com/newPortal/DP/DP000000_V.do?branchCd=B00179000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
-    },
-    {
-     "id": "B00172000",
-     "name": "김포점",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00172000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
-    },
-    {
-     "id": "B00174000",
-     "name": "송도점",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00174000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
-    },
-    {
-     "id": "B00177000",
-     "name": "대전점",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00177000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
-    },
-    {
-     "id": "B00178000",
-     "name": "SPACE1",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00178000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
-    },
-    {
-     "id": "B00173000",
-     "name": "동대문점",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00173000",
-     "closed": [],
      "special": [
       {
        "date": "2026-10-02",
@@ -9055,18 +8289,6 @@
       "2026-10": "ok",
       "2026-11": "ok"
      }
-    },
-    {
-     "id": "B00176000",
-     "name": "대구점",
-     "type": "현대아울렛",
-     "url": "https://www.ehyundai.com/newPortal/outlet/DP/DP000000_V.do?branchCd=B00176000",
-     "closed": [],
-     "special": [],
-     "months": {
-      "2026-10": "unpublished",
-      "2026-11": "unpublished"
-     }
     }
    ]
   },
@@ -9341,5 +8563,71 @@
    "stale_fetched_at": "2026-10-10T09:02:58+09:00"
   }
  },
- "errors": []
+ "errors": [
+  {
+   "chain": "lotte",
+   "store": null,
+   "error": "chain failed: <urlopen error timed out>"
+  },
+  {
+   "chain": "lotte",
+   "store": null,
+   "error": "no stores collected; kept data from 2026-10-29T09:03:00+09:00"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00145000 킨텍스점",
+   "error": "2026-11: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00148000 판교점",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00129000 울산점",
+   "error": "2026-10: [Errno 32] Broken pipe"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00124000 커넥트현대 부산",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00179000 커넥트현대 청주",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00172000 김포점",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00174000 송도점",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00177000 대전점",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00178000 SPACE1",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00173000 동대문점",
+   "error": "2026-10: Remote end closed connection without response"
+  },
+  {
+   "chain": "hyundai",
+   "store": "B00176000 대구점",
+   "error": "2026-10: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+  }
+ ]
 }
