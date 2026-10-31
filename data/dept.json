@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-10-31T08:43:06+09:00",
+ "fetched_at": "2026-11-01T06:00:14+09:00",
  "chains": {
   "lotte": {
+   "fetched_at": "2026-10-31T08:43:06+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-10-31T08:43:06+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6213,9 +6213,9 @@
    ]
   },
   "shinsegae": {
+   "fetched_at": "2026-10-31T08:43:06+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-10-31T08:43:06+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -6419,9 +6419,9 @@
    ]
   },
   "hyundai": {
+   "fetched_at": "2026-10-31T08:43:06+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-10-31T08:43:06+09:00",
    "months_covered": [
     "2026-10",
     "2026-11"
@@ -9137,11 +9137,11 @@
    ]
   },
   "galleria": {
-   "fetched_at": "2026-09-27T06:00:31+09:00",
    "name": "갤러리아백화점",
    "source": "https://dept.galleria.co.kr/store-info/",
+   "fetched_at": "2026-11-01T06:00:14+09:00",
    "months_covered": [
-    "2026-09"
+    "2026-11"
    ],
    "stores": [
     {
@@ -9150,80 +9150,21 @@
      "type": "백화점",
      "url": "https://dept.galleria.co.kr/store-info/luxuryhall",
      "closed": [
-      "2026-09-25",
-      "2026-09-26"
+      "2026-11-16"
      ],
      "special": [],
      "months": {
-      "2026-09": "ok"
-     }
-    },
-    {
-     "id": "timeworld",
-     "name": "타임월드",
-     "type": "백화점",
-     "url": "https://dept.galleria.co.kr/store-info/timeworld",
-     "closed": [
-      "2026-09-24",
-      "2026-09-25"
-     ],
-     "special": [],
-     "months": {
-      "2026-09": "ok"
-     }
-    },
-    {
-     "id": "gwanggyo",
-     "name": "광교",
-     "type": "백화점",
-     "url": "https://dept.galleria.co.kr/store-info/gwanggyo",
-     "closed": [
-      "2026-09-24",
-      "2026-09-25"
-     ],
-     "special": [],
-     "months": {
-      "2026-09": "ok"
-     }
-    },
-    {
-     "id": "centercity",
-     "name": "센터시티",
-     "type": "백화점",
-     "url": "https://dept.galleria.co.kr/store-info/centercity",
-     "closed": [
-      "2026-09-24",
-      "2026-09-25"
-     ],
-     "special": [],
-     "months": {
-      "2026-09": "ok"
-     }
-    },
-    {
-     "id": "jinju",
-     "name": "진주점",
-     "type": "백화점",
-     "url": "https://dept.galleria.co.kr/store-info/jinju",
-     "closed": [
-      "2026-09-24",
-      "2026-09-25"
-     ],
-     "special": [],
-     "months": {
-      "2026-09": "ok"
+      "2026-11": "ok"
      }
     }
-   ],
-   "stale": true,
-   "stale_fetched_at": "2026-10-03T08:47:05+09:00"
+   ]
   },
   "ak": {
-   "fetched_at": "2026-10-25T06:00:14+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
+   "fetched_at": "2026-11-01T06:00:14+09:00",
    "months_covered": [
-    "2026-10"
+    "2026-11"
    ],
    "stores": [
     {
@@ -9231,12 +9172,10 @@
      "name": "수원",
      "type": "백화점",
      "url": "https://www.akplaza.com/store/introduce?store=02",
-     "closed": [
-      "2026-10-12"
-     ],
+     "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9244,12 +9183,10 @@
      "name": "분당",
      "type": "백화점",
      "url": "https://www.akplaza.com/store/introduce?store=03",
-     "closed": [
-      "2026-10-12"
-     ],
+     "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9257,12 +9194,10 @@
      "name": "평택",
      "type": "백화점",
      "url": "https://www.akplaza.com/store/introduce?store=04",
-     "closed": [
-      "2026-10-12"
-     ],
+     "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9270,12 +9205,10 @@
      "name": "원주",
      "type": "백화점",
      "url": "https://www.akplaza.com/store/introduce?store=05",
-     "closed": [
-      "2026-10-12"
-     ],
+     "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9286,7 +9219,7 @@
      "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9297,7 +9230,7 @@
      "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9308,7 +9241,7 @@
      "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9319,7 +9252,7 @@
      "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     },
     {
@@ -9330,7 +9263,7 @@
      "closed": [],
      "special": [],
      "months": {
-      "2026-10": "ok"
+      "2026-11": "ok"
      }
     }
    ]
@@ -9407,5 +9340,56 @@
    "stale_fetched_at": "2026-10-10T09:02:58+09:00"
   }
  },
- "errors": []
+ "errors": [
+  {
+   "chain": "galleria",
+   "store": "timeworld",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "gwanggyo",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "centercity",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "jinju",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "ikea",
+   "store": "gwangmyeong",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "goyang",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "giheung",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "dong-busan",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "gangdong",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": null,
+   "error": "no stores collected; kept data from 2026-10-10T09:02:58+09:00"
+  }
+ ]
 }
