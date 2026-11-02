@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}이마트·홈플러스·트레이더스·노브랜드 마트 휴무 공지 — 날짜·지역별 점포 현황{% endblock %}
 {% block description %}대형마트 점포가 공지한 이번 달·다음 달 휴무 날짜별 점포 수와 브랜드·지역별 현황. 날짜가 공지되지 않은 점포는 영업으로 추정하지 않습니다. 기준일 {{ hub_summaries.as_of }}, 통합 자료 {{ hub_summaries.generated }} 생성.{% endblock %}
-{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이 표는 무엇을 보여 주나요?","acceptedAnswer":{"@type":"Answer","text":"공식 점포 안내에서 수집한 점포별 휴무 날짜를 날짜와 브랜드, 지역별로 집계합니다. 각 브랜드의 자료 기준일과 날짜 범위도 함께 표시합니다."}},{"@type":"Question","name":"휴무 날짜가 표시되지 않은 점포는 영업하나요?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. 수집 자료에 날짜가 없다는 뜻이며 영업으로 추정하지 않습니다. 임시휴업·영업종료 상태도 일정 집계에서 구분합니다."}}]}</script>{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이 표는 무엇을 보여 주나요?","acceptedAnswer":{"@type":"Answer","text":"공식 점포 안내에서 수집한 점포별 휴무 날짜를 날짜와 브랜드, 지역별로 집계합니다. 각 브랜드의 자료 기준일과 날짜 범위도 함께 표시합니다."}},{"@type":"Question","name":"휴무 날짜가 표시되지 않은 점포는 영업하나요?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. 수집 자료에 날짜가 없다는 뜻이며 영업으로 추정하지 않습니다. 임시휴업·영업종료 상태도 일정 집계에서 구분합니다."}}]}</script>{% include "_hub_tbl.html" %}{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="{{ base }}">홈</a> › 전국 마트 휴무 일정</nav>
 <h1>전국 마트 휴무 일정</h1>
@@ -12,7 +12,7 @@
 <h2>이번 달과 다음 달에 기록된 날짜별 휴무</h2>
 {% if hub_summaries.guide_rows %}
 <p class="muted small">확인 가능한 날짜: {{ hub_summaries.guide_date_from|kdate }}–{{ hub_summaries.guide_date_to|kdate }}. 수치는 기준일 {{ hub_summaries.as_of }} 이후 자료에 날짜가 명시된 점포별 공지입니다.</p>
-<table class="tbl mini" style="table-layout:fixed"><thead><tr><th>날짜</th><th>공지 점포</th><th>브랜드·지역별 공지</th></tr></thead><tbody>
+<table class="tbl mini hub-tbl hub-notes" style="table-layout:fixed"><thead><tr><th>날짜</th><th>공지 점포</th><th>브랜드·지역별 공지</th></tr></thead><tbody>
 {% for row in hub_summaries.guide_rows %}<tr><td>{{ row.date|kdate }}</td><td>{{ row.total }}곳</td><td>{% if row.brands %}{% for item in row.brands %}{{ item.name }} {{ item.count }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}브랜드 정보 없음{% endif %}<br><span class="muted small">{% if row.areas %}{{ row.area_count }}개 지역 — {% for area in row.areas %}{{ area.name }} {{ area.count }}{% if not loop.last %} · {% endif %}{% endfor %}{% else %}지역 정보 없음{% endif %}</span></td></tr>{% endfor %}
 </tbody></table>
 {% else %}
@@ -25,7 +25,7 @@
 <p class="muted small cp-note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 </div>
 <div class="sec" id="dept"><div class="sec-h"><h2>2026년 추석 백화점·아울렛·몰 휴점 기록</h2></div>
-<table class="tbl mini dept-tbl"><thead><tr><th>점포</th><th>쉬는 날</th></tr></thead>
+<table class="tbl compact dept-tbl"><thead><tr><th>점포</th><th>쉬는 날</th></tr></thead>
 {% for c in dept.chains %}<tbody><tr class="dept-chain"><th colspan="2">{{ c.chain }}{% if c.src %} <small class="muted"><a href="{{ c.src }}" rel="nofollow noopener" target="_blank">공식 안내</a></small>{% endif %}</th></tr>
 {% for r in c.rows %}<tr><td>{{ r.stores }}{% if r.note %}<br><small class="muted">{{ r.note }}</small>{% endif %}{% if r.news %} <small class="muted">(<a href="{{ r.news }}" rel="nofollow noopener" target="_blank">연합뉴스 보도</a>)</small>{% endif %}</td><td>{{ r.closed }}</td></tr>{% endfor %}</tbody>
 {% endfor %}</table>

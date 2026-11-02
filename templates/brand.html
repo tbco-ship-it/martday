@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ info.short }} 휴무일 {{ months[0][0] }}년 {{ months[0][1] }}월{% if chuseok_live and chuseok_known %} — 추석 당일 휴무 {{ chuseok_closed }}개 점포{% endif %} — 전국 {{ stores|length }}개 점포 휴점일·영업시간 | {{ site }}{% endblock %}
 {% block description %}{% if chuseok_live and chuseok_known %}{{ info.short }} 추석 당일(9/25) 휴무 점포 {{ chuseok_closed }}개, 영업 {{ chuseok_known - chuseok_closed }}개. {% endif %}{{ info.name }} 이번 달과 다음 달 휴무일 달력, 점포별 휴점일과 영업시간. 유통사 공식 점포 안내 기준, 매일 갱신.{% endblock %}
-{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"{{ info.short }} 이번 달 휴무일은 언제인가요?","acceptedAnswer":{"@type":"Answer","text":"{{ months[0][1] }}월 {{ info.short }} 휴무일은 점포별로 다릅니다. 가장 많은 점포가 쉬는 날은 {% for iso, n in (counts.items()|list|sort(attribute='1', reverse=True))[:3] %}{{ iso|kdate }}({{ n }}개 점포){% if not loop.last %}, {% endif %}{% endfor %}입니다. 점포 이름으로 검색하면 해당 점포의 날짜를 정확히 볼 수 있습니다."}}]}</script>{% endblock %}
+{% block head %}<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"{{ info.short }} 이번 달 휴무일은 언제인가요?","acceptedAnswer":{"@type":"Answer","text":"{{ months[0][1] }}월 {{ info.short }} 휴무일은 점포별로 다릅니다. 가장 많은 점포가 쉬는 날은 {% for iso, n in (counts.items()|list|sort(attribute='1', reverse=True))[:3] %}{{ iso|kdate }}({{ n }}개 점포){% if not loop.last %}, {% endif %}{% endfor %}입니다. 점포 이름으로 검색하면 해당 점포의 날짜를 정확히 볼 수 있습니다."}}]}</script>{% if hub_data %}{% include "_hub_tbl.html" %}{% endif %}{% endblock %}
 {% block content %}
 <nav class="crumbs"><a href="{{ base }}">홈</a> › {{ info.short }}</nav>
 <h1>{{ info.short }} 휴무일</h1>
@@ -17,10 +17,10 @@
 {% if brand == 'emart' %}
 <p>기준일 이후 날짜가 있는 점포는 {{ hub_data.dated_open_count }} / {{ hub_data.open_count }}곳입니다. 월별 숫자는 각 월에 날짜가 하나 이상 기록된 고유 점포 수입니다.</p>
 {% if hub_data.month_rows %}<p class="muted small">{% for month in hub_data.month_rows %}{{ month.month[5:]|int }}월 {{ month.store_count }}곳{% if not loop.last %} · {% endif %}{% endfor %}</p>{% endif %}
-{% if hub_data.date_rows %}<table class="tbl mini" style="table-layout:fixed"><caption>날짜별 휴무 공지 점포</caption><thead><tr><th>날짜</th><th>점포 수</th></tr></thead><tbody>
+{% if hub_data.date_rows %}<table class="tbl mini hub-tbl" style="table-layout:fixed"><caption>날짜별 휴무 공지 점포</caption><thead><tr><th>날짜</th><th>점포 수</th></tr></thead><tbody>
 {% for row in hub_data.date_rows %}<tr><td>{{ row.date|kdate }}</td><td>{{ row.count }}곳</td></tr>{% endfor %}
 </tbody></table>
-<table class="tbl mini" style="table-layout:fixed"><caption>요일별 공지 날짜-점포 수</caption><thead><tr><th>요일</th><th>날짜-점포 수</th></tr></thead><tbody>
+<table class="tbl mini hub-tbl" style="table-layout:fixed"><caption>요일별 공지 날짜-점포 수</caption><thead><tr><th>요일</th><th>날짜-점포 수</th></tr></thead><tbody>
 {% for row in hub_data.weekday_rows %}<tr><td>{{ row.name }}</td><td>{{ row.count }}건</td></tr>{% endfor %}
 </tbody></table>
 {% else %}<p class="muted">현재 자료에서 기준일 이후 휴무 날짜를 확인할 수 없습니다. 날짜가 없다는 뜻이 영업을 의미하지는 않습니다.</p>{% endif %}
@@ -29,23 +29,23 @@
 </details>
 {% elif brand == 'homeplus' %}
 <p>기준일 이후 날짜가 있는 영업 점포는 {{ hub_data.dated_open_count }} / {{ hub_data.open_count }}곳입니다. 지역별 미기록 일정과 임시휴업·영업종료 상태를 나눠 표시합니다.</p>
-{% if hub_data.area_rows %}<table class="tbl mini" style="table-layout:fixed"><caption>지역별 수집 상태</caption><thead><tr><th>지역</th><th>휴무 날짜가 있는 점포 / 영업 점포 · 미래 날짜 미기록 · 임시휴업 · 영업종료 · 기타 비영업</th></tr></thead><tbody>
-{% for row in hub_data.area_rows %}<tr><td>{{ row.area }}</td><td>{{ row.dated }} / {{ row.open }} · {{ row.no_future_date }} · {{ row.temp_closed }} · {{ row.closed }} · {{ row.other_nonopen }}</td></tr>{% endfor %}
+{% if hub_data.area_rows %}<table class="tbl mini hub-tbl hub-status" style="table-layout:fixed"><caption>지역별 수집 상태</caption><thead><tr><th>지역</th><th>날짜 있음 / 영업</th><th>미래 날짜 미기록</th><th>임시 휴업</th><th>영업 종료</th><th>기타 비영업</th></tr></thead><tbody>
+{% for row in hub_data.area_rows %}<tr><td>{{ row.area }}</td><td>{{ row.dated }} / {{ row.open }}</td><td>{{ row.no_future_date }}</td><td>{{ row.temp_closed }}</td><td>{{ row.closed }}</td><td>{{ row.other_nonopen }}</td></tr>{% endfor %}
 </tbody></table>{% else %}<p class="muted">현재 자료에 지역별 점포 정보가 없습니다.</p>{% endif %}
 <details class="tip"><summary>최근 7일 자료 갱신 목록 {{ hub_data.recent_updates|length }}개</summary>
 {% if hub_data.recent_updates %}<ul>{% for item in hub_data.recent_updates %}<li><a href="{{ base }}{{ brand }}/{{ item.slug }}/">{{ item.name }}</a> <small class="muted">{{ item.area }} · 자료 갱신 {{ item.date }}</small></li>{% endfor %}</ul>{% else %}<p class="muted">최근 7일 자료 갱신 기록이 없습니다.</p>{% endif %}
 </details>
 {% elif brand == 'traders' %}
 <p>같은 시·도급 지역에서 날짜별로 휴무를 공지한 점포 수를 비교합니다. 근처 점포나 대체 점포를 뜻하지 않습니다.</p>
-{% if hub_data.comparisons %}<table class="tbl mini" style="table-layout:fixed"><caption>같은 지역의 휴무 공지 점포 / 수집된 영업 점포</caption><thead><tr><th>날짜</th><th>지역</th><th>트레이더스</th><th>이마트</th></tr></thead><tbody>
+{% if hub_data.comparisons %}<table class="tbl mini hub-tbl" style="table-layout:fixed"><caption>같은 지역의 휴무 공지 점포 / 수집된 영업 점포</caption><thead><tr><th>날짜</th><th>지역</th><th>트레이더스</th><th>이마트</th></tr></thead><tbody>
 {% for row in hub_data.comparisons %}<tr><td>{{ row.date|kdate }}</td><td>{{ row.area }}</td><td>{% if row.traders_total %}{{ row.traders_closed }} / {{ row.traders_total }}{% else %}자료 없음{% endif %}</td><td>{% if row.emart_total %}{{ row.emart_closed }} / {{ row.emart_total }}{% else %}자료 없음{% endif %}</td></tr>{% endfor %}
 </tbody></table>{% else %}<p class="muted">현재 자료에서 비교할 휴무 날짜가 없습니다.</p>{% endif %}
 {% else %}
 <p>영업 상태인 노브랜드 점포 {{ hub_data.open_count }}곳 중 기준일 이후 휴무 날짜가 기록된 곳은 {{ hub_data.dated_open_count }}곳, 미래 날짜 미기록은 {{ hub_data.without_future_date_count }}곳입니다. 미기록 점포는 영업으로 추정하지 않습니다. 지역별 일정은 {{ hub_data.scheduled_area_count }} / {{ hub_data.area_count }}개 지역에 기록되어 있습니다.</p>
-{% if hub_data.date_rows %}<table class="tbl mini" style="table-layout:fixed"><caption>기록된 날짜별 휴무 공지 점포</caption><thead><tr><th>날짜</th><th>점포 수</th></tr></thead><tbody>
+{% if hub_data.date_rows %}<table class="tbl mini hub-tbl" style="table-layout:fixed"><caption>기록된 날짜별 휴무 공지 점포</caption><thead><tr><th>날짜</th><th>점포 수</th></tr></thead><tbody>
 {% for row in hub_data.date_rows %}<tr><td>{{ row.date|kdate }}</td><td>{{ row.count }}곳</td></tr>{% endfor %}
 </tbody></table>{% else %}<p class="muted">현재 자료에서 기준일 이후 휴무 날짜를 확인할 수 없습니다. 다음 달 일정은 자료에 들어오기 전까지 표시하지 않습니다.</p>{% endif %}
-{% if hub_data.scheduled_area_rows %}<table class="tbl mini" style="table-layout:fixed"><caption>기준일 이후 날짜가 기록된 지역</caption><thead><tr><th>지역</th><th>점포 수</th></tr></thead><tbody>
+{% if hub_data.scheduled_area_rows %}<table class="tbl mini hub-tbl" style="table-layout:fixed"><caption>기준일 이후 날짜가 기록된 지역</caption><thead><tr><th>지역</th><th>점포 수</th></tr></thead><tbody>
 {% for row in hub_data.scheduled_area_rows %}<tr><td>{{ row.area }}</td><td>{{ row.count }}곳</td></tr>{% endfor %}
 </tbody></table>{% else %}<p class="muted">현재 자료에 기준일 이후 날짜가 있는 지역이 없습니다.</p>{% endif %}
 {% endif %}
