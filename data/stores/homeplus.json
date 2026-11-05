@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-04",
+ "fetched": "2026-11-05",
  "stores": [
   {
    "brand": "homeplus",
@@ -130,10 +130,10 @@
    "lat": 37.53856286,
    "lng": 127.21257090568542,
    "phone": "031-777-7000",
-   "hours": "마트 임시휴업. 몰영업시간 10:00~21:00",
+   "hours": "",
    "closure_rule": "",
    "closures": [],
-   "holiday_note": "마트 임시휴업",
+   "holiday_note": "",
    "holiday_days": []
   },
   {

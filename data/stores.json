@@ -1,9 +1,9 @@
 {
-"generated": "2026-11-04",
+"generated": "2026-11-05",
 "sources": {
-"emart": "2026-11-04",
-"costco": "2026-11-04",
-"homeplus": "2026-11-04",
+"emart": "2026-11-05",
+"costco": "2026-11-05",
+"homeplus": "2026-11-05",
 "lottemart": "2026-11-01"
 },
 "brands": {
@@ -432,7 +432,8 @@
 "closure_rule": "",
 "closures": [
 "2026-11-08",
-"2026-11-22"
+"2026-11-22",
+"2026-12-13"
 ],
 "holiday_note": "",
 "detail": true,
@@ -15755,10 +15756,10 @@
 "hours": "",
 "closure_rule": "",
 "closures": [],
-"holiday_note": "마트 임시휴업",
-"detail": true,
-"state": "temp_closed",
-"state_note": "마트 임시휴업. 몰영업시간 10:00~21:00"
+"holiday_note": "",
+"detail": false,
+"state": "open",
+"state_note": ""
 },
 {
 "brand": "homeplus",
