@@ -1,10 +1,10 @@
 {
-"generated": "2026-11-07",
+"generated": "2026-11-08",
 "sources": {
 "emart": "2026-11-07",
 "costco": "2026-11-07",
 "homeplus": "2026-11-07",
-"lottemart": "2026-11-01"
+"lottemart": "2026-11-08"
 },
 "brands": {
 "emart": {
@@ -18452,7 +18452,7 @@
 "lng": 129.2125516,
 "phone": "051-922-2600",
 "parking": "",
-"hours": "10:30~21:00",
+"hours": "10:30~20:30",
 "closure_rule": "-",
 "closures": [],
 "holiday_note": "연중무휴",

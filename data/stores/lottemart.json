@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-01",
+ "fetched": "2026-11-08",
  "stores": [
   {
    "brand": "lottemart",
@@ -573,7 +573,7 @@
    "lat": 35.192307,
    "lng": 129.2125516,
    "phone": "051-922-2600",
-   "hours": "10:30~21:00",
+   "hours": "10:30~20:30",
    "closure_rule": "-",
    "closures": [],
    "holiday_note": "연중무휴",
