@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-11-09T08:43:52+09:00",
+ "fetched_at": "2026-11-09T15:12:05+09:00",
  "chains": {
   "lotte": {
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-11-09T08:43:52+09:00",
+   "fetched_at": "2026-11-09T15:12:05+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
@@ -4003,11 +4003,71 @@
        "date": "2026-11-29",
        "kind": "extend",
        "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-04",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-05",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-06",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-11",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-12",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-13",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-18",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-19",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-20",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-25",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-26",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-27",
+       "kind": "extend",
+       "hours": "10:30~20:30"
       }
      ],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -4083,11 +4143,71 @@
        "date": "2026-11-29",
        "kind": "extend",
        "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-04",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-05",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-06",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-11",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-12",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-13",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-18",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-19",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-20",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-25",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-26",
+       "kind": "extend",
+       "hours": "10:30~20:30"
+      },
+      {
+       "date": "2026-12-27",
+       "kind": "extend",
+       "hours": "10:30~20:30"
       }
      ],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -4629,11 +4749,71 @@
        "date": "2026-11-29",
        "kind": "extend",
        "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-04",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-05",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-06",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-11",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-12",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-13",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-18",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-19",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-20",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-25",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-26",
+       "kind": "extend",
+       "hours": "10:30~21:00"
+      },
+      {
+       "date": "2026-12-27",
+       "kind": "extend",
+       "hours": "10:30~21:00"
       }
      ],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -4977,7 +5157,7 @@
      "special": [],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -5306,7 +5486,7 @@
      "special": [],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -5692,7 +5872,7 @@
      "special": [],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -5858,7 +6038,7 @@
      "special": [],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -5896,7 +6076,7 @@
      "special": [],
      "months": {
       "2026-11": "ok",
-      "2026-12": "unpublished"
+      "2026-12": "ok"
      }
     },
     {
@@ -5959,7 +6139,7 @@
   "shinsegae": {
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-11-09T08:43:52+09:00",
+   "fetched_at": "2026-11-09T15:12:05+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
@@ -6150,7 +6330,7 @@
   "hyundai": {
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-11-09T08:43:52+09:00",
+   "fetched_at": "2026-11-09T15:12:05+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
