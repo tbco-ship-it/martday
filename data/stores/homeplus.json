@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-11",
+ "fetched": "2026-11-12",
  "stores": [
   {
    "brand": "homeplus",
@@ -64,14 +64,12 @@
    "lng": 128.899,
    "phone": "033-649-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -240,14 +238,12 @@
    "lng": 128.364,
    "phone": "054-459-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -314,14 +310,12 @@
    "lng": 126.699,
    "phone": "031-999-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -335,14 +329,12 @@
    "lng": 126.724,
    "phone": "031-999-0000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -560,14 +552,12 @@
    "lng": 128.19,
    "phone": "054-559-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -634,14 +624,12 @@
    "lng": 126.614,
    "phone": "041-939-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -757,14 +745,12 @@
    "lng": 129.1681434,
    "phone": "033-571-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -863,14 +849,12 @@
    "lng": 126.9826404,
    "phone": "02-6948-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1081,14 +1065,12 @@
    "lng": 128.729567,
    "phone": "054-840-8300",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1193,14 +1175,12 @@
    "lng": 127.0645675,
    "phone": "031-8077-8800",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1214,14 +1194,12 @@
    "lng": 127.428,
    "phone": "043-249-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1254,14 +1232,12 @@
    "lng": 129.335,
    "phone": "052-290-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/22(일)",
+   "closure_rule": "11/22(일)",
    "closures": [
-    "11/11",
     "11/22"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     22
    ]
   },
@@ -1275,14 +1251,12 @@
    "lng": 127.966789,
    "phone": "033-769-8700",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1353,14 +1327,12 @@
    "lng": 127.071,
    "phone": "031-850-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1638,14 +1610,12 @@
    "lng": 127.486,
    "phone": "043-259-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1659,14 +1629,12 @@
    "lng": 127.442,
    "phone": "043-251-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1733,14 +1701,12 @@
    "lng": 126.785,
    "phone": "031-960-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
@@ -1769,14 +1735,12 @@
    "lng": 126.95,
    "phone": "031-470-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/11(수), 11/25(수)",
+   "closure_rule": "11/25(수)",
    "closures": [
-    "11/11",
     "11/25"
    ],
    "holiday_note": "",
    "holiday_days": [
-    11,
     25
    ]
   },
