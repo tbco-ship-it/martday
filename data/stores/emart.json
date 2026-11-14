@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-13",
+ "fetched": "2026-11-14",
  "stores": [
   {
    "brand": "starfield",
@@ -649,7 +649,7 @@
    "phone": "02-380-5060",
    "parking": "총 6대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -700,7 +700,7 @@
    "phone": "02-380-5060",
    "parking": "총 0대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -921,7 +921,7 @@
    "phone": "02-380-5060",
    "parking": "총 0대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -1006,7 +1006,7 @@
    "phone": "02-380-5060",
    "parking": "총 5대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -1227,7 +1227,7 @@
    "phone": "02-380-5060",
    "parking": "총 12대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -1514,7 +1514,7 @@
    "phone": "02-380-5060",
    "parking": "총 30대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -1718,7 +1718,7 @@
    "phone": "02-380-5060",
    "parking": "총 10대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -1837,7 +1837,7 @@
    "phone": "02-380-5060",
    "parking": "총 0대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -2343,7 +2343,7 @@
    "phone": "02-380-5060",
    "parking": "총 30대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -2360,7 +2360,7 @@
    "phone": "02-380-5060",
    "parking": "총 11대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -2377,7 +2377,7 @@
    "phone": "02-380-5060",
    "parking": "총 100대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -2394,7 +2394,7 @@
    "phone": "02-380-5060",
    "parking": "총 8대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -2579,7 +2579,7 @@
    "phone": "02-380-5060",
    "parking": "총 8대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -3078,9 +3078,10 @@
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/25(수)",
+   "closures_raw": "11/25(수), 12/9(수)",
    "closures": [
-    "11/25"
+    "11/25",
+    "12/9"
    ],
    "phone": "031-579-1234",
    "parking": "총 650대",
@@ -3803,9 +3804,10 @@
    ],
    "hours": "10:00~22:00",
    "closure_rule": "매월 둘째, 넷째 일요일은 의무휴점 입니다.",
-   "closures_raw": "11/22(일)",
+   "closures_raw": "11/22(일), 12/13(일)",
    "closures": [
-    "11/22"
+    "11/22",
+    "12/13"
    ],
    "phone": "031-8021-1234",
    "parking": "총 580대",
@@ -3912,9 +3914,10 @@
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/22(일)",
+   "closures_raw": "11/22(일), 12/13(일)",
    "closures": [
-    "11/22"
+    "11/22",
+    "12/13"
    ],
    "phone": "031-8097-1888",
    "parking": "총 865대",
@@ -4148,7 +4151,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4182,7 +4185,7 @@
    "phone": "02-380-5060",
    "parking": "총 5대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4199,7 +4202,7 @@
    "phone": "02-380-5060",
    "parking": "총 10대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4265,7 +4268,7 @@
    "phone": "02-380-5060",
    "parking": "총 0대",
    "hours": "09:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4282,7 +4285,7 @@
    "phone": "02-380-5060",
    "parking": "총 25대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4314,7 +4317,7 @@
    "phone": "031-216-5386",
    "parking": "총 50대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4348,7 +4351,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4380,7 +4383,7 @@
    "phone": "02-380-5060",
    "parking": "총 100대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4414,7 +4417,7 @@
    "phone": "02-380-5060",
    "parking": "총 14대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4499,7 +4502,7 @@
    "phone": "02-380-5060",
    "parking": "총 20대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4533,7 +4536,7 @@
    "phone": "02-380-5060",
    "parking": "총 10대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4550,7 +4553,7 @@
    "phone": "02-380-5060",
    "parking": "총 55대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4599,7 +4602,7 @@
    "phone": "02-380-5060",
    "parking": "총 30대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4701,7 +4704,7 @@
    "phone": "02-380-5060",
    "parking": "총 22대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4718,7 +4721,7 @@
    "phone": "02-380-5060",
    "parking": "총 25대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4733,7 +4736,7 @@
    "phone": "02-380-5060",
    "parking": "총 30대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4750,7 +4753,7 @@
    "phone": "02-380-5060",
    "parking": "총 20대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4818,7 +4821,7 @@
    "phone": "02-380-5060",
    "parking": "총 150대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4869,7 +4872,7 @@
    "phone": "02-380-5060",
    "parking": "총 20대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4886,7 +4889,7 @@
    "phone": "02-380-5060",
    "parking": "총 13대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4920,7 +4923,7 @@
    "phone": "02-380-5060",
    "parking": "총 24대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4937,7 +4940,7 @@
    "phone": "02-380-5060",
    "parking": "총 16대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -4954,7 +4957,7 @@
    "phone": "02-380-5060",
    "parking": "총 45대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5056,7 +5059,7 @@
    "phone": "02-380-5060",
    "parking": "총 20대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5090,7 +5093,7 @@
    "phone": "02-380-5060",
    "parking": "총 20대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5156,7 +5159,7 @@
    "phone": "02-380-5060",
    "parking": "총 8대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5275,7 +5278,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5292,7 +5295,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5326,7 +5329,7 @@
    "phone": "02-380-5060",
    "parking": "총 6대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5377,7 +5380,7 @@
    "phone": "02-380-5060",
    "parking": "총 65대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5411,7 +5414,7 @@
    "phone": "02-380-5060",
    "parking": "총 11대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5428,7 +5431,7 @@
    "phone": "02-380-5060",
    "parking": "총 0대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5462,7 +5465,7 @@
    "phone": "02-380-5060",
    "parking": "총 500대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5479,7 +5482,7 @@
    "phone": "02-380-5060",
    "parking": "총 42대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -5615,7 +5618,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "nobrand",
@@ -7617,7 +7620,7 @@
    "phone": "02-380-5060",
    "parking": "총 18대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -8208,9 +8211,10 @@
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/22(일)",
+   "closures_raw": "11/22(일), 12/13(일)",
    "closures": [
-    "11/22"
+    "11/22",
+    "12/13"
    ],
    "phone": "041-423-0123",
    "parking": "총 749대",
@@ -8268,7 +8272,7 @@
    "phone": "02-380-5060",
    "parking": "총 16대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -8285,7 +8289,7 @@
    "phone": "02-380-5060",
    "parking": "총 14대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -8370,7 +8374,7 @@
    "phone": "02-380-5060",
    "parking": "총 10대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "nobrand",
@@ -8774,7 +8778,7 @@
    "phone": "02-380-5060",
    "parking": "총 11대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -8808,7 +8812,7 @@
    "phone": "02-380-5060",
    "parking": "총 2대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -8842,7 +8846,7 @@
    "phone": "02-380-5060",
    "parking": "총 7대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "nobrand",
@@ -9631,7 +9635,7 @@
    "phone": "02-380-5060",
    "parking": "총 62대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -10061,9 +10065,10 @@
    ],
    "hours": "10:00~22:00",
    "closure_rule": "",
-   "closures_raw": "11/25(수)",
+   "closures_raw": "11/25(수), 12/9(수)",
    "closures": [
-    "11/25"
+    "11/25",
+    "12/9"
    ],
    "phone": "054-420-1234",
    "parking": "총 350대",
@@ -10253,7 +10258,7 @@
    "phone": "02-380-5060",
    "parking": "총 15대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -11229,7 +11234,7 @@
    "phone": "02-380-5060",
    "parking": "총 6대",
    "hours": "08:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "nobrand",
@@ -11531,7 +11536,7 @@
    "phone": "02-380-5060",
    "parking": "총 38대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -11704,7 +11709,7 @@
    "phone": "02-380-5060",
    "parking": "총 45대",
    "hours": "10:00~23:00",
-   "ssm_detail": "2026-10-30"
+   "ssm_detail": "2026-11-14"
   },
   {
    "brand": "everyday",
@@ -12270,14 +12275,12 @@
    "name": "이마트 서귀포점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/13(금), 11/28(토), 12/11(금)",
+   "closures_raw": "11/28(토), 12/11(금)",
    "closures": [
-    "11/13",
     "11/28",
     "12/11"
    ],
@@ -12294,14 +12297,12 @@
    "name": "이마트 신제주점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/13(금), 11/28(토), 12/11(금)",
+   "closures_raw": "11/28(토), 12/11(금)",
    "closures": [
-    "11/13",
     "11/28",
     "12/11"
    ],
@@ -12318,14 +12319,12 @@
    "name": "이마트 제주점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "hours": "10:00~23:00",
    "closure_rule": "",
-   "closures_raw": "11/13(금), 11/28(토), 12/11(금)",
+   "closures_raw": "11/28(토), 12/11(금)",
    "closures": [
-    "11/13",
     "11/28",
     "12/11"
    ],
@@ -12342,7 +12341,6 @@
    "name": "노브랜드 서귀포 서홍점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "address": "제주특별자치도 서귀포시 장수로 72 (서홍동, 몰고랑식당)서홍동 1층",
@@ -12360,7 +12358,6 @@
    "name": "노브랜드 제주 화북점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "address": "제주특별자치도 제주시 화삼로 17 (화북일동)1층",
@@ -12378,7 +12375,6 @@
    "name": "노브랜드 제주아라점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "address": "제주특별자치도 제주시 구산로 27",
@@ -12396,7 +12392,6 @@
    "name": "노브랜드 제주외도점",
    "area": "제주",
    "holiday_days": [
-    "13",
     "28"
    ],
    "address": "제주특별자치도 제주시 일주서로 7426 (내도동)노브랜드 제주외도점",
