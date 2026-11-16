@@ -1,8 +1,8 @@
 {
-"generated": "2026-11-15",
+"generated": "2026-11-16",
 "sources": {
-"emart": "2026-11-15",
-"costco": "2026-11-15",
+"emart": "2026-11-16",
+"costco": "2026-11-16",
 "homeplus": "2026-11-15",
 "lottemart": "2026-11-18"
 },
@@ -10218,6 +10218,7 @@
 "hours": "10:00~22:00",
 "closure_rule": "",
 "closures": [
+"2026-11-08",
 "2026-11-22",
 "2026-12-13"
 ],
@@ -10472,9 +10473,7 @@
 "parking": "총 0대",
 "hours": "10:00~20:00",
 "closure_rule": "",
-"closures": [
-"2026-11-15"
-],
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
@@ -14234,9 +14233,7 @@
 "parking": "총 0대",
 "hours": "10:00~22:00",
 "closure_rule": "",
-"closures": [
-"2026-11-15"
-],
+"closures": [],
 "holiday_note": "",
 "detail": true,
 "state": "open",
