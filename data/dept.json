@@ -1,10 +1,10 @@
 {
- "fetched_at": "2026-11-10T11:44:52+09:00",
+ "fetched_at": "2026-11-18T18:20:10+09:00",
  "chains": {
   "lotte": {
+   "fetched_at": "2026-11-10T11:44:52+09:00",
    "name": "롯데백화점·아울렛·몰",
    "source": "https://www.lotteshopping.com/store/main",
-   "fetched_at": "2026-11-10T11:44:52+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
@@ -6137,9 +6137,9 @@
    ]
   },
   "shinsegae": {
+   "fetched_at": "2026-11-10T11:44:52+09:00",
    "name": "신세계백화점",
    "source": "https://www.shinsegae.com/store/main.do",
-   "fetched_at": "2026-11-10T11:44:52+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
@@ -6328,9 +6328,9 @@
    ]
   },
   "hyundai": {
+   "fetched_at": "2026-11-10T11:44:52+09:00",
    "name": "현대백화점·더현대·커넥트현대·아울렛",
    "source": "https://www.ehyundai.com/newPortal/uplex/DP/SetCalender.do",
-   "fetched_at": "2026-11-10T11:44:52+09:00",
    "months_covered": [
     "2026-11",
     "2026-12"
@@ -8003,9 +8003,9 @@
    ]
   },
   "galleria": {
-   "fetched_at": "2026-11-08T06:00:12+09:00",
    "name": "갤러리아백화점",
    "source": "https://dept.galleria.co.kr/store-info/",
+   "fetched_at": "2026-11-18T18:20:10+09:00",
    "months_covered": [
     "2026-11"
    ],
@@ -8026,9 +8026,9 @@
    ]
   },
   "ak": {
-   "fetched_at": "2026-11-08T06:00:12+09:00",
    "name": "AK플라자·AK&",
    "source": "https://www.akplaza.com/store/introduce",
+   "fetched_at": "2026-11-18T18:20:10+09:00",
    "months_covered": [
     "2026-11"
    ],
@@ -8206,5 +8206,56 @@
    "stale_fetched_at": "2026-10-10T09:02:58+09:00"
   }
  },
- "errors": []
+ "errors": [
+  {
+   "chain": "galleria",
+   "store": "timeworld",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "gwanggyo",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "centercity",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "galleria",
+   "store": "jinju",
+   "error": "unparsed 휴점일 text: -"
+  },
+  {
+   "chain": "ikea",
+   "store": "gwangmyeong",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "goyang",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "giheung",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "dong-busan",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": "gangdong",
+   "error": "'data'"
+  },
+  {
+   "chain": "ikea",
+   "store": null,
+   "error": "no stores collected; kept data from 2026-10-10T09:02:58+09:00"
+  }
+ ]
 }
