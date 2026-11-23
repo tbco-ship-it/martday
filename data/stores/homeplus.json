@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-22",
+ "fetched": "2026-11-23",
  "stores": [
   {
    "brand": "homeplus",
@@ -26,14 +26,10 @@
    "lng": 126.689,
    "phone": "032-870-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -45,14 +41,10 @@
    "lng": 127.142,
    "phone": "02-3400-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -83,14 +75,10 @@
    "lng": 126.855,
    "phone": "02-2660-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -102,14 +90,10 @@
    "lng": 128.617,
    "phone": "055-686-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -151,14 +135,10 @@
    "lng": 129.225,
    "phone": "054-770-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -200,14 +180,10 @@
    "lng": 127.694,
    "phone": "061-760-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -219,14 +195,10 @@
    "lng": 126.805426,
    "phone": "062-616-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -257,14 +229,10 @@
    "lng": 126.702,
    "phone": "032-428-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -276,14 +244,10 @@
    "lng": 126.897,
    "phone": "02-890-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -435,14 +399,10 @@
    "lng": 127.458,
    "phone": "042-281-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -454,14 +414,10 @@
    "lng": 126.93,
    "phone": "062-250-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -586,14 +542,10 @@
    "lng": 127.044,
    "phone": "02-912-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -605,14 +557,10 @@
    "lng": 127.036,
    "phone": "031-283-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -692,14 +640,10 @@
    "lng": 126.802,
    "phone": "032-680-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -711,14 +655,10 @@
    "lng": 127.009,
    "phone": "031-259-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -828,14 +768,10 @@
    "lng": 126.954692,
    "phone": "031-8019-1000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -866,14 +802,10 @@
    "lng": 127.091488,
    "phone": "02-6922-8100",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -904,14 +836,10 @@
    "lng": 127.258,
    "phone": "044-715-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -938,14 +866,10 @@
    "lng": 127.06,
    "phone": "031-8053-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -957,14 +881,10 @@
    "lng": 127.521,
    "phone": "061-729-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -991,14 +911,10 @@
    "lng": 126.725,
    "phone": "031-310-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1025,14 +941,10 @@
    "lng": 126.889,
    "phone": "02-2618-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1082,14 +994,10 @@
    "lng": 127.127,
    "phone": "031-705-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1116,14 +1024,10 @@
    "lng": 126.895,
    "phone": "02-2165-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1154,14 +1058,10 @@
    "lng": 127.073,
    "phone": "031-201-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1211,14 +1111,10 @@
    "lng": 129.428,
    "phone": "052-230-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1230,14 +1126,10 @@
    "lng": 129.335,
    "phone": "052-290-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1268,14 +1160,10 @@
    "lng": 127.04,
    "phone": "02-3669-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1287,14 +1175,10 @@
    "lng": 126.897,
    "phone": "02-312-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1306,14 +1190,10 @@
    "lng": 127.354,
    "phone": "042-841-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1419,14 +1299,10 @@
    "lng": 126.6260968,
    "phone": "032-723-8800",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1438,14 +1314,10 @@
    "lng": 126.651,
    "phone": "032-763-2080",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1457,14 +1329,10 @@
    "lng": 126.721,
    "phone": "032-540-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1491,14 +1359,10 @@
    "lng": 127.153,
    "phone": "063-249-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1510,14 +1374,10 @@
    "lng": 127.114075,
    "phone": "063-281-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1589,14 +1449,10 @@
    "lng": 128.644,
    "phone": "055-270-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1646,14 +1502,10 @@
    "lng": 127.7346624,
    "phone": "033-269-8000",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1752,14 +1604,10 @@
    "lng": 126.916247,
    "phone": "031-8046-8200",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1801,14 +1649,10 @@
    "lng": 126.9138373,
    "phone": "02-6938-8800",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   },
   {
    "brand": "homeplus",
@@ -1820,14 +1664,10 @@
    "lng": 126.922,
    "phone": "031-8059-8700",
    "hours": "10:00~22:00",
-   "closure_rule": "11/22(일)",
-   "closures": [
-    "11/22"
-   ],
+   "closure_rule": "",
+   "closures": [],
    "holiday_note": "",
-   "holiday_days": [
-    22
-   ]
+   "holiday_days": []
   }
  ]
 }
